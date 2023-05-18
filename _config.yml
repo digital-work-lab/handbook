@@ -4,5 +4,5 @@ theme: just-the-docs
 
 url: https://digital-work-lab.github.io/handbook
 
-aux_links:
-  Edit on GitHub: https://github.com/digital-work-lab/handbook
+footer_content:
+  Edit on GitHub: <a href="{{ site.gh_edit_repository }}/edit/master/docs/{{ page.path }}">{{ site.edit_link_text }}</a>
