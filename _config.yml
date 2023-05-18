@@ -4,7 +4,7 @@ theme: just-the-docs
 
 url: https://digital-work-lab.github.io/handbook
 
-gh_edit_link: false
+gh_edit_link: true
 gh_edit_link_text: 'Edit this page on GitHub'
 gh_edit_repository: 'https://github.com/digital-work-lab/handbook'
 gh_edit_branch: 'main'
