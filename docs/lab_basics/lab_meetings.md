@@ -8,4 +8,4 @@ nav_order: 2
 
 # Lab Meetings
 
-Lab meetings occur every Wednesday from 2P-3P.
+Lab meetings are scheduled on Wednesdays from 2P-3P.

@@ -11,18 +11,12 @@ permalink: /
 
 The goal of the internal handbook is to document our processes related to research, teaching, and administration. We invite everyone to use it as a resource and to contribute to it using the [issues] and [pull requests].
 
+
+#### Contributors
 <ul class="list-style-none">
 {% for contributor in site.github.contributors %}
   <li class="d-inline-block mr-1">
      <a href="{{ contributor.html_url }}"><img src="{{ contributor.avatar_url }}" width="32" height="32" alt="{{ contributor.login }}"/></a>
-  </li>
-{% endfor %}
-</ul>
-
-<ul>
-{% for member in site.github.organization_members %}
-  <li>
-    <img src="{{ member.avatar_url }}" width="32" height="32" /> {{ member.login }}
   </li>
 {% endfor %}
 </ul>
