@@ -2,7 +2,7 @@
 layout: default
 title: Lab Meetings
 parent: Lab Basics
-nav_order: 2
+nav_order: 3
 ---
 
 

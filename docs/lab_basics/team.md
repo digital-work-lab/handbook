@@ -2,9 +2,10 @@
 layout: default
 title: Team
 parent: Lab Basics
-nav_order: 1
+nav_order: 2
 ---
 
+# Team
 
 <ul>
 {% for member in site.github.organization_members %}
