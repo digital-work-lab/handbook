@@ -1,7 +1,11 @@
 ---
-title: Home
-layout: home
+layout: default
+title: Welcome
+nav_order: 1
+description: "Welcome"
+permalink: /
 ---
+
 
 # The digital-work lab handbook
 
