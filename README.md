@@ -1,9 +1,7 @@
 # The digital-work lab handbook
 
-Available at [digital-work-lab.github.io/handbook/](https://digital-work-lab.github.io/handbook/).
-
-Based on [just-the-docs](https://github.com/just-the-docs/just-the-docs) and GitHub pages.
-
+- Available at [digital-work-lab.github.io/handbook/](https://digital-work-lab.github.io/handbook/).
+- Based on [just-the-docs](https://github.com/just-the-docs/just-the-docs) and GitHub pages.
 
 ## License
 
