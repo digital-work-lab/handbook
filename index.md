@@ -7,7 +7,7 @@ permalink: /
 ---
 
 
-# The digital-work lab handbook
+# The handbook
 
 The goal of the internal handbook is to document our processes related to research, teaching, and administration. We invite everyone to use it as a resource and to contribute to it using the [issues] and [pull requests].
 

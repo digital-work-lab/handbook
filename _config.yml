@@ -9,3 +9,15 @@ gh_edit_link_text: 'Edit this page on GitHub'
 gh_edit_repository: 'https://github.com/digital-work-lab/handbook'
 gh_edit_branch: 'main'
 gh_edit_view_mode: 'tree'
+
+mermaid:
+  version: "9.1.3"
+
+enable_copy_code_button: true
+
+# logo: "/assets/images/digital-work-lab.png"
+
+callouts:
+  warning:
+    title: Warning
+    color: red
