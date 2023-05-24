@@ -5,9 +5,27 @@ parent: Lab Basics
 nav_order: 5
 ---
 
-# Contributing to the handbook
+# Contributing
 
 This page explains how to contribute to the handbook.
+
+## How to suggest changes
+
+1. Navigate to the page you would like to change
+2. Click on "Edit this page on GitHub" and the "Edit this file" button
+3. Add your changes in [GitHub markdown](https://docs.github.com/de/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+4. Commit the changes to a new branch
+5. Assign the maintainer to review and merge your changes
+
+## Principles
+
+- We prefer simple, structured, and actionable checklists
+- Confidential data, such as grades and student identities should not be stored in the handbook
+- Add links to other parts of the handbook or external resources to avoid replicating contents
+
+<!-- 
+Note: who is responsible
+-->
 
 <!--
 {: .highlight }
