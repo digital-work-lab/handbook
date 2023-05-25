@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Onboarding
+title: IT Systems
 parent: Lab Basics
-nav_order: 2
+nav_order: 4
 ---
 
-# Onboarding
+# IT Systems
 
 Coming soon
 {: .label .label-yellow }
