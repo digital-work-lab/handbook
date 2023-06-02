@@ -11,8 +11,6 @@ Writing a theses involves several steps.
 
 ```mermaid
 sequenceDiagram
-    participant Professor
-    link Professor: Dashboard @ https://www.uni-bamberg.de/digital-work/
     Note over Professor,Student: Discuss the<br/>general topic
     Student->>Examination office: Apply for admission
     activate Examination office
