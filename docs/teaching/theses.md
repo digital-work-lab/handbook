@@ -11,11 +11,11 @@ Writing a theses involves several steps.
 
 ```mermaid
 sequenceDiagram
-    Note over Professor,Student: Discuss the<br/>general topic
+    Note over Professor,Student: Discuss the general topic
     Student->>Examination office: Apply for admission
     activate Examination office
     Note right of Examination office: Check admission<br/>requirements
-    Examination office->>Student: Topic confirmation<br/>form (docx)
+    Examination office->>Student: Topic confirmation form (docx)
     Examination office->>Professor: Topic confirmation form (docx)
     deactivate Examination office
     Note over Professor,Student: Topic selection and agreement
