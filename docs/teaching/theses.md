@@ -30,7 +30,7 @@ sequenceDiagram
     alt Master thesis
         Note over Professor,Student: Presentation
     end
-    Student->>Examination office: Thesis submission (paper version)
+    Student->>Examination office: Submission (paper version)
     Student->>Professor: Submission (digital version)
     activate Professor
     Examination office->>Professor: Paper version
