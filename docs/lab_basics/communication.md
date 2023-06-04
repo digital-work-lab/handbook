@@ -62,7 +62,10 @@ nav_order: 3
 - Ensure that the shared calendar is regularly updated with important events, meetings, and deadlines.
 - Establish guidelines for scheduling meetings and appointments, ensuring that conflicts are minimized and participants have sufficient notice.
 - Use the shared calendar to promote transparency and coordination, allowing team members to stay informed and plan their work effectively.
-### own website?
+### Own website:
+- Maintain an up-to-date and user-friendly website that provides relevant and accurate information.
+- Ensure that the website is accessible, easy to navigate, and visually appealing.
+- Regularly review and update the website to reflect any changes, such as updates to contact information, policies, or important announcements.
 
 ## Privacy
 * sensitive data (private addresses/numbers)
