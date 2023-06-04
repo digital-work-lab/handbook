@@ -9,6 +9,10 @@ nav_order: 2
 
 Writing a theses involves several steps.
 
+We offer regular feedback sessions (in person or online):
+
+[Schedule feedback session]([https://github.com/digital-work-lab/handbook/actions](https://calendly.com/gerit-wagner/30min)){: .btn .btn-green }
+
 ```mermaid
 sequenceDiagram
     Note over Professor,Student: Discuss the general topic
