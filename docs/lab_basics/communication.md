@@ -68,9 +68,22 @@ nav_order: 3
 - Regularly review and update the website to reflect any changes, such as updates to contact information, policies, or important announcements.
 
 ## Privacy
-* sensitive data (private addresses/numbers)
-* legal aspects
-* "trade secrets" regarding research results
+### Sensitive data (private addresses/numbers):
+- Handle sensitive data, such as private addresses and phone numbers, with the utmost care and respect for privacy.
+- Only collect, store, and share sensitive data when necessary and in compliance with applicable privacy laws and regulations.
+- Limit access to sensitive data to authorized individuals who need it for legitimate business purposes.
+- Encrypt or protect sensitive data using appropriate security measures to prevent unauthorized access or disclosure.
+### Legal aspects:
+- Familiarize yourself with relevant privacy laws and regulations applicable to your organization or jurisdiction.
+- Adhere to legal requirements when collecting, using, storing, or sharing personal information.
+- Obtain appropriate consent from individuals when required by law or organizational policies.
+- Establish processes to handle data breaches or privacy incidents, including notifying affected individuals and authorities as necessary.
+### "Trade Secrets" regarding research results:
+ - Protect "trade secrets" and confidential information related to research results to maintain a competitive advantage and intellectual property rights.
+- Clearly define what constitutes "trade secrets" within your organization and educate employees about their obligations to maintain confidentiality.
+- Limit access to "trade secrets" to individuals who have a legitimate need to know.
+- Implement appropriate security measures, such as password protection or restricted access, to safeguard research-related information.
+- It is crucial to consult with legal and privacy experts to ensure compliance with applicable laws and regulations. Additionally, establish clear internal policies and guidelines to address privacy concerns and promote a culture of privacy awareness and accountability among employees.
 
 *Sources for search:*
 - 
