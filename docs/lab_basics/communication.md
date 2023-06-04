@@ -35,13 +35,34 @@ nav_order: 3
 
 
 ## Channels and Media
-* E-mail
-* Video chats
-* accessibility
-* personal conversation
-* wiki as documentation platform?
-* shared calendar
-* own website?
+
+### E-mail:
+- Use clear and concise subject lines to convey the purpose of the email effectively.
+- Maintain professionalism and appropriate tone in your emails, considering the recipient and the nature of the communication.
+- Avoid overloading emails with unnecessary information or attachments and ensure that the content is relevant and easy to understand.
+- Respond to emails in a timely manner, acknowledging receipt and providing a helpful response or next steps when required.
+### Video chats:
+- Establish clear guidelines for scheduling and conducting video chats, ensuring that they are productive and efficient.
+- Test the technology and ensure a stable internet connection before starting a video chat.
+- Be mindful of video chat etiquette, such as muting when not speaking, avoiding distractions, and maintaining professional appearance.
+- Encourage active participation, ensuring that everyone has an opportunity to contribute and share their thoughts.
+### Accessibility:
+- Ensure that communication channels and media are accessible to all individuals, including those with disabilities or different learning styles.
+- Use alternative formats for communication, such as providing written summaries or transcripts for audio and video content.
+- Consider accessibility features when choosing communication tools or platforms, ensuring they comply with accessibility standards.
+### Personal conversation:
+- Encourage personal conversations as a means to build relationships, trust, and rapport among team members.
+- Establish appropriate boundaries and guidelines for personal conversations, ensuring they do not interfere with productivity or create an exclusionary environment.
+- Respect others' privacy and confidentiality during personal conversations and avoid discussing sensitive or confidential matters.
+### Wiki as documentation platform:
+- Establish guidelines for using a wiki as a documentation platform, including guidelines for creating, updating, and organizing content.
+- Encourage collaboration and contribution from team members to keep the wiki updated and relevant.
+- Ensure that the wiki is well-structured and easily searchable, making it a valuable resource for finding information and promoting knowledge sharing.
+### Shared calendar:
+- Ensure that the shared calendar is regularly updated with important events, meetings, and deadlines.
+- Establish guidelines for scheduling meetings and appointments, ensuring that conflicts are minimized and participants have sufficient notice.
+- Use the shared calendar to promote transparency and coordination, allowing team members to stay informed and plan their work effectively.
+### own website?
 
 ## Privacy
 * sensitive data (private addresses/numbers)
