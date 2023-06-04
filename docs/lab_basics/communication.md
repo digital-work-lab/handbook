@@ -8,27 +8,27 @@ nav_order: 3
 # Communication
 
 ## Basic Guidelines 
-* respectful interaction 
+### Respectful interaction :
 - Treat fellow students, faculty, and staff with respect and professionalism, fostering a positive learning and working environment.
 - Use inclusive language and avoid discriminatory or offensive remarks.
 - Value diverse perspectives and foster an inclusive environment where everyone feels respected.
-* efficient conversations :
+### Efficient conversations :
 - Clearly communicate the purpose and objectives of discussions to avoid confusion.
 - Be concise and to the point, while providing necessary context.
 - Encourage active participation and avoid unnecessary tangents to stay focused on the topic at hand.
-* trust:
+### Trust:
 - Build trust among students, faculty, and staff by fostering an environment of honesty, integrity, and accountability.
 - Demonstrate reliability by meeting deadlines, honoring commitments, and fulfilling academic responsibilities.
 - Respect confidentiality and privacy when discussing sensitive matters, such as personal or academic information.
-* listening and transparency
+### Listening and transparency :
 - Actively listen to others, giving them your full attention and demonstrating empathy.
 - Encourage open and honest communication by creating a safe space for colleagues to express their thoughts and concerns.
 - Share information transparently, ensuring that relevant updates and decisions are communicated in a timely manner.
-* not being afraid to make mistakes?
+### Not being afraid to make mistakes :
 - Emphasize a growth mindset where mistakes are seen as opportunities for learning and improvement.
 - Encourage employees to take calculated risks and provide support when mistakes occur.
 - Foster an environment where individuals feel comfortable admitting their mistakes and learning from them.
-* getting feedback :
+### Getting feedback :
 - Encourage a culture of feedback, where both positive and constructive feedback are valued.
 - Provide specific and actionable feedback, focusing on behaviors and outcomes rather than personal criticism.
 - Regularly seek feedback from colleagues and actively listen to their perspectives to promote continuous improvement.
