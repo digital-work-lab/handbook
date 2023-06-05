@@ -214,29 +214,61 @@ Presentations are the go-to way to deliver information effectively. That is usef
 
 # Reference Management Software
 
-## Zotero
+Reference Management Software are tools that help collect, organize, and cite sources efficiently, streamlining the research process and ensuring accurate and consistent referencing.
 
-https://www.uni-bamberg.de/ub/literaturverwaltung/zotero/
+## [Zotero](https://www.uni-bamberg.de/ub/literaturverwaltung/zotero/)
 
-## Citavi
+IT-support offers help when switching from [Citavi](#Citavi) to Zotero
 
-https://www.uni-bamberg.de/ub/literaturverwaltung/citavi/
++ store and organize various types of research materials
++ materials including articles, books, websites, images, and more
++ generate citations and bibliographies in various citation styles (such as APA, MLA, Chicago, etc.)
++ easy collaboration with other researchers by sharing libraries
++ built-in PDF reader
++ provides advanced search and filtering options to quickly locate specific sources within large collections
++ synchronization between devices
+
+## [Citavi](https://www.uni-bamberg.de/ub/literaturverwaltung/citavi/)
 
 License is ending - Use Zotero
 
++ wide range of features, including reference management, task planning, literature analysis, and note-taking
++ collect, organize, analyze, and cite research sources efficiently
++ citation generator that supports multiple citation styles, including APA, MLA, Harvard
+
 # Analysis Software
 
-## SPSS
+## [SPSS](https://www.uni-bamberg.de/its/dienstleistungen/pc/einkauf-hard-software/sonderkonditionen/ibm-spss-fuer-beschaeftigte/)
 
-https://www.uni-bamberg.de/its/dienstleistungen/pc/einkauf-hard-software/sonderkonditionen/ibm-spss-fuer-beschaeftigte/
++ free 2-week trial
++ software package used for statistical analysis in various fields, particularly social sciences
++ variety of statistical tests, including descriptive statistics, t-tests, ANOVA, regression analysis, factor analysis
++ generate charts, graphs, and tables to visualize and present their data effectively
++ wide range of statistical procedures to analyze and interpret data
 
-## MAXQDA
 
-https://www.uni-bamberg.de/its/dienstleistungen/pc/einkauf-hard-software/sonderkonditionen/maxqda/
+If you need the statistical software SPSS for longer than the two weeks contact software procurement to obtain the paid version. 
 
-## Excel
+E-Mail: softwarebeschaffung.its(at)uni-bamberg.de
 
-https://www.uni-bamberg.de/its/dienstleistungen/pc/einkauf-hard-software/sonderkonditionen/o365/
+
+## [MAXQDA](https://www.uni-bamberg.de/its/dienstleistungen/pc/einkauf-hard-software/sonderkonditionen/maxqda/)
+
++ software for the qualitative analysis of unstructured data such as interviews, field notes, surveys, tables, images, video and audio recordings, bibliographic databases
++ supports a wide range of data types, including text documents, interviews, surveys, audio and video recordings, images
++ provides tools for coding, highlighting, annotating, and linking segments of data
+
+MAXQDAplus may be used by all students, employees and doctoral candidates at the University of Bamberg.
+The MAXQDAplus licenses are issued via the StudiSoft portal of the University of Würzburg.
+
+## [Excel](https://www.uni-bamberg.de/its/dienstleistungen/pc/einkauf-hard-software/sonderkonditionen/o365/)
+included in Office 365 for free for every student
+
++ powerful spreadsheet software that allows users to organize, analyze, and manipulate data
++ grid-like interface where users can input, store, and manage numerical and textual information
++ allows users to create formulas and perform complex calculations using arithmetic operators, functions, and logical expressions
++ offers a wide range of mathematical and statistical functions to perform calculations and data analysis
++ enabling users to work with data from various sources such as CSV files or databases
 
 # Research Resources
 
