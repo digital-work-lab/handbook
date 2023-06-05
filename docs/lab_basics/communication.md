@@ -7,32 +7,39 @@ nav_order: 3
 
 # Communication
 
+* [Basic Guidelines](#basic-guidelines)
+* [Channels and Media](#channels-and-media)
+* [Privacy](#privacy)
+* [More Information](#more-information-(vpn-required))
+
+
 ## Basic Guidelines 
-### Respectful interaction :
+### 1. Respectful interaction
 - Treat fellow students, faculty, and staff with respect and professionalism, fostering a positive learning and working environment.
 - Use inclusive language and avoid discriminatory or offensive remarks.
 - Value diverse perspectives and foster an inclusive environment where everyone feels respected.
-### Efficient conversations :
+### 2. Efficient conversations
 - Clearly communicate the purpose and objectives of discussions to avoid confusion.
 - Be concise and to the point, while providing necessary context.
 - Encourage active participation and avoid unnecessary tangents to stay focused on the topic at hand.
-### Trust:
+### 3. Trust
 - Build trust among students, faculty, and staff by fostering an environment of honesty, integrity, and accountability.
 - Demonstrate reliability by meeting deadlines, honoring commitments, and fulfilling academic responsibilities.
 - Respect confidentiality and privacy when discussing sensitive matters, such as personal or academic information.
-### Listening and transparency :
+### 4. Listening and transparency
 - Actively listen to others, giving them your full attention and demonstrating empathy.
 - Encourage open and honest communication by creating a safe space for colleagues to express their thoughts and concerns.
 - Share information transparently, ensuring that relevant updates and decisions are communicated in a timely manner.
-### Not being afraid to make mistakes :
+### 5. Not being afraid to make mistakes
 - Emphasize a growth mindset where mistakes are seen as opportunities for learning and improvement.
 - Encourage employees to take calculated risks and provide support when mistakes occur.
 - Foster an environment where individuals feel comfortable admitting their mistakes and learning from them.
-### Getting feedback :
+### 6. Getting feedback
 - Encourage a culture of feedback, where both positive and constructive feedback are valued.
 - Provide specific and actionable feedback, focusing on behaviors and outcomes rather than personal criticism.
 - Regularly seek feedback from colleagues and actively listen to their perspectives to promote continuous improvement.
 
+<br>
 
 ## Channels and Media
 
@@ -67,6 +74,8 @@ nav_order: 3
 - Ensure that the website is accessible, easy to navigate, and visually appealing.
 - Regularly review and update the website to reflect any changes, such as updates to contact information, policies, or important announcements.
 
+<br>
+
 ## Privacy
 ### Sensitive data (private addresses/numbers):
 - Handle sensitive data, such as private addresses and phone numbers, with the utmost care and respect for privacy.
@@ -79,18 +88,17 @@ nav_order: 3
 - Obtain appropriate consent from individuals when required by law or organizational policies.
 - Establish processes to handle data breaches or privacy incidents, including notifying affected individuals and authorities as necessary.
 ### "Trade Secrets" regarding research results:
- - Protect "trade secrets" and confidential information related to research results to maintain a competitive advantage and intellectual property rights.
+- Protect "trade secrets" and confidential information related to research results to maintain a competitive advantage and intellectual property rights.
 - Clearly define what constitutes "trade secrets" within your organization and educate employees about their obligations to maintain confidentiality.
 - Limit access to "trade secrets" to individuals who have a legitimate need to know.
 - Implement appropriate security measures, such as password protection or restricted access, to safeguard research-related information.
 - It is crucial to consult with legal and privacy experts to ensure compliance with applicable laws and regulations. Additionally, establish clear internal policies and guidelines to address privacy concerns and promote a culture of privacy awareness and accountability among employees.
 
-*Sources for search:*
-- 
-* https://www.tu-braunschweig.de/abt13/leitlinien-zu-fuehrung-zusammenarbeit
-* (VPN required) https://www.uni-bamberg.de/datenschutz/datenschutz-information/kommunikation/
-* (VPN required) https://www.uni-bamberg.de/intranet/arbeitsplatz/
-* (VPN required) https://www.uni-bamberg.de/intranet/dienstleistungen-fuer-uniangehoerige/kommunikation/
-* Guideline Netikette (pdf) https://www.uni-bamberg.de/fileadmin/uni/verwaltung/presse/Dateien/2016/2016-08-29_Netiquette_WEB.pdf
 
-{: .label .label-yellow }
+<br>
+
+## More information (VPN required)
+
++ [Official Guideline](https://www.uni-bamberg.de/fileadmin/uni/verwaltung/presse/Dateien/2016/2016-08-29_Netiquette_WEB.pdf) 
++ [Contacts for further questions](https://www.uni-bamberg.de/intranet/dienstleistungen-fuer-uniangehoerige/kommunikation/) 
+
