@@ -272,22 +272,37 @@ included in Office 365 for free for every student
 
 # Research Resources
 
-https://www.uni-bamberg.de/ub/ausleihe-und-online-zugriff/online-zugriff/
+Research resources are important for students and teachers as they provide access to a wealth of information and knowledge, enabling them to stay informed, enhance their understanding, and support their academic pursuits. 
+They serve as valuable tools for conducting research, expanding knowledge, and staying up-to-date with the latest developments in their respective fields.
 
-## DBIS
 
-https://dbis.ur.de//fachliste.php?bib_id=ub_ba&lett=l&colors=&ocolors=
+## [DBIS](https://dbis.ur.de//fachliste.php?bib_id=ub_ba&lett=l&colors=&ocolors=)
++ Database management and information systems research
++ Licensed specialized databases covering various academic disciplines
++ Most content is available in pdf format
 
-## Statista
 
-https://www.uni-bamberg.de/its/dienstleistungen/pc/einkauf-hard-software/sonderkonditionen/statista/
 
-## Online Library
+## [Statista](https://www.uni-bamberg.de/its/dienstleistungen/pc/einkauf-hard-software/sonderkonditionen/statista/)
++ Online platform providing access to a vast range of statistical data and market research information
++ Allows users to visualize and analyze data through interactive charts, graphs and infographics
++ Provides up-to-date statistics 
++ Content also available in [powerpoint](#Powerpoint) and excel
 
-https://katalog.ub.uni-bamberg.de/ubg-www/Katalog/
+## [Online Library](https://katalog.ub.uni-bamberg.de/ubg-www/Katalog/)
++ Online library platform offering a diverse collection of e-books across 
++ Multiple languages
++ Allows users to search and browse
++ Accessible 24/7
 
-## Google Scholar
-Smth abt scholar
+
+
+## [Google Scholar](https://www.uni-bamberg.de/ub/fuer-schuelerinnen-und-schueler/erfolgreich-recherchieren/)
++ Web search-engine that focuses on scholarly literature 
++ Allows access to full-text PDFs of articles
++ Provides citation metrics 
++ Allows users to create personal libraries
+
 
 # Data Storage, Clouds
 
