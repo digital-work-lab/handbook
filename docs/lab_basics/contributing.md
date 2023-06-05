@@ -2,7 +2,7 @@
 layout: default
 title: Contributing
 parent: Lab Basics
-nav_order: 5
+nav_order: 6
 ---
 
 # Contributing
