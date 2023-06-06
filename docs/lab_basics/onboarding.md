@@ -10,14 +10,15 @@ nav_order: 2
 ## Welcome to the Otto-Friedrich-University Bamberg! We are pleased to welcome you as a new member of our team. This handbook has been developed to help you get started smoothly in your new position. It contains important information and resources to help you settle in quickly and succeed in your role at the University. Please read the handbook thoroughly and do not hesitate to ask questions or request support:
 
 ### Before your first day at work
-- [ ] I have received the welcome letter by post
-- [ ] I have made contact with my new mentor who is introducing me to the company
-- [ ] I have already tried a Schlenkerla Rauchbier so that I have an icebreaker for my first conversations :joy:
+- [ ] You have received the welcome letter by post
+- [ ] You have made contact with your new mentor who is introducing you to the team
+- [ ] You have explored Bamberg and got to know a few new places where you can spend some time after work
+ Optional: In case you're interested in the local beer culture, you could try an authentic Schlenkerla Rauchbier and get to to know a few new people. It's also a nice icebreaker for your first few conversations :joy:
 
-### My first day at work 
-- [ ] I take my university card to work 
+### Your first day at work 
+- [ ] You took your University Card to work 
 - First, you will meet with your mentor, who will guide you through your first day. 
-- [ ] I received my personal induction plan from my mentor
+- [ ] You received your personal induction plan from my mentor
 1. Introduction to the University:
 	- Overview of the University, its history, mission and values
 	- Organisational structure and departments
@@ -96,6 +97,6 @@ Remember, the goal of team meetings is to promote collaboration, share knowledge
 - Feedback and evaluation are essential for individual and team growth.
 - Constructive feedback helps team members understand their strengths, areas for improvement, and align their goals with the team's objectives. 
 - Regular Check-ins: Schedule regular one-on-one meetings with team members to provide feedback and discuss their progress. These meetings can be weekly, bi-weekly, or monthly, depending on the team's needs and workload.
-- Be Specific and Objective: When providing feedback, be specific about the behavior, action, or outcome you are addressing.   -> Focus on observable facts and provide examples to illustrate your points. Avoid generalizations or personal attacks.
+- Be Specific and Objective: When providing feedback, be specific about the behavior, action, or outcome you are addressing.   -> Focus on observable facts and provide examples to illustrate your points. Remember that people are more likely to accept feedback when it is specific, when they feel appreciated as a person, and when the focus is on how to handle future situations better.
 - Balance Positive and Constructive Feedback: Acknowledge and appreciate the team members' achievements and strengths. Provide constructive feedback on areas where improvement is needed. Strive to maintain a balanced approach to ensure team members feel motivated and supported.
 - Two-Way Communication: Encourage team members to share their perspective and ask for clarification during feedback.
