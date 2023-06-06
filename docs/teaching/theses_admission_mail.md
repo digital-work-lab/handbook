@@ -7,10 +7,10 @@ nav_order: 3
 
 # Theses: Admission e-mail
 
-```
-wiai.pruefungen@uni-bamberg.de
+To: [wiai.pruefungen@uni-bamberg.de](mailto:wiai.pruefungen@uni-bamberg.de)
 
-Bachelorarbeit Anmeldung
+```
+Subject: Bachelorarbeit Anmeldung
 
 Sehr geehrte Damen und Herren,
 
