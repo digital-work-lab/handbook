@@ -2,7 +2,7 @@
 layout: default
 title: Onboarding
 parent: Lab Basics
-nav_order: 4
+nav_order: 2
 ---
 
 # Onboarding
