@@ -61,10 +61,10 @@ nav_order: 3
 - Encourage personal conversations as a means to build relationships, trust, and rapport among team members.
 - Establish appropriate boundaries and guidelines for personal conversations, ensuring they do not interfere with productivity or create an exclusionary environment.
 - Respect others' privacy and confidentiality during personal conversations and avoid discussing sensitive or confidential matters.
-### Wiki as documentation platform:
-- Establish guidelines for using a wiki as a documentation platform, including guidelines for creating, updating, and organizing content.
-- Encourage collaboration and contribution from team members to keep the wiki updated and relevant.
-- Ensure that the wiki is well-structured and easily searchable, making it a valuable resource for finding information and promoting knowledge sharing.
+### Handbook as documentation platform:
+- Use the handbook to document guidelines, processes and other helpfull information. We encourage you to [contribute](https://digital-work-lab.github.io/handbook/docs/lab_basics/contributing.html) to this valuable ressource. 
+- Encourage collaboration and contribution from team members to keep the handbook updated and relevant.
+- Ensure that the handbook is well-structured and easily searchable, making it a valuable resource for finding information and promoting knowledge sharing.
 ### Shared calendar:
 - Ensure that the shared calendar is regularly updated with important events, meetings, and deadlines.
 - Establish guidelines for scheduling meetings and appointments, ensuring that conflicts are minimized and participants have sufficient notice.
