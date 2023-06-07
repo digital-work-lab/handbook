@@ -203,8 +203,13 @@ Writing is an essential part of academic work, and having the right tools can gr
 + Good compatibility with [Git](#git)
 
 ## [Markdown](https://www.markdownguide.org/)
-COMMENT:Markdown could be added as a writing tool. With pandoc and csl, it can create any docx, pdf, or latex output.
 
++ Markup language
++ Creating formatted documents using plain text (formatting such as headings, lists, bold, italics, and links)
++ Platform-independent
++ Generates output, which can be easily converted to other formats (e.g., PDF, DOCX) using [Pandoc](https://pandoc.org/)
++ [CSL](https://citationstyles.org/) integration for defining citation and bibliography formatting
++ Integrates well with [Git](#git)
 
 # Presentation
 
@@ -217,7 +222,8 @@ Presentations are the go-to way to deliver information effectively. That is usef
 
 # Reference Management Software
 
-Reference Management Software are tools that help collect, organize, and cite sources efficiently, streamlining the research process and ensuring accurate and consistent referencing.
+Reference Management Software are tools that help collect, organize, and cite sources efficiently, streamlining the research process and ensuring accurate and
+consistent referencing.
 
 ## [Zotero](https://www.uni-bamberg.de/ub/literaturverwaltung/zotero/)
 
@@ -249,15 +255,14 @@ License is ending - Use Zotero
 + generate charts, graphs, and tables to visualize and present their data effectively
 + wide range of statistical procedures to analyze and interpret data
 
-
-If you need the statistical software SPSS for longer than the two weeks contact software procurement to obtain the paid version. 
+If you need the statistical software SPSS for longer than the two weeks contact software procurement to obtain the paid version.
 
 E-Mail: softwarebeschaffung.its(at)uni-bamberg.de
 
-
 ## [MAXQDA](https://www.uni-bamberg.de/its/dienstleistungen/pc/einkauf-hard-software/sonderkonditionen/maxqda/)
 
-+ software for the qualitative analysis of unstructured data such as interviews, field notes, surveys, tables, images, video and audio recordings, bibliographic databases
++ software for the qualitative analysis of unstructured data such as interviews, field notes, surveys, tables, images, video and audio recordings, bibliographic
+  databases
 + supports a wide range of data types, including text documents, interviews, surveys, audio and video recordings, images
 + provides tools for coding, highlighting, annotating, and linking segments of data
 
@@ -265,6 +270,7 @@ MAXQDAplus may be used by all students, employees and doctoral candidates at the
 The MAXQDAplus licenses are issued via the StudiSoft portal of the University of Würzburg.
 
 ## [Excel](https://www.uni-bamberg.de/its/dienstleistungen/pc/einkauf-hard-software/sonderkonditionen/o365/)
+
 included in Office 365 for free for every student
 
 + powerful spreadsheet software that allows users to organize, analyze, and manipulate data
@@ -275,35 +281,35 @@ included in Office 365 for free for every student
 
 # Research Resources
 
-Research resources are important for students and teachers as they provide access to a wealth of information and knowledge, enabling them to stay informed, enhance their understanding, and support their academic pursuits. 
+Research resources are important for students and teachers as they provide access to a wealth of information and knowledge, enabling them to stay informed,
+enhance their understanding, and support their academic pursuits.
 They serve as valuable tools for conducting research, expanding knowledge, and staying up-to-date with the latest developments in their respective fields.
 
-
 ## [DBIS](https://dbis.ur.de//fachliste.php?bib_id=ub_ba&lett=l&colors=&ocolors=)
+
 + Database management and information systems research
 + Licensed specialized databases covering various academic disciplines
 + Most content is available in pdf format
 
-
-
 ## [Statista](https://www.uni-bamberg.de/its/dienstleistungen/pc/einkauf-hard-software/sonderkonditionen/statista/)
+
 + Online platform providing access to a vast range of statistical data and market research information
 + Allows users to visualize and analyze data through interactive charts, graphs and infographics
-+ Provides up-to-date statistics 
++ Provides up-to-date statistics
 + Content also available in [powerpoint](#Powerpoint) and [excel](#excel)
 
 ## [Online Library](https://katalog.ub.uni-bamberg.de/ubg-www/Katalog/)
-+ Online library platform offering a diverse collection of e-books across 
+
++ Online library platform offering a diverse collection of e-books across
 + Multiple languages
 + Allows users to search and browse
 
-
 ## [Google Scholar](https://www.uni-bamberg.de/ub/fuer-schuelerinnen-und-schueler/erfolgreich-recherchieren/)
-+ Web search-engine that focuses on scholarly literature 
-+ Allows access to full-text PDFs of articles
-+ Provides citation metrics 
-+ Allows users to create personal libraries
 
++ Web search-engine that focuses on scholarly literature
++ Allows access to full-text PDFs of articles
++ Provides citation metrics
++ Allows users to create personal libraries
 
 # Data Storage, Clouds
 
