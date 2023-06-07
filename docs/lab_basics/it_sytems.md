@@ -77,7 +77,6 @@ writing tools.
 Learning platforms are essential for students as well as teachers. These platforms allow the teachers
 to connect with their students, strucutre their materials, publish contents like Presentations, Scripts,
 videos, quizzes and providing a central platform for students and teachers to communicate via forums.
-All that, with 24/7 availability.
 
 ## [Virtual Campus](https://vc.uni-bamberg.de/moodle/mod/page/view.php?id=225164) (Powered by [moodle](https://docs.moodle.org/39/de/Hauptseite))
 
@@ -88,7 +87,6 @@ All that, with 24/7 availability.
 + Publishing of various content types such as [presentations](#presentation), [scripts](#writing-tools), [videos](#panopto), and quizzes
 + [Communication](#communication-tools) and collaboration through forums
 + Online assessments, grading and feedback of exercises
-+ Accessible 24/7
 + Allows livestream integration via [Panopto](#panopto)
 
 # [Administering](https://www.uni-bamberg.de/studium/im-studium/studienorganisation/internet-dienste/)
@@ -287,14 +285,12 @@ They serve as valuable tools for conducting research, expanding knowledge, and s
 + Online platform providing access to a vast range of statistical data and market research information
 + Allows users to visualize and analyze data through interactive charts, graphs and infographics
 + Provides up-to-date statistics 
-+ Content also available in [powerpoint](#Powerpoint) and excel
++ Content also available in [powerpoint](#Powerpoint) and [excel](#excel)
 
 ## [Online Library](https://katalog.ub.uni-bamberg.de/ubg-www/Katalog/)
 + Online library platform offering a diverse collection of e-books across 
 + Multiple languages
 + Allows users to search and browse
-+ Accessible 24/7
-
 
 
 ## [Google Scholar](https://www.uni-bamberg.de/ub/fuer-schuelerinnen-und-schueler/erfolgreich-recherchieren/)
