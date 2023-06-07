@@ -31,7 +31,7 @@ sequenceDiagram
     Student->>Examination office: Submission (paper version)
     activate Professor
     Examination office->>Professor: Paper version
-    Professor->>Examination office: Grade
+    Professor->>Examination office: Review and grade
     deactivate Professor
     Note over Professor,Student: Feedback
 ```
