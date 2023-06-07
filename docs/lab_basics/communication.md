@@ -64,7 +64,7 @@ nav_order: 3
 ### Handbook as documentation platform:
 - Use the handbook to document guidelines, processes and other helpfull information. We encourage you to [contribute](https://digital-work-lab.github.io/handbook/docs/lab_basics/contributing.html) to this valuable ressource. 
 - Encourage collaboration and contribution from team members to keep the handbook updated and relevant.
-- Ensure that the handbook is well-structured and easily searchable, making it a valuable resource for finding information and promoting knowledge sharing.
+- Ensure that your contribution to the handbook is well-structured and easily searchable, making it a valuable resource for finding information and promoting knowledge sharing.
 ### Shared calendar:
 - Ensure that the shared calendar is regularly updated with important events, meetings, and deadlines.
 - Establish guidelines for scheduling meetings and appointments, ensuring that conflicts are minimized and participants have sufficient notice.
@@ -87,13 +87,9 @@ nav_order: 3
 - Adhere to legal requirements when collecting, using, storing, or sharing personal information.
 - Obtain appropriate consent from individuals when required by law or organizational policies.
 - Establish processes to handle data breaches or privacy incidents, including notifying affected individuals and authorities as necessary.
-### "Trade Secrets" regarding research results:
-- Protect "trade secrets" and confidential information related to research results to maintain a competitive advantage and intellectual property rights.
-- Clearly define what constitutes "trade secrets" within your organization and educate employees about their obligations to maintain confidentiality.
-- Limit access to "trade secrets" to individuals who have a legitimate need to know.
-- Implement appropriate security measures, such as password protection or restricted access, to safeguard research-related information.
-- It is crucial to consult with legal and privacy experts to ensure compliance with applicable laws and regulations. Additionally, establish clear internal policies and guidelines to address privacy concerns and promote a culture of privacy awareness and accountability among employees.
-
+### Sharing content regarding research results:
+- Before the publication of results, research data (including code, interview data and manuscripts) should be kept private.
+- Coordinate with your team on when the publication will be available to the public and set a clear timeframe to avoid misunderstandinds.
 
 <br>
 
