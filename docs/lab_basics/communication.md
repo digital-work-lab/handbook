@@ -78,7 +78,7 @@ nav_order: 3
 
 ## Privacy
 ### Sensitive data (private addresses/numbers):
-- Handle sensitive data, such as private addresses and phone numbers, with the utmost care and respect for privacy.
+- Handle sensitive data, such as student names, student-id and grades, with the utmost care and respect for privacy.
 - Only collect, store, and share sensitive data when necessary and in compliance with applicable privacy laws and regulations.
 - Limit access to sensitive data to authorized individuals who need it for legitimate business purposes.
 - Encrypt or protect sensitive data using appropriate security measures to prevent unauthorized access or disclosure.
