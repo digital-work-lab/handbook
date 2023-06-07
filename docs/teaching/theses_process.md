@@ -29,7 +29,6 @@ sequenceDiagram
         Note over Professor,Student: Presentation
     end
     Student->>Examination office: Submission (paper version)
-    Student->>Professor: Submission (digital version)
     activate Professor
     Examination office->>Professor: Paper version
     Professor->>Examination office: Grade
