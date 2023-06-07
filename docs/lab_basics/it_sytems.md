@@ -29,6 +29,7 @@ nav_order: 4
 * [Writing tools](#writing-tools)
   * [Word](#word)
   * [LaTeX](#latex)
+  * [Markdown](#markdown)
 * [Presentation](#presentation)
   * [Powerpoint](#powerpoint)
 * [Reference Management Software](#reference-management-software)
@@ -200,6 +201,10 @@ Writing is an essential part of academic work, and having the right tools can gr
 + Creates professional-looking documents
 + Integration with [reference management software](#reference-management-software) like [Zotero](#zotero)
 + Good compatibility with [Git](#git)
+
+## [Markdown](https://www.markdownguide.org/)
+COMMENT:Markdown could be added as a writing tool. With pandoc and csl, it can create any docx, pdf, or latex output.
+
 
 # Presentation
 
