@@ -42,6 +42,8 @@ nav_order: 3
 
 <br>
 
+---
+
 ## Channels and Media
 
 ### E-mail:
@@ -77,6 +79,8 @@ nav_order: 3
 
 <br>
 
+---
+
 ## Privacy
 ### Sensitive data (private addresses/numbers):
 - Handle sensitive data, such as student names, student-id and grades, with the utmost care and respect for privacy.
@@ -93,6 +97,8 @@ nav_order: 3
 - Coordinate with your team on when the publication will be available to the public and set a clear timeframe to avoid misunderstandinds.
 
 <br>
+
+---
 
 ## More information (VPN required)
 
