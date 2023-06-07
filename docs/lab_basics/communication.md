@@ -12,6 +12,7 @@ nav_order: 3
 * [Privacy](#privacy)
 * [More Information](#more-information-(vpn-required))
 
+--- 
 
 ## Basic Guidelines 
 ### 1. Respectful interaction
