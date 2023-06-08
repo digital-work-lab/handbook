@@ -8,9 +8,10 @@ nav_order: 11
 # Vacation: the administrative process
 ## 1.Requesting Vacation
 ### 1.1 Submission Process:
-+ Students should submit vacation requests through an [online form](https://www.uni-bamberg.de/studium/im-studium/studienorganisation/beurlaubung/) accessible on the university's student portal.
-+ The form should include fields for specifying the desired vacation dates, duration, and any additional notes.
-+ Alternatively, vacation requests can be submitted via email to a designated administrative contact.
++ Students should submit vacation requests through an **[online form](https://www.uni-bamberg.de/studium/im-studium/studienorganisation/beurlaubung/)** accessible on the **university's student portal.**
++ The form should include fields for specifying the desired **vacation dates, duration, and any additional notes.**
++ The application for a leave of absence can be **submitted by post** to the **[Registrar's Office](https://www.uni-bamberg.de/en/central-university-administration/department-studying-teaching/academic-registrars-office/)** until **30 October in the winter semester** and until **30 April in the summer semester.** 
++ If the valid, unforeseeable reason for the leave of absence does not arise until a later date, the application can be **submitted by post until 5 December in the winter semester** and **until 5 June in the summer semester.**
 
 ### 1.2 Required Information:
 +	Students should provide their full name, student ID, program of study, and contact information.
