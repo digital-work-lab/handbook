@@ -29,19 +29,19 @@ nav_order: 11
 + If the valid, unforeseeable reason for the leave of absence does not arise until a later date, the application can be **submitted by post until 5 December in the winter semester** and **until 5 June in the summer semester.**
 
 ### 1.4 Valid reasons for a leave of absence particularly include:
-Studies abroad
-Internship
-Illness
-Maternity and/or parental leave
-Caring for a close relative if the care cannot be provided by another person
-Business start
-Service obligation for voluntary military service or federal voluntary service
-Foreign language or school assistance abroad (KMK)
++ [Studies abroad](https://www.uni-bamberg.de/en/studies/currently-enrolled/study-organization/leave-of-absence/leave-of-absence-due-to-a-study-abroad-program/)
++ [Internship](https://www.uni-bamberg.de/en/studies/currently-enrolled/study-organization/leave-of-absence/leave-of-absence-due-to-a-mandatory-internship/)
++ [Illness](https://www.uni-bamberg.de/en/studies/currently-enrolled/study-organization/leave-of-absence/leave-of-absence-due-to-illness/)
++ [Maternity and/or parental leave](https://www.uni-bamberg.de/en/studies/currently-enrolled/study-organization/leave-of-absence/leave-of-absence-due-to-maternity-and-parental-leave/)
++ [Caring for a close relative if the care cannot be provided by another person](https://www.uni-bamberg.de/en/studies/currently-enrolled/study-organization/leave-of-absence/leave-of-absence-due-to-the-exceptional-burden-of-care-giving-of-close-relatives/)
++ [Business start](https://www.uni-bamberg.de/en/studies/currently-enrolled/study-organization/leave-of-absence/business-start/)
++ [Service obligation for voluntary military service or federal voluntary service](https://www.uni-bamberg.de/studium/im-studium/studienorganisation/beurlaubung/beurlaubung-bfd/)
++ [Foreign language or school assistance abroad (KMK)](https://www.uni-bamberg.de/studium/im-studium/studienorganisation/beurlaubung/beurlaubung-fremdsprachenassistenz/)
 
 ### 1.5 Notification of Request:
 + Upon successful submission of a vacation request, students should receive an acknowledgment or confirmation email indicating that their request has been received.
-+	Provide an estimated timeline for review and approval of the vacation request.
-+	In case of any missing information or discrepancies in the request, students should be notified promptly to provide the required information or address any issues.
++ Provide an estimated timeline for review and approval of the vacation request.
++ In case of any missing information or discrepancies in the request, students should be notified promptly to provide the required information or address any issues.
 
 ## 2.Approval Process:
 ### 2.1 Approval Authority:
@@ -57,7 +57,7 @@ Foreign language or school assistance abroad (KMK)
 +	After the approval decision is made, the student receives notification of the status via email or through the student portal.
 +	The notification includes details such as the approved dates, duration, and any conditions or restrictions that apply.
 
-###2.4 Handling Denied Requests:
+### 2.4 Handling Denied Requests:
 +	If a vacation request is denied, the student is notified of the decision and provided with an explanation or rationale.
 +	Alternative options may be explored, such as suggesting alternative dates or discussing the possibility of rescheduling the vacation.
 +	Clear guidelines should be provided on how denied requests can be addressed, including any formal appeal process if applicable.
