@@ -9,7 +9,7 @@ permalink: /
 
 # The handbook
 
-The goal of the internal handbook is to document our processes related to research, teaching, and administration. We invite everyone to use it as a resource and to contribute to it using the [issues] and [pull requests].
+The goal of the internal handbook is to document our processes related to research, teaching, and administration. We invite everyone to use it as a resource and to contribute to it using the [issues](https://github.com/digital-work-lab/handbook/issues) and [pull requests](https://github.com/digital-work-lab/handbook/pulls).
 
 
 #### Contributors
@@ -20,10 +20,3 @@ The goal of the internal handbook is to document our processes related to resear
   </li>
 {% endfor %}
 </ul>
-
-
-----
-[issues]: https://github.com/digital-work-lab/handbook/issues
-[pull requests]: https://github.com/digital-work-lab/handbook/pulls
-
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
