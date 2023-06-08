@@ -79,7 +79,7 @@ During the review process, the approval authority considers specific criteria to
 
 ### 3.3 Vacation Balances Tracking:
 + The company maintains a system to **track employees' vacation balances.**
-+ Employees **can check their vacation balances** by accessing the **university's Intranet.**
++ Employees **can check their vacation balances** by accessing the **[vecation excel tabel](https://www.uni-bamberg.de/fileadmin/abt-personal/Homepage_ab_2016-03/11_Formulare_Infos_Merkblaetter/Urlaubsantrag_f%C3%BCr_wissenschaftliche_Besch%C3%A4ftigte/Urlaubsberechnung.xlsx)
 + The system displays the **current available vacation days** and any **carry-over** or **accrual information.**
 + It is the employees' responsibility to ensure they have **sufficient vacation days available** before submitting a request.
 
