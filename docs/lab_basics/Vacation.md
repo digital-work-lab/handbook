@@ -8,40 +8,33 @@ nav_order: 11
 # Vacation: the administrative process
 ## 1. Requesting Vacation
 ### 1.1 Submission Process:
-+ Students with **valid reasons** preventing them from pursuing their studies in accordance with standard regulations can be granted a leave of absence of **up to two semesters.**
-+ Justification for the leave of absence must be **provided in writing** in the application and **must be supported by pertinent evidence.**
-+ Leave of absence in the first semester of study is **only possible in master's degree programmes; in undergraduate degree programmes**, it is only possible in justified exceptional cases.
-+ A retroactive leave of absence for past semesters is **not possible.**
-+ Students should submit vacation requests through an **[online form](https://www.uni-bamberg.de/studium/im-studium/studienorganisation/beurlaubung/)** accessible on the **university's student portal.**
-+ The form should include fields for specifying the desired **vacation dates, duration, and any additional notes.**
+To request vacation time, employees should follow the designated submission process outlined below:
++ fill out the official vacation request form, available on the company's intranet or HR portal.
++ Provide the required information (outlined in section 1.2) accurately and completely.
++ Submit the completed form to the employee's immediate supervisor or the HR department.
++ Ensure that the submission is made within the specified timeframe to allow for proper planning and consideration.
 
 ### 1.2 Required Information:
-+	Students should provide their:
-    - [ ] **full name,** 
-    - [ ] **student ID,** 
-    - [ ] **program of study,** 
-    - [ ] **contact information.**
-    - [ ] **start and end dates** of the requested vacation period.
-    - [ ] **the reason or purpose for the vacation.**
+When submitting a vacation request, employees must provide the following information:
+- [ ] **full name** 
+- [ ] **Employee identification number** 
+- [ ] **Department and position** 
+- [ ] **Dates for the requested vacation period**
+- [ ] **the reason or purpose for the vacation.**
+- [ ] **Any additional notes or special considerations** 
 
 ### 1.3 Deadlines and Timelines:
-+ The application for a leave of absence can be **submitted by post** to the **[Registrar's Office](https://www.uni-bamberg.de/en/central-university-administration/department-studying-teaching/academic-registrars-office/)** until **30 October in the winter semester** and until **30 April in the summer semester.** 
-+ If the valid, unforeseeable reason for the leave of absence does not arise until a later date, the application can be **submitted by post until 5 December in the winter semester** and **until 5 June in the summer semester.**
+To ensure effective vacation planning and minimize disruption to the workflow, the following deadlines and timelines should be observed:
++ Vacation requests must be submitted at least **14 days in advance** of the desired vacation start date.
++ Supervisors or HR will **review and respond to the vacation requests** within **7 business days** of receiving the submission.
++ If the requested vacation period coincides with a **peak operational period** or other **scheduling constraints**, employees will be notified promptly to discuss alternatives or adjustments.
 
-### 1.4 Valid reasons for a leave of absence particularly include:
-+ [Studies abroad](https://www.uni-bamberg.de/en/studies/currently-enrolled/study-organization/leave-of-absence/leave-of-absence-due-to-a-study-abroad-program/)
-+ [Internship](https://www.uni-bamberg.de/en/studies/currently-enrolled/study-organization/leave-of-absence/leave-of-absence-due-to-a-mandatory-internship/)
-+ [Illness](https://www.uni-bamberg.de/en/studies/currently-enrolled/study-organization/leave-of-absence/leave-of-absence-due-to-illness/)
-+ [Maternity and/or parental leave](https://www.uni-bamberg.de/en/studies/currently-enrolled/study-organization/leave-of-absence/leave-of-absence-due-to-maternity-and-parental-leave/)
-+ [Caring for a close relative if the care cannot be provided by another person](https://www.uni-bamberg.de/en/studies/currently-enrolled/study-organization/leave-of-absence/leave-of-absence-due-to-the-exceptional-burden-of-care-giving-of-close-relatives/)
-+ [Business start](https://www.uni-bamberg.de/en/studies/currently-enrolled/study-organization/leave-of-absence/business-start/)
-+ [Service obligation for voluntary military service or federal voluntary service](https://www.uni-bamberg.de/studium/im-studium/studienorganisation/beurlaubung/beurlaubung-bfd/)
-+ [Foreign language or school assistance abroad (KMK)](https://www.uni-bamberg.de/studium/im-studium/studienorganisation/beurlaubung/beurlaubung-fremdsprachenassistenz/)
-
-### 1.5 Notification of Request:
-+ Upon successful submission of a vacation request, students should **receive an acknowledgment** or **confirmation email** indicating that their request has been received.
-+ Provide an estimated timeline for **review and approval of the vacation request.**
-+ In case of any **missing information** or **discrepancies in the request**, students should be notified promptly to provide the required information or address any issues.
+### 1.4 Notification of Request:
+Upon reviewing the vacation request, the employee will be notified of the decision in a timely manner. The notification process includes the following steps:
++ The immediate supervisor or HR will **inform** the employee whether the vacation request has been **approved or denied.**
++ If the request is **approved**, the employee will **receive confirmation** of the approved vacation dates.
++ In the case of a **denied request**, the reasons for the denial will be **clearly communicated** to the employee, along with any **alternative options or suggestions.**
++ The communication regarding the vacation request will be primarily conducted via **email** or **in-person meetings.**
 
 ## 2. Approval Process:
 ### 2.1 Approval Authority:
