@@ -15,12 +15,12 @@ nav_order: 11
 
 ### 1.2 Required Information:
 +	Students should provide their:
-    - [ ] full name, 
-    - [ ] student ID, 
-    - [ ] program of study, 
-    - [ ] contact information.
-    - [ ] start and end dates of the requested vacation period.
-    - [ ] the reason or purpose for the vacation.
+    - [ ] **full name,** 
+    - [ ] **student ID,** 
+    - [ ] **program of study,** 
+    - [ ] **contact information.**
+    - [ ] **start and end dates** of the requested vacation period.
+    - [ ] **the reason or purpose for the vacation.**
 
 ### 1.3 Deadlines and Timelines:
 +	Vacation requests should be submitted within a specified timeframe prior to the intended vacation period (e.g., two weeks in advance).
