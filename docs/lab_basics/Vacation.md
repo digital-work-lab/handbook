@@ -45,9 +45,14 @@ Upon reviewing the vacation request, the employee will be notified of the decisi
 +	In some cases, approval may require **additional authorization from higher-level academic administration.**
 
 ### 2.2 Evaluation Criteria:
-+	The approval process considers factors such as the student's academic progress, class schedules, and any academic commitments during the requested vacation period.
-+	Availability of necessary academic support or resources may also be considered.
-+	Prioritization may be given to requests based on factors like seniority or on a first-come, first-served basis, depending on the university's policies.
+During the review process, the approval authority considers specific criteria to ensure **fairness and consistency**. These criteria may include:
++ **Sufficient coverage** during the requested period
++ The **employee's performance** and **attendance record**
++ **Previous vacation patterns** and **requests**
++ **Operational demands** and **project deadlines**
++ **Team collaboration** and **coordination requirements**
+
+➔	Prioritization may be given to requests based on factors like seniority or on a first-come, first-served basis, depending on the university's policies.
 
 ### 2.3 Communication of Approval Status:
 +	After the approval decision is made, the student receives notification of the status via email or through the student portal.
