@@ -54,13 +54,62 @@ nav_order: 11
 +	It is recommended to provide clear instructions or tooltips within the form to guide students through the submission process.
 +	The form should also allow for any additional comments or notes related to the vacation request.
 
-3.2 Supporting Documents:
+### 3.2 Supporting Documents:
 +	Depending on the university's policies, supporting documents may be required for certain types of vacations, such as medical leaves, study leaves, or internships.
 +	Examples of supporting documents may include medical certificates, enrollment or invitation letters, or other relevant documentation.
 +	Clearly communicate the specific types of vacations that require supporting documents and provide guidelines on how to submit them.
 
-3.3 Vacation Balances Tracking:
+### 3.3 Vacation Balances Tracking:
 +	Implement a system or mechanism to track vacation balances for each student.
 +	This can be done using a dedicated software, student information system, or even a spreadsheet, depending on the university's resources and requirements.
 +	Ensure that students have access to view
 
+## 4. Communication
+
+###  4.1 Notification to Colleagues
+- [ ] **Notify your immediate colleagues personally:** Inform your immediate colleagues, such as your department head, team leader, or co-workers, about your upcoming vacation.
+
+- [ ] **Inform your students (if applicable):** If you're a teacher, notify your students about your absence. Depending on their age and the nature of your classes, you can either inform them verbally or send a written communication. Include the dates of your vacation and any instructions or assignments they need to complete in your absence.
+
+- [ ] **To notify the entire university staff of your absence:** Set your status in the Teams app to "Out of Office". Furthermore, you should add a presence note (with start and end time date).
+
+- [ ] **Set up an out-of-office message:** Configure an out-of-office email autoresponder, clearly stating the dates of your vacation and providing an alternative point of contact for urgent matters.
+```
+Sehr geehrter Absender,
+vielen Dank für Ihre Nachricht.
+Bis einschließlich XXX befinde ich mich außer Haus
+und habe bis dahin leider keinen Zugriff auf eingehende E-Mails.
+Bitte wenden Sie sich in dringenden Fällen während
+meiner Abwesenheit an meinen Kollegen XXX
+unter XXX oder telefonisch
+unter +49 (0) 123 456 789.
+Mit freundlichen Grüßen
+XXX
+```
+
+
+
+###  4.2 Coordination of Vacation Schedules
+
+**The Supervisory/Teacher is responsible for coordinating the vacation of his/her team members:** All projects and open assignments must not be affected by the vacation scheduling of individual team members (students/teachers).
+
+- [ ] **Communicate with your supervisor:** Discuss your intended vacation dates with your supervisor or manager.
+
+- [ ] **Submit a formal vacation request:** The request should be done over the Intranet: [LINK TO INTRANET](https://www.uni-bamberg.de/abt-personal/formulare-infos-und-merkblaetter/)
+
+
+
+
+###  4.3 Updates during Vacation
+
+| Researchers                                                                                                                         | Student Assistants                                                                         |
+|-------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
+| Teachers should check their mail-inbox once a day  to respond to emergency situations.  But there is no legal obligation to do this | There is no obligation for student assistants  to be available during the vacation period. |
+
+###  4.4 Handover Procedures
+
+The Supervisor is responsible for the handover procedures
+
+- **Communication and briefing:** Prior to the researcher's holiday, they should schedule a meeting with the team members to discuss the ongoing projects, tasks, and any pending deadlines. They should communicate any critical information, potential challenges, and specific instructions for handling various scenarios.
+
+- **Documenting project details:** The researcher should ensure that all project-related information is documented and organized in a central location. The team members should have access to this documentation. Additionally, the researcher should clearly outline the responsibilities and roles of each team member during the handover period.
