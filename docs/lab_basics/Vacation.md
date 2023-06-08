@@ -28,8 +28,8 @@ nav_order: 11
 +	Provide an estimated timeline for review and approval of the vacation request.
 +	In case of any missing information or discrepancies in the request, students should be notified promptly to provide the required information or address any issues.
 
-## Approval Process:
-# 2.1 Approval Authority:
+## 2.Approval Process:
+2.1 Approval Authority:
 +	Vacation requests are reviewed and approved by the student's academic advisor or program coordinator.
 +	In some cases, approval may require additional authorization from higher-level academic administration or the student services department.
 
@@ -46,3 +46,21 @@ nav_order: 11
 +	If a vacation request is denied, the student is notified of the decision and provided with an explanation or rationale.
 +	Alternative options may be explored, such as suggesting alternative dates or discussing the possibility of rescheduling the vacation.
 +	Clear guidelines should be provided on how denied requests can be addressed, including any formal appeal process if applicable.
+
+## 3.Documentation:
+3.1 Vacation Request Form:
++	The vacation request form should be easily accessible to students through the university's student portal or designated platform.
++	The form should include fields for capturing essential information such as student details, requested vacation dates, duration, and any special considerations.
++	It is recommended to provide clear instructions or tooltips within the form to guide students through the submission process.
++	The form should also allow for any additional comments or notes related to the vacation request.
+
+3.2 Supporting Documents:
++	Depending on the university's policies, supporting documents may be required for certain types of vacations, such as medical leaves, study leaves, or internships.
++	Examples of supporting documents may include medical certificates, enrollment or invitation letters, or other relevant documentation.
++	Clearly communicate the specific types of vacations that require supporting documents and provide guidelines on how to submit them.
+
+3.3 Vacation Balances Tracking:
++	Implement a system or mechanism to track vacation balances for each student.
++	This can be done using a dedicated software, student information system, or even a spreadsheet, depending on the university's resources and requirements.
++	Ensure that students have access to view
+
