@@ -162,32 +162,32 @@ Temporary staffing and backfilling can work out effectively by carefully assessi
 ## 6. FAQs and Additional Resources
 ### Frequently Asked Questions
 
-### What is the process for requesting vacation? 
+### 1. What is the process for requesting vacation? 
 *Employees/students should submit a vacation request through the designated online form or via email, following the specified guidelines and deadlines.*
 
-### How far in advance should vacation requests be submitted?
+### 2. How far in advance should vacation requests be submitted?
 *Vacation requests should be submitted within a specified timeframe, typically two weeks in advance, to allow for proper planning and coordination.*
 
-### Can vacation requests be modified or canceled once submitted?
+### 3. Can vacation requests be modified or canceled once submitted?
 *Depending on the circumstances and organizational policies, vacation requests may be modifiable or cancelable. Contact HR or the designated contact for assistance.*
 
-### What happens if my vacation request is denied?
+### 4. What happens if my vacation request is denied?
 *If a vacation request is denied, you will be notified of the decision and provided with an explanation. Alternative options or rescheduling may be explored.*
 
-### How is vacation balance calculated and tracked?
+### 5. How is vacation balance calculated and tracked?
 *Vacation balance is calculated based on the organization's policy and accrual method. It is typically tracked using a designated system or HR software.*
 
-### Are there any restrictions on taking consecutive or extended vacations?
+### 6. Are there any restrictions on taking consecutive or extended vacations?
 *There may be limitations on consecutive or extended vacations based on workload, team dynamics, and organizational policies. Check the vacation policy for specific guidelines.*
 
-### What is the policy for carrying over unused vacation days to the next year?
+### 7. What is the policy for carrying over unused vacation days to the next year?
 *The vacation policy should outline the rules regarding carrying over unused vacation days. It may vary based on organizational policies and local employment regulations.*
 
-### Can I use vacation days for personal or family emergencies?
+### 8. Can I use vacation days for personal or family emergencies?
 *Depending on the organization's policy, vacation days may be used for personal or family emergencies. Check the vacation policy or consult HR for more information.*
 
-### How are public holidays or weekends accounted for in vacation calculations?
+### 9. How are public holidays or weekends accounted for in vacation calculations?
 *Public holidays and weekends may be excluded from vacation calculations unless otherwise specified in the vacation policy. Contact HR for clarification.*
 
-### Are there any specific guidelines for vacation during peak work periods?
+### 10. Are there any specific guidelines for vacation during peak work periods?
 *Guidelines for vacation during peak work periods may exist to ensure proper workload management and minimize disruption. Check the vacation policy for specific guidelines.*
