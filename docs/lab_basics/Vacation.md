@@ -39,9 +39,9 @@ nav_order: 11
 + [Foreign language or school assistance abroad (KMK)](https://www.uni-bamberg.de/studium/im-studium/studienorganisation/beurlaubung/beurlaubung-fremdsprachenassistenz/)
 
 ### 1.5 Notification of Request:
-+ Upon successful submission of a vacation request, students should receive an acknowledgment or confirmation email indicating that their request has been received.
-+ Provide an estimated timeline for review and approval of the vacation request.
-+ In case of any missing information or discrepancies in the request, students should be notified promptly to provide the required information or address any issues.
++ Upon successful submission of a vacation request, students should **receive an acknowledgment** or **confirmation email** indicating that their request has been received.
++ Provide an estimated timeline for **review and approval of the vacation request.**
++ In case of any **missing information** or **discrepancies in the request**, students should be notified promptly to provide the required information or address any issues.
 
 ## 2.Approval Process:
 ### 2.1 Approval Authority:
