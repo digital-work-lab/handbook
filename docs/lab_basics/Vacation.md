@@ -113,3 +113,29 @@ The Supervisor is responsible for the handover procedures
 - **Communication and briefing:** Prior to the researcher's holiday, they should schedule a meeting with the team members to discuss the ongoing projects, tasks, and any pending deadlines. They should communicate any critical information, potential challenges, and specific instructions for handling various scenarios.
 
 - **Documenting project details:** The researcher should ensure that all project-related information is documented and organized in a central location. The team members should have access to this documentation. Additionally, the researcher should clearly outline the responsibilities and roles of each team member during the handover period.
+
+## 5. Exceptions and Special Circumstances
+
+### 5.1 Extended Leaves of Absence
+- **Student Assistants** may, upon application, be released from the obligation of proper study (leave of absence). This must be approved by the business management/university management.
+
+  The reasons for the leave of absence must be stated in writing in the application and must be supported by appropriate evidence.
+
+  The reason for the leave of absence must cover at least six weeks of the lecture period.
+
+- No extension of leave is possible for **reseachers/supervisors**.
+
+
+### 5.2 Emergency Situations
+
+- During emergency situations when an important team member is on vacation, it is crucial to have a  plan in place. The first step is to identify a designated **backup or point of contact** who can assume the responsibilities and decision-making authority of the absent team member.
+- This backup should be well-informed about the ongoing projects, possess the necessary expertise, and be able to make critical decisions in the absence of the vacationing team member.
+
+### 5.3 Changes in Vacation Plans
+
+When changes need to be made to the vacation plan, **open and transparent communication is key**.
+The team member should promptly notify their supervisor/Researcher about the change, providing a clear explanation and any necessary documentation, and work collaboratively to adjust the plan.
+
+### 5.4 Backfilling or Temporary Staffing
+
+Temporary staffing and backfilling can work out effectively by carefully assessing the required skills, providing clear instructions, **ensuring open communication, and strategically selecting temporary staff** to fill the vacant positions and maintain productivity within the team.
