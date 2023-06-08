@@ -12,8 +12,8 @@ Welcome to the "Vacation Handbook" for University of Bamberg employees! This gui
 ### 1.1 Submission Process:
 To request vacation time, employees should follow the designated submission process outlined below:
 + fill out the **[official vacation request form](https://www.uni-bamberg.de/fileadmin/abt-personal/Homepage_ab_2016-03/11_Formulare_Infos_Merkblaetter/Urlaubsantrag_f%C3%BCr_wissenschaftliche_Besch%C3%A4ftigte/Urlaubsantrag_wissenschaftliches_Personal.pdf)**, available on the Uni-Bamberg intranet.
-+ Provide the required information (outlined in section 1.2) accurately and completely.
-+ Submit the completed form to the employee's immediate supervisor or the HR department.
++ Provide the **required information** (outlined in section 1.2) accurately and completely.
++ Submit the **completed form** to the employee's immediate supervisor or the HR department.
 + Ensure that the submission is made within the specified timeframe to allow for proper planning and consideration.
 
 ### 1.2 Required Information:
