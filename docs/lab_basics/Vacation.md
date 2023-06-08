@@ -67,20 +67,21 @@ During the review process, the approval authority considers specific criteria to
 
 ## 3. Documentation:
 ### 3.1 Vacation Request Form:
-+	The vacation request form should be easily accessible to students through the university's student portal or designated platform.
-+	The form should include fields for capturing essential information such as student details, requested vacation dates, duration, and any special considerations.
-+	It is recommended to provide clear instructions or tooltips within the form to guide students through the submission process.
-+	The form should also allow for any additional comments or notes related to the vacation request.
++	Employees **must complete** the designated vacation request form to initiate the vacation process.
++	The **vacation request** form should be easily accessible to employees through the **university's Intranet.**
++ Employees **must ensure** that  **all required fields are filled out accurately and completely.**
++ the completed form **must be submited** to the **appropriate department** or **supervisor** within the specified timeframe.
 
 ### 3.2 Supporting Documents:
-+	Depending on the university's policies, supporting documents may be required for certain types of vacations, such as medical leaves, study leaves, or internships.
-+	Examples of supporting documents may include medical certificates, enrollment or invitation letters, or other relevant documentation.
-+	Clearly communicate the specific types of vacations that require supporting documents and provide guidelines on how to submit them.
++ Certain situations may require **supporting documents** to accompany the vacation request.
++ Examples of supporting documents may include **travel itineraries, event tickets, or any relevant documentation to validate the request.**
++ Employees should **attach these documents** to the vacation request form to provide additional information if necessary.
 
 ### 3.3 Vacation Balances Tracking:
-+	Implement a system or mechanism to track vacation balances for each student.
-+	This can be done using a dedicated software, student information system, or even a spreadsheet, depending on the university's resources and requirements.
-+	Ensure that students have access to view
++ The company maintains a system to **track employees' vacation balances.**
++ Employees **can check their vacation balances** by accessing the **university's Intranet.**
++ The system displays the **current available vacation days** and any **carry-over** or **accrual information.**
++ It is the employees' responsibility to ensure they have **sufficient vacation days available** before submitting a request.
 
 ## 4. Communication
 
