@@ -14,10 +14,13 @@ nav_order: 11
 + If the valid, unforeseeable reason for the leave of absence does not arise until a later date, the application can be **submitted by post until 5 December in the winter semester** and **until 5 June in the summer semester.**
 
 ### 1.2 Required Information:
-+	Students should provide their full name, student ID, program of study, and contact information.
-+	Specify the start and end dates of the requested vacation period.
-+	Include the reason or purpose for the vacation (optional).
-+	Indicate any preferences or constraints, such as specific days to avoid or special accommodation requirements.
++	Students should provide their:
+    - [ ] full name, 
+    - [ ] student ID, 
+    - [ ] program of study, 
+    - [ ] contact information.
+    - [ ] start and end dates of the requested vacation period.
+    - [ ] the reason or purpose for the vacation.
 
 ### 1.3 Deadlines and Timelines:
 +	Vacation requests should be submitted within a specified timeframe prior to the intended vacation period (e.g., two weeks in advance).
