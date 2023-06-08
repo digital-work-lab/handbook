@@ -55,13 +55,15 @@ During the review process, the approval authority considers specific criteria to
 ➔	Prioritization may be given to requests based on factors like seniority or on a first-come, first-served basis, depending on the university's policies.
 
 ### 2.3 Communication of Approval Status:
-+	After the approval decision is made, the student receives notification of the status via email or through the student portal.
-+	The notification includes details such as the approved dates, duration, and any conditions or restrictions that apply.
++ Following the evaluation, the approval status of the vacation request is **communicated to the employee.**
++ This communication is typically conducted via **email** or **the designated communication channel.**
++ Employees **will be notified** whether their request has been approved, partially approved (with adjusted dates), or denied.
 
 ### 2.4 Handling Denied Requests:
-+	If a vacation request is denied, the student is notified of the decision and provided with an explanation or rationale.
-+	Alternative options may be explored, such as suggesting alternative dates or discussing the possibility of rescheduling the vacation.
-+	Clear guidelines should be provided on how denied requests can be addressed, including any formal appeal process if applicable.
++	In the case of a denied vacation request, the approval authority provides a **clear explanation for the denial.**
++	They may offer **alternative options** or **suggest an alternative time frame** for the requested vacation. 
++	Denials are typically based on **operational constraints** or **inadequate staffing coverage.**
++	Employees are encouraged to **discuss the denial** with their supervisor or HR representative to explore **potential solutions or adjustments.**
 
 ## 3. Documentation:
 ### 3.1 Vacation Request Form:
