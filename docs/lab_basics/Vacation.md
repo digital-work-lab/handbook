@@ -183,11 +183,11 @@ Temporary staffing and backfilling can work out effectively by carefully assessi
 ### What is the policy for carrying over unused vacation days to the next year?
 *The vacation policy should outline the rules regarding carrying over unused vacation days. It may vary based on organizational policies and local employment regulations.*
 
-### Q: Can I use vacation days for personal or family emergencies?
+### Can I use vacation days for personal or family emergencies?
 *Depending on the organization's policy, vacation days may be used for personal or family emergencies. Check the vacation policy or consult HR for more information.*
 
-### Q: How are public holidays or weekends accounted for in vacation calculations?
+### How are public holidays or weekends accounted for in vacation calculations?
 *Public holidays and weekends may be excluded from vacation calculations unless otherwise specified in the vacation policy. Contact HR for clarification.*
 
-### Q: Are there any specific guidelines for vacation during peak work periods?
+### Are there any specific guidelines for vacation during peak work periods?
 *Guidelines for vacation during peak work periods may exist to ensure proper workload management and minimize disruption. Check the vacation policy for specific guidelines.*
