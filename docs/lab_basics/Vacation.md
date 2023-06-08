@@ -6,7 +6,7 @@ nav_order: 11
 ---
 
 # Vacation: the administrative process
-## 1.Requesting Vacation
+## 1. Requesting Vacation
 ### 1.1 Submission Process:
 + Students with **valid reasons** preventing them from pursuing their studies in accordance with standard regulations can be granted a leave of absence of **up to two semesters.**
 + Justification for the leave of absence must be **provided in writing** in the application and **must be supported by pertinent evidence.**
@@ -43,7 +43,7 @@ nav_order: 11
 + Provide an estimated timeline for **review and approval of the vacation request.**
 + In case of any **missing information** or **discrepancies in the request**, students should be notified promptly to provide the required information or address any issues.
 
-## 2.Approval Process:
+## 2. Approval Process:
 ### 2.1 Approval Authority:
 +	Vacation requests are reviewed and approved by the student's academic advisor or program coordinator.
 +	In some cases, approval may require additional authorization from higher-level academic administration or the student services department.
@@ -62,7 +62,7 @@ nav_order: 11
 +	Alternative options may be explored, such as suggesting alternative dates or discussing the possibility of rescheduling the vacation.
 +	Clear guidelines should be provided on how denied requests can be addressed, including any formal appeal process if applicable.
 
-## 3.Documentation:
+## 3. Documentation:
 ### 3.1 Vacation Request Form:
 +	The vacation request form should be easily accessible to students through the university's student portal or designated platform.
 +	The form should include fields for capturing essential information such as student details, requested vacation dates, duration, and any special considerations.
