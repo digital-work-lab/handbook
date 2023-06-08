@@ -39,8 +39,9 @@ Upon reviewing the vacation request, the employee will be notified of the decisi
 
 ## 2. Approval Process:
 ### 2.1 Approval Authority:
-+	Vacation requests are reviewed and approved by the student's academic advisor or program coordinator.
-+	In some cases, approval may require additional authorization from higher-level academic administration or the student services department.
++ The approval authority for vacation requests lies with the **employee's immediate supervisor** or **department manager.** 
++ They are responsible for reviewing and evaluating the requests based on various factors such as **staffing needs, project timelines, and team availability.**
++	In some cases, approval may require **additional authorization from higher-level academic administration.**
 
 ### 2.2 Evaluation Criteria:
 +	The approval process considers factors such as the student's academic progress, class schedules, and any academic commitments during the requested vacation period.
