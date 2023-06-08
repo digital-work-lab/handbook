@@ -6,6 +6,7 @@ nav_order: 11
 ---
 
 # Vacation: the administrative process
+Welcome to the "Vacation Handbook" for University of Bamberg employees! This guide streamlines the administrative process for requesting and managing vacation time. It promotes work-life balance and productivity. Find instructions on submitting requests, required information, deadlines, and notifications. Enjoy your time off and return refreshed.
 ## 1. Requesting Vacation
 ### 1.1 Submission Process:
 To request vacation time, employees should follow the designated submission process outlined below:
