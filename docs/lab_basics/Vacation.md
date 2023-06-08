@@ -159,35 +159,35 @@ The team member should promptly notify their supervisor/Researcher about the cha
 
 Temporary staffing and backfilling can work out effectively by carefully assessing the required skills, providing clear instructions, **ensuring open communication, and strategically selecting temporary staff** to fill the vacant positions and maintain productivity within the team.
 
-## 7. FAQs and Additional Resources
+## 6. FAQs and Additional Resources
 ### Frequently Asked Questions
 
-### Q: What is the process for requesting vacation? 
-+ *Employees/students should submit a vacation request through the designated online form or via email, following the specified guidelines and deadlines.*
+### What is the process for requesting vacation? 
+*Employees/students should submit a vacation request through the designated online form or via email, following the specified guidelines and deadlines.*
 
-### Q: How far in advance should vacation requests be submitted?
-+ *Vacation requests should be submitted within a specified timeframe, typically two weeks in advance, to allow for proper planning and coordination.*
+### How far in advance should vacation requests be submitted?
+*Vacation requests should be submitted within a specified timeframe, typically two weeks in advance, to allow for proper planning and coordination.*
 
-### Q: Can vacation requests be modified or canceled once submitted?
-+ *Depending on the circumstances and organizational policies, vacation requests may be modifiable or cancelable. Contact HR or the designated contact for assistance.*
+### Can vacation requests be modified or canceled once submitted?
+*Depending on the circumstances and organizational policies, vacation requests may be modifiable or cancelable. Contact HR or the designated contact for assistance.*
 
-### Q: What happens if my vacation request is denied?
-+ *If a vacation request is denied, you will be notified of the decision and provided with an explanation. Alternative options or rescheduling may be explored.*
+### What happens if my vacation request is denied?
+*If a vacation request is denied, you will be notified of the decision and provided with an explanation. Alternative options or rescheduling may be explored.*
 
-### Q: How is vacation balance calculated and tracked?
-+ *Vacation balance is calculated based on the organization's policy and accrual method. It is typically tracked using a designated system or HR software.*
+### How is vacation balance calculated and tracked?
+*Vacation balance is calculated based on the organization's policy and accrual method. It is typically tracked using a designated system or HR software.*
 
-### Q: Are there any restrictions on taking consecutive or extended vacations?
-+ *There may be limitations on consecutive or extended vacations based on workload, team dynamics, and organizational policies. Check the vacation policy for specific guidelines.*
+### Are there any restrictions on taking consecutive or extended vacations?
+*There may be limitations on consecutive or extended vacations based on workload, team dynamics, and organizational policies. Check the vacation policy for specific guidelines.*
 
-### Q: What is the policy for carrying over unused vacation days to the next year?
-+ *The vacation policy should outline the rules regarding carrying over unused vacation days. It may vary based on organizational policies and local employment regulations.*
+### What is the policy for carrying over unused vacation days to the next year?
+*The vacation policy should outline the rules regarding carrying over unused vacation days. It may vary based on organizational policies and local employment regulations.*
 
 ### Q: Can I use vacation days for personal or family emergencies?
-+ *Depending on the organization's policy, vacation days may be used for personal or family emergencies. Check the vacation policy or consult HR for more information.*
+*Depending on the organization's policy, vacation days may be used for personal or family emergencies. Check the vacation policy or consult HR for more information.*
 
 ### Q: How are public holidays or weekends accounted for in vacation calculations?
-+ *Public holidays and weekends may be excluded from vacation calculations unless otherwise specified in the vacation policy. Contact HR for clarification.*
+*Public holidays and weekends may be excluded from vacation calculations unless otherwise specified in the vacation policy. Contact HR for clarification.*
 
 ### Q: Are there any specific guidelines for vacation during peak work periods?
-+ *Guidelines for vacation during peak work periods may exist to ensure proper workload management and minimize disruption. Check the vacation policy for specific guidelines.*
+*Guidelines for vacation during peak work periods may exist to ensure proper workload management and minimize disruption. Check the vacation policy for specific guidelines.*
