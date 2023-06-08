@@ -28,7 +28,17 @@ nav_order: 11
 + The application for a leave of absence can be **submitted by post** to the **[Registrar's Office](https://www.uni-bamberg.de/en/central-university-administration/department-studying-teaching/academic-registrars-office/)** until **30 October in the winter semester** and until **30 April in the summer semester.** 
 + If the valid, unforeseeable reason for the leave of absence does not arise until a later date, the application can be **submitted by post until 5 December in the winter semester** and **until 5 June in the summer semester.**
 
-### 1.4 Notification of Request:
+### 1.4 Valid reasons for a leave of absence particularly include:
+Studies abroad
+Internship
+Illness
+Maternity and/or parental leave
+Caring for a close relative if the care cannot be provided by another person
+Business start
+Service obligation for voluntary military service or federal voluntary service
+Foreign language or school assistance abroad (KMK)
+
+### 1.5 Notification of Request:
 + Upon successful submission of a vacation request, students should receive an acknowledgment or confirmation email indicating that their request has been received.
 +	Provide an estimated timeline for review and approval of the vacation request.
 +	In case of any missing information or discrepancies in the request, students should be notified promptly to provide the required information or address any issues.
