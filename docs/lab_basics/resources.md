@@ -15,7 +15,7 @@ For group meetings, reservations for the ISM lab (1.094) can be made via the sha
 
 Access to virtual machines, e.g., for student projects, can be requested through the IT department [1](https://www.uni-bamberg.de/its/wir/mitarbeiter/mai/).
 
-# Printing and scanning ([campusprint](https://www.uni-bamberg.de/campusprint/))
+## Printing and scanning ([campusprint](https://www.uni-bamberg.de/campusprint/))
 
 + [VPN](#vpn) access needed
 + Pay with chip-card
