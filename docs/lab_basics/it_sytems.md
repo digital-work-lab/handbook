@@ -5,70 +5,7 @@ parent: Lab Basics
 nav_order: 4
 ---
 
-# On this Page
-
-<!-- TOC -->
-
-* [On this Page](#on-this-page)
-* [About this page](#about-this-page)
-* [Learning Platforms](#learning-platforms)
-    * [Virtual Campus (Powered by moodle)](#virtual-campus-powered-by-moodle)
-* [Administering](#administering)
-    * [FlexNow](#flexnow)
-        * [For Students](#for-students)
-        * [For Teachers and Employees](#for-teachers-and-employees)
-    * [Online Service of the study office](#online-service-of-the-study-office)
-    * [UnivIs](#univis)
-* [Communication Tools](#communication-tools)
-    * [Mail](#mail)
-    * [Teams](#teams)
-    * [Zoom](#zoom)
-* [IT Support](#it-support)
-* [Connectivity](#connectivity)
-    * [Eduroam](#eduroam)
-    * [VPN](#vpn)
-* [Writing tools](#writing-tools)
-    * [Word](#word)
-    * [LaTeX](#latex)
-    * [Markdown](#markdown)
-* [Presentation](#presentation)
-    * [Powerpoint](#powerpoint)
-    * [Marp](#marp)
-* [Reference Management Software](#reference-management-software)
-    * [Zotero](#zotero)
-    * [Citavi](#citavi)
-* [Analysis Software](#analysis-software)
-    * [SPSS](#spss)
-    * [MAXQDA](#maxqda)
-    * [Excel](#excel)
-* [Research Resources](#research-resources)
-    * [DBIS](#dbis)
-    * [Statista](#statista)
-    * [Online Library](#online-library)
-    * [Google Scholar](#google-scholar)
-* [Data Storage, Clouds](#data-storage-clouds)
-    * [Git](#git)
-    * [OneDrive](#onedrive)
-    * [Fileserver](#fileserver)
-* [Recording and Streaming](#recording-and-streaming)
-    * [Panopto](#panopto)
-* [Classroom Technology](#classroom-technology)
-* [Assessment Tools](#assessment-tools)
-    * [Turnitin Similarity Checker](#turnitin-similarity-checker)
-* [AI Tools](#ai-tools)
-    * [ChatGPT](#chatgpt)
-    * [Quillbot](#quillbot)
-* [Note-Taking](#note-taking)
-    * [Obsidian](#obsidian)
-* [Hardware](#hardware)
-    * [PC-Pools](#pc-pools)
-    * [Printing and scanning (campusprint)](#printing-and-scanning-campusprint)
-* [Design](#design)
-    * [Corporate Design](#corporate-design)
-
-<!-- TOC -->
-
-# About this page
+# IT Systems
 
 Welcome to the chapter on IT systems.
 This guide is intended to offer you with a useful overview on the many IT technologies and tools that
@@ -76,7 +13,29 @@ support learning, teaching, and administrative processes at our university and b
 This manual will serve as resource for navigating the digital environment, from learning platforms to communication tools, data analysis software to
 writing tools.
 
-# Learning Platforms
+<!-- TOC -->
+
+* [Learning Platform](#learning-platform)
+* [Administration](#administration)
+* [Communication Tools](#communication-tools)
+* [IT Support](#it-support)
+* [Connectivity](#connectivity)
+* [Writing tools](#writing-tools)
+* [Presentation](#presentation)
+* [Reference Management Software](#reference-management-software)
+* [Analysis Software](#analysis-software)
+* [Research Resources](#research-resources)
+* [Data Storage, Clouds](#data-storage-clouds)
+* [Recording and Streaming](#recording-and-streaming)
+* [Classroom Technology](#classroom-technology)
+* [Assessment Tools](#assessment-tools)
+* [AI Tools](#ai-tools)
+* [Note-Taking](#note-taking)
+* [Design](#design)
+
+<!-- TOC -->
+
+# Learning Platform
 
 Learning platforms are essential for students as well as teachers. These platforms allow the teachers
 to connect with their students, strucutre their materials, publish contents like Presentations, Scripts,
@@ -93,7 +52,7 @@ videos, quizzes and providing a central platform for students and teachers to co
 + Online assessments, grading and feedback of exercises
 + Allows livestream integration via [Panopto](#panopto)
 
-# [Administering](https://www.uni-bamberg.de/studium/im-studium/studienorganisation/internet-dienste/)
+# [Administration](https://www.uni-bamberg.de/studium/im-studium/studienorganisation/internet-dienste/)
 
 Planning courses and examinations is important for students as well as teachers
 
@@ -185,6 +144,17 @@ Everything to connect to the internet and services from our university
 
 Writing is an essential part of academic work, and having the right tools can greatly enhance the writing process
 
+## [Markdown](https://www.markdownguide.org/)
+
++ Markup language
++ Creating formatted documents using plain text (formatting such as headings, lists, bold, italics, and links)
++ Platform-independent
++ Generates output, which can be easily converted to other formats (e.g., PDF, DOCX) using [Pandoc](https://pandoc.org/)
++ [CSL](https://citationstyles.org/) integration for defining citation and bibliography formatting
++ Integrates well with [Git](#git)
+
+<!--
+
 ## [Word](https://www.uni-bamberg.de/its/dienstleistungen/pc/einkauf-hard-software/sonderkonditionen/o365/)
 
 + Word processing software
@@ -205,23 +175,11 @@ Writing is an essential part of academic work, and having the right tools can gr
 + Integration with [reference management software](#reference-management-software) like [Zotero](#zotero)
 + Good compatibility with [Git](#git)
 
-## [Markdown](https://www.markdownguide.org/)
-
-+ Markup language
-+ Creating formatted documents using plain text (formatting such as headings, lists, bold, italics, and links)
-+ Platform-independent
-+ Generates output, which can be easily converted to other formats (e.g., PDF, DOCX) using [Pandoc](https://pandoc.org/)
-+ [CSL](https://citationstyles.org/) integration for defining citation and bibliography formatting
-+ Integrates well with [Git](#git)
+-->
 
 # Presentation
 
 Presentations are the go-to way to deliver information effectively. That is useful while teaching, or presenting your results to others.
-
-## [Powerpoint](https://www.uni-bamberg.de/its/dienstleistungen/pc/einkauf-hard-software/sonderkonditionen/o365/)
-
-+ Create slideshows with a user-friendly interface
-+ Display Text, Pictures, Images or Graphs to an audience
 
 ## [Marp](https://marp.app/)
 
@@ -232,6 +190,15 @@ Presentations are the go-to way to deliver information effectively. That is usef
 + CSS styling for customization
 + Good integration with [Git](#git)
 + Template is available [here](https://github.com/digital-work-lab/handbook/tree/main/assets/templates/marp)
+
+<!--
+
+## [Powerpoint](https://www.uni-bamberg.de/its/dienstleistungen/pc/einkauf-hard-software/sonderkonditionen/o365/)
+
++ Create slideshows with a user-friendly interface
++ Display Text, Pictures, Images or Graphs to an audience
+
+-->
 
 # Reference Management Software
 
@@ -421,33 +388,6 @@ helps with organizing these pieces and to create new knowledge from these notes.
 + Follows a second brain approach
 + Allows linking pieces of information together to draw conclusions
 + Helps to structure contents for a comprehensive teaching and writing outline
-
-# Hardware
-
-Hardware is essential for writing and teaching, without hardware the IT-Systems listed in this guide could not be used.
-
-## [PC-Pools](https://www.uni-bamberg.de/its/dienstleistungen/pc-pools/)
-
-+ If no hardware can be ordered or is unavailable the university provides pc-pools
-+ Login is possible with university credentials
-+ PCs have Software preinstalled, the installed software can be [checked](https://www.uni-bamberg.de/its/dienstleistungen/pc-pools/)
-+ Possible preinstalled software could be
-    + [Zotero](#zotero)
-    + [Citavi](#citavi)
-    + [Teams](#teams)
-    + [Zoom](#zoom)
-    + Microsoft Office ([Outlook](#mail), [Word](#word), [Excel](#excel))
-    + Browsers
-    + IDEs
-    + ...
-
-## Printing and scanning ([campusprint](https://www.uni-bamberg.de/campusprint/))
-
-+ [VPN](#vpn) access needed
-+ Pay with chip-card
-+ Data will be stored 5 days after uploaded and will then be deleted permanently
-+ Submit print jobs from any PC and retrieve them at any of the university photocopy machines
-+ Scan documents using any photocopy machine at the University of Bamberg and store them as jpg images or pdf files
 
 # Design
 
