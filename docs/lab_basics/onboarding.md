@@ -7,7 +7,7 @@ nav_order: 2
 
 # Onboarding
 
-## Welcome to the Otto-Friedrich-University Bamberg! We are pleased to welcome you as a new member of our team. This handbook has been developed to help you get started smoothly in your new position. It contains important information and resources to help you settle in quickly and succeed in your role at the University. Please read the handbook thoroughly and do not hesitate to ask questions or request support:
+Welcome to the Otto-Friedrich-University Bamberg! We are pleased to welcome you as a new member of our team. This handbook has been developed to help you get started smoothly in your new position. It contains important information and resources to help you settle in quickly and succeed in your role at the University. Please read the handbook thoroughly and do not hesitate to ask questions or request support:
 
 ### Before your first day at work
 - [ ] You have received the welcome letter by post
