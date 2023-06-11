@@ -73,13 +73,7 @@ During the review process, the approval authority considers specific criteria to
 + Students and reseaerchers **must ensure** that  **all required fields are filled out accurately and completely.**
 + the completed form **must be submited** to the **appropriate department** or **supervisor** within the specified timeframe.
 
-### 3.2 Supporting Documents:
-+ Certain situations may require **supporting documents** to ac
-the vacation request.
-+ Examples of supporting documents may include **travel itineraries, event tickets, or any relevant documentation to validate the request.**
-+ Employees should **attach these documents** to the vacation request form to provide additional information if necessary.
-
-### 3.3 Vacation Balances Tracking:
+### 3.2 Vacation Balances Tracking:
 + The digital work lab maintains a system to **track employees' vacation balances.**
 + Employees **can check their vacation balances** by accessing the [holiday calculation table](https://www.uni-bamberg.de/fileadmin/abt-personal/Homepage_ab_2016-03/11_Formulare_Infos_Merkblaetter/Urlaubsantrag_f%C3%BCr_wissenschaftliche_Besch%C3%A4ftigte/Urlaubsberechnung.xlsx)
 + The holiday calculation table displays the **current available vacation days** and any **carry-over** or **accrual information.**
