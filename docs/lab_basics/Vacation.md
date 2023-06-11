@@ -6,12 +6,12 @@ nav_order: 11
 ---
 
 # Vacation: the administrative process
-Welcome to the "Vacation Handbook" for University of Bamberg employees! This guide streamlines the administrative process for requesting and managing vacation time. It promotes work-life balance and productivity. Find instructions on submitting requests, required information, deadlines, and notifications. Enjoy your time off and return refreshed.
+Welcome to the "Vacation Handbook" for the digital-work lab! This guide streamlines the administrative process for requesting and managing vacation time. It promotes work-life balance and productivity. Find instructions on submitting requests, required information, deadlines, and notifications. Enjoy your time off and return refreshed.
 
 ## 1. Requesting Vacation
 ### 1.1 Submission Process:
 To request vacation time, employees should follow the designated submission process outlined below:
-+ fill out the **[official vacation request form](https://www.uni-bamberg.de/fileadmin/abt-personal/Homepage_ab_2016-03/11_Formulare_Infos_Merkblaetter/Urlaubsantrag_f%C3%BCr_wissenschaftliche_Besch%C3%A4ftigte/Urlaubsantrag_wissenschaftliches_Personal.pdf)**, available on the Uni-Bamberg intranet.
++ fill out the **[official vacation request form](https://www.uni-bamberg.de/fileadmin/abt-personal/Homepage_ab_2016-03/11_Formulare_Infos_Merkblaetter/Urlaubsantrag_f%C3%BCr_wissenschaftliche_Besch%C3%A4ftigte/Urlaubsantrag_wissenschaftliches_Personal.pdf)**, available on the intranet of the digital work lab.
 + Provide the **required information** (outlined in section 1.2) accurately and completely.
 + Submit the **completed form** to the employee's immediate supervisor or the HR department.
 + Ensure that the submission is made within the specified timeframe to allow for proper planning and consideration.
@@ -35,7 +35,8 @@ To ensure effective vacation planning and minimize disruption to the workflow, t
 Upon reviewing the vacation request, the employee will be notified of the decision in a timely manner. The notification process includes the following steps:
 + The immediate supervisor or HR will **inform** the employee whether the vacation request has been **approved or denied.**
 + If the request is **approved**, the employee will **receive confirmation** of the approved vacation dates.
-+ In the case of a **denied request**, the reasons for the denial will be **clearly communicated** to the employee, along with any **alternative options or suggestions.**
++ In the case of a **denied request**, the reasons for the denial will be **clearly comm
+cated** to the employee, along with any **alternative options or suggestions.**
 + The communication regarding the vacation request will be primarily conducted via **email** or **in-person meetings.**
 
 ## 2. Approval Process:
@@ -52,7 +53,7 @@ During the review process, the approval authority considers specific criteria to
 + **Operational demands** and **project deadlines**
 + **Team collaboration** and **coordination requirements**
 
-➔	Prioritization may be given to requests based on factors like seniority or on a first-come, first-served basis, depending on the university's policies.
+➔	Prioritization may be given to requests based on factors like seniority or on a first-come, first-served basis.
 
 ### 2.3 Communication of Approval Status:
 + Following the evaluation, the approval status of the vacation request is **communicated to the employee.**
@@ -68,17 +69,18 @@ During the review process, the approval authority considers specific criteria to
 ## 3. Documentation:
 ### 3.1 Vacation Request Form:
 +	Employees **must complete** the designated vacation request form to initiate the vacation process.
-+	The **vacation request** form should be easily accessible to employees through the **university's Intranet.**
++	The **vacation request** form should be easily accessible to employees through the **Intranet.**
 + Employees **must ensure** that  **all required fields are filled out accurately and completely.**
 + the completed form **must be submited** to the **appropriate department** or **supervisor** within the specified timeframe.
 
 ### 3.2 Supporting Documents:
-+ Certain situations may require **supporting documents** to accompany the vacation request.
++ Certain situations may require **supporting documents** to ac
+the vacation request.
 + Examples of supporting documents may include **travel itineraries, event tickets, or any relevant documentation to validate the request.**
 + Employees should **attach these documents** to the vacation request form to provide additional information if necessary.
 
 ### 3.3 Vacation Balances Tracking:
-+ The company maintains a system to **track employees' vacation balances.**
++ The digital work lab maintains a system to **track employees' vacation balances.**
 + Employees **can check their vacation balances** by accessing the [holiday calculation table](https://www.uni-bamberg.de/fileadmin/abt-personal/Homepage_ab_2016-03/11_Formulare_Infos_Merkblaetter/Urlaubsantrag_f%C3%BCr_wissenschaftliche_Besch%C3%A4ftigte/Urlaubsberechnung.xlsx)
 + The holiday calculation table displays the **current available vacation days** and any **carry-over** or **accrual information.**
 + It is the employees' responsibility to ensure they have **sufficient vacation days available** before submitting a request.
@@ -90,7 +92,7 @@ During the review process, the approval authority considers specific criteria to
 
 - [ ] **Inform your students (if applicable):** If you're a teacher, notify your students about your absence. Depending on their age and the nature of your classes, you can either inform them verbally or send a written communication. Include the dates of your vacation and any instructions or assignments they need to complete in your absence.
 
-- [ ] **To notify the entire university staff of your absence:** Set your status in the Teams app to "Out of Office". Furthermore, you should add a presence note (with start and end time date).
+- [ ] **To notify the entire crew of the digital work lab of your absence:** Set your status in the Teams app to "Out of Office". Furthermore, you should add a presence note (with start and end time date).
 
 - [ ] **Set up an out-of-office message:** Configure an out-of-office email autoresponder, clearly stating the dates of your vacation and providing an alternative point of contact for urgent matters.
 ```
@@ -136,7 +138,7 @@ The Supervisor is responsible for the handover procedures
 ## 5. Exceptions and Special Circumstances
 
 ### 5.1 Extended Leaves of Absence
-- **Student Assistants** may, upon application, be released from the obligation of proper study (leave of absence). This must be approved by the business management/university management.
+- **Student Assistants** may, upon application, be released from the obligation of proper study (leave of absence). This must be approved by the management of the digital-work lab.
 
   The reasons for the leave of absence must be stated in writing in the application and must be supported by appropriate evidence.
 
