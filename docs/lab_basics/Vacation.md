@@ -27,16 +27,16 @@ When submitting a vacation request, employees must provide the following informa
 
 ### 1.3 Deadlines and Timelines:
 To ensure effective vacation planning and minimize disruption to the workflow, the following deadlines and timelines should be observed:
++ It is **appreciated when vacation is taken during the semester break**, because we are committed to serving students.
 + Vacation requests must be submitted at least **14 days in advance** of the desired vacation start date.
-+ Supervisors or HR will **review and respond to the vacation requests** within **7 business days** of receiving the submission.
++ Supervisors will **review and respond to the vacation requests** within **7 business days** of receiving the submission.
 + If the requested vacation period coincides with a **peak operational period** or other **scheduling constraints**, employees will be notified promptly to discuss alternatives or adjustments.
 
 ### 1.4 Notification of Request:
 Upon reviewing the vacation request, the employee will be notified of the decision in a timely manner. The notification process includes the following steps:
 + The immediate supervisor or HR will **inform** the employee whether the vacation request has been **approved or denied.**
 + If the request is **approved**, the employee will **receive confirmation** of the approved vacation dates.
-+ In the case of a **denied request**, the reasons for the denial will be **clearly comm
-cated** to the employee, along with any **alternative options or suggestions.**
++ In the case of a **denied request**, the reasons for the denial will be **clearly communicated** to the employee, along with any **alternative options or suggestions.**
 + The communication regarding the vacation request will be primarily conducted via **email** or **in-person meetings.**
 
 ## 2. Approval Process:
@@ -60,17 +60,17 @@ During the review process, the approval authority considers specific criteria to
 + This communication is typically conducted via **email** or **the designated communication channel.**
 + Employees **will be notified** whether their request has been approved, partially approved (with adjusted dates), or denied.
 
-### 2.4 Handling Denied Requests:
-+	In the case of a denied vacation request, the approval authority provides a **clear explanation for the denial.**
+### 2.4 Denial of Vacation Requests:
++ We are committed to serving students during the semester. **Vacations should therefore be taken between semesters if possible**. Of course, we can discuss how to arrange special occasions, such as family vacations during the semester.
++	In the case of a denied vacation request, the supervisor provides a **clear explanation for the denial.**
 +	They may offer **alternative options** or **suggest an alternative time frame** for the requested vacation. 
-+	Denials are typically based on **operational constraints** or **inadequate staffing coverage.**
-+	Employees are encouraged to **discuss the denial** with their supervisor or HR representative to explore **potential solutions or adjustments.**
++	Employees are encouraged to **discuss the denial** with their supervisor to explore **potential solutions or adjustments.**
 
 ## 3. Documentation:
 ### 3.1 Vacation Request Form:
-+	Employees **must complete** the designated vacation request form to initiate the vacation process.
++	Students and researchers **must complete** the designated vacation request form to initiate the vacation process.
 +	The **vacation request** form should be easily accessible to employees through the **Intranet.**
-+ Employees **must ensure** that  **all required fields are filled out accurately and completely.**
++ Students and reseaerchers **must ensure** that  **all required fields are filled out accurately and completely.**
 + the completed form **must be submited** to the **appropriate department** or **supervisor** within the specified timeframe.
 
 ### 3.2 Supporting Documents:
