@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Vacation the administrative process
+title: Vacation
 parent: Lab Basics
-nav_order: 11
+nav_order: 6
 ---
 
-# Vacation: the administrative process
+# Vacation
 Welcome to the "Vacation Handbook" for the digital-work lab! This guide streamlines the administrative process for requesting and managing vacation time. It promotes work-life balance and productivity. Find instructions on submitting requests, required information, deadlines, and notifications. Enjoy your time off and return refreshed.
 
 ## 1. Requesting Vacation
@@ -18,12 +18,12 @@ To request vacation time, employees should follow the designated submission proc
 
 ### 1.2 Required Information:
 When submitting a vacation request, employees must provide the following information:
-- [ ] **full name** 
-- [ ] **Employee identification number** 
-- [ ] **Department and position** 
-- [ ] **Dates for the requested vacation period**
-- [ ] **the reason or purpose for the vacation.**
-- [ ] **Any additional notes or special considerations** 
+- **Full name** 
+- **Employee identification number** 
+- **Department and position** 
+- **Dates for the requested vacation period**
+- **the reason or purpose for the vacation.**
+- **Any additional notes or special considerations** 
 
 ### 1.3 Deadlines and Timelines:
 To ensure effective vacation planning and minimize disruption to the workflow, the following deadlines and timelines should be observed:
