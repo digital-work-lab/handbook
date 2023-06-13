@@ -9,7 +9,7 @@ nav_order: 4
 
 Welcome to the chapter on IT systems.
 This guide is intended to offer you with a useful overview on the many IT technologies and tools that
-support learning, teaching, and administrative processes at our university and beyond and lead you to the right places to learn more about them.
+support the administrative processes and lead you to the right places to learn more about them.
 This manual will serve as resource for navigating the digital environment, from learning platforms to communication tools, data analysis software to
 writing tools.
 
@@ -20,15 +20,7 @@ writing tools.
 * [Communication Tools](#communication-tools)
 * [IT Support](#it-support)
 * [Connectivity](#connectivity)
-* [Writing tools](#writing-tools)
-* [Presentation](#presentation)
-* [Reference Management Software](#reference-management-software)
-* [Analysis Software](#analysis-software)
-* [Research Resources](#research-resources)
 * [Data Storage, Clouds](#data-storage-clouds)
-* [Recording and Streaming](#recording-and-streaming)
-* [Classroom Technology](#classroom-technology)
-* [Assessment Tools](#assessment-tools)
 * [AI Tools](#ai-tools)
 * [Note-Taking](#note-taking)
 * [Design](#design)
@@ -58,26 +50,12 @@ Planning courses and examinations is important for students as well as teachers
 
 ## [FlexNow](https://www.uni-bamberg.de/pruefungsamt/flexnow/)
 
-### For [Students](https://www.uni-bamberg.de/pruefungsamt/flexnow/fn2sss/)
-
-+ Exam and course registration and withdrawal
-+ Study progress overview
-+ Generate verifiable data sheet
-+ Important announcements from the examination office
-+ Deadlines stored in FlexNow
-
 ### For [Teachers and Employees](https://www.uni-bamberg.de/pruefungsamt/flexnow/fn2web/)
 
 + Creating and editing courses and examinations
 + Enrolling and withdrawing participants from courses and exams
 + Entering grades for exam participants
 + Creating of module handbooks and modules
-
-## [Online Service of the study office](https://qis.uni-bamberg.de/qisserver/rds?state=user&type=0)
-
-+ Download of official certificates (Enrollment for Bafög, Data printout, ...)
-+ Changing of the semester address and phone number
-+ Receipts ([Printing](#printing-and-scanning-campusprint), semester tuition, ...)
 
 ## [UnivIs](https://univis.uni-bamberg.de/)
 
@@ -140,157 +118,6 @@ Everything to connect to the internet and services from our university
     + Intranet of the university
     + Some [research resources](#research-resources)
 
-# Writing tools
-
-Writing is an essential part of academic work, and having the right tools can greatly enhance the writing process
-
-## [Markdown](https://www.markdownguide.org/)
-
-+ Markup language
-+ Creating formatted documents using plain text (formatting such as headings, lists, bold, italics, and links)
-+ Platform-independent
-+ Generates output, which can be easily converted to other formats (e.g., PDF, DOCX) using [Pandoc](https://pandoc.org/)
-+ [CSL](https://citationstyles.org/) integration for defining citation and bibliography formatting
-+ Integrates well with [Git](#git)
-
-<!--
-
-## [Word](https://www.uni-bamberg.de/its/dienstleistungen/pc/einkauf-hard-software/sonderkonditionen/o365/)
-
-+ Word processing software
-+ For creating and editing written documents
-+ Automatic generation of tables of contents, bibliographies, and indexes
-+ Various formatting options
-+ Versatile and user-friendly interface for general writing tasks
-+ Integration with [reference management software](#reference-management-software) like [Zotero](#zotero)
-
-## [LaTeX](https://www.uni-bamberg.de/ub/einfuehrungen-kurse/literaturverwaltung-mit-latex/)
-
-+ Open Source typesetting software
-+ Good for mathematical equations and formulas
-+ Automatic generation of tables of contents, bibliographies, and indexes
-+ Precise control over formatting and layout
-+ Easy cross-referencing
-+ Creates professional-looking documents
-+ Integration with [reference management software](#reference-management-software) like [Zotero](#zotero)
-+ Good compatibility with [Git](#git)
-
--->
-
-# Presentation
-
-Presentations are the go-to way to deliver information effectively. That is useful while teaching, or presenting your results to others.
-
-## [Marp](https://marp.app/)
-
-+ Open source Markdown-based presentation tool
-+ Creating slides with text, images, code blocks, diagrams, ...
-+ Exporting Presentations to many formats (HTML, PDF, ...)
-+ Speaker notes and presenter view during presentations
-+ CSS styling for customization
-+ Good integration with [Git](#git)
-+ Template is available [here](https://github.com/digital-work-lab/handbook/tree/main/assets/templates/marp)
-
-<!--
-
-## [Powerpoint](https://www.uni-bamberg.de/its/dienstleistungen/pc/einkauf-hard-software/sonderkonditionen/o365/)
-
-+ Create slideshows with a user-friendly interface
-+ Display Text, Pictures, Images or Graphs to an audience
-
--->
-
-# Reference Management Software
-
-Reference Management Software are tools that help collect, organize, and cite sources efficiently, streamlining the research process and ensuring accurate and
-consistent referencing.
-
-## [Zotero](https://www.uni-bamberg.de/ub/literaturverwaltung/zotero/)
-
-IT-support offers help when switching from [Citavi](#Citavi) to Zotero
-
-+ store and organize various types of research materials
-+ materials including articles, books, websites, images, and more
-+ generate citations and bibliographies in various citation styles (such as APA, MLA, Chicago, etc.)
-+ easy collaboration with other researchers by sharing libraries
-+ built-in PDF reader
-+ provides advanced search and filtering options to quickly locate specific sources within large collections
-+ synchronization between devices
-
-## [Citavi](https://www.uni-bamberg.de/ub/literaturverwaltung/citavi/)
-
-License is ending - Use Zotero
-
-+ wide range of features, including reference management, task planning, literature analysis, and note-taking
-+ collect, organize, analyze, and cite research sources efficiently
-+ citation generator that supports multiple citation styles, including APA, MLA, Harvard
-
-# Analysis Software
-
-## [SPSS](https://www.uni-bamberg.de/its/dienstleistungen/pc/einkauf-hard-software/sonderkonditionen/ibm-spss-fuer-beschaeftigte/)
-
-+ free 2-week trial
-+ software package used for statistical analysis in various fields, particularly social sciences
-+ variety of statistical tests, including descriptive statistics, t-tests, ANOVA, regression analysis, factor analysis
-+ generate charts, graphs, and tables to visualize and present their data effectively
-+ wide range of statistical procedures to analyze and interpret data
-
-If you need the statistical software SPSS for longer than the two weeks contact software procurement to obtain the paid version.
-
-E-Mail: softwarebeschaffung.its(at)uni-bamberg.de
-
-## [MAXQDA](https://www.uni-bamberg.de/its/dienstleistungen/pc/einkauf-hard-software/sonderkonditionen/maxqda/)
-
-+ software for the qualitative analysis of unstructured data such as interviews, field notes, surveys, tables, images, video and audio recordings, bibliographic
-  databases
-+ supports a wide range of data types, including text documents, interviews, surveys, audio and video recordings, images
-+ provides tools for coding, highlighting, annotating, and linking segments of data
-
-MAXQDAplus may be used by all students, employees and doctoral candidates at the University of Bamberg.
-The MAXQDAplus licenses are issued via the StudiSoft portal of the University of Würzburg.
-
-## [Excel](https://www.uni-bamberg.de/its/dienstleistungen/pc/einkauf-hard-software/sonderkonditionen/o365/)
-
-included in Office 365 for free for every student
-
-+ powerful spreadsheet software that allows users to organize, analyze, and manipulate data
-+ grid-like interface where users can input, store, and manage numerical and textual information
-+ allows users to create formulas and perform complex calculations using arithmetic operators, functions, and logical expressions
-+ offers a wide range of mathematical and statistical functions to perform calculations and data analysis
-+ enabling users to work with data from various sources such as CSV files or databases
-
-# Research Resources
-
-Research resources are important for students and teachers as they provide access to a wealth of information and knowledge, enabling them to stay informed,
-enhance their understanding, and support their academic pursuits.
-They serve as valuable tools for conducting research, expanding knowledge, and staying up-to-date with the latest developments in their respective fields.
-
-## [DBIS](https://dbis.ur.de//fachliste.php?bib_id=ub_ba&lett=l&colors=&ocolors=)
-
-+ Database management and information systems research
-+ Licensed specialized databases covering various academic disciplines
-+ Most content is available in pdf format
-
-## [Statista](https://www.uni-bamberg.de/its/dienstleistungen/pc/einkauf-hard-software/sonderkonditionen/statista/)
-
-+ Online platform providing access to a vast range of statistical data and market research information
-+ Allows users to visualize and analyze data through interactive charts, graphs and infographics
-+ Provides up-to-date statistics
-+ Content also available in [powerpoint](#Powerpoint) and [excel](#excel)
-
-## [Online Library](https://katalog.ub.uni-bamberg.de/ubg-www/Katalog/)
-
-+ Online library platform offering a diverse collection of e-books across
-+ Multiple languages
-+ Allows users to search and browse
-
-## [Google Scholar](https://www.uni-bamberg.de/ub/fuer-schuelerinnen-und-schueler/erfolgreich-recherchieren/)
-
-+ Web search-engine that focuses on scholarly literature
-+ Allows access to full-text PDFs of articles
-+ Provides citation metrics
-+ Allows users to create personal libraries
-
 # Data Storage, Clouds
 
 Data storage and cloud solutions play a big role in teaching and writing, enabling collaboration, security and redundancy of data.
@@ -317,47 +144,6 @@ Data storage and cloud solutions play a big role in teaching and writing, enabli
 + Central and secure
 + For personal resources or shared across a team
 + Synchronized across all [PC-Pool](#pc-pools) computers with login
-
-# Recording and Streaming
-
-Tools to record and stream content were very useful during the covid-pandemic, but even with the restrictions lifted,
-recording and streaming content can increase flexibility and allow concepts like flipped-classroom to work properly.
-
-## [Panopto](https://www.uni-bamberg.de/its/dienstleistungen/webdienste/panopto/)
-
-+ Video content management system used for recording, editing, delivering, and managing videos
-+ Recording videos and screencasts
-+ Edit video and audio content after recording and add quizzes
-+ It is possible to live stream the content and make it accessible through a link
-+ Manage and deliver videos in a video library and control access to it
-+ Integration with the [Virtual Campus](#virtual-campus-powered-by-moodle)
-+ Videos can be searched based on spoken and written words
-+ Notes can be added to videos and share them with others
-
-# Classroom Technology
-
-Classrooms can have a variety of IT-Systems which are useful for teaching. The equipment and capacity of each room can be
-checked via [univis](#univis)
-
-Possible Equipment pieces could be:
-
-+ Cameras (with [recording and streaming](#panopto) interface)
-+ Document Cameras
-+ Projectors
-+ Microphones
-+ ...
-
-# Assessment Tools
-
-Tools to evaluate and measure learning outcomes and progress. These tools are designed to assess students' knowledge, skills, and understanding of the subject.
-
-## [Turnitin Similarity Checker](https://vc.uni-bamberg.de/course/view.php?id=51718)
-
-+ Used to identify potential plagiarism by automatically checking texts for copied passages
-+ Available as a feature within the [Virtual Campus](#virtual-campus-powered-by-moodle)
-+ Teachers can also utilize the [web portal](https://unibamberg.turnitin.com/home/new/sign-in) of Turnitin
-+ Checking process is performed on servers located within the EU
-+ Internal verification index through sources previously checked from our university in addition to Turnitin's sources
 
 # AI Tools
 
