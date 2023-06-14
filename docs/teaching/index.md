@@ -9,3 +9,5 @@ nav_order: 4
 # Lab Teaching
 
 Here, you will find details related to our teaching activities.
+
+We regularly evaluate our teaching activities in line with the [applicable rules (§5 and §6)](https://www.uni-bamberg.de/fileadmin/www.abt-studium/Rechtsvorschriften/1Organisation/Evaluation%20Lehre%20Studium/180305-O-Sicherung-Qualitaet-Lehre-Studium.pdf).
