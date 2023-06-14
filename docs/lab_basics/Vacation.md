@@ -57,13 +57,8 @@ During the review process, the approval authority considers specific criteria to
 ### 2.3 Communication of Approval Status:
 - Following the evaluation, the approval status of the vacation request is **communicated to the employee.**
 - This communication is typically conducted via **email** or **the designated communication channel.**
-- Employees **will be notified** whether their request has been approved, partially approved (with adjusted dates), or denied.
-
-### 2.4 Denial of Vacation Requests:
+- Employees **will be notified** whether their request has been approved, or partially approved (with adjusted dates).
 - We are committed to serving students during the semester. **Vacations should therefore be taken between semesters if possible**. Of course, we can discuss how to arrange special occasions, such as family vacations during the semester.
--	In the case of a denied vacation request, the supervisor provides a **clear explanation for the denial.**
--	They may offer **alternative options** or **suggest an alternative time frame** for the requested vacation. 
--	Employees are encouraged to **discuss the denial** with their supervisor to explore **potential solutions or adjustments.**
 
 ## 3. Documentation:
 ### 3.1 Vacation Request Form:
@@ -133,7 +128,7 @@ The Supervisor is responsible for the handover procedures
 
 ### 5.2 Emergency Situations
 
-- During emergency situations when an important team member is on vacation, it is crucial to have a  plan in place. The first step is to identify a designated **backup or point of contact** who can assume the responsibilities and decision-making authority of the absent team member.
+- During emergency situations when an important team member is on vacation, it is crucial to have a plan in place. The first step is to identify a designated **backup or point of contact** who can assume the responsibilities and decision-making authority of the absent team member.
 - This backup should be well-informed about the ongoing projects, possess the necessary expertise, and be able to make critical decisions in the absence of the vacationing team member.
 
 ### 5.3 Changes in Vacation Plans
@@ -148,32 +143,8 @@ Temporary staffing and backfilling can work out effectively by carefully assessi
 ## 6. FAQs and Additional Resources
 ### Frequently Asked Questions
 
-### 1. What is the process for requesting vacation? 
-*Employees should submit a vacation request through the official vacation request form, following the specified guidelines and deadlines.*
+### 1. How far in advance should vacation requests be submitted?
+*Vacation requests should be submitted at least two weeks in advance, to allow for proper planning and coordination.*
 
-### 2. How far in advance should vacation requests be submitted?
-*Vacation requests should be submitted  two weeks in advance, to allow for proper planning and coordination.*
-
-### 3. Can vacation requests be modified or canceled once submitted?
-*Depending on the circumstances and organizational policies, vacation requests may be modifiable or cancelable. Contact HR or the designated contact for assistance.*
-
-### 4. What happens if my vacation request is denied?
-*If a vacation request is denied, you will be notified of the decision and provided with an explanation. Alternative options or rescheduling may be explored.*
-
-### 5. How is vacation balance calculated and tracked?
-*Vacation balance is calculated based on the holiday calculation table.*
-
-### 6. Are there any restrictions on taking consecutive or extended vacations?
-*There may be limitations on consecutive or extended vacations based on workload, team dynamics, and organizational policies. Check the vacation policy for specific guidelines.*
-
-### 7. What is the policy for carrying over unused vacation days to the next year?
-*you can carry over the unused vacation days to the next year*
-
-### 8. Can I use vacation days for personal or family emergencies?
-*Yes you can and must use your vacation  for personal or family emergencies.*
-
-### 9. How are public holidays or weekends accounted for in vacation calculations?
-*Public holidays and weekends are excluded from vacation calculations*
-
-### 10. Are there any specific guidelines for vacation during peak work periods?
-*Guidelines for vacation during peak work periods may exist to ensure proper workload management and minimize disruption. Check the vacation policy for specific guidelines.*
+### 2. What is the policy for carrying over unused vacation days to the next year?
+*It is recommended to take all vacation days in the same year. You may be required to take your vacations before a certain date in the following year (other regulations may apply).*
