@@ -15,15 +15,15 @@ writing tools.
 
 <!-- TOC -->
 
-* [Learning Platform](#learning-platform)
-* [Administration](#administration)
-* [Communication Tools](#communication-tools)
-* [IT Support](#it-support)
-* [Connectivity](#connectivity)
-* [Data Storage, Clouds](#data-storage-clouds)
-* [AI Tools](#ai-tools)
-* [Note-Taking](#note-taking)
-* [Design](#design)
+- [Learning Platform](#learning-platform)
+- [Administration](#administration)
+- [Communication Tools](#communication-tools)
+- [IT Support](#it-support)
+- [Connectivity](#connectivity)
+- [Data Storage, Clouds](#data-storage-clouds)
+- [AI Tools](#ai-tools)
+- [Note-Taking](#note-taking)
+- [Design](#design)
 
 <!-- TOC -->
 
@@ -35,36 +35,40 @@ videos, quizzes and providing a central platform for students and teachers to co
 
 ## [Virtual Campus](https://vc.uni-bamberg.de/moodle/mod/page/view.php?id=225164) (Powered by [moodle](https://docs.moodle.org/39/de/Hauptseite))
 
-+ Central hub for teaching for students as well as teachers
-+ User-friendly interface
-+ Allows teachers to structure course materials and courses as well as participants
-+ Secure environment via password or granted access options
-+ Publishing of various content types such as [presentations](#presentation), [scripts](#writing-tools), [videos](#panopto), and quizzes
-+ [Communication](#communication-tools) and collaboration through forums
-+ Online assessments, grading and feedback of exercises
-+ Allows livestream integration via [Panopto](#panopto)
+- Central hub for teaching for students as well as teachers
+- User-friendly interface
+- Allows teachers to structure course materials and courses as well as participants
+- Secure environment via password or granted access options
+- Publishing of various content types such as [presentations](#presentation), [scripts](#writing-tools), [videos](#panopto), and quizzes
+- [Communication](#communication-tools) and collaboration through forums
+- Online assessments, grading and feedback of exercises
+- Allows livestream integration via [Panopto](#panopto)
 
 # [Administration](https://www.uni-bamberg.de/studium/im-studium/studienorganisation/internet-dienste/)
 
 Planning courses and examinations is important for students as well as teachers
 
-## [FlexNow](https://www.uni-bamberg.de/pruefungsamt/flexnow/)
+## [FlexNow](https://www.uni-bamberg.de/pruefungsamt/flexnow/fn2web/)
 
-### For [Teachers and Employees](https://www.uni-bamberg.de/pruefungsamt/flexnow/fn2web/)
-
-+ Creating and editing courses and examinations
-+ Enrolling and withdrawing participants from courses and exams
-+ Entering grades for exam participants
-+ Creating of module handbooks and modules
+- Creating and editing courses and exams
+- Enrolling and withdrawing participants from courses and exams
+- Entering grades for exam participants
+- Creating of module handbooks and modules
 
 ## [UnivIs](https://univis.uni-bamberg.de/)
 
-+ Customize and printing schedules
-+ Search for [courses](https://univis.uni-bamberg.de/form?dsc=anew/lecture&anonymous=1&dir=guk&ref=room&sem=2023s)
-+ Directory of all and [personnel and facilities](https://univis.uni-bamberg.de/form?dsc=anew/pande&anonymous=1&dir=guk&ref=room&sem=2023s)
-+ Directory of
+- Customize and printing schedules
+- Search for [courses](https://univis.uni-bamberg.de/form?dsc=anew/lecture&anonymous=1&dir=guk&ref=room&sem=2023s)
+- Directory of all and [personnel and facilities](https://univis.uni-bamberg.de/form?dsc=anew/pande&anonymous=1&dir=guk&ref=room&sem=2023s)
+- Directory of
   all [facilities, their rooms and their respective equipment](https://univis.uni-bamberg.de/form?dsc=anew/room:&dir=&anonymous=1&ref=room&sem=2023s)
-+ Event calendar of the university
+- Event calendar of the university
+
+## [ZUV](https://zuvportal.uni-bamberg.de/)
+
+- Finance
+- Hiring (student assistants)
+- Ordering office supplies
 
 # Communication Tools
 
@@ -74,26 +78,26 @@ via text, voice and/or video.
 
 ## [Mail](https://www.uni-bamberg.de/its/dienstleistungen/mail/zugriff/)
 
-+ Every member of the university gets a mail assigned
-+ [Personnel](https://www.uni-bamberg.de/its/dienstleistungen/mail/wlv/) has the format `firstname.surname@uni-bamberg.de`
+- Every member of the university gets a mail assigned
+- [Personnel](https://www.uni-bamberg.de/its/dienstleistungen/mail/wlv/) has the format `firstname.surname@uni-bamberg.de`
   while [student](https://www.uni-bamberg.de/its/dienstleistungen/mail/studium/) mail addresses have the
   format `firstname1-firstname2-firstname3-(...).surname@stud.uni-bamberg.de`
-+ The messages are accessible via [Outlook](https://www.uni-bamberg.de/its/dienstleistungen/mail/zugriff/outlook/) or any other e-mail client
+- The messages are accessible via [Outlook](https://www.uni-bamberg.de/its/dienstleistungen/mail/zugriff/outlook/) or any other e-mail client
 
 ## [Teams](https://www.uni-bamberg.de/its/dienstleistungen/tele/video/teams/)
 
-+ Platform for collaboration and organization, allowing users to create different areas called "Teams" to work together or manage part of their online teaching
-+ Shared chat and separate chats in different channels
-+ Lectures and seminars can be held as phone or video meetings with up to 250 participants
-+ Recording functionality
-+ Collaborate on files within a team
+- Platform for collaboration and organization, allowing users to create different areas called "Teams" to work together or manage part of their online teaching
+- Shared chat and separate chats in different channels
+- Lectures and seminars can be held as phone or video meetings with up to 250 participants
+- Recording functionality
+- Collaborate on files within a team
 
 ## [Zoom](https://www.uni-bamberg.de/its/dienstleistungen/tele/video/zoom/)
 
-+ Online service for web conferencing
-+ Teaching as Meetings or Webinars
-+ Recording functionality
-+ For events that exclusively involve members students of our university, please use [Teams](#teams) because of data security and privacy concerns
+- Online service for web conferencing
+- Teaching as Meetings or Webinars
+- Recording functionality
+- For events that exclusively involve members students of our university, please use [Teams](#teams) because of data security and privacy concerns
 
 # [IT Support](https://www.uni-bamberg.de/its/dienstleistungen/support/)
 
@@ -106,17 +110,17 @@ Everything to connect to the internet and services from our university
 
 ## [Eduroam](https://www.uni-bamberg.de/its/dienstleistungen/netz/wlan/eduroam/)
 
-+ Wi-Fi network to use within the university
-+ Log-in with normal university credentials possible
+- Wi-Fi network to use within the university
+- Log-in with normal university credentials possible
 
 ## [VPN](https://www.uni-bamberg.de/its/dienstleistungen/netz/vpn/einrichten/)
 
-+ For security reasons, some Services are only available via VPN or within the university network
-    + [Fileserver](#fileserver)
-    + A few sites of the www-Server
-    + [campusprint](#printing-and-scanning-campusprint)
-    + Intranet of the university
-    + Some [research resources](#research-resources)
+- For security reasons, some Services are only available via VPN or within the university network
+    - [Fileserver](#fileserver)
+    - A few sites of the www-Server
+    - [campusprint](#printing-and-scanning-campusprint)
+    - Intranet of the university
+    - Some [research resources](#research-resources)
 
 # Data Storage, Clouds
 
@@ -124,26 +128,26 @@ Data storage and cloud solutions play a big role in teaching and writing, enabli
 
 ## [Git](https://www.uni-bamberg.de/its/dienstleistungen/dateidienste/gitlab/)
 
-+ The university provides [GitLab](https://www.uni-bamberg.de/its/dienstleistungen/dateidienste/gitlab/)
-+ Distributed version control system to collaborate in software development projects, but also great for collaborating in writing and teaching
-+ Allows to track changes and revert to any previous state
-+ Allows Collaborating on the same file and merging the results together
-+ Fo Collaborative writing we would still recommend [Word](#word)
+- The university provides [GitLab](https://www.uni-bamberg.de/its/dienstleistungen/dateidienste/gitlab/)
+- Distributed version control system to collaborate in software development projects, but also great for collaborating in writing and teaching
+- Allows to track changes and revert to any previous state
+- Allows Collaborating on the same file and merging the results together
+- Fo Collaborative writing we would still recommend [Word](#word)
 
 ## [OneDrive](https://www.uni-bamberg.de/its/dienstleistungen/pc/einkauf-hard-software/sonderkonditionen/o365/)
 
-+ 1TB cloud storage
-+ Storing, sharing and sharing of files
-+ Integration with Microsoft Office allows collaboration
-+ Synchronization available for most services
+- 1TB cloud storage
+- Storing, sharing and sharing of files
+- Integration with Microsoft Office allows collaboration
+- Synchronization available for most services
 
 ## [Fileserver](https://www.uni-bamberg.de/its/dienstleistungen/dateidienste/fileserver-verbinden/)
 
-+ Needs [VPN](#vpn) when not in university network
-+ Up to 50GB Storage on the servers of the university
-+ Central and secure
-+ For personal resources or shared across a team
-+ Synchronized across all [PC-Pool](#pc-pools) computers with login
+- Needs [VPN](#vpn) when not in university network
+- Up to 50GB Storage on the servers of the university
+- Central and secure
+- For personal resources or shared across a team
+- Synchronized across all [PC-Pool](#pc-pools) computers with login
 
 # AI Tools
 
@@ -153,16 +157,16 @@ processed, and by that posin a potential security and privacy risk.
 
 ## [ChatGPT](https://chat.openai.com)
 
-+ Conversational AI model
-+ Designed to engage in natural language conversations
-+ Trained on a big amount of text data
-+ Capable of generating human-like responses and providing solutions and information about some topics
+- Conversational AI model
+- Designed to engage in natural language conversations
+- Trained on a big amount of text data
+- Capable of generating human-like responses and providing solutions and information about some topics
 
 ## [Quillbot](https://quillbot.com/)
 
-+ Paraphrase sentences and improve clarity, conciseness, and fluency in texts
-+ Check Grammar
-+ Summarize texts
+- Paraphrase sentences and improve clarity, conciseness, and fluency in texts
+- Check Grammar
+- Summarize texts
 
 # Note-Taking
 
@@ -171,9 +175,9 @@ helps with organizing these pieces and to create new knowledge from these notes.
 
 ## [Obsidian](https://obsidian.md/)
 
-+ Follows a second brain approach
-+ Allows linking pieces of information together to draw conclusions
-+ Helps to structure contents for a comprehensive teaching and writing outline
+- Follows a second brain approach
+- Allows linking pieces of information together to draw conclusions
+- Helps to structure contents for a comprehensive teaching and writing outline
 
 # Design
 
@@ -181,6 +185,6 @@ Who doesn't like clean, structured and uniform designs for their materials?
 
 ## [Corporate Design](https://vc.uni-bamberg.de/course/view.php?id=265)
 
-+ Needed for creating presentations and papers
-+ Templates and guidelines for designing
-+ Schemes like the university-colours, the university-badge, the university-font and more
+- Needed for creating presentations and papers
+- Templates and guidelines for designing
+- Schemes like the university-colours, the university-badge, the university-font and more
