@@ -154,11 +154,10 @@ Data storage and cloud solutions play a big role in teaching and writing, enabli
 
 ## [Git](https://www.uni-bamberg.de/its/dienstleistungen/dateidienste/gitlab/)
 
-- The university provides [GitLab](https://www.uni-bamberg.de/its/dienstleistungen/dateidienste/gitlab/)
+- The university provides access to [GitLab](https://www.uni-bamberg.de/its/dienstleistungen/dateidienste/gitlab/) repositories
 - Distributed version control system to collaborate in software development projects, but also great for collaborating in writing and teaching
 - Allows to track changes and revert to any previous state
 - Allows Collaborating on the same file and merging the results together
-- Fo Collaborative writing we would still recommend [Word](#word)
 
 # Note-Taking
 
