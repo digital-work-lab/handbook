@@ -14,13 +14,12 @@ Welcome to the vacation section for the digital-work lab! This guide streamlines
 To request vacation time, employees should follow the designated submission process outlined below:
 - fill out the **[official vacation request form](https://www.uni-bamberg.de/fileadmin/abt-personal/Homepage_ab_2016-03/11_Formulare_Infos_Merkblaetter/Urlaubsantrag_f%C3%BCr_wissenschaftliche_Besch%C3%A4ftigte/Urlaubsantrag_wissenschaftliches_Personal.pdf)**, available on the intranet of the digital work lab.
 - Provide the **required information** (outlined in section 1.2) accurately and completely.
-- Submit the **completed form** to the employee's immediate supervisor or the HR department.
-- Ensure that the submission is made within the specified timeframe to allow for proper planning and consideration.
+- Submit the **completed form** to the employee's immediate supervisor and the secretary.
+- Ensure that the submission is made within at least 1 month to allow for proper planning and consideration.
 
 ### 1.2 Required Information:
 When submitting a vacation request, employees must provide the following information:
 - **Full name** 
-- **Employee identification number** 
 - **Department and position** 
 - **Dates for the requested vacation period**
 - **the reason or purpose for the vacation.**
@@ -29,56 +28,62 @@ When submitting a vacation request, employees must provide the following informa
 ### 1.3 Deadlines and Timelines:
 To ensure effective vacation planning and minimize disruption to the workflow, the following deadlines and timelines should be observed:
 - It is **appreciated when vacation is taken during the semester break**, because we are committed to serving students.
-- Vacation requests must be submitted at least **14 days in advance** of the desired vacation start date.
+- Vacation requests must be submitted at least **1 month in advance** of the desired vacation start date.
 - Supervisors will **review and respond to the vacation requests** within **7 business days** of receiving the submission.
 - If the requested vacation period coincides with a **peak operational period** or other **scheduling constraints**, employees will be notified promptly to discuss alternatives or adjustments.
 
 ### 1.4 Notification of Request:
 Upon reviewing the vacation request, the employee will be notified of the decision in a timely manner. The notification process includes the following steps:
-- The immediate supervisor or HR will **inform** the employee whether the vacation request has been **approved or denied.**
+- The immediate supervisor or secretary will **inform** the employee whether the vacation request has been **approved or denied.**
 - If the request is **approved**, the employee will **receive confirmation** of the approved vacation dates.
 - In the case of a **denied request**, the reasons for the denial will be **clearly communicated** to the employee, along with any **alternative options or suggestions.**
 - The communication regarding the vacation request will be primarily conducted via **email** or **in-person meetings.**
 
-## 2. Approval Process:
-### 2.1 Approval Authority:
-- The approval authority for vacation requests lies with the **employee's immediate supervisor** or **department manager.** 
-- They are responsible for reviewing and evaluating the requests based on various factors such as **staffing needs, project timelines, and team availability.**
--	In some cases, approval may require **additional authorization from higher-level academic administration.**
+## 2. Documentation:
+### 2.1 Vacation Request Form:
+-	Students and researchers **must complete** the designated vacation request form to initiate the vacation process.
+-	The **vacation request** form should be easily accessible to employees through the **Intranet**.
+- Students and reseaerchers **must ensure** that  **all required fields are filled out accurately and completely**.
+- the completed form **must be submited** to the **supervisor** and/or **secretary** within the specified timeframe.
 
-### 2.2 Evaluation Criteria:
+### 2.2 Vacation Entitlement Calculation:
+- For **flexible working hours**, which are the normal case, the vacation entitlement is calculated as follows: 
+
+        ((monthly hours / 4.348 ) / 5) x 1.66 x months.
+    The result is to be rounded commercially!
+- For **regular working hours (fixed weekdays)**, vacation is based on the number of days worked per week. The number of hours does not matter. The statutory vacation entitlement per calendar year is 24 working days (e.g. 20 days for a 5-day week or four days for a 1-day week). The vacation entitlement is calculated as follows:
+
+        (number of months / 12) x (4 x working days per week)
+    The result must be rounded up or down!
+
+### 2.3 Vacation Balances Tracking:
+- The digital work lab maintains a system to **track employees' vacation balances.**
+- Employees **can check their vacation balances** by accessing the [holiday calculation table](https://www.uni-bamberg.de/fileadmin/abt-personal/Homepage_ab_2016-03/11_Formulare_Infos_Merkblaetter/Urlaubsantrag_f%C3%BCr_wissenschaftliche_Besch%C3%A4ftigte/Urlaubsberechnung.xlsx)
+- The holiday calculation table displays the **current available vacation days** and any **carry-over** or **accrual information**.
+- It is the employees' responsibility to ensure they have **sufficient vacation days available** before submitting a request.
+
+## 3. Approval Process:
+### 3.1 Approval Authority:
+- The approval authority for vacation requests lies with the **employee's immediate supervisor**.
+- They are responsible for reviewing and evaluating the requests based on various factors such as **staffing needs, project timelines, and team availability**.
+
+
+### 3.2 Evaluation Criteria:
 During the review process, the approval authority considers specific criteria to ensure **fairness and consistency**. These criteria may include:
 - **Sufficient coverage** during the requested period
-- The **employee's performance** and **attendance record**
-- **Previous vacation patterns** and **requests**
 - **Operational demands** and **project deadlines**
 - **Team collaboration** and **coordination requirements**
 
-### 2.3 Communication of Approval Status:
-- Following the evaluation, the approval status of the vacation request is **communicated to the employee.**
-- This communication is typically conducted via **email** or **the designated communication channel.**
+### 3.3 Communication of Approval Status:
+- Following the evaluation, the approval status of the vacation request is **communicated to the employee**.
+- This communication is typically conducted via **email** or **the designated communication channel**.
 - Employees **will be notified** whether their request has been approved, or partially approved (with adjusted dates).
-- We are committed to serving students during the semester. **Vacations should therefore be taken between semesters if possible**. Of course, we can discuss how to arrange special occasions, such as family vacations during the semester.
-
-## 3. Documentation:
-### 3.1 Vacation Request Form:
--	Students and researchers **must complete** the designated vacation request form to initiate the vacation process.
--	The **vacation request** form should be easily accessible to employees through the **Intranet.**
-- Students and reseaerchers **must ensure** that  **all required fields are filled out accurately and completely.**
-- the completed form **must be submited** to the **appropriate department** or **supervisor** within the specified timeframe.
-
-### 3.2 Vacation Balances Tracking:
-- The digital work lab maintains a system to **track employees' vacation balances.**
-- Employees **can check their vacation balances** by accessing the [holiday calculation table](https://www.uni-bamberg.de/fileadmin/abt-personal/Homepage_ab_2016-03/11_Formulare_Infos_Merkblaetter/Urlaubsantrag_f%C3%BCr_wissenschaftliche_Besch%C3%A4ftigte/Urlaubsberechnung.xlsx)
-- The holiday calculation table displays the **current available vacation days** and any **carry-over** or **accrual information.**
-- It is the employees' responsibility to ensure they have **sufficient vacation days available** before submitting a request.
 
 ## 4. Communication
 
 ###  4.1 Notification to Colleagues
 - **Notify your immediate colleagues personally:** Inform your immediate colleagues, such as your department head, team leader, or co-workers, about your upcoming vacation.
 - **Inform your students (if applicable):** If you're a teacher, notify your students about your absence. Depending on their age and the nature of your classes, you can either inform them verbally or send a written communication. Include the dates of your vacation and any instructions or assignments they need to complete in your absence.
-- **To notify the entire crew of the digital work lab of your absence:** Set your status in the Teams app to "Out of Office". Furthermore, you should add a presence note (with start and end time date).
 - **Set up an out-of-office message:** Configure an out-of-office email autoresponder, clearly stating the dates of your vacation and providing an alternative point of contact for urgent matters.
 ```
 Sehr geehrter Absender,
