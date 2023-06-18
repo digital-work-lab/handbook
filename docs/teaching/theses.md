@@ -14,3 +14,5 @@ We offer regular feedback sessions (in person or online):
 [Schedule feedback session](https://calendly.com/gerit-wagner/30min){: .btn .btn-green }
 
 To apply for admission, you can use [this e-mail template](theses_admission_mail.html).
+
+The thesis template is available [here](https://github.com/digital-work-lab/thesis-template).
