@@ -63,6 +63,8 @@ Planning courses and examinations is important for students as well as teachers
 - Directory of
   all [facilities, their rooms and their respective equipment](https://univis.uni-bamberg.de/form?dsc=anew/room:&dir=&anonymous=1&ref=room&sem=2023s)
 - Event calendar of the university
+- [VC resources](https://vc.uni-bamberg.de/enrol/index.php?id=266)
+- Administrator / Support: Guntram Förster. Tel.: 0951/863 1127, Mail: info.univis@uni-bamberg.de
 
 ## [ZUV](https://zuvportal.uni-bamberg.de/)
 

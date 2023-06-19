@@ -22,13 +22,7 @@ Appointment with Professor Wagner to discuss topic and next steps.
 Students create a synopsis and send it to Professor Wagner and wait for feedback and a meeting date.
 
 ## 4. Admission Application (Student):
-Students send the application for admission to the final thesis to the examination office via their Stud e-mail address. You can either use [this e-mail template](theses_admission_mail.html) or send an e-mail with the following information:
-- Name, First name
-- Current address
-- Address after graduation
-- Matriculation number
-- E-mail address (private, for possible queries after completion of studies)
-- Proposal of examiner with indication of the chair
+Students send the application for admission to the final thesis to the examination office via their Stud e-mail address. You can use [this e-mail template](theses_admission_mail.html).
 
 ## 5. Verification of the Admission (Examination Office):
 The examination office verifies the admission requirement by the clerk(s).
@@ -78,11 +72,12 @@ Entry of the topic and the day of topic issue in FlexNow by the clerk of the exa
 ## 11. Thesis Writing and Feedback Meetings (Student, Professor):
 The student begins to write the thesis.
     There will be every one to two weeks feedback meetings with Professor Wagner to clarify questions and see progress.
-        
+
+The thesis template is available [here](https://github.com/digital-work-lab/thesis-template).
+
 We offer regular feedback sessions (in person or online):
 
 [Schedule feedback session](https://calendly.com/gerit-wagner/30min){: .btn .btn-green }
-
 
 ## 12. Submission of the finished Thesis(Student):
 2 copies in hard bound form and one digital version each are to be submitted to the examination office.
@@ -112,5 +107,3 @@ Professor Wagner and the student talk about the Grading of the thesis.
 All these steps are recorded in a document by Professor Wagner and the secretariat.  Document is stored in an internally protected area at the chair.
 
 (Linking of an empty document for illustration purposes)
-
-

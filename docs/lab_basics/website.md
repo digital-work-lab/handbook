@@ -9,6 +9,8 @@ nav_order: 8
 
 Our [website](https://www.uni-bamberg.de/digital-work/) is based on Typo3.
 
+Support: [Joachim Drescher](https://univis.uni-bamberg.de/prg?search=persons&show=info&department=320930&fullname=Joachim+Drescher).
+
 Publications are automatically generated from [FIS](https://fis.uni-bamberg.de/).
 
 - [Administrator login](https://www.uni-bamberg.de/typo3)

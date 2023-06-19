@@ -56,11 +56,20 @@ Planning courses and examinations is important for students as well as teachers
 + Important announcements from the examination office
 + Deadlines stored in FlexNow
 
+## [Forschungsinformationssystem (FIS)](https://fis.uni-bamberg.de/mydspace)
+
+## [Identity- und Access-Management (IAM)](https://iam.uni-bamberg.de)
+
 ## [Online Service of the study office](https://qis.uni-bamberg.de/qisserver/rds?state=user&type=0)
 
 + Download of official certificates (Enrollment for Bafög, Data printout, ...)
 + Changing of the semester address and phone number
 + Receipts ([Printing](#printing-and-scanning-campusprint), semester tuition, ...)
+
+## [ZUV Portal](https://zuvportal.uni-bamberg.de/)
+- Kontenübersicht
+- SHK Einstellungsunderlagen
+- Inventarisierung: unter Kontoauszüge - Inventarisierung (muss regelmäßig geprüft werden)
 
 # Connectivity
 
@@ -189,3 +198,4 @@ Who doesn't like clean, structured and uniform designs for their materials?
 + Needed for creating presentations and papers
 + Templates and guidelines for designing
 + Schemes like the university-colours, the university-badge, the university-font and more
+- Dezernat Kommunikation: Alexandra Morgenroth. Tel.: 0951/863 1021, E-Mail: kommunikation@uni-bamberg.de 
