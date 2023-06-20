@@ -27,6 +27,7 @@ TODO :
 - Docker
 - Linters, daff, Rstudio: Code Diagnostics
 - Preferred formats: md/csv
+- The paper template is available [here](https://github.com/digital-work-lab/paper-template)
 
 <!-- 
 Data checklist:
