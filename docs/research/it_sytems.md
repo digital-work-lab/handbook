@@ -28,6 +28,7 @@ TODO :
 - Linters, daff, Rstudio: Code Diagnostics
 - Preferred formats: md/csv
 - The paper template is available [here](https://github.com/digital-work-lab/paper-template)
+- Templates for selected Information Systems journals and conferences are available [here](https://github.com/digital-work-lab/templates)
 
 <!-- 
 Data checklist:
