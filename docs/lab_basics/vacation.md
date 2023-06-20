@@ -50,7 +50,7 @@ Upon reviewing the vacation request, the employee will be notified of the decisi
 - For **flexible working hours**, which are the normal case, the vacation entitlement is calculated as follows: 
 
         ((monthly hours / 4.348 ) / 5) x 1.66 x months.
-    The result is to be rounded commercially!
+    The result is to be rounded commercially.
 - For **regular working hours (fixed weekdays)**, vacation is based on the number of days worked per week. The number of hours does not matter. The statutory vacation entitlement per calendar year is 24 working days (e.g. 20 days for a 5-day week or four days for a 1-day week). The vacation entitlement is calculated as follows:
 
         (number of months / 12) x (4 x working days per week)
@@ -58,30 +58,13 @@ Upon reviewing the vacation request, the employee will be notified of the decisi
 
 ### 2.3 Vacation Balances Tracking:
 - The digital work lab maintains a system to **track employees' vacation balances.**
-- Employees **can check their vacation balances** by accessing the [holiday calculation table](https://www.uni-bamberg.de/fileadmin/abt-personal/Homepage_ab_2016-03/11_Formulare_Infos_Merkblaetter/Urlaubsantrag_f%C3%BCr_wissenschaftliche_Besch%C3%A4ftigte/Urlaubsberechnung.xlsx)
-- The holiday calculation table displays the **current available vacation days** and any **carry-over** or **accrual information**.
+- Employees **can check their vacation balances** by accessing the [vacation calculation table](https://www.uni-bamberg.de/fileadmin/abt-personal/Homepage_ab_2016-03/11_Formulare_Infos_Merkblaetter/Urlaubsantrag_f%C3%BCr_wissenschaftliche_Besch%C3%A4ftigte/Urlaubsberechnung.xlsx)
+- The vacation calculation table displays the **current available vacation days** and any **carry-over** or **accrual information**.
 - It is the employees' responsibility to ensure they have **sufficient vacation days available** before submitting a request.
 
-## 3. Approval Process:
-### 3.1 Approval Authority:
-- The approval authority for vacation requests lies with the **employee's immediate supervisor**.
-- They are responsible for reviewing and evaluating the requests based on various factors such as **staffing needs, project timelines, and team availability**.
+## 3. Communication
 
-
-### 3.2 Evaluation Criteria:
-During the review process, the approval authority considers specific criteria to ensure **fairness and consistency**. These criteria may include:
-- **Sufficient coverage** during the requested period
-- **Operational demands** and **project deadlines**
-- **Team collaboration** and **coordination requirements**
-
-### 3.3 Communication of Approval Status:
-- Following the evaluation, the approval status of the vacation request is **communicated to the employee**.
-- This communication is typically conducted via **email** or **the designated communication channel**.
-- Employees **will be notified** whether their request has been approved, or partially approved (with adjusted dates).
-
-## 4. Communication
-
-###  4.1 Notification to Colleagues
+###  3.1 Notification to Colleagues
 - **Notify your immediate colleagues personally:** Inform your immediate colleagues, such as your department head, team leader, or co-workers, about your upcoming vacation.
 - **Inform your students (if applicable):** If you're a teacher, notify your students about your absence. Depending on their age and the nature of your classes, you can either inform them verbally or send a written communication. Include the dates of your vacation and any instructions or assignments they need to complete in your absence.
 - **Set up an out-of-office message:** Configure an out-of-office email autoresponder, clearly stating the dates of your vacation and providing an alternative point of contact for urgent matters.
@@ -98,20 +81,20 @@ Mit freundlichen Grüßen
 XXX
 ```
 
-###  4.2 Coordination of Vacation Schedules
+###  3.2 Coordination of Vacation Schedules
 
 **The Supervisory/Teacher is responsible for coordinating the vacation of his/her team members:** All projects and open assignments must not be affected by the vacation scheduling of individual team members (students/teachers).
 
 - **Communicate with your supervisor:** Discuss your intended vacation dates with your supervisor or manager.
 - **Submit a formal vacation request:** The request should be done over the Intranet: [LINK TO INTRANET](https://www.uni-bamberg.de/abt-personal/formulare-infos-und-merkblaetter/)
 
-###  4.3 Updates during Vacation
+###  3.3 Updates during Vacation
 
 | Researchers                                                                                                                         | Student Assistants                                                                         |
 |-------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
 | Teachers should check their mail-inbox once a day  to respond to emergency situations.  But there is no legal obligation to do this | There is no obligation for student assistants  to be available during the vacation period. |
 
-###  4.4 Handover Procedures
+###  3.4 Handover Procedures
 
 The Supervisor is responsible for the handover procedures
 
@@ -119,9 +102,9 @@ The Supervisor is responsible for the handover procedures
 
 - **Documenting project details:** The researcher should ensure that all project-related information is documented and organized in a central location. The team members should have access to this documentation. Additionally, the researcher should clearly outline the responsibilities and roles of each team member during the handover period.
 
-## 5. Exceptions and Special Circumstances
+## 4. Exceptions and Special Circumstances
 
-### 5.1 Extended Leaves of Absence
+### 4.1 Extended Leaves of Absence
 - **Student Assistants** may, upon application, be released from the obligation of proper study (leave of absence). This must be approved by the management of the digital-work lab.
 
   The reasons for the leave of absence must be stated in writing in the application and must be supported by appropriate evidence.
