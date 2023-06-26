@@ -56,7 +56,8 @@ The copy for the examination office is sent by the chair as a Word document (.do
 Entry of the topic and the day of topic issue in FlexNow by the clerk of the examination office.
 
 Additional information: Bachelor's theses are usually due in 4 months, Master's theses in 6 months. The official requirements can be found in the regulations linked below.
-    
+It is not necessary to submit the thesis in the semester in which it was started (unless you would take longer than the maximum duration of study).
+
 For the following Bachelor's and Master's programms is a practical part in the thesis required:
 
 - Bachelor Angewandte Informatik
