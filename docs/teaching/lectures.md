@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Theses
-parent: Lectures
+title: Lectures
+parent: Teaching
 nav_order: 3
 ---
 
