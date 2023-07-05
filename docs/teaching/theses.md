@@ -91,11 +91,11 @@ The student must present at her/his master thesis ...
 
 ## 13. Grading of the thesis (Professor):
 
-The Professor writes a review and grades the thesis.
+The Professor writes a review and grades the thesis. The deadline is given by the examination office (typically 4 months).
 
 ## 14. Transmission of the grade (Professor):
 
-The review and grade is sent to the examination office (**TODO : what's the deadline?**).
+The review and grade is sent to the examination office.
 
 ## 15. Transmission to FlexNow (Examination office):
 
