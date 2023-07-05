@@ -7,7 +7,50 @@ nav_order: 3
 
 # Lectures
 
-Evaluations are scheduled at the end of the semester via [Evasys evaluation](https://www.uni-bamberg.de/its/lehrevaluation/).
+Create a new course: have it added to Flexnow (Modulkatalog).
+
+**TODO: Link to template/issues**
+
+## 1. Announce the course (4 months before)
+ 
+Start: December (summer term), May (winter term)
+
+Tasks:
+
+- Professor: Update information on the website.
+- Secretary: Create the course in Flexnow and activate student registration.
+- Professor: Update information in Univis, check information on the website.
+
+Deadline: mid-May (summer term), December/January (winter term)
+
+The deadline (for **XX**) is shared by the Dean's office.
+
+## 2. Prepare the course (1 month before )
+
+Start: March (summer term), September (winter term)
+
+Tasks:
+
+- Secretary and Professor: Set dates and request lecture rooms.
+- IT department: Create the VC course (automatically based on Univis).
+- Professor: Create a reminder for the evaluations.
+
+Deadline: April (summer term), October (winter term)
+
+## 3. Offer the course
+
+Start: April (summer term), October (winter term)
+
+Tasks:
+
+- Secretary: Add moderator and session dates in VC.
+- Professor: Activate course in VC (visible to students).
+- Professor: Schedule evaluations in the pen-ultimate week via [Evasys evaluation](https://www.uni-bamberg.de/its/lehrevaluation/).
+- Secretary/Professor: Prepare the exams (**Deadline?**)
+- Professor: Grade exams.
+- Secretary: Enter grades in Flexnow
+
+Deadline: End of Augus (summer term), March (winter term)
 
 ## Applicable regulations
 
