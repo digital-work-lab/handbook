@@ -25,8 +25,8 @@ When submitting a vacation request, employees must provide the following informa
 - **the reason or purpose for the vacation.**
 - **Any additional notes or special considerations** 
 
-### 1.3 Deadlines and Timelines:
-To ensure effective vacation planning and minimize disruption to the workflow, the following deadlines and timelines should be observed:
+### 1.3 Deadlines and Time lines:
+To ensure effective vacation planning and minimize disruption to the workflow, the following deadlines and time lines should be observed:
 - It is **appreciated when vacation is taken during the semester break**, because we are committed to serving students.
 - Vacation requests must be submitted at least **1 month in advance** of the desired vacation start date.
 - Supervisors will **review and respond to the vacation requests** within **7 business days** of receiving the submission.
@@ -43,8 +43,8 @@ Upon reviewing the vacation request, the employee will be notified of the decisi
 ### 2.1 Vacation Request Form:
 -	Students and researchers **must complete** the designated vacation request form to initiate the vacation process.
 -	The **vacation request** form should be easily accessible to employees through the **Intranet**.
-- Students and reseaerchers **must ensure** that  **all required fields are filled out accurately and completely**.
-- the completed form **must be submited** to the **supervisor** and/or **secretary** within the specified timeframe.
+- Students and researchers **must ensure** that  **all required fields are filled out accurately and completely**.
+- the completed form **must be submitted** to the **supervisor** and/or **secretary** within the specified time frame.
 
 ### 2.2 Vacation Entitlement Calculation:
 - For **flexible working hours**, which are the normal case, the vacation entitlement is calculated as follows: 
@@ -67,7 +67,7 @@ Upon reviewing the vacation request, the employee will be notified of the decisi
 ###  3.1 Notification to Colleagues
 - **Notify your immediate colleagues personally:** Inform your immediate colleagues, such as your department head, team leader, or co-workers, about your upcoming vacation.
 - **Inform your students (if applicable):** If you're a teacher, notify your students about your absence. Depending on their age and the nature of your classes, you can either inform them verbally or send a written communication. Include the dates of your vacation and any instructions or assignments they need to complete in your absence.
-- **Set up an out-of-office message:** Configure an out-of-office email autoresponder, clearly stating the dates of your vacation and providing an alternative point of contact for urgent matters.
+- **Set up an out-of-office message:** Configure an out-of-office email auto-responder, clearly stating the dates of your vacation and providing an alternative point of contact for urgent matters.
 ```
 Sehr geehrter Absender,
 vielen Dank für Ihre Nachricht.
@@ -111,7 +111,7 @@ The Supervisor is responsible for the handover procedures
 
   The reason for the leave of absence must cover at least six weeks of the lecture period.
 
-- No extension of leave is possible for **reseachers/supervisors**.
+- No extension of leave is possible for **researchers/supervisors**.
 
 
 ### 5.2 Emergency Situations
@@ -123,10 +123,6 @@ The Supervisor is responsible for the handover procedures
 
 When changes need to be made to the vacation plan, **open and transparent communication is key**.
 The team member should promptly notify their supervisor/Researcher about the change, providing a clear explanation and any necessary documentation, and work collaboratively to adjust the plan.
-
-### 5.4 Backfilling or Temporary Staffing
-
-Temporary staffing and backfilling can work out effectively by carefully assessing the required skills, providing clear instructions, **ensuring open communication, and strategically selecting temporary staff** to fill the vacant positions and maintain productivity within the team.
 
 ## 6. FAQs and Additional Resources
 ### Frequently Asked Questions

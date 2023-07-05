@@ -30,7 +30,7 @@ writing tools.
 # Learning Platform
 
 Learning platforms are essential for students as well as teachers. These platforms allow the teachers
-to connect with their students, strucutre their materials, publish contents like Presentations, Scripts,
+to connect with their students, structure their materials, publish contents like Presentations, Scripts,
 videos, quizzes and providing a central platform for students and teachers to communicate via forums.
 
 ## [Virtual Campus](https://vc.uni-bamberg.de/moodle/mod/page/view.php?id=225164) (Powered by [moodle](https://docs.moodle.org/39/de/Hauptseite))
@@ -42,7 +42,7 @@ videos, quizzes and providing a central platform for students and teachers to co
 - Publishing of various content types such as [presentations](#presentation), [scripts](#writing-tools), [videos](#panopto), and quizzes
 - [Communication](#communication-tools) and collaboration through forums
 - Online assessments, grading and feedback of exercises
-- Allows livestream integration via [Panopto](#panopto)
+- Allows live stream integration via [Panopto](#panopto)
 
 # [Administration](https://www.uni-bamberg.de/studium/im-studium/studienorganisation/internet-dienste/)
 
@@ -155,7 +155,7 @@ Data storage and cloud solutions play a big role in teaching and writing, enabli
 
 AI-Tools that are used to that extent which they're now are relatively new. AI-Tools can produce errors, misinformation, and sometimes just
 make up information. Furthermore, most of the time we can't see where the information is coming from, and how the information we provide is being
-processed, and by that posin a potential security and privacy risk.
+processed, and by that posing a potential security and privacy risk.
 
 ## [ChatGPT](https://chat.openai.com)
 
@@ -189,4 +189,4 @@ Who doesn't like clean, structured and uniform designs for their materials?
 
 - Needed for creating presentations and papers
 - Templates and guidelines for designing
-- Schemes like the university-colours, the university-badge, the university-font and more
+- Schemes like the university colors, the university-badge, the university-font and more

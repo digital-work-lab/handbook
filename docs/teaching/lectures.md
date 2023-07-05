@@ -50,7 +50,7 @@ Tasks:
 - Professor: Grade exams.
 - Secretary: Enter grades in Flexnow
 
-Deadline: End of Augus (summer term), March (winter term)
+Deadline: End of August (summer term), March (winter term)
 
 ## Applicable regulations
 

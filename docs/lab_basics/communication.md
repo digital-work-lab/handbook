@@ -80,7 +80,7 @@ nav_order: 3
 
 ### Handbook as documentation platform
 
-- Use the handbook to document guidelines, processes and other helpfull information. We encourage you to [contribute](https://digital-work-lab.github.io/handbook/docs/lab_basics/contributing.html) to this valuable ressource. 
+- Use the handbook to document guidelines, processes and other helpful information. We encourage you to [contribute](https://digital-work-lab.github.io/handbook/docs/lab_basics/contributing.html) to this valuable resource. 
 - Encourage collaboration and contribution from team members to keep the handbook updated and relevant.
 - Ensure that your contribution to the handbook is well-structured and easily searchable, making it a valuable resource for finding information and promoting knowledge sharing.
 
@@ -119,7 +119,7 @@ nav_order: 3
 ### Sharing content regarding research results
 
 - Before the publication of results, research data (including code, interview data and manuscripts) should be kept private.
-- Coordinate with your team on when the publication will be available to the public and set a clear timeframe to avoid misunderstandinds.
+- Coordinate with your team on when the publication will be available to the public and set a clear time frame to avoid misunderstandings.
 
 <br>
 
