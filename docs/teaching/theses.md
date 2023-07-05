@@ -45,7 +45,6 @@ Student and examiner make an appointment to determine the topic with signing of 
 
 - 1 original with signature of the examiners and the student for the student.
 - 1 original with signature of the examiners and the student for archiving at the chair
-- 1 original with signature of the examiners and the student for the examiner (TBD)
 
 ## 8. Transmission to the examination office (Professor):
 
@@ -99,11 +98,13 @@ The review and grade is sent to the examination office.
 
 ## 15. Transmission to FlexNow (Examination office):
 
-The examination office transmissions the grade to FlexNow.
+The examination office enters the grade to FlexNow. Students can check the grade via FlexNow.
 
 ## 16. Feedback session (Professor, Student):
 
 We provide feedback on the thesis and explain the grading.
+
+[Schedule feedback session](https://calendly.com/gerit-wagner/30min){: .btn .btn-green }
 
 ## Applicable regulations
 
@@ -119,4 +120,4 @@ We provide feedback on the thesis and explain the grading.
 - Master Computing in the Humanities
  -->
 
-- [Prüfungs- und Studienordnungen](https://www.uni-bamberg.de/abt-studium/aufgaben/pruefungs-studienordnungen/)
+- [Prüfungs- und Studienordnungen](https://www.uni-bamberg.de/abt-studium/aufgaben/pruefungs-studienordnungen/), insbes. Modulhandbücher
