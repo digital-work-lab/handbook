@@ -12,6 +12,7 @@ Welcome to the Otto-Friedrich-University Bamberg! We are pleased to welcome you 
 Before your first day at work, you could explore Bamberg and got to know a few new places where you can spend some time after work. In case you're interested in the local beer culture, you could try an authentic Schlenkerla Rauchbier and get to to know a few new people. It's also a nice icebreaker for your first few conversations.
 
 ## Your first day at work 
+
 - [ ] You took your University Card to work 
 - First, you will meet with your mentor, who will guide you through your first day. 
 - [ ] You received your personal induction plan from my mentor
@@ -39,7 +40,7 @@ Before your first day at work, you could explore Bamberg and got to know a few n
 	- Log in with your Ba number and follow the next steps 
 	- [ ] VC registration 
 	- [ ] Flexnow registration 
-	- [ ] Getting used to the awesome univis layout
+	- [ ] Getting used to the awesome Univis layout
 
 7. Plan your next training course now
 
@@ -47,10 +48,12 @@ Before your first day at work, you could explore Bamberg and got to know a few n
 
 ## Opportunities after the first day of work 
 
-### Jobshadowing: 
+### Job shadowing
+
 - If you need further support, you can arrange a job shadowing day with an experienced employee. 
 
 ### Social integration and university life
+
 - Summer festival of the University of Bamberg 
 - Schwof @LiveClub in Bamberg: Your goal should be to visit the very first Schwof on Mondays to get to know everyone and socialise a bit.
 - Partycipate:
@@ -59,7 +62,7 @@ Before your first day at work, you could explore Bamberg and got to know a few n
 ### Training and development opportunities
 
 - Training and development opportunities are crucial for the growth and success of the team in the digital work lab. They help team members acquire new skills, expand their knowledge, and stay updated with the latest advancements in their respective fields. 
-- You can complete courses and gain further qualifications online at the vhs website.
+- You can complete courses and gain further qualifications online at the VHS website.
 - Identify Individual Needs: Start by conducting a skills assessment to identify the training needs of each team member. This can be done through one-on-one discussions, self-assessment forms, or performance evaluations. Encourage team members to express their interests and areas where they want to develop their expertise.
 - Create a Training Plan: Based on the identified needs, develop a training plan that outlines the specific training programs or activities for each team member. Consider a mix of internal and external training options such as workshops, conferences, online courses, mentoring, and on-the-job training.
 - Encourage Self-Learning: In addition to formal training programs, promote a culture of self-learning within the team. Encourage team members to explore relevant resources like online tutorials, books, research papers, and industry blogs. Provide access to online learning platforms or subscription services that offer a wide range of educational content.

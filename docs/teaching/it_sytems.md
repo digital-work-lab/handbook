@@ -28,7 +28,7 @@ nav_order: 4
 # Learning Platform
 
 Learning platforms are essential for students as well as teachers. These platforms allow the teachers
-to connect with their students, strucutre their materials, publish contents like Presentations, Scripts,
+to connect with their students, structure their materials, publish contents like Presentations, Scripts,
 videos, quizzes and providing a central platform for students and teachers to communicate via forums.
 
 ## [Virtual Campus](https://vc.uni-bamberg.de/moodle/mod/page/view.php?id=225164) (Powered by [moodle](https://docs.moodle.org/39/de/Hauptseite))
@@ -40,7 +40,7 @@ videos, quizzes and providing a central platform for students and teachers to co
 + Publishing of various content types such as [presentations](#presentation), [scripts](#writing-tools), [videos](#panopto), and quizzes
 + [Communication](#communication-tools) and collaboration through forums
 + Online assessments, grading and feedback of exercises
-+ Allows livestream integration via [Panopto](#panopto)
++ Allows live stream integration via [Panopto](#panopto)
 
 # [Administration](https://www.uni-bamberg.de/studium/im-studium/studienorganisation/internet-dienste/)
 
@@ -112,7 +112,7 @@ recording and streaming content can increase flexibility and allow concepts like
 ## [Panopto](https://www.uni-bamberg.de/its/dienstleistungen/webdienste/panopto/)
 
 + Video content management system used for recording, editing, delivering, and managing videos
-+ Recording videos and screencasts
++ Recording videos and screen casts
 + Edit video and audio content after recording and add quizzes
 + It is possible to live stream the content and make it accessible through a link
 + Manage and deliver videos in a video library and control access to it
@@ -123,7 +123,7 @@ recording and streaming content can increase flexibility and allow concepts like
 # Classroom Technology
 
 Classrooms can have a variety of IT-Systems which are useful for teaching. The equipment and capacity of each room can be
-checked via [univis](#univis)
+checked via [Univis](#univis)
 
 Possible Equipment pieces could be:
 
@@ -149,7 +149,7 @@ Tools to evaluate and measure learning outcomes and progress. These tools are de
 
 AI-Tools that are used to that extent which they're now are relatively new. AI-Tools can produce errors, misinformation, and sometimes just
 make up information. Furthermore, most of the time we can't see where the information is coming from, and how the information we provide is being
-processed, and by that posin a potential security and privacy risk.
+processed, and by that posing a potential security and privacy risk.
 
 ## [ChatGPT](https://chat.openai.com)
 

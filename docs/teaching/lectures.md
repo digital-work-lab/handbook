@@ -11,6 +11,10 @@ Create a new course: have it added to Flexnow (Modulkatalog).
 
 **TODO: Link to template/issues**
 
+To organize a lecture, we use the **lecture** issue template ([overview](https://github.com/digital-work-lab/handbook/labels/lecture)).
+
+[Organize new lecture](https://github.com/digital-work-lab/handbook/issues/new?assignees=geritwagner&labels=lecture&projects=&template=01_LECTURE.md&title=lecture%3A+){: .btn .btn-green }
+
 ## 1. Announce the course (4 months before)
  
 Start: December (summer term), May (winter term)
