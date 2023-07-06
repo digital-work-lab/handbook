@@ -53,7 +53,7 @@ Tasks:
 - Secretary/Professor: Prepare the exams (**Deadline?**)
 - Professor: Grade exams (**Deadline?**).
 - Professor: Analyse the evaluations and store the files (**TODO : owncloud/teaching/...**).
-- Secretary: Enter grades in Flexnow
+- Secretary: Enter grades in Flexnow or create certificates ([script](https://github.com/digital-work-lab/handbook/tree/main/src/scheine))
 
 Deadline: End of August (summer term), March (winter term)
 
