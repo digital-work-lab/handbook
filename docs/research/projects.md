@@ -30,9 +30,9 @@ Literature review methods
 | Project    | Summary | Link | Status |
 |------------|---------------| ------- | --- |
 | LRNLPImpact | Deep-learning classifier for ideational citation impact. | [julianprester/deep-cenic](https://github.com/julianprester/deep-cenic) | [Published](https://www.sciencedirect.com/science/article/abs/pii/S0167923620301871)|
-| LRSearch | TBA. | [geritwagner/lr-search-manuscript](https://github.com/geritwagner/lr-search-manuscript) | Revision |
-| CoLRev | TBA. | [colrev-manuscript](https://github.com/geritwagner/colrev-manuscript) | Concept|
-| LRDM | TBA. | [geritwagner/lr-dm](https://github.com/geritwagner/lr-dm) | Concept |
+| LRSearch | - | [geritwagner/lr-search-manuscript](https://github.com/geritwagner/lr-search-manuscript) | Revision |
+| CoLRev | - | [colrev-manuscript](https://github.com/geritwagner/colrev-manuscript) | Concept|
+| LRDM | - | [geritwagner/lr-dm](https://github.com/geritwagner/lr-dm) | Concept |
 
 Research software projects
 
