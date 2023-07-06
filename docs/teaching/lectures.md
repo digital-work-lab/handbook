@@ -47,7 +47,7 @@ Tasks:
 - Professor: Activate course in VC (visible to students).
 - Professor: Schedule evaluations in the pen-ultimate week via [Evasys evaluation](https://www.uni-bamberg.de/its/lehrevaluation/).
 - Secretary/Professor: Prepare the exams (**Deadline?**)
-- Professor: Grade exams.
+- Professor: Grade exams (**Deadline?**).
 - Secretary: Enter grades in Flexnow
 
 Deadline: End of August (summer term), March (winter term)
