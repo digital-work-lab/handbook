@@ -48,23 +48,9 @@ Planning courses and examinations is important for students as well as teachers
 
 ## [FlexNow](https://www.uni-bamberg.de/pruefungsamt/flexnow/)
 
-### For [Students](https://www.uni-bamberg.de/pruefungsamt/flexnow/fn2sss/)
-
-+ Exam and course registration and withdrawal
-+ Study progress overview
-+ Generate verifiable data sheet
-+ Important announcements from the examination office
-+ Deadlines stored in FlexNow
-
 ## [Forschungsinformationssystem (FIS)](https://fis.uni-bamberg.de/mydspace)
 
 ## [Identity- und Access-Management (IAM)](https://iam.uni-bamberg.de)
-
-## [Online Service of the study office](https://qis.uni-bamberg.de/qisserver/rds?state=user&type=0)
-
-+ Download of official certificates (Enrollment for Bafög, Data printout, ...)
-+ Changing of the semester address and phone number
-+ Receipts ([Printing](#printing-and-scanning-campusprint), semester tuition, ...)
 
 ## [ZUV Portal](https://zuvportal.uni-bamberg.de/)
 - Kontenübersicht
