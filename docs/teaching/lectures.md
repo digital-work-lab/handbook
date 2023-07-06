@@ -48,6 +48,7 @@ Tasks:
 - Professor: Schedule evaluations in the pen-ultimate week via [Evasys evaluation](https://www.uni-bamberg.de/its/lehrevaluation/).
 - Secretary/Professor: Prepare the exams (**Deadline?**)
 - Professor: Grade exams (**Deadline?**).
+- Professor: Analyse the evaluations and store the files (**TODO : owncloud/teaching/...**).
 - Secretary: Enter grades in Flexnow
 
 Deadline: End of August (summer term), March (winter term)
