@@ -19,11 +19,11 @@ To request vacation time, employees should follow the designated submission proc
 
 ### 1.2 Required Information:
 When submitting a vacation request, employees must provide the following information:
-- **Full name** 
-- **Department and position** 
-- **Dates for the requested vacation period**
-- **the reason or purpose for the vacation.**
-- **Any additional notes or special considerations** 
+- Full name
+- Department and position
+- Dates for the requested vacation period
+- the reason or purpose for the vacation
+- Any additional notes or special considerations
 
 ### 1.3 Deadlines and Time lines:
 To ensure effective vacation planning and minimize disruption to the workflow, the following deadlines and time lines should be observed:
