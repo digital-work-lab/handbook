@@ -12,6 +12,7 @@ Digital work
 | Project    | Summary | Link | Status |
 |------------|---------------| ------- | --- |
 | DPKW | Review on the boundaries and processes of digital platforms for knowledge work services. | - | [Published](https://www.sciencedirect.com/science/article/abs/pii/S096386872100041X) |
+| GitIntro | - | [geritwagner/git-intro](https://github.com/geritwagner/git-intro) | Writing |
 | AICompetenceMed | - | - | Data collection completed |
 | DecProcEx | - | [geritwagner/dec-proc-ex-colrev](https://github.com/geritwagner/dec-proc-ex-colrev) | Data collection completed |
 | DPRelations | - | - | Data collection completed |
