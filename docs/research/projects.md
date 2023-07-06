@@ -35,7 +35,7 @@ Literature review methods
 | CoLRev | - | [colrev-manuscript](https://github.com/geritwagner/colrev-manuscript) | Concept|
 | LRDM | - | [geritwagner/lr-dm](https://github.com/geritwagner/lr-dm) | Concept |
 
-Research software projects
+Research software
 
 | Project    | Summary | Link | Status |
 |------------|---------------| ------- | --- |
