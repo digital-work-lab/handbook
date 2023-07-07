@@ -1,4 +1,4 @@
- ---
+---
 layout: default
 title: Lectures
 parent: Teaching
