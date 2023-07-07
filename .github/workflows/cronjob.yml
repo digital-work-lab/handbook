@@ -1,0 +1,36 @@
+name: cronjob-monthly
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 1 * *' # Every first day per month at 00:00
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout repo content
+        uses: actions/checkout@v2 # checkout the repository content
+
+      - name: setup python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10' # install the python version needed
+
+      - name: install python packages
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r src/gh_cronjobs/requirements.txt
+
+      - name: Setup git
+        run: |
+          git config --global user.name "CoLRev update"
+          git config --global user.email "actions@users.noreply.github.com"
+          git config --global url.https://github.com/.insteadOf git://github.com/
+
+      - name: Run monthly cronjob
+        run: python src/gh_cronjobs/monthly.py
+
+      - name: Commit and push if it changed
+        run: |-
+          git push
