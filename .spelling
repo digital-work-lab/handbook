@@ -1,5 +1,5 @@
-
 ADD_NAME
+AICompetenceMed
 Analyse
 Angewandte
 btn
@@ -17,12 +17,14 @@ corlev
 covid-pandemic
 csv
 Daten
+DecProcEx
 DeepCENIC
 deep-cenic
 Dezernat
 Dienstreise
 Dienstreiseantrag
 docx
+DPRelations
 Drescher
 Eduroam
 e.g.
@@ -38,6 +40,7 @@ Exposé
 exposé
 Feki.de
 Fileserver
+Fitbit
 FlexNow
 Flexnow
 Forschungsinformationssystem
@@ -46,8 +49,11 @@ geprüft
 geritwagner
 ggplot2
 github.io
+GitIntro
 GitLab
+gptzero
 Guntram
+HealthCareAI
 Informatik
 insbes
 Inventarisierung
@@ -62,6 +68,12 @@ lab_basics
 Lehre
 Linters
 LiveClub
+lr-dm
+LRMHealthCardiacRehab
+LRNLPImpact
+LRSearch
+lr-search-manuscript
+LRTracker
 Makefild
 Makefile
 Marp
@@ -70,6 +82,7 @@ Modulhandbücher
 Modulkatalog
 moodle
 Morgenroth
+OLMCareers
 Onboarding
 OneDrive
 Ordnung
@@ -107,6 +120,7 @@ Univis
 unter
 Verlängerung
 Vertrag
+VHB-JOURQUAL3
 werden
 Wi-Fi
 www-Server

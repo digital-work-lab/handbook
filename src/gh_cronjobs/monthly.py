@@ -5,11 +5,11 @@ from pathlib import Path
 import git
 
 
-def update_git_diff_in_readme():
+def update_git_diff_in_readme() -> None:
     repo = git.Repo()
     latest = ""
     first_in_month = ""
-    first_date_in_month = ""
+    selected_month = ""
     current_month = 0
     for commit in repo.iter_commits(rev="main"):
         date = datetime.datetime.fromtimestamp(commit.committed_date)
@@ -19,19 +19,20 @@ def update_git_diff_in_readme():
         if date.month < current_month - 1:
             break
         first_in_month = commit
-        first_date_in_month = date
+        selected_month = date.strftime("%B")
 
     index_content = Path("index.md").read_text(encoding="utf-8")
 
     before_diff = index_content[: index_content.find("## Recent changes")]
 
     after_diff = index_content[index_content.find("## Contributors") :]
-    selected_month = first_date_in_month.strftime("%B")
 
     updated_content = (
         before_diff
         + "## Recent changes\n\n"
-        + f"- [Handbook changes in {selected_month}](https://github.com/digital-work-lab/handbook/compare/{first_in_month}...{latest})\n\n"
+        + f"- [Handbook changes in {selected_month}]"
+        + "(https://github.com/digital-work-lab/handbook/compare/"
+        + f"{first_in_month}...{latest})\n\n"
         + after_diff
     )
 
