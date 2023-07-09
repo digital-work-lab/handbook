@@ -9,7 +9,10 @@ nav_order: 3
 
 Create a new course: have it added to Flexnow (Modulkatalog).
 
-**TODO: Link to template/issues**
+**TODO:**
+
+- Link to template/issues
+- Use the same template for projects/seminars?
 
 To organize a lecture, we use the **lecture** issue template ([overview](https://github.com/digital-work-lab/handbook/labels/lecture)).
 
