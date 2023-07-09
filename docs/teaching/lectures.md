@@ -13,6 +13,7 @@ Create a new course: have it added to Flexnow (Modulkatalog).
 
 - Link to template/issues
 - Use the same template for projects/seminars?
+- Scheine ([Formular](https://www.uni-bamberg.de/ism/studium/anmeldung-scheinklausur/)), Scheinklausur-anmeldungen bei Erstellung der Klausurbögen berücksichtigen
 
 To organize a lecture, we use the **lecture** issue template ([overview](https://github.com/digital-work-lab/handbook/labels/lecture)).
 
