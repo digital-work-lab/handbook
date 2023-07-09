@@ -57,7 +57,8 @@ Tasks:
 - Secretary/Professor: Prepare the exams (**Deadline?**)
 - Professor: Grade exams, deadline: 15. September (summer term), ??? (winter term).
 - Professor: Analyse the evaluations and store the files (**TODO : owncloud/teaching/...**).
-- Secretary: Enter grades in Flexnow or create certificates ([script](https://github.com/digital-work-lab/handbook/tree/main/src/scheine))
+- Secretary: Enter grades in Flexnow or create certificates ([script](https://github.com/digital-work-lab/handbook/tree/main/src/scheine)).
+- Professor: Document teaching efforts ([TODO : add link](..)) and submit documentation to the Dean's office ([Lehrverpflichtung](https://www.uni-bamberg.de/abt-personal/formulare-infos-und-merkblaetter/)).
 
 Deadline: End of August (summer term), March (winter term)
 
