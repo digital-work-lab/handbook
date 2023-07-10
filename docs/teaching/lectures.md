@@ -54,8 +54,13 @@ Tasks:
 - Secretary: Add moderator and session dates in VC.
 - Professor: Activate course in VC (visible to students).
 - Professor: Schedule evaluations in the pen-ultimate week via [Evasys evaluation](https://www.uni-bamberg.de/its/lehrevaluation/).
-- Secretary/Professor: Prepare the exams (**Deadline?**)
-- Professor: Grade exams (adding bonus points if any), deadline: 15. September (summer term), ??? (winter term).
+- Secretary/Professor: Prepare the exams (Deadline: day of the exam), information is typically provided one month before the semester ends (E-Mail: "Prüferbestellung")
+
+## 4. Exams and documentation
+
+- Professor: Grade exams (adding bonus points if any, have failed exams reviewed by a second professor), deadline: 15. September (summer term), ??? (winter term).
+- Professor: Send the exam sheets and two empty exams to the examination office after the exams are completed.
+- TODO: Versäumnis-Klausur? vorbehaltlich geschriebene Klausuren? und Unterschleif: direkt ans PA
 - Professor: Analyse the evaluations and store the files (**TODO : owncloud/teaching/...**).
 - Secretary: Enter grades in Flexnow or create certificates ([script](https://github.com/digital-work-lab/handbook/tree/main/src/scheine)).
 - Professor: Document teaching efforts ([TODO : add link](..)) and submit documentation to the Dean's office ([Lehrverpflichtung](https://www.uni-bamberg.de/abt-personal/formulare-infos-und-merkblaetter/)).
