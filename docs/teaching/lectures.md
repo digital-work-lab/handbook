@@ -63,7 +63,7 @@ Tasks:
 - Professor: Send the exam sheets and two empty exams to the examination office after the exams are completed.
 - Secretary: Empty exams (Versäumnis-Klausur): archive for one semester.
 - Professor: Analyse the evaluations and store the files (**TODO : owncloud/teaching/...**).
-- Secretary: Enter grades in Flexnow or create certificates ([script](https://github.com/digital-work-lab/handbook/tree/main/src/scheine)).
+- Secretary: Enter grades in Flexnow or create certificates ([script](https://github.com/digital-work-lab/handbook/tree/main/src/scheine)), print overview, sign (Professor) and send it to the examination office.
 - Professor: Document teaching efforts ([TODO : add link](..)) and submit documentation to the Dean's office ([Lehrverpflichtung](https://www.uni-bamberg.de/abt-personal/formulare-infos-und-merkblaetter/)).
 
 Deadline: End of August (summer term), March (winter term)
