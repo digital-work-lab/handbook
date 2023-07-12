@@ -42,6 +42,8 @@ Tasks:
 - Secretary and Professor: Set dates and request lecture rooms.
 - IT department: Create the VC course (automatically based on Univis).
 - Professor: Create a reminder for the evaluations.
+- Secretary: Add moderator and session dates in VC.
+- Professor: Activate course in VC (visible to students).
 
 Deadline: April (summer term), October (winter term)
 
@@ -51,8 +53,6 @@ Start: April (summer term), October (winter term)
 
 Tasks:
 
-- Secretary: Add moderator and session dates in VC.
-- Professor: Activate course in VC (visible to students).
 - Professor: Schedule evaluations in the pen-ultimate week via [Evasys evaluation](https://www.uni-bamberg.de/its/lehrevaluation/).
 - Secretary: Order exam materials (Prüfungspapier&Mantelbögen).
 - Secretary/Professor: Prepare the exams (Deadline: day of the exam), information is typically provided one month before the semester ends (E-Mail: "Prüferbestellung")
