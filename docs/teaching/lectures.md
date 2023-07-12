@@ -26,7 +26,7 @@ Start: December (summer term), May (winter term)
 Tasks:
 
 - Professor: Update information on the website.
-- Secretary: Create the course in Flexnow and activate student registration.
+- Secretary: Create the course in Flexnow.
 - Professor: Update information in Univis, check information on the website.
 
 Deadline: mid-May (summer term), December/January (winter term)
