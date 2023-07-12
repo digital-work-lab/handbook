@@ -137,11 +137,11 @@ Possible Equipment pieces could be:
 
 Tools to evaluate and measure learning outcomes and progress. These tools are designed to assess students' knowledge, skills, and understanding of the subject.
 
-## [Turnitin Similarity Checker](https://vc.uni-bamberg.de/course/view.php?id=51718)
+## [Turnitin Similarity Checker](https://www.uni-bamberg.de/its/turnitin)
 
 + Used to identify potential plagiarism by automatically checking texts for copied passages
 + Available as a feature within the [Virtual Campus](#virtual-campus-powered-by-moodle)
-+ Teachers can also utilize the [web portal](https://unibamberg.turnitin.com/home/new/sign-in) of Turnitin
++ Teachers can also utilize the [web portal](https://www.uni-bamberg.de/its/turnitin) of Turnitin
 + Checking process is performed on servers located within the EU
 + Internal verification index through sources previously checked from our university in addition to Turnitin's sources
 
