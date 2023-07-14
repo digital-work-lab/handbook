@@ -92,6 +92,8 @@ The student must present at her/his master thesis ...
 
 The Professor writes a review and grades the thesis. The deadline is given by the examination office. Our goal is to grade theses within two weeks (the official deadline allows up to 4 months). 
 
+If programming is required as part of the thesis, this should be confirmed in the review.
+
 A thesis is checked for plagiarism and generative AI based on [Turnitin](https://www.uni-bamberg.de/its/turnitin) and [gptzero](https://gptzero.me).
 
 ## 14. Transmission of the grade (Professor):
