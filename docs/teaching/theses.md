@@ -96,12 +96,9 @@ The Professor writes a review and grades the thesis.
 - If programming is required as part of the thesis, this should be confirmed in the review.
 - The deadline is given by the examination office. Our goal is to grade theses within two weeks (the official deadline allows up to 4 months). 
 - The review and grade are sent to the examination office. They are archived at (**TODO : owncloud/...**).
+- Grades are entered by the examination office. Students can check the grade via FlexNow.
 
-## 14. Transmission to FlexNow (Examination office):
-
-The examination office enters the grade to FlexNow. Students can check the grade via FlexNow.
-
-## 15. Feedback session (Professor, Student):
+## 14. Feedback session (Professor, Student):
 
 We provide feedback on the thesis and explain the grading.
 
