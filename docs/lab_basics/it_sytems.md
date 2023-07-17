@@ -86,6 +86,11 @@ via text, voice and/or video.
   format `firstname1-firstname2-firstname3-(...).surname@stud.uni-bamberg.de`
 - The messages are accessible via [Outlook](https://www.uni-bamberg.de/its/dienstleistungen/mail/zugriff/outlook/) or any other e-mail client
 
+## [Calendly](https://calendly.com/event_types/user/me)
+
+- Allow students to book appointments, which are automatically added to the Outlook calendar
+- Example: [30-minute meeting](https://calendly.com/gerit-wagner/30min?month=2023-07)
+
 ## [Teams](https://www.uni-bamberg.de/its/dienstleistungen/tele/video/teams/)
 
 - Platform for collaboration and organization, allowing users to create different areas called "Teams" to work together or manage part of their online teaching
