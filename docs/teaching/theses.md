@@ -86,7 +86,11 @@ Feedback sessions can be in person or online:
 
 ## 12. Thesis presentation (Student):
 
-The student must present at her/his master thesis ...
+- The student must present at her/his master thesis ...
+- The professor suggests a date for the presentation
+- A second examiner is required (check whether this is adequate)
+- The grading template is available here (**TODO**)
+- Protocols should be archived (digitally / paper versions?)
 
 ## 13. Grading of the thesis (Professor):
 
