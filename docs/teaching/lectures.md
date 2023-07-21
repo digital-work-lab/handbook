@@ -27,7 +27,7 @@ Tasks:
 
 - Professor: Update information on the website.
 - Secretary: Create the course in Flexnow.
-- Professor: Update information in Univis, check information on the website.
+- Professor: Update information in Univis (add keywords „WI-Seminar“ and „WI-Seminare“ for seminars), check information on the website.
 
 Deadline: mid-May (summer term), December/January (winter term)
 
