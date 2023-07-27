@@ -69,6 +69,11 @@ Tasks:
 
 Deadline: End of August (summer term), March (winter term)
 
+## 5. "Catch-up Exams" (in the following term)
+
+Despite a course is only set for either the winter or the summer term, the possibility to write an exam is still offered in both terms. Registration for students in FlexNOW is created by the examination office. (true???)
+- Professor: Check FlexNOW after the registration period, to find out whether an exam has to take place. 
+
 ## Applicable regulations
 
 - [Ordnung zur Sicherung der Qualität in Lehre und Studium](https://www.uni-bamberg.de/fileadmin/www.abt-studium/Rechtsvorschriften/1Organisation/Evaluation%20Lehre%20Studium/O-Sicherung-Qualitaet-Lehre-Studium-1.pdf)
