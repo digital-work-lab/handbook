@@ -33,7 +33,7 @@ Deadline: mid-May (summer term), December/January (winter term)
 
 The deadline (for **XX**) is shared by the Dean's office.
 
-## 2. Prepare the course (1 month before )
+## 2. Prepare the course (1 month before)
 
 Start: March (summer term), September (winter term)
 
@@ -54,7 +54,7 @@ Start: April (summer term), October (winter term)
 Tasks:
 
 - Professor: Schedule evaluations in the pen-ultimate week via [Evasys evaluation](https://www.uni-bamberg.de/its/lehrevaluation/).
-- Secretary: Order exam materials (Prüfungspapier&Mantelbögen).
+- Secretary: Order exam materials (Prüfungspapier, Mantelbögen).
 - Professor (Secretary): Prepare the exams (Deadline: day of the exam), information is typically provided one month before the semester ends (E-Mail: "Prüferbestellung"). Check whether points add up, whether the number of points per task is consistent with the grading expectations - e.g., "list two examples" should correspond to 2 or 4 points. (**TODO: where to store the exam**). Review the exam for typos. Print it and prepare the exam materials. Add the date of the exam to the calendar and prepare to hand it over personally.
 
 ## 4. Exams and documentation
@@ -69,10 +69,12 @@ Tasks:
 
 Deadline: End of August (summer term), March (winter term)
 
-## 5. "Catch-up Exams" (in the following term)
+## 5. Repeat exam (following term)
 
-Despite a course is only set for either the winter or the summer term, the possibility to write an exam is still offered in both terms. Registration for students in FlexNOW is created by the examination office. (true???)
-- Professor: Check FlexNOW after the registration period, to find out whether an exam has to take place. 
+Students have the possibility to repeat the exam in the following term (even if the lecture is not offered again). Registration for students in FlexNOW is created by the examination office. (true???)
+
+- Professor: Upon notification by the examination office (E-Mail: "Prüferbestellung"), create the repeat exam. Student registrations are available in FlexNOW.
+- Repeat relevant steps of *Exams and documentation* (step 4) 
 
 ## Applicable regulations
 
