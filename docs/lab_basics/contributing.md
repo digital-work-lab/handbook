@@ -49,7 +49,6 @@ gitGraph
     commit
     commit
 ```
--->
 
 ## Maintainers
 
@@ -58,6 +57,8 @@ gitGraph
 | lab_basics | [@geritwagner](https://github.com/geritwagner)  |
 | research   | [@geritwagner](https://github.com/geritwagner)  |
 | teaching   | [@geritwagner](https://github.com/geritwagner)  |
+
+-->
 
 ## Deployment
 
