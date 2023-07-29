@@ -7,5 +7,3 @@ nav_order: 5
 ---
 
 # Service
-
-Coming soon.

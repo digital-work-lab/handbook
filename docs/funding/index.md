@@ -7,5 +7,3 @@ nav_order: 4
 ---
 
 # Funding
-
-Coming soon.
