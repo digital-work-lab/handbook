@@ -8,9 +8,3 @@ nav_order: 3
 ---
 
 # 32 Lectures
-
-Coming soon
-
-<!-- 
-IDW
--->

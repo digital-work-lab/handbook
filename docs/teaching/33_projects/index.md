@@ -8,5 +8,3 @@ nav_order: 4
 ---
 
 # 33 Projects
-
-Coming soon

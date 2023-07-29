@@ -8,5 +8,3 @@ nav_order: 5
 ---
 
 # 34 Seminars
-
-Coming soon
