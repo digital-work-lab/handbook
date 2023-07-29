@@ -9,7 +9,7 @@ nav_order: 3
 
 # 32 Lectures
 
-Comming soon
+Coming soon
 
 <!-- 
 IDW

@@ -8,4 +8,4 @@ nav_order: 4
 
 # Funding
 
-Comming soon.
+Coming soon.

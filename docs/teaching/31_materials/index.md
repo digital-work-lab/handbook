@@ -9,7 +9,7 @@ nav_order: 2
 
 # 31 Materials
 
-Comming soon
+Coming soon
 
 <!-- 
 IDW
