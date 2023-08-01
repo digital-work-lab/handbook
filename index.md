@@ -11,7 +11,7 @@ permalink: /
 
 The goal of the internal handbook is to document our processes related to research, teaching, and administration. We invite everyone to use it as a resource and to contribute to it using the [issues](https://github.com/digital-work-lab/handbook/issues) and [pull requests](https://github.com/digital-work-lab/handbook/pulls).
 
-[Schedule a meeting](https://calendly.com/gerit-wagner/30min){: .btn .btn-green }
+<!--  [Schedule a meeting](https://calendly.com/gerit-wagner/30min){: .btn .btn-green } -->
 
 ## Recent changes
 
