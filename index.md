@@ -14,7 +14,7 @@ The goal of the internal handbook is to document our processes related to resear
 
 ## Recent changes
 
-- [Handbook changes in June](https://github.com/digital-work-lab/handbook/compare/bc0f46199126170a6614b5fe76e4082ee6bcd59f...0a660fc751ffe64bac94a1d1ffa5e2814ddcecd9)
+- [Handbook changes in July](https://github.com/digital-work-lab/handbook/compare/6e0b3da0c213f74dce154642892d50e5ed96a9b3...6e0b3da0c213f74dce154642892d50e5ed96a9b3)
 
 ## Contributors
 
