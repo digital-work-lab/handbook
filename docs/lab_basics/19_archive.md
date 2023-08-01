@@ -12,5 +12,6 @@ Confidential
 This category contains archived documents. 
 
 - Only mandatory documents are archived in paper form.
-- Each document receives a unique number.
-- Documents are scanned, OCRed, and stored as a PDF.
+- They receive a unique ID XXXXXX (Paginierstempel)
+- Scanned, OCRed, added to 19.XXXXXX.
+- Shared via email with a reminder to apply OCR (the ID, not the PDF).
