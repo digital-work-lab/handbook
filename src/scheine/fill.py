@@ -11,6 +11,8 @@ print("Erstelle Scheine:")
 for data in grades.to_dict("index").values():
     document_1 = MailMerge(template_1)
     assert document_1.get_merge_fields() == data.keys()
+    if len(data["Grade"]) == 1:
+        data["Grade"] += ".0"
 
     print(f"- {data['Name']}".ljust(20) + f": {data['Name']}.docx")
     document_1.merge(**data)

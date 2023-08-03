@@ -7,4 +7,4 @@
 python3 fill.py
 ```
 
-Projekt: "WI-Projekt-B: Bachelorprojekt aus der Fächsergruppe Wirtschaftsinformatik"
+Projekt: "WI-Projekt-B: Bachelorprojekt aus der Fächergruppe Wirtschaftsinformatik"
