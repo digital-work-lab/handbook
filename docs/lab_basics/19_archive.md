@@ -14,4 +14,4 @@ This category contains archived documents.
 - Only mandatory documents are archived in paper form.
 - They receive a unique ID XXXXXX (Paginierstempel)
 - Scanned, OCRed, added to 19.XXXXXX.
-- Shared via email with a reminder to apply OCR (the ID, not the PDF).
+- Shared via email with a reminder to apply OCR (attaching the PDF is not necessary).
