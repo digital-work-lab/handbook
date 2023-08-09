@@ -9,7 +9,15 @@ permalink: /
 
 # The handbook
 
-The goal of the internal handbook is to document our processes related to research, teaching, and administration. Each section has a unique number, which helps us to organize handbook documents and files on our shared [data store](docs/lab_basics/10_processes/10.05.systems-overview.html#nextcloud). For example, theses are in section [30.40](docs/teaching/30_processes/30.40.theses.html). 
+The goal of the internal handbook is to document our processes related to 
+
+- Lab management (section 10)
+- Research (section 20)
+- Teaching (section 30)
+- Funding (section 40)
+- Service (section 50)
+
+Each section has a unique number, which helps us to organize handbook documents and files on our shared [data store](docs/lab_basics/10_processes/10.05.systems-overview.html#nextcloud). For example, theses are in section [30.40](docs/teaching/30_processes/30.40.theses.html). 
 
 ## Contributing
 
