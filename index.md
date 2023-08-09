@@ -9,11 +9,11 @@ permalink: /
 
 # The handbook
 
-The goal of the internal handbook is to document our processes related to research, teaching, and administration.
+The goal of the internal handbook is to document our processes related to research, teaching, and administration. Each section has a unique number ([1](https://johnnydecimal.com/)), which helps us to organize handbook documents and files on our shared [data store](docs/lab_basics/10_processes/10.05.systems-overview.html#nextcloud). For example, theses are in section [30.20](docs/teaching/30_processes/30.40.theses.html). 
 
 ## Contributing
 
-We invite everyone to use it as a resource and to contribute to it using the [issues](https://github.com/digital-work-lab/handbook/issues) and [pull requests](https://github.com/digital-work-lab/handbook/pulls). Instructions and guidelines are available in [10.10 Handbook](lab_basics/10_processes/10.10.handbook.html).
+We invite everyone to use it as a resource and to contribute to it using the [issues](https://github.com/digital-work-lab/handbook/issues) and [pull requests](https://github.com/digital-work-lab/handbook/pulls). Instructions and guidelines are available in [10.10 Handbook](docs/lab_basics/10_processes/10.10.handbook.html).
 
 ## Recent changes
 
