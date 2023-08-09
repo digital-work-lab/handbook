@@ -9,8 +9,11 @@ permalink: /
 
 # The handbook
 
-The goal of the internal handbook is to document our processes related to research, teaching, and administration. We invite everyone to use it as a resource and to contribute to it using the [issues](https://github.com/digital-work-lab/handbook/issues) and [pull requests](https://github.com/digital-work-lab/handbook/pulls).
+The goal of the internal handbook is to document our processes related to research, teaching, and administration.
 
+## Contributing
+
+We invite everyone to use it as a resource and to contribute to it using the [issues](https://github.com/digital-work-lab/handbook/issues) and [pull requests](https://github.com/digital-work-lab/handbook/pulls). Instructions and guidelines are available in [10.10 Handbook](lab_basics/10_processes/10.10.handbook.html).
 
 ## Recent changes
 
