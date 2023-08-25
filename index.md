@@ -23,11 +23,11 @@ Each section has a unique number, which helps us to organize handbook documents 
 
 We invite everyone to use it as a resource and to contribute to it using the [issues](https://github.com/digital-work-lab/handbook/issues) and [pull requests](https://github.com/digital-work-lab/handbook/pulls). Instructions and guidelines are available in [10.10 Handbook](docs/lab_management/10_processes/10.10.handbook.html).
 
+<!--
 ## Recent changes
 
 - [Handbook changes in July](https://github.com/digital-work-lab/handbook/compare/6e0b3da0c213f74dce154642892d50e5ed96a9b3...6e0b3da0c213f74dce154642892d50e5ed96a9b3)
 
-<!--
 ## Contact
 
 Offices: WE5/1.081.
