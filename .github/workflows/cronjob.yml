@@ -2,8 +2,8 @@ name: cronjob-monthly
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 0 1 * *' # Every first day per month at 00:00
+  # schedule:
+  #  - cron: '0 0 1 * *' # Every first day per month at 00:00
 
 jobs:
   build:
