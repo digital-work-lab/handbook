@@ -12,10 +12,10 @@ permalink: /
 The goal of the internal handbook is to document our processes related to 
 
 - Section 10: [Lab management](docs/lab_management/)
-- Section 20: Research
-- Section 30: Teaching
-- Section 40: Funding
-- Section 50: Service
+- Section 20: [Research](docs/research/)
+- Section 30: [Teaching](docs/teaching/)
+- Section 40: [Funding](docs/funding/)
+- Section 50: [Service](docs/service/)
 
 Each section has a unique number, which helps us to organize handbook documents and files on our shared [data store](docs/lab_management/10_processes/10.05.systems-overview.html#nextcloud). For example, theses are in section [30.40](docs/teaching/30_processes/30.40.theses.html). 
 
