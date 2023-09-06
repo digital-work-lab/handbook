@@ -11,7 +11,7 @@ permalink: /
 
 The goal of the internal handbook is to document our processes related to 
 
-- Section 10: Lab management
+- Section 10: [Lab management](docs/lab_management/)
 - Section 20: Research
 - Section 30: Teaching
 - Section 40: Funding
