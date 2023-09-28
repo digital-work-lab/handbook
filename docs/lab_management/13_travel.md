@@ -11,5 +11,5 @@ Confidential
 
 This category contains travel documents:
 
-- Created by [travel process](../10_processes/10.50.travel.html).
+- Created by [10.50 travel process](10_processes/10.50.travel.html).
 - IDs: 13.001-999
