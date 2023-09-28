@@ -9,7 +9,4 @@ nav_order: 3
 Confidential
 {: .label .label-red }
 
-This category contains travel documents:
-
-- Created by [10.50 travel process](10_processes/10.50.travel.html).
-- IDs: 13.001-999
+This category contains travel documents created by [10.50 travel process](10_processes/10.50.travel.html).
