@@ -6,6 +6,22 @@ from datetime import date
 
 data = frontmatter.load('review.md')
 
+lines = data.content.split('\n')
+
+lines_wo_comments = []
+skipping_comment = False
+for line in lines:
+    if line.startswith("<!--"):
+        skipping_comment = True
+    if "-->" in line:
+        skipping_comment = False
+        continue
+    if skipping_comment:
+        continue
+    lines_wo_comments.append(line)
+
+data.content = '\n'.join(lines_wo_comments)
+
 data["review"] = data.content
 data["Date"] = today = str(date.today())
 
