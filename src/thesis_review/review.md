@@ -25,8 +25,7 @@ Overall, I therefore recommend a grade of XXXXX for XXXXX's Bachelor's / Master'
 
 TODO:
 
-- [ ] Turnitin
-- [ ] GPTZero
+- [ ] [Turnitin](https://www.uni-bamberg.de/its/turnitin)
 - [ ] Check [criteria](https://digital-work-lab.github.io/handbook/docs/teaching/30_processes/30.40.theses_criteria.html)
 - [ ] Summarize in bullets and have chatgpt suggest paragraphs (revise)
-- [ ] Spellcheck
+- [ ] Spellcheck review

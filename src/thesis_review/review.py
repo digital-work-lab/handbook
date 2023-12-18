@@ -1,12 +1,13 @@
 #! /usr/bin/env python
-import pandas as pd
-from mailmerge import MailMerge
-import frontmatter
 from datetime import date
 
-data = frontmatter.load('review.md')
+import frontmatter
+import pandas as pd
+from mailmerge import MailMerge
 
-lines = data.content.split('\n')
+data = frontmatter.load("review.md")
+
+lines = data.content.split("\n")
 
 lines_wo_comments = []
 skipping_comment = False
@@ -20,7 +21,7 @@ for line in lines:
         continue
     lines_wo_comments.append(line)
 
-data.content = '\n'.join(lines_wo_comments)
+data.content = "\n".join(lines_wo_comments)
 
 data["review"] = data.content
 data["Date"] = today = str(date.today())
@@ -34,4 +35,6 @@ for key in data.keys():
     data[key] = str(data[key])
 
 document_1.merge(**data)
-document_1.write(f'{str(date.today())}-{data["thesis_id"]}-{data["candidate"].replace(" ", "_")}_Gutachten.docx')
+document_1.write(
+    f'{str(date.today())}-{data["thesis_id"]}-{data["candidate"].replace(" ", "_")}_Gutachten.docx'
+)
