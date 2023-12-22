@@ -12,4 +12,4 @@ nav_order: 3
 ## Overview
 
 - Currently, we offer the *Introduction to Digital Work* (IDW) lecture.
-- Instructions to organize lectures are available [here](30_processes/30.10.lecture.html).
+- Instructions to organize lectures are available [here](../30_processes/30.10.lecture.html).
