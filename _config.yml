@@ -20,7 +20,7 @@ plugins:
 
 enable_copy_code_button: true
 
-# logo: "/assets/images/digital-work-lab.png"
+logo: "/assets/images/digital-work-lab.png"
 
 callouts:
   warning:
