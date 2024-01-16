@@ -26,3 +26,9 @@ callouts:
   warning:
     title: Warning
     color: red
+
+aux_links:
+  "Website":
+    - "https://www.uni-bamberg.de/digital-work/"
+  "Code Repository":
+    - "https://github.com/digital-work-lab/handbook"
