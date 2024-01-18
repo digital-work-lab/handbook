@@ -18,13 +18,13 @@ It documents our processes related to
 - Section 40: [Funding](docs/funding/)
 - Section 50: [Service](docs/service/)
 
-Each section has a unique number, which helps us to organize handbook documents and files on our shared [data store](docs/lab_management/10_processes/10.05.systems-overview.html#nextcloud). For example, theses are in section [30.40](docs/teaching/30_processes/30.40.theses.html). 
+Each section has a unique number, which helps us to organize handbook documents and files on our shared [data store](docs/lab_management/10_processes/10.05.systems-overview.html#nextcloud){: target="_blank"}. For example, theses are in section [30.40](docs/teaching/30_processes/30.40.theses.html). 
 
-The handbook takes inspiration from [GitLab's Handbook](https://handbook.gitlab.com/), providing an open and transparent resource in the academic context.
+The handbook takes inspiration from [GitLab's Handbook](https://handbook.gitlab.com/){: target="_blank"}, providing an open and transparent resource in the academic context.
 
 ## Contributing
 
-We invite everyone to contribute to it using the [issues](https://github.com/digital-work-lab/handbook/issues) and [pull requests](https://github.com/digital-work-lab/handbook/pulls) and to use it as a resource.
+We invite everyone to contribute to it using the [issues](https://github.com/digital-work-lab/handbook/issues){: target="_blank"} and [pull requests](https://github.com/digital-work-lab/handbook/pulls){: target="_blank"} and to use it as a resource.
 Instructions and guidelines are available in [10.10 Handbook](docs/lab_management/10_processes/10.10.handbook.html).
 
 <!--
