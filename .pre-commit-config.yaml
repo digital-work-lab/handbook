@@ -16,6 +16,7 @@ repos:
 - repo: local
   hooks:
     - id: custom-checks
+      additional_dependencies: [pypdf==4.0.0]
       name: custom-checks
       entry: python checks.py
       language: python
