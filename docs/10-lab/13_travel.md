@@ -1,11 +1,13 @@
 ---
 layout: default
-title: 13 Travel
+title: 13 🔒 Travel
 parent: Lab Management
 nav_order: 3
 ---
 
 # 13 Travel
+{: .d-inline-block }
+
 Confidential
 {: .label .label-red }
 

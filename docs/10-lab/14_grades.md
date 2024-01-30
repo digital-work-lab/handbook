@@ -1,11 +1,13 @@
 ---
 layout: default
-title: 14 Grades
+title: 14 🔒 Grades
 parent: Lab Management
 nav_order: 4
 ---
 
 # 14 Grades
+{: .d-inline-block }
+
 Confidential
 {: .label .label-red }
 

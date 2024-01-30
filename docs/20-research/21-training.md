@@ -6,8 +6,6 @@ nav_order: 2
 ---
 
 # 21 Training
-Confidential
-{: .label .label-red }
 
 Categories:
 
