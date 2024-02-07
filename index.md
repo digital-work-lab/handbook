@@ -6,7 +6,6 @@ description: "Welcome"
 permalink: /
 ---
 
-
 # The handbook
 
 This handbook is a collaborative and participatory initiative to facilitate our research activities, and consistently deliver high-quality service to students.
@@ -19,6 +18,12 @@ It documents our processes related to
 - Section 50: [Service](docs/50-service/)
 
 Each section has a unique number, which helps us to organize handbook documents and files on our shared [data store](docs/10-lab/10_processes/10.05.systems-overview.html#nextcloud){: target="_blank"}. For example, theses are in section [30.40](docs/30-teaching/30_processes/30.40.theses.html). 
+
+There are external repositories for the following teaching offers:
+
+- [literature review seminar](https://digital-work-lab.github.io/literature-review-seminar/){: target="_blank"}
+- [open source project](https://digital-work-lab.github.io/open-source-project/){: target="_blank"}
+- [digital work lecture](https://github.com/digital-work-lab/digital-work-lecture){: target="_blank"}
 
 The handbook takes inspiration from [GitLab's Handbook](https://handbook.gitlab.com/){: target="_blank"}, providing an open and transparent resource in the academic context.
 
