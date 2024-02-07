@@ -21,9 +21,9 @@ Each section has a unique number, which helps us to organize handbook documents 
 
 There are external repositories for the following teaching offers:
 
+- [digital work lecture](https://digital-work-lab.github.io/digital-work-lecture/){: target="_blank"}
 - [literature review seminar](https://digital-work-lab.github.io/literature-review-seminar/){: target="_blank"}
 - [open source project](https://digital-work-lab.github.io/open-source-project/){: target="_blank"}
-- [digital work lecture](https://github.com/digital-work-lab/digital-work-lecture){: target="_blank"}
 
 The handbook takes inspiration from [GitLab's Handbook](https://handbook.gitlab.com/){: target="_blank"}, providing an open and transparent resource in the academic context.
 
