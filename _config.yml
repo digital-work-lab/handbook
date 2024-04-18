@@ -29,6 +29,9 @@ callouts:
   warning:
     title: Warning
     color: red
+  highlight:
+    title: Info
+    color: yellow
 
 aux_links:
   "Website":
