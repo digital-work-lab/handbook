@@ -21,7 +21,7 @@ Each section has a unique number, which helps us to organize handbook documents 
 
 For sharing data, communication and meetings, we use the following tools:
 
-| [![Outlook Logo](https://digital-work-lab.github.io/handbook/assets/images/outlook.png){:width="60px"}](https://mailex.uni-bamberg.de/){: target="_blank"} | [Schedule a meeting](https://calendly.com/gerit-wagner/30min){: .btn .btn-green target="_blank"} | [![Zoom Logo](https://digital-work-lab.github.io/handbook/assets/images/zoom.png){:width="60px"}](zoom://open){: target="_blank"} | [![Nextcloud logo](https://digital-work-lab.github.io/handbook/assets/images/nextcloud.svg){:width="60px"}](https://nc-2272638881871040784.nextcloud-ionos.com/index.php/apps/dashboard/){: target="_blank"} |
+| [![Outlook Logo](https://digital-work-lab.github.io/handbook/assets/images/outlook.png){:width="60px"}](https://mailex.uni-bamberg.de/){: target="_blank"} | [Schedule a meeting](https://calendly.com/gerit-wagner/30min){: .btn .btn-green target="_blank"} | [Zoom](zoom://open){: .btn .btn-green target="_blank"} | [![Nextcloud logo](https://digital-work-lab.github.io/handbook/assets/images/nextcloud.svg){:width="60px"}](https://nc-2272638881871040784.nextcloud-ionos.com/index.php/apps/dashboard/){: target="_blank"} |
 
 There are external repositories for the following teaching offers:
 
