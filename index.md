@@ -17,7 +17,12 @@ It documents our processes related to
 - Section 40: [Funding](docs/40-funding)
 - Section 50: [Service](docs/50-service/)
 
-Each section has a unique number, which helps us to organize handbook documents and files on our shared [data store](docs/10-lab/10_processes/10.05.systems-overview.html#nextcloud){: target="_blank"}.
+Each section has a unique number, which helps us to organize handbook documents and files.
+
+For sharing data and communication, we use the following tools:
+
+| [![Outlook Logo](https://digital-work-lab.github.io/handbook/assets/images/outlook.png){:width="200px"}](https://mailex.uni-bamberg.de/){: target="_blank"} | [![Nextcloud logo](https://digital-work-lab.github.io/handbook/assets/images/nextcloud.svg){:width="200px"}](docs/10-lab/10_processes/10.05.systems-overview.html#nextcloud){: target="_blank"} |
+
 
 There are external repositories for the following teaching offers:
 
