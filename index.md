@@ -21,16 +21,16 @@ Each section has a unique number, which helps us to organize handbook documents 
 
 For sharing data and communication, we use the following tools:
 
-| [![Outlook Logo](https://digital-work-lab.github.io/handbook/assets/images/outlook.png){:width="200px"}](https://mailex.uni-bamberg.de/){: target="_blank"} | [![Nextcloud logo](https://digital-work-lab.github.io/handbook/assets/images/nextcloud.svg){:width="200px"}](docs/10-lab/10_processes/10.05.systems-overview.html#nextcloud){: target="_blank"} | [Calendly](https://calendly.com/){: target="_blank"} |
+| [![Outlook Logo](https://digital-work-lab.github.io/handbook/assets/images/outlook.png){:height="80px"}](https://mailex.uni-bamberg.de/){: target="_blank"} | [![Nextcloud logo](https://digital-work-lab.github.io/handbook/assets/images/nextcloud.svg){:height="80px"}](https://nc-2272638881871040784.nextcloud-ionos.com/index.php/apps/dashboard/){: target="_blank"} | [Schedule a meeting](https://calendly.com/gerit-wagner/30min){: .btn .btn-green target="_blank"} |
 
 There are external repositories for the following teaching offers:
 
 | [![Digital Work Lecture Logo](https://digital-work-lab.github.io/digital-work-lecture/assets/images/IDW-logo.png){:width="200px"}](https://digital-work-lab.github.io/digital-work-lecture/){: target="_blank"} | [![Open Source Project Logo](https://digital-work-lab.github.io/open-source-project/assets/images/open-source-project.png){:width="200px"}](https://digital-work-lab.github.io/open-source-project/){: target="_blank"} |
 | [![Literature Review Seminar Logo](https://digital-work-lab.github.io/literature-review-seminar/assets/images/lr-seminar.png){:width="200px"}](https://digital-work-lab.github.io/literature-review-seminar/){: target="_blank"} | [![Theses Logo](https://digital-work-lab.github.io/theses/assets/images/theses.png){:width="200px"}](https://digital-work-lab.github.io/theses/){: target="_blank"} |
 
-The handbook takes inspiration from [GitLab's Handbook](https://handbook.gitlab.com/){: target="_blank"}, providing an open and transparent resource in the academic context.
-
 ## Contributing
+
+The handbook takes inspiration from [GitLab's Handbook](https://handbook.gitlab.com/){: target="_blank"}, providing an open and transparent resource in the academic context.
 
 We invite everyone to contribute to it using the [issues](https://github.com/digital-work-lab/handbook/issues){: target="_blank"} and [pull requests](https://github.com/digital-work-lab/handbook/pulls){: target="_blank"} and to use it as a resource.
 Instructions and guidelines are available in [10.10 Handbook](docs/10-lab/10_processes/10.10.handbook.html).
