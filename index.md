@@ -52,6 +52,10 @@ Offices: WE5/1.081.
 
 ## Handbook contributors
 
+| [![Gerit Wagner](https://avatars.githubusercontent.com/u/3872815?v=4){:width="192" height="192"}](https://github.com/geritwagner) | [![LaureenTh](https://avatars.githubusercontent.com/u/130306776?v=4){:width="50" height="50"}](https://github.com/LaureenTh) [![Doris1403](https://avatars.githubusercontent.com/u/135109375?v=4){:width="50" height="50"}](https://github.com/Doris1403)<br> [![dengdenglele](https://avatars.githubusercontent.com/u/135805718?v=4){:width="50" height="50"}](https://github.com/dengdenglele)  | {% for contributor in site.github.contributors %}{% if contributor.login != "geritwagner" and contributor.login != "LaureenTh" and contributor.login != "Doris1403" and contributor.login != "dengdenglele" and contributor.login != "dependabot[bot]" %}<a href="{{ contributor.html_url }}"><img src="{{ contributor.avatar_url }}" width="50" height="50" alt="{{ contributor.login }}"/></a>{% endif %}{% endfor %} |[![dependabot[bot]](https://avatars.githubusercontent.com/in/29110?v=4){:width="50" height="50"}](https://github.com/apps/dependabot) |
+| Prof. Dr. Gerit Wagner | Team | Students | Bots |
+
+<!-- 
 <ul class="list-style-none">
 {% for contributor in site.github.contributors %}
   <li class="d-inline-block mr-1">
@@ -59,3 +63,4 @@ Offices: WE5/1.081.
   </li>
 {% endfor %}
 </ul>
+ -->
