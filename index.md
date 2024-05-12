@@ -22,7 +22,7 @@ Each section has a unique number, which helps us to organize handbook documents 
 For sharing data, communication and meetings, we use the following tools:
 
 | Send e-mails | Schedule meetings | Meet online | Collaborate | Share data |
-| [![Outlook Logo](https://digital-work-lab.github.io/handbook/assets/images/outlook.png){:width="40px"}](https://mailex.uni-bamberg.de/){: target="_blank"} | [Calendly](https://calendly.com/gerit-wagner/30min){: .btn .btn-green target="_blank"} | [Zoom](zoom://open){: .btn .btn-green target="_blank"} | [![GitHub Logo](https://digital-work-lab.github.io/handbook/assets/images/github.svg){:width="40px"}](https://github.com/orgs/digital-work-lab/repositories){: target="_blank"} | [![Nextcloud logo](https://digital-work-lab.github.io/handbook/assets/images/nextcloud.svg){:width="40px"}](https://nc-2272638881871040784.nextcloud-ionos.com/index.php/apps/dashboard/){: target="_blank"} |
+| [Outlook](https://mailex.uni-bamberg.de/){: .btn .btn-green target="_blank"} | [Calendly](https://calendly.com/gerit-wagner/30min){: .btn .btn-green target="_blank"} | [Zoom](zoom://open){: .btn .btn-green target="_blank"} | [GitHub](https://github.com/orgs/digital-work-lab/repositories){: .btn .btn-green target="_blank"} | [Nextcloud](https://nc-2272638881871040784.nextcloud-ionos.com/index.php/apps/dashboard/){: .btn .btn-green target="_blank"} |
 
 There are external repositories for the following teaching offers:
 
