@@ -11,11 +11,11 @@ permalink: /
 This handbook is a collaborative and participatory initiative to facilitate our research activities, and consistently deliver high-quality service to students.
 It documents our processes related to 
 
-- Section 10: [Lab management](docs/10-lab/)
-- Section 20: [Research](docs/20-research/)
-- Section 30: [Teaching](docs/30-teaching/)
-- Section 40: [Funding](docs/40-funding)
-- Section 50: [Service](docs/50-service/)
+- Section 10-19: [Lab management](docs/10-lab/)
+- Section 20-29: [Research](docs/20-research/)
+- Section 30-39: [Teaching](docs/30-teaching/)
+- Section 40-49: [Funding](docs/40-funding)
+- Section 50-59: [Service](docs/50-service/)
 
 Each section has a unique number, which helps us to organize handbook documents and files.
 
@@ -26,13 +26,16 @@ For sharing data, communication and meetings, we use the following tools:
 
 There are external repositories for the following teaching offers:
 
-| [![Digital Work Lecture Logo](https://digital-work-lab.github.io/digital-work-lecture/assets/images/IDW-logo.png){:width="200px"}](https://digital-work-lab.github.io/digital-work-lecture/){: target="_blank"} | [![Open Source Project Logo](https://digital-work-lab.github.io/open-source-project/assets/images/open-source-project.png){:width="200px"}](https://digital-work-lab.github.io/open-source-project/){: target="_blank"} |
-| [![Literature Review Seminar Logo](https://digital-work-lab.github.io/literature-review-seminar/assets/images/lr-seminar.png){:width="200px"}](https://digital-work-lab.github.io/literature-review-seminar/){: target="_blank"} | [![Theses Logo](https://digital-work-lab.github.io/theses/assets/images/theses.png){:width="200px"}](https://digital-work-lab.github.io/theses/){: target="_blank"} |
+|  | Bachelor | Master |
+| --- | --- | --- |
+| Lecture | [![Digital Work Lecture Logo](https://digital-work-lab.github.io/digital-work-lecture/assets/images/IDW-logo.png){:width="200px"}](https://digital-work-lab.github.io/digital-work-lecture/){: target="_blank"} | - |
+| Project | [![Open Source Project Logo](https://digital-work-lab.github.io/open-source-project/assets/images/open-source-project.png){:width="200px"}](https://digital-work-lab.github.io/open-source-project/){: target="_blank"} | - |
+| Seminar | - | [![Literature Review Seminar Logo](https://digital-work-lab.github.io/literature-review-seminar/assets/images/lr-seminar.png){:width="200px"}](https://digital-work-lab.github.io/literature-review-seminar/){: target="_blank"} |
+| Thesis | [![Theses Logo](https://digital-work-lab.github.io/theses/assets/images/theses.png){:width="200px"}](https://digital-work-lab.github.io/theses/){: target="_blank"} | [![Theses Logo](https://digital-work-lab.github.io/theses/assets/images/theses.png){:width="200px"}](https://digital-work-lab.github.io/theses/){: target="_blank"} |
 
 ## Contributing
 
 The handbook takes inspiration from [GitLab's Handbook](https://handbook.gitlab.com/){: target="_blank"}, providing an open and transparent resource in the academic context.
-
 We invite everyone to contribute to it using the [issues](https://github.com/digital-work-lab/handbook/issues){: target="_blank"} and [pull requests](https://github.com/digital-work-lab/handbook/pulls){: target="_blank"} and to use it as a resource.
 Instructions and guidelines are available in [10.10 Handbook](docs/10-lab/10_processes/10.10.handbook.html).
 
