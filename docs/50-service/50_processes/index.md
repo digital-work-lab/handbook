@@ -8,5 +8,3 @@ nav_order: 1
 ---
 
 # 50 Service Processes
-
-Coming soon
