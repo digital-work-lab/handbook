@@ -21,17 +21,17 @@ Each section has a unique number, which helps us to organize handbook documents 
 
 For sharing data, communication and meetings, we use the following tools:
 
-| E-mails | Schedule meetings | Meet online | Collaborate | Share data |
+| **E-mails** | **Schedule meetings** | **Meet online** | **Collaborate** | **Share data** |
 | [Outlook](https://mailex.uni-bamberg.de/){: .btn .btn-green target="_blank"} | [Calendly](https://calendly.com/gerit-wagner/30min){: .btn .btn-green target="_blank"} | [Zoom](zoom://open){: .btn .btn-green target="_blank"} | [GitHub](https://github.com/orgs/digital-work-lab/repositories){: .btn .btn-green target="_blank"} | [Nextcloud](https://nc-2272638881871040784.nextcloud-ionos.com/index.php/apps/dashboard/){: .btn .btn-green target="_blank"} |
 
 There are external repositories for the following teaching offers:
 
 |  | Bachelor | Master | Ph.D. |
 | --- | --- | --- | --- |
-| Lecture | [![Digital Work Lecture Logo](https://digital-work-lab.github.io/digital-work-lecture/assets/images/IDW-logo.png){:width="200px"}](https://digital-work-lab.github.io/digital-work-lecture/){: target="_blank"} | - | - |
-| Project | [![Open Source Project Logo](https://digital-work-lab.github.io/open-source-project/assets/images/open-source-project.png){:width="200px"}](https://digital-work-lab.github.io/open-source-project/){: target="_blank"} | - | - |
-| Seminar | - | [![Literature Review Seminar Logo](https://digital-work-lab.github.io/literature-review-seminar/assets/images/lr-seminar.png){:width="200px"}](https://digital-work-lab.github.io/literature-review-seminar/){: target="_blank"} | [![Literature Review Seminar Logo](https://digital-work-lab.github.io/literature-review-seminar/assets/images/lr-seminar.png){:width="200px"}](https://digital-work-lab.github.io/literature-review-seminar/){: target="_blank"} |
-| Theses | [![Theses Logo](https://digital-work-lab.github.io/theses/assets/images/theses.png){:width="200px"}](https://digital-work-lab.github.io/theses/){: target="_blank"} | [![Theses Logo](https://digital-work-lab.github.io/theses/assets/images/theses.png){:width="200px"}](https://digital-work-lab.github.io/theses/){: target="_blank"} | - |
+| **Lecture** | [![Digital Work Lecture Logo](https://digital-work-lab.github.io/digital-work-lecture/assets/images/IDW-logo.png){:width="200px"}](https://digital-work-lab.github.io/digital-work-lecture/){: target="_blank"} | - | - |
+| **Project** | [![Open Source Project Logo](https://digital-work-lab.github.io/open-source-project/assets/images/open-source-project.png){:width="200px"}](https://digital-work-lab.github.io/open-source-project/){: target="_blank"} | - | - |
+| **Seminar** | - | [![Literature Review Seminar Logo](https://digital-work-lab.github.io/literature-review-seminar/assets/images/lr-seminar.png){:width="200px"}](https://digital-work-lab.github.io/literature-review-seminar/){: target="_blank"} | [![Literature Review Seminar Logo](https://digital-work-lab.github.io/literature-review-seminar/assets/images/lr-seminar.png){:width="200px"}](https://digital-work-lab.github.io/literature-review-seminar/){: target="_blank"} |
+| **Theses** | [![Theses Logo](https://digital-work-lab.github.io/theses/assets/images/theses.png){:width="200px"}](https://digital-work-lab.github.io/theses/){: target="_blank"} | [![Theses Logo](https://digital-work-lab.github.io/theses/assets/images/theses.png){:width="200px"}](https://digital-work-lab.github.io/theses/){: target="_blank"} | - |
 
 ## Contributing
 
