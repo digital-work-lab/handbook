@@ -31,7 +31,9 @@ There are external repositories for the following teaching offers:
 | **Lecture** | [![Digital Work Lecture Logo](https://digital-work-lab.github.io/digital-work-lecture/assets/images/IDW-logo.png){:width="200px"}](https://digital-work-lab.github.io/digital-work-lecture/){: target="_blank"} | - | - |
 | **Project** | [![Open Source Project Logo](https://digital-work-lab.github.io/open-source-project/assets/images/open-source-project.png){:width="200px"}](https://digital-work-lab.github.io/open-source-project/){: target="_blank"} | - | - |
 | **Seminar** | - | [![Literature Review Seminar Logo](https://digital-work-lab.github.io/literature-review-seminar/assets/images/lr-seminar.png){:width="200px"}](https://digital-work-lab.github.io/literature-review-seminar/){: target="_blank"} | [![Literature Review Seminar Logo](https://digital-work-lab.github.io/literature-review-seminar/assets/images/lr-seminar.png){:width="200px"}](https://digital-work-lab.github.io/literature-review-seminar/){: target="_blank"} |
-| **Theses** | [![Theses Logo](https://digital-work-lab.github.io/theses/assets/images/theses.png){:width="200px"}](https://digital-work-lab.github.io/theses/){: target="_blank"} | [![Theses Logo](https://digital-work-lab.github.io/theses/assets/images/theses.png){:width="200px"}](https://digital-work-lab.github.io/theses/){: target="_blank"} | - |
+| **Theses** | [![Theses Logo](https://digital-work-lab.github.io/theses/assets/images/theses.png){:width="200px"}](https://digital-work-lab.github.io/theses/){: target="_blank"} | [![Theses Logo](https://digital-work-lab.github.io/theses/assets/images/theses.png){:width="200px"}](https://digital-work-lab.github.io/theses/){: target="_blank"} | (*) |
+
+(*) Resources for Ph.D. students, theses, and research are in [section 20](https://digital-work-lab.github.io/handbook/docs/20-research/).
 
 ## Contributing
 
