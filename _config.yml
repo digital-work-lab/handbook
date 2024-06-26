@@ -36,7 +36,7 @@ callouts:
 aux_links:
   "Website":
     - "https://www.uni-bamberg.de/digital-work/"
-  "Code Repository":
+  "Repository":
     - "https://github.com/digital-work-lab/handbook"
   "Issues":
     - "https://github.com/digital-work-lab/handbook/issues"
