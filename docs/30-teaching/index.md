@@ -8,6 +8,33 @@ nav_order: 4
 
 # Teaching
 
+Our teaching activities include lecures, projects and seminars, which are based on the following process:
+
+```mermaid
+flowchart TB
+    subgraph main["Lectures, projects, seminars"]
+        direction TB
+
+        Flexnow[(Flexnow)]
+        Flexnow --- Prepare
+        Flexnow --- Grade
+        Univis[(Univis)]
+        Univis --- Prepare
+
+        Prepare["<a href='30_processes/30.09.new_modules.html'>Preparation</a>"] --> Run["<a href='30_processes/30.02.courses.html#course-list'>Run lecture/seminar/project</a>"]
+        Run --> Grade["<a href=''>Grading</a> / <a href='30_processes/30.20.reports.html'>reporting</a>"]
+        Run --> Repeat[Repeat exam]
+        Grade -.-> Reviews["<a href='30_processes/30.60.reviews.html'>Reviews</a>"]
+        Grade -.-> Certificates["<a href='30_processes/30.51.certificates.html'>Certificates</a>"]
+        Run ==> Evaluate["<a href='30_processes/30.21.evaluations.html'>Evaluation</a>"]
+        Evaluate ==> Improve["<a href='30_processes/30.22.improvements.html'>Improvement</a>"]
+        Improve ==> Run
+    end
+
+```
+
+In addition, we advise Bachelor's and Master's theses based on the following process:
+
 ```mermaid
 flowchart TB
     subgraph Theses
@@ -20,17 +47,4 @@ flowchart TB
         Improvement --> Advising
         Feedback --> Improvement
     end
-
-    subgraph main["Lectures, projects, seminars"]
-        direction TB
-        Prepare["<a href='30_processes/30.09.new_modules.html'>Preparation</a>"] --> Run["<a href='30_processes/30.02.courses.html#course-list'>Run lecture/seminar/project</a>"]
-        Run --> Grade["<a href=''>Grading</a> / <a href='30_processes/30.20.reports.html'>reporting</a>"]
-        Run --> Repeat[Repeat exam]
-        Grade -.-> Reviews["<a href='30_processes/30.60.reviews.html'>Reviews</a>"]
-        Grade -.-> Certificates["<a href='30_processes/30.51.certificates.html'>Certificates</a>"]
-        Run --> Evaluate["<a href='30_processes/30.21.evaluations.html'>Evaluation</a>"]
-        Evaluate --> Improve["<a href='30_processes/30.22.improvements.html'>Improvement</a>"]
-        Improve --> Run
-    end
-
 ```
