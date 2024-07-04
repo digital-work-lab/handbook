@@ -8,16 +8,16 @@ permalink: /
 
 # The handbook
 
-This handbook is a collaborative and participatory initiative to facilitate our research activities, and consistently deliver high-quality service to students.
-It documents our processes related to 
+This public handbook is a collaborative and participatory initiative to facilitate our research activities, and consistently deliver high-quality service to students.
+It is an integral part of our culture of openness, participation, and rigorous documentation.
+
+The handbook consists of five sections. Each section has a unique number, which helps us to organize handbook procedures, documents and files.
 
 - Section 10-19: [Lab management](docs/10-lab/)
 - Section 20-29: [Research](docs/20-research/)
 - Section 30-39: [Teaching](docs/30-teaching/)
 - Section 40-49: [Funding](docs/40-funding)
 - Section 50-59: [Service](docs/50-service/)
-
-Each section has a unique number, which helps us to organize handbook documents and files.
 
 For sharing data, communication and meetings, we use the following tools:
 
