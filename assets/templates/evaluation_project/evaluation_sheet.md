@@ -1,5 +1,6 @@
 ---
 title: "Open-Source project: Evaluation sheet"
+nav_exclude: true
 ---
 
 ## Group
