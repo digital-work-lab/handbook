@@ -11,3 +11,7 @@ Categories:
 
 - methods
 - writing
+
+Resources (to sort):
+
+- [How to document your research software](https://coderefinery.github.io/documentation/)
