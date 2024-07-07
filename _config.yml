@@ -2,7 +2,8 @@ title: digital-work lab
 description: The digital-work lab handbook
 theme: just-the-docs
 
-url: https://digital-work-lab.github.io/handbook
+baseurl: "/handbook"
+url: "https://digital-work-lab.github.io"
 
 repository: digital-work-lab/handbook
 
@@ -20,6 +21,7 @@ mermaid:
 
 plugins:
   - "jekyll-github-metadata"
+  - "jekyll-redirect-from"
 
 enable_copy_code_button: true
 
