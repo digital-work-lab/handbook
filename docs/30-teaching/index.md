@@ -20,10 +20,12 @@ flowchart TB
         Flexnow --- Grade
         Univis[(Univis)]
         Univis --- Prepare
+        VC[(VC)] --- Run
 
         Prepare["<a href='30_processes/30.09.new_modules.html'>Preparation</a>"] --> Run["<a href='30_processes/30.02.courses.html#course-list'>Run lecture/seminar/project</a>"]
         Run --> Grade["<a href=''>Grading</a> / <a href='30_processes/30.20.reports.html'>reporting</a>"]
         Run --> Repeat[Repeat exam]
+        Pedagogy["<a href='30.07.pedagogy.html'>Pedagogy</a>"] --- Run
         Grade -.-> Reviews["<a href='30_processes/30.60.reviews.html'>Reviews</a>"]
         Grade -.-> Certificates["<a href='30_processes/30.51.certificates.html'>Certificates</a>"]
         Run ==> Evaluate["<a href='30_processes/30.21.evaluations.html'>Evaluation</a>"]
