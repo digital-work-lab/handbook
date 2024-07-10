@@ -46,7 +46,7 @@ flowchart TB
         Presentation -.-> Grading
         Advising --> Grading["<a href='30_processes/30.40.theses.html#grading'>Grading</a>"]
         Advising --> Feedback["<a href='https://digital-work-lab.github.io/theses/docs/feedback.html'>Feedback</a>"]
-        Improvement --> Advising
+        Improvement["<a href='30_processes/30.22.improvements.html'>Improvement</a>"] --> Advising
         Feedback --> Improvement
     end
 ```
