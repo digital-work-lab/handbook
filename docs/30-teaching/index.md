@@ -15,7 +15,7 @@ flowchart TB
     subgraph main["Lectures, projects, seminars"]
         direction TB
 
-        Flexnow[(Flexnow)]
+        Flexnow[("<a href='30_processes/30.15.flexnow.html'>Flexnow</a>")]
         Flexnow --- Prepare
         Flexnow --- Grade
         Univis[(Univis)]
