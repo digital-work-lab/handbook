@@ -20,7 +20,7 @@ flowchart TB
         Flexnow --- Grade
         Univis[("<a href='30_processes/30.16.univis.html'>Univis</a>")]
         Univis --- Prepare
-        VC[(VC)] --- Run
+        VC[("<a href='30_processes/30.19.virtual_campus.html'>VC</a>")] --- Run
 
         Prepare["<a href='30_processes/30.09.new_modules.html'>Preparation</a>"] --> Run["<a href='30_processes/30.02.courses.html#course-list'>Run lecture/seminar/project</a>"]
         Run --> Grade["<a href=''>Grading</a> / <a href='30_processes/30.20.reports.html'>reporting</a>"]
