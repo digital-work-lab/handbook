@@ -18,7 +18,7 @@ flowchart TB
         Flexnow[("<a href='30_processes/30.15.flexnow.html'>Flexnow</a>")]
         Flexnow --- Prepare
         Flexnow --- Grade
-        Univis[(Univis)]
+        Univis[("<a href='30_processes/30.16.univis.html'>Univis</a>")]
         Univis --- Prepare
         VC[(VC)] --- Run
 
