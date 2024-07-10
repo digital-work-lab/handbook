@@ -29,7 +29,7 @@ flowchart TB
         Grade -.-> Reviews["<a href='30_processes/30.60.reviews.html'>Reviews</a>"]
         Grade -.-> Certificates["<a href='30_processes/30.51.certificates.html'>Certificates</a>"]
         Run ==> Evaluate["<a href='30_processes/30.21.evaluations.html'>Evaluation</a>"]
-        Evaluate ==> Improve["♻️ <a href='30_processes/30.22.improvements.html'>Improvement</a>"]
+        Evaluate ==> Improve["<a href='../10-lab/10_processes/10.01.goals.html'>♻️</a> <a href='30_processes/30.22.improvements.html'>Improvement</a>"]
         Improve ==> Run
     end
 
@@ -46,7 +46,7 @@ flowchart TB
         Presentation -.-> Grading
         Advising --> Grading["<a href='30_processes/30.40.theses.html#grading'>Grading</a>"]
         Advising --> Feedback["<a href='https://digital-work-lab.github.io/theses/docs/feedback.html'>Feedback</a>"]
-        Improvement["♻️ <a href='30_processes/30.22.improvements.html'>Improvement</a>"] --> Advising
+        Improvement["<a href='../10-lab/10_processes/10.01.goals.html'>♻️</a> <a href='30_processes/30.22.improvements.html'>Improvement</a>"] --> Advising
         Feedback --> Improvement
     end
 ```
