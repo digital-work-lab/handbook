@@ -19,11 +19,12 @@ flowchart TB
         Data --> Methods
     end
 
+    Research --- Collaborating["<a href='20_processes/20.16.collaboration.html'>Collaborating</a>"]
     Projects[("<a href='25-projects.html'>Projects</a>")]
     Research --- Projects
 
     Resources["Resources (<a href='22-literature.html'>Literature</a>, <a href='23-data.html'>Data</a>, <a href='24-software.html'>Software</a>)"] --> Research
-    Setup["<a href='20_processes/20.20.paper-templates.html#setup'>Repository setup</a>"] --> Research
+    Setup["<a href='20_processes/20.15.repo-setup.html'>Repository setup</a>"] --> Research
     Research --> Submission["<a href='20_processes/20.30.pre-submission.html'>Submission</a>"]
     Submission --> Review[Peer review]
     Review -->|Reject/Revise| Revise["<a href='20_processes/20.32.revision.html'>Revision</a>"]
