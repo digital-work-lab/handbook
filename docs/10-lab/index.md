@@ -21,7 +21,7 @@ flowchart  LR
         direction TB
         Univis[("<a href='../30-teaching/30_processes/30.16.univis.html'>Univis</a>")]
         Flexnow[("<a href='../30-teaching/30_processes/30.15.flexnow.html'>Flexnow</a>")]
-        Ext_Lecturers -.-> Course_Orga["<a href='../30-teaching/30_processes/30.02.courses.html'>Course Organization</a> and <a href='TODO'>exams</a>"]
+        Ext_Lecturers -.-> Course_Orga["<a href='../30-teaching/30_processes/30.02.courses.html'>Course Organization</a> and <a href='../30-teaching/30_processes/30.59.exams.html'>exams</a>"]
         Course_Orga -.-> Certificates["<a href='../30-teaching/30_processes/30.51.certificates.html'>Certificates</a>"]
         Flexnow --- Course_Orga
         Flexnow --- Theses

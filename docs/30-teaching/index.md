@@ -23,7 +23,7 @@ flowchart TB
         VC[("<a href='30_processes/30.19.virtual_campus.html'>VC</a>")] --- Run
 
         Prepare["<a href='30_processes/30.09.new_modules.html'>Preparation</a>"] --> Run["<a href='30_processes/30.02.courses.html#course-list'>Run lecture/seminar/project</a>"]
-        Run --> Grade["<a href=''>Grading</a> / <a href='30_processes/30.20.reports.html'>reporting</a>"]
+        Run --> Grade["<a href='30_processes/30.59.exams.html'>Exams</a>, <a href=''>Grading</a> / <a href='30_processes/30.20.reports.html'>reporting</a>"]
         Run --> Repeat[Repeat exam]
         Pedagogy["<a href='../10-lab/10_processes/10.01.goals.html'>🛠️</a> <a href='30_processes/30.07.pedagogy.html'>Pedagogy</a>"] --- Run
         Grade -.-> Reviews["<a href='30_processes/30.60.reviews.html'>Reviews</a>"]
