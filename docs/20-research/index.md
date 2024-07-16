@@ -15,8 +15,8 @@ flowchart TB
 
     subgraph Research
         Writing["<a href='20_processes/20.29.writing.html'>Writing</a>"] --> Data
-        Methods --> Writing
-        Data --> Methods
+        Methods["<a href='20_processes/20.18.methods.html'>Methods</a>"] --> Writing
+        Data["<a href='20_processes/20.17.data.html'>Data</a>"] --> Methods
     end
 
     Research --- Collaborating["<a href='20_processes/20.16.collaboration.html'>Collaborating</a>"]
@@ -26,7 +26,7 @@ flowchart TB
     Resources["Resources (<a href='22-literature.html'>Literature</a>, <a href='23-data.html'>Data</a>, <a href='24-software.html'>Software</a>)"] --> Research
     Setup["<a href='20_processes/20.15.repo-setup.html'>Repository setup</a>"] --> Research
     Research --> Submission["<a href='20_processes/20.30.pre-submission.html'>Submission</a>"]
-    Submission --> Review[Peer review]
+    Submission --> Review["<a href='../50-service/50_processes/50.10.reviewer.html'>Peer review</a>"]
     Review -->|Reject/Revise| Revise["<a href='20_processes/20.32.revision.html'>Revision</a>"]
     Revise --> Research
     
