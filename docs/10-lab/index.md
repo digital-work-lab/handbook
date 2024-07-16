@@ -45,7 +45,7 @@ flowchart  LR
             Contracts --> Vacation["<a href='10_processes/10.33.vacation.html'>Vacation</a>"]
             Onboarding -.-> Offboarding["<a href='10_processes/10.39.offboarding.html'>Offboarding</a>"]
         end
-        ZUV[(ZUV)]
+        ZUV[("<a href='10_processes/10.12.zuv.html'>ZUV</a>")]
         ZUV --- Controlling
         ZUV --- Orders
         ZUV --- Hiring
