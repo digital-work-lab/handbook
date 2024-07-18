@@ -13,6 +13,6 @@ Confidential
 
 Confidential project data are stored here:
 
-[GitHub](https://github.com/orgs/digital-work-lab/repositories?q=visibility%3Aprivate+archived%3Afalse){: .btn .btn-green target="_blank"}
+[GitHub](https://github.com/orgs/digital-work-lab/repositories?q=topic%3Aresearch){: .btn .btn-green target="_blank"}
 
 [Nextcloud](https://nc-2272638881871040784.nextcloud-ionos.com/index.php/apps/files/?dir=/20-research/25_projects&fileid=88094){: .btn .btn-green target="_blank"}
