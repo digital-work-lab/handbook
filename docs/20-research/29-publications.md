@@ -52,7 +52,7 @@ Publications are listed in [FIS](https://fis.uni-bamberg.de/entities/person/b64b
  <p>Ringeval, M., <b>Wagner, G.</b>, Denford, J., Paré, G., and Kitsiou, S. "Fitbit-Based Interventions for Healthy Lifestyle Outcomes: Systematic Review and Meta-Analysis". Journal of Medical Internet Research (JMIR), 22(10), e23954.</p>
  <p>Grenier-Ouimet, A., <b>Wagner, G.</b>, Raymond, L., and Paré, G. "Investigating Patients’ Intention to Continue Using Teleconsultation to Anticipate Postcrisis Momentum: Survey Study". Journal of Medical Internet Research (JMIR), 22(11), e22081.</p>
  <p>Schryen, G., <b>Wagner, G.</b>, Benlian, A., and Paré, G. "A Knowledge Development Perspective on Literature Reviews: Validation of a New Typology in the IS Field," Communications of the Association for Information Systems (CAIS), 46 (Paper 7), 134–186.</p>
- <p>Grenier-Ouimet, A., Paré, G., and <b>Wagner, G.</b> "Why do People Keep Consulting Physicians Online? A Study of Teleconsultation Continuance Intention," in Proceedings of the 2020 Conference of the Administrative Sciences Association of Canada (ASAC 2020).</p>
+ <p>Grenier-Ouimet, A., Paré, G., and <b>Wagner, G.</b> "Why do People Keep Consulting Physicians Online? A Study of Teleconsultation Continuance Intention," in Proceedings of the 2020 Conference of the Administrative Sciences Association of Canada (ASAC 2020).<br>🏆 Best Paper Award, IS Division.</p>
  <p><b>Wagner, G.</b>, Empl, P., and Schryen, G. "Designing a Novel Strategy for Reading and Skimming Literature Corpora," in Proceedings of the 28th European Conference on Information Systems (ECIS 2020), Marrakech, Morocco.</p>
  <p>Hassan, N. R., Prester, J., and <b>Wagner, G.</b> "Seeking Out Clear and Unique Information Systems Concepts: A Natural Language Processing Approach," in Proceedings of the 28th European Conference on Information Systems (ECIS 2020), Marrakech, Morocco.</p>
 </div>
@@ -67,7 +67,7 @@ Publications are listed in [FIS](https://fis.uni-bamberg.de/entities/person/b64b
 
 <div class="references">
  <p>Heinrich, B., Klier, M., Schiller, A., and <b>Wagner, G.</b> "Assessing Data Quality - A Probability-based Metric for Semantic Consistency," Decision Support Systems (DSS), 110, 95-106.</p>
- <p>Schuster, R., <b>Wagner, G.</b>, and Schryen, G. "Information Systems Design Science Research and Cumulative Knowledge Development: An Exploratory Study," in Proceedings of the 39th International Conference on Information Systems (ICIS 2018), San Francisco, California, USA.</p>
+ <p>Schuster, R., <b>Wagner, G.</b>, and Schryen, G. "Information Systems Design Science Research and Cumulative Knowledge Development: An Exploratory Study," in Proceedings of the 39th International Conference on Information Systems (ICIS 2018), San Francisco, California, USA.<br>🏆 Best Theory Paper Award, ICIS 2018.</p>
  <p>Prester, J., <b>Wagner, G.</b>, and Schryen, G. "Classifying the Ideational Impact of IS Review Articles: A Natural Language Processing Based Approach," in Proceedings of the 39th International Conference on Information Systems (ICIS 2018), San Francisco, California, USA.</p>
 </div>
 
