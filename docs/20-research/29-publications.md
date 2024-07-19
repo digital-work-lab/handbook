@@ -23,7 +23,6 @@ Publications are listed in [FIS](https://fis.uni-bamberg.de/entities/person/b64b
  <p>Paré, G., <b>Wagner, G.</b>, and Prester, J. "How to develop and frame impactful review articles: Key recommendations". Journal of Decision Systems, accepted for publication.</p>
  <p><b>Wagner, G.</b>, Raymond, L, and Paré, G. "Understanding prospective physicians’ intention to use artificial intelligence in their future medical practice: A configurational analysis". JMIR Medical Education, 9, e45631.</p>
  <p>Morquin, D., Ologeanu-Taddei, R., Paré, G., and <b>Wagner, G.</b> "Design and Evaluation of a Method to Solve Organization-Enterprise System Misfits in the Post-Implementation Phase: An Action Research". Information Systems Journal, 33(5), 1–34.</p>
- <p>Prester, J. and <b>Wagner, G.</b> "Contracting Decisions on Digital Markets for Knowledge Work Services: A Qualitative Systematic Review," in Proceedings of the 42nd International Conference on Information Systems (ICIS 2021), Austin, Texas.</p>
 </div>
 
 ## 2022
@@ -43,7 +42,7 @@ Publications are listed in [FIS](https://fis.uni-bamberg.de/entities/person/b64b
  <p>Grenier-Ouimet, A., <b>Wagner, G.</b>, Raymond, L., and Paré, G. "Investigating Patients’ Intention to Continue Using Teleconsultation to Anticipate Postcrisis Momentum: Survey Study". Journal of Medical Internet Research (JMIR), 22(11), e22081.</p>
  <p>Schryen, G., <b>Wagner, G.</b>, Benlian, A., and Paré, G. "A Knowledge Development Perspective on Literature Reviews: Validation of a New Typology in the IS Field," Communications of the Association for Information Systems (CAIS), 46 (Paper 7), 134–186.</p>
  <p>Yasasin, E., Prester, J., <b>Wagner, G.</b>, and Schryen, G. "Forecasting IT Security Vulnerabilities - An Empirical Analysis," Computers & Security (C&S), 88, 1–23.</p>
- <p>Heinrich, B., Klier, M., Schiller, A., and <b>Wagner, G.</b> "Assessing Data Quality - A Probability-based Metric for Semantic Consistency," Decision Support Systems (DSS), 110, 95-106.</p>
+ <p>Prester, J. and <b>Wagner, G.</b> "Contracting Decisions on Digital Markets for Knowledge Work Services: A Qualitative Systematic Review," in Proceedings of the 42nd International Conference on Information Systems (ICIS 2021), Austin, Texas.</p>
 </div>
 
 ## 2020
