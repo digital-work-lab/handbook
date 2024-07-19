@@ -5,6 +5,9 @@
 
 ```
 python src/lab_bot/lab_bot.py
+
+cd src
+python3 stats.py
 ```
 
 ## License
