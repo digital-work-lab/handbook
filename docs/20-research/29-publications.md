@@ -29,7 +29,7 @@ Publications are listed in [FIS](https://fis.uni-bamberg.de/entities/person/b64b
 ## 2022
 
 <div class="references">
- <p><b>Wagner, G.</b>, Lukyanenko, R., and Paré, G. "Artificial Intelligence and the Conduct of Literature Reviews". Journal of Information Technology (JIT), 37(2), 209–226.</p>
+ <p><b>Wagner, G.</b>, Lukyanenko, R., and Paré, G. "Artificial Intelligence and the Conduct of Literature Reviews". Journal of Information Technology (JIT), 37(2), 209–226.<br>🏆 <a href="https://journals.sagepub.com/page/jin/jin-prize/prize-winning">Journal of Information Technology Best Paper Prize 2022</a></p>
  <p><b>Wagner, G.</b> and Prester, J. "A Framework of Platform Design Mechanisms, Platform Congruence and Value Creation on C2C Platforms". in Proceedings of the 29th European Conference on Information Systems (ECIS 2021), Marrakech, Morocco.</p>
 </div>
 
