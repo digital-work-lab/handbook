@@ -10,6 +10,7 @@ nav_order: 3
 
 <!-- TODO: Cover Research data management, reproducibility (but check with the team before publishing data - make sure confidential data is protected) -->
 
+{: .text-center}
 ```mermaid
 flowchart TB
 
