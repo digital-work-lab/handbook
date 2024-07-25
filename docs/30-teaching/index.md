@@ -32,6 +32,7 @@ flowchart TB
         Evaluate ==> Improve["<a href='../10-lab/10_processes/10.01.goals.html'>♻️</a> <a href='30_processes/30.22.improvements.html'>Improvement</a>"]
         Improve ==> Run
     end
+    style main fill:white,stroke:#333,stroke-width:3px
 
 ```
 
@@ -50,4 +51,6 @@ flowchart TB
         Improvement["<a href='../10-lab/10_processes/10.01.goals.html'>♻️</a> <a href='30_processes/30.22.improvements.html'>Improvement</a>"] --> Advising
         Feedback --> Improvement
     end
+    style Theses fill:white,stroke:#333,stroke-width:3px
+
 ```
