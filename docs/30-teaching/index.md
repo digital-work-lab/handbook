@@ -10,6 +10,7 @@ nav_order: 4
 
 Our teaching activities include lecures, projects and seminars, which are based on the following process:
 
+{: .text-center}
 ```mermaid
 flowchart TB
     subgraph main["Lectures, projects, seminars"]
