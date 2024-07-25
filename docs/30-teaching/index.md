@@ -10,7 +10,7 @@ nav_order: 4
 
 Our teaching activities include lecures, projects and seminars, which are based on the following process:
 
-{: .text-center}
+
 ```mermaid
 flowchart TB
     subgraph main["Lectures, projects, seminars"]
@@ -37,6 +37,7 @@ flowchart TB
 
 In addition, we advise Bachelor's and Master's theses based on the following process:
 
+{: .text-center}
 ```mermaid
 flowchart TB
     subgraph Theses
