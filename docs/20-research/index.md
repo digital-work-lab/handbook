@@ -35,6 +35,6 @@ flowchart TB
     Publication --> Presentation["<a href='20_processes/20.28.presentation.html'>Presentation</a>"]
     Publication --> Dissemination["<a href='20_processes/20.34.dissemination.html'>Dissemination</a>"]
     Publication --> PublicationOutput["<a href='29-publications.html'>Publication output</a>"]
-    Publication -- Improvement --> Research
+    Publication --> Improvement["<a href='20_processes/20.35.improvement.html'>♻️</a> Improvement"] --> Research
 
 ```
