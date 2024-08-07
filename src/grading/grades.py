@@ -35,10 +35,7 @@ for index, row in grades.iterrows():
         grades.at[index, "Grade"] = "3.7"
     elif int(row["Sum"]) >= 45:
         grades.at[index, "Grade"] = "4.0"
-    elif int(row["Sum"]) >= 40.5:
-        grades.at[index, "Grade"] = "4.3"
-    elif int(row["Sum"]) >= 36:
-        grades.at[index, "Grade"] = "4.7"
+    # less than 4.0 -> 5.0
     else:
         grades.at[index, "Grade"] = "5.0"
 
