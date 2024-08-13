@@ -28,6 +28,9 @@ enable_copy_code_button: true
 logo: "/assets/images/digital-work-lab.png"
 
 callouts:
+  important:
+    title: Important
+    color: red
   warning:
     title: Warning
     color: red
