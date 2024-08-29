@@ -9,6 +9,12 @@ nav_order: 10
 
 Publications are listed in [FIS](https://fis.uni-bamberg.de/entities/person/b64b9fe6-7322-4c7f-8b84-89be565e3c46/publications){: target="_blank"}, and PDFs are available [here](https://nc-2272638881871040784.nextcloud-ionos.com/index.php/apps/files/?dir=/20-20-research/29_publications&fileid=1264){: target="_blank"}.
 
+## 2025
+
+<div class="references">
+ <p><b>Wagner, G.</b>, and Thurner, L. "Rethinking How We Teach Git: Recommendations and Practical Strategies for the Information Systems Curriculum". Journal of Information Systems Education, 36(1).</p>
+</div>
+
 ## 2024
 
 <div class="references">
