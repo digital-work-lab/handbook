@@ -26,9 +26,9 @@ Publications are listed in [FIS](https://fis.uni-bamberg.de/entities/person/b64b
 ## 2023
 
 <div class="references">
- <p>Paré, G., <b>Wagner, G.</b>, and Prester, J. "How to develop and frame impactful review articles: Key recommendations". Journal of Decision Systems, accepted for publication.</p>
- <p><b>Wagner, G.</b>, Raymond, L, and Paré, G. "Understanding prospective physicians’ intention to use artificial intelligence in their future medical practice: A configurational analysis". JMIR Medical Education, 9, e45631.</p>
- <p>Morquin, D., Ologeanu-Taddei, R., Paré, G., and <b>Wagner, G.</b> "Design and Evaluation of a Method to Solve Organization-Enterprise System Misfits in the Post-Implementation Phase: An Action Research". Information Systems Journal, 33(5), 1–34.</p>
+ <p>Paré, G., <b>Wagner, G.</b>, and Prester, J. "How to develop and frame impactful review articles: Key recommendations". <i>Journal of Decision Systems</i>, accepted for publication.</p>
+ <p><b>Wagner, G.</b>, Raymond, L, and Paré, G. "Understanding prospective physicians’ intention to use artificial intelligence in their future medical practice: A configurational analysis". <i>JMIR Medical Education</i>, 9, e45631.</p>
+ <p>Morquin, D., Ologeanu-Taddei, R., Paré, G., and <b>Wagner, G.</b> "Design and Evaluation of a Method to Solve Organization-Enterprise System Misfits in the Post-Implementation Phase: An Action Research". <i>Information Systems Journal (ISJ)</i>, 33(5), 1–34.</p>
 </div>
 
 ## 2022
@@ -79,8 +79,8 @@ Publications are listed in [FIS](https://fis.uni-bamberg.de/entities/person/b64b
 ## 2017
 
 <div class="references">
- <p>Schryen, G., <b>Wagner, G.</b>, and Schlegel, A. "Development of Two Novel Face-recognition CAPTCHAs: A Security and Usability Study," Computers & Security (C&S), 60, 95-116.</p>
- <p><b>Wagner, G.</b>, Prester, J., and Schryen, G. "Exploring the Scientific Impact of Information Systems Design Science Research: A Scientometric Study," in Proceedings of the 38th International Conference on Information Systems (ICIS 2017), Seoul, South Korea.</p>
+ <p>Schryen, G., <b>Wagner, G.</b>, and Schlegel, A. "Development of Two Novel Face-recognition CAPTCHAs: A Security and Usability Study," <i>Computers & Security (C&S)</i>, 60, 95-116.</p>
+ <p><b>Wagner, G.</b>, Prester, J., and Schryen, G. "Exploring the Scientific Impact of Information Systems Design Science Research: A Scientometric Study," in <i>Proceedings of the 38th International Conference on Information Systems (ICIS 2017)</i>, Seoul, South Korea.</p>
 </div>
 
 ## 2016
