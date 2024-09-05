@@ -13,7 +13,7 @@ nav_order: 3
 {: .text-center}
 ```mermaid
 flowchart TB
-
+    Ideas["<a href='20_processes/20.09.ideas.html'>Ideas</a>"] --- Research
     subgraph Research
         Writing["<a href='20_processes/20.29.writing.html'>Writing</a>"] --> Data
         Methods["<a href='20_processes/20.18.methods.html'>Methods</a>"] --> Writing
@@ -36,5 +36,4 @@ flowchart TB
     Publication --> Dissemination["<a href='20_processes/20.34.dissemination.html'>Dissemination</a>"]
     Publication --> PublicationOutput["<a href='29-publications.html'>Publication output</a>"]
     Publication --> Improvement["<a href='../10-lab/10_processes/10.01.goals.html'>♻️</a> <a href='20_processes/20.35.improvement.html'>Improvement</a>"] --> Research
-
 ```
