@@ -7,3 +7,18 @@ nav_order: 5
 ---
 
 # Funding
+
+{: .text-center}
+```mermaid
+flowchart LR
+    subgraph pre_award
+        Search --> Apply
+    end
+    
+    Apply --> Manage
+    
+    subgraph post_award
+        Manage --> Close
+    end
+    Close --> Search
+```
