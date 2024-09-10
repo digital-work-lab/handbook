@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 36 Publications
-parent: Teaching
+parent: 🧑‍🏫 Teaching
 nav_order: 6
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 12 🔒 Orga
-parent: Lab Management
+parent: 📋 Lab Management
 nav_order: 4
 ---
 

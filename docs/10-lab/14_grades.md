@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 14 🔒 Grades
-parent: Lab Management
+parent: 📋 Lab Management
 nav_order: 4
 ---
 

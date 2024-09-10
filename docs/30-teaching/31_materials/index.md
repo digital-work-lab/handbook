@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 31 Materials
-parent: Teaching
+parent: 🧑‍🏫 Teaching
 has_children: true
 has_toc: true
 nav_order: 2

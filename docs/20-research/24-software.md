@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 24 🔒 Software
-parent: Research
+parent: 🔎 Research
 nav_order: 5
 ---
 

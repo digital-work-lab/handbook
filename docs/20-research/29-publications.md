@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 29 Publications
-parent: Research
+parent: 🔎 Research
 nav_order: 10
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 22 🔒 Literature
-parent: Research
+parent: 🔎 Research
 nav_order: 3
 ---
 
