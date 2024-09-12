@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 23 🔒 Data
-parent: 🔎 Research
+parent: Research
 nav_order: 4
 ---
 

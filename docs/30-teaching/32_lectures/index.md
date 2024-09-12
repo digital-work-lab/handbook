@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 32 Lectures
-parent: 🧑‍🏫 Teaching
+parent: Teaching
 has_children: true
 has_toc: true
 nav_order: 3

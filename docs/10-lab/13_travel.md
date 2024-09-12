@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 13 🔒 Travel
-parent: 📋 Lab Management
+parent: Lab Management
 nav_order: 3
 ---
 

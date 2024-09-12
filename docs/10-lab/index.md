@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 📋 Lab Management
+title: Lab Management
 has_children: true
 has_toc: true
 nav_order: 2

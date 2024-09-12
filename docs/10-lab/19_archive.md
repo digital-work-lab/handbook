@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 19 🔒 Archive
-parent: 📋 Lab Management
+parent: Lab Management
 nav_order: 19
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 35 🔒 Theses
-parent: 🧑‍🏫 Teaching
+parent: Teaching
 nav_order: 6
 ---
 

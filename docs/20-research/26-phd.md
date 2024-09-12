@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 26 🔒 PhD theses
-parent: 🔎 Research
+parent: Research
 nav_order: 7
 ---
 

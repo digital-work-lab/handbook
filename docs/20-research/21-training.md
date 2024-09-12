@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 21 Training
-parent: 🔎 Research
+parent: Research
 nav_order: 2
 ---
 
