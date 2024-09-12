@@ -8,21 +8,15 @@ permalink: /
 
 # The handbook
 
-This public handbook is a collaborative and participatory initiative to facilitate our research activities, and consistently deliver high-quality service to students.
-It is an integral part of our culture of openness, participation, and rigorous documentation.
-
-The handbook consists of five sections. Each section has a unique number, which helps us to organize handbook procedures, documents and files.
+This public handbook is a participatory initiative to facilitate our research activities, and consistently deliver high-quality service to students.
+It is an integral part of our [culture](docs/10-lab/10_processes/10.01.goals.html) of impact, rigor, openness, participation, and learning.
+To organize procedures, documents and files, the handbook consists of five sections, each with unique numbers: 
 
 - Section 10-19: [Lab management](docs/10-lab/)
 - Section 20-29: [Research](docs/20-research/)
 - Section 30-39: [Teaching](docs/30-teaching/)
 - Section 40-49: [Funding](docs/40-funding)
 - Section 50-59: [Service](docs/50-service/)
-
-For sharing data, communication and meetings, we use the following tools:
-
-| **E-mails** | **Schedule meetings** | **Meet online** | **Collaborate** | **Share data** |
-| [Outlook](https://mailex.uni-bamberg.de/){: .btn .btn-green target="_blank"} | [Calendly](https://calendly.com/gerit-wagner/30min){: .btn .btn-green target="_blank"} | [Zoom](zoom://open){: .btn .btn-green target="_blank"} | [GitHub](https://github.com/orgs/digital-work-lab/repositories?q=archived%3AFalse){: .btn .btn-green target="_blank"} | [Nextcloud](https://nc-2272638881871040784.nextcloud-ionos.com/index.php/apps/dashboard/){: .btn .btn-green target="_blank"} |
 
 There are external repositories for the following teaching offers:
 
@@ -48,6 +42,11 @@ Offices: WE5/1.081.
 
 <iframe width="600" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=10.862774848937988%2C49.89987300208533%2C10.876936912536623%2C49.90642391513594&amp;layer=mapnik&amp;marker=49.9031485698061%2C10.869855880737305" style="border: 1px solid black"></iframe>
 -->
+
+For sharing data, communication and meetings, we use the following tools:
+
+| **E-mails** | **Schedule meetings** | **Meet online** | **Collaborate** | **Share data** |
+| [Outlook](https://mailex.uni-bamberg.de/){: .btn .btn-green target="_blank"} | [Calendly](https://calendly.com/gerit-wagner/30min){: .btn .btn-green target="_blank"} | [Zoom](zoom://open){: .btn .btn-green target="_blank"} | [GitHub](https://github.com/orgs/digital-work-lab/repositories?q=archived%3AFalse){: .btn .btn-green target="_blank"} | [Nextcloud](https://nc-2272638881871040784.nextcloud-ionos.com/index.php/apps/dashboard/){: .btn .btn-green target="_blank"} |
 
 ## Contributors
 
