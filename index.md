@@ -66,6 +66,3 @@ For sharing data, communication and meetings, we use the following tools:
 The handbook takes inspiration from [GitLab's Handbook](https://handbook.gitlab.com/){: target="_blank"}, providing an open and transparent resource in the academic context.
 We invite everyone to contribute to it using the [issues](https://github.com/digital-work-lab/handbook/issues){: target="_blank"} and [pull requests](https://github.com/digital-work-lab/handbook/pulls){: target="_blank"} and to use it as a resource.
 Instructions and guidelines are available in [10.10 Handbook](docs/10-lab/10_processes/10.10.handbook.html).
-
-{: .text-center}
-[![GitHub followers](https://img.shields.io/badge/View Repository-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/digital-work-lab/handbook){: target="_blank"}
