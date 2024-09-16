@@ -12,7 +12,7 @@ We aim to provide complete data sets and analysis workflows for our studies.
 
 Data and analyses are available here:
 
-- [GitHub]([https://github.com/orgs/digital-work-lab/repositories](https://github.com/orgs/digital-work-lab/repositories?q=topic%3Adataset)){: target="_blank"}
+- [GitHub](https://github.com/orgs/digital-work-lab/repositories?q=topic%3Adataset){: target="_blank"}
 
 Confidential
 {: .label .label-red }
