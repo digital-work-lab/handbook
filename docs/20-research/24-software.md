@@ -25,8 +25,6 @@ The following features stand out:
 - Operates a model for data quality, content curation, and reuse
 - Enables typological and methodological pluralism throughout the process
 
-![CoLRev logo](https://raw.githubusercontent.com/CoLRev-Ecosystem/colrev/main/docs/figures/logo_small.png)
-
 ## BibDedupe
 
 BibDedupe is an open-source **Python library for deduplication of bibliographic records**, tailored for literature reviews.
@@ -40,7 +38,7 @@ Unlike traditional deduplication methods, BibDedupe focuses on entity resolution
 - **Continuous Benchmarking**: Continuous integration tests running on GitHub Actions ensure ongoing benchmarking, maintaining the library's reliability and performance across datasets.
 - **Efficient and Parallel Computation**: BibDedupe implements computations efficiently and in parallel, using appropriate data structures and functions for optimal performance.
 
-# SearchQuery
+## SearchQuery
 
 Search-query is a Python package for parsing, validating, simplifying, and serializing literature search queries.
 It currently supports PubMed and Web of Science, and can be extended to support other databases.
