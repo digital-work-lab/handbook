@@ -8,7 +8,7 @@ nav_order: 5
 # 24 Software
 {: .d-inline-block }
 
-We develop software packages (primarily for literature reviews) and aim to provide complete analysis workflows for our studies.
+We develop software packages, primarily for literature reviews.
 Our software is available in the [CoLRev Environment](https://github.com/CoLRev-Environment){: target="_blank"} and the [digital-work lab](https://github.com/orgs/digital-work-lab/repositories){: target="_blank"} organization.
 
 ## Collaborative Literature Reviews (CoLRev)
