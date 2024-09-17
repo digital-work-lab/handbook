@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 19 🔒 Archive
+title: 19 Archive
 parent: Lab Management
 nav_order: 19
 ---

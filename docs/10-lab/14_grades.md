@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 14 🔒 Grades
+title: 14 Grades
 parent: Lab Management
 nav_order: 4
 ---
