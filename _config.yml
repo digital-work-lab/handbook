@@ -34,6 +34,9 @@ callouts:
   warning:
     title: Warning
     color: red
+  confidential:
+    title: Confidential data
+    color: red
   highlight:
     color: yellow
   info:

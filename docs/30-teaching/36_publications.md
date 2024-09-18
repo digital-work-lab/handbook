@@ -9,8 +9,5 @@ nav_order: 6
 
 Published papers will be linked here.
 
-This category also contains confidential content (such as PDFs of related work) 
-
-Confidential
-{: .label .label-red }
-
+{: .confidential } 
+>  This category also contains confidential content (such as PDFs of related work) 
