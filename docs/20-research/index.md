@@ -13,15 +13,14 @@ nav_order: 3
 {: .text-center}
 ```mermaid
 flowchart TB
-    Ideas["<a href='20_processes/20.09.ideas.html'>Ideas</a>"] --- Research
-    subgraph Research["Research (<a href='25-projects.html'>Projects</a>)"]
+    Ideas["<a href='20_processes/20.09.ideas.html'>Ideas</a>"] --- Research["Research (<a href='25-projects.html'>Projects</a>)"]
+    subgraph Research
         Writing["<a href='20_processes/20.29.writing.html'>Writing</a>"] --> Data
         Methods["<a href='20_processes/20.18.methods.html'>Methods</a>"] --> Writing
         Data["<a href='20_processes/20.17.data.html'>Data</a>"] --> Methods
     end
 
     Research --- Collaborating["<a href='20_processes/20.16.collaboration.html'>Collaborating</a>"]
-    Research --- Projects
 
     Resources[("Resources:<br><a href='22-literature.html'>Literature</a>, <a href='23-data.html'>Data</a>, <a href='24-software.html'>Software</a>")] --> Research
     Setup["<a href='20_processes/20.15.repo-setup.html'>Repository setup</a>"] --> Research
