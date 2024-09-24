@@ -20,10 +20,9 @@ flowchart TB
         Data["<a href='20_processes/20.17.data.html'>Data</a>"] --> Methods
     end
 
-    Research --- Collaborating["<a href='20_processes/20.16.collaboration.html'>Collaborating</a>"]
 
-    Resources[("Resources:<br><a href='22-literature.html'>Literature</a>, <a href='23-data.html'>Data</a>, <a href='24-software.html'>Software</a>")] --> Research
     Setup["<a href='20_processes/20.15.repo-setup.html'>Repository setup</a>"] --> Research
+    Resources[("Resources:<br><ul><li><a href='22-literature.html'>Literature</a></li><li><a href='23-data.html'>Data</a></li><li><a href='24-software.html'>Software</a></li><li><a href='20_processes/20.16.collaboration.html'>Collaborating</a></li></ul>")] --> Research
     Research --> Submission["<a href='20_processes/20.30.pre-submission.html'>Submission</a>"]
     Submission --> Review["<a href='../50-service/50_processes/50.10.reviewer.html'>Peer review</a>"]
     Review -->|Accept| Publication["<a href='20_processes/20.33.publication.html'>Publication</a>"]
