@@ -20,17 +20,14 @@ flowchart TB
         Data["<a href='20_processes/20.17.data.html'>Data</a>"] --> Methods
     end
 
-
     Setup["<a href='20_processes/20.15.repo-setup.html'>Repository setup</a>"] --> Research
     Resources[("Resources:<br><ul><li><a href='22-literature.html'>Literature</a></li><li><a href='23-data.html'>Data</a></li><li><a href='24-software.html'>Software</a></li><li><a href='20_processes/20.16.collaboration.html'>Collaborating</a></li></ul>")] --> Research
+
     Research --> Submission["<a href='20_processes/20.30.pre-submission.html'>Submission</a>"]
-    Submission --> Review["<a href='../50-service/50_processes/50.10.reviewer.html'>Peer review</a>"]
-    Review -->|Accept| Publication["<a href='20_processes/20.33.publication.html'>Publication</a>"]
-    Review -->|Reject/Revise| Revise["<a href='20_processes/20.32.revision.html'>Revision</a>"]
+    Submission -->|Accept| Publication["<a href='20_processes/20.33.publication.html'>Publication</a> <br>(<a href='20_processes/20.34.dissemination.html'>Dissemination</a>/<a href='20_processes/20.28.presentation.html'>Presentation</a>)"]
+    Submission -->|Reject/Revise| Revise["<a href='20_processes/20.32.revision.html'>Revision</a>"]
     Revise --> Research
     
-    Publication --> Presentation["<a href='20_processes/20.28.presentation.html'>Presentation</a>"]
-    Publication --> Dissemination["<a href='20_processes/20.34.dissemination.html'>Dissemination</a>"]
     Publication --> PublicationOutput["<a href='29-publications.html'>Publication output</a>"]
     Publication --> Improvement["<a href='../10-lab/10_processes/10.01.goals.html'>♻️</a> <a href='20_processes/20.35.improvement.html'>Improvement</a>"] --> Research
 ```
