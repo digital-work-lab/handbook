@@ -25,6 +25,7 @@ flowchart TB
         subgraph b[" "]
             direction TB
             Submission["<a href='20_processes/20.30.pre-submission.html'>Submission</a>"] <-->|Reject/Revise| Revise["<a href='20_processes/20.32.revision.html'>Revision</a>"]
+            Revise --- Submission
             Submission -->|Accept| Publication["<a href='20_processes/20.33.publication.html'>Publication</a><br>(<a href='20_processes/20.28.presentation.html'>Presentation</a>/<a href='20_processes/20.34.dissemination.html'>Dissemination</a>)"]
         end
         subgraph a["Project (<a href='25-projects.html'>Projects</a>)"]
