@@ -5,7 +5,7 @@
 ![Documentation Status](https://img.shields.io/github/actions/workflow/status/digital-work-lab/handbook/pages.yml?label=documentation)
 
 - Available at [digital-work-lab.github.io/handbook/](https://digital-work-lab.github.io/handbook/).
-- Based on [just-the-docs](https://github.com/just-the-docs/just-the-docs) and GitHub pages.
+- Information to [clone and reuse](https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/10.10.handbook.html#how-to-copy-the-handbook).
 
 ```
 python src/lab_bot/lab_bot.py
@@ -13,6 +13,8 @@ python src/lab_bot/lab_bot.py
 cd src
 python3 stats.py
 ```
+
+The handbook is based on [just-the-docs](https://github.com/just-the-docs/just-the-docs) and GitHub pages.
 
 ## License
 
