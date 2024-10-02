@@ -14,6 +14,8 @@ cd src
 python3 stats.py
 ```
 
+test
+
 The handbook is based on [just-the-docs](https://github.com/just-the-docs/just-the-docs) and GitHub pages.
 
 ## License
