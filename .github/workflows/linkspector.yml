@@ -23,7 +23,6 @@ jobs:
         folder-path: 'docs'
 
       - name: Create Issue From File
-        if: failure()
         uses: peter-evans/create-issue-from-file@v5
         with:
           title: Link Checker Report
