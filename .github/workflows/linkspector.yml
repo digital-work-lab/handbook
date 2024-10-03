@@ -21,3 +21,11 @@ jobs:
         use-verbose-mode: 'yes'
         config-file: 'mlc_config.json'
         folder-path: 'docs'
+
+      - name: Create Issue From File
+        if: failure()
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: Link Checker Report
+          content-filepath: ./test.md
+          labels: report, automated issue
