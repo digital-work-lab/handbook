@@ -1,30 +1,21 @@
-name: Check Markdown links
+name: Linkspector
 
 on:
-  push:
-    branches:
-    - master
+  repository_dispatch:
   workflow_dispatch:
   schedule:
   # Run everyday at 9:00 AM (See https://pubs.opengroup.org/onlinepubs/9699919799/utilities/crontab.html#tag_20_25_07)
   - cron: "0 9 * * *"
 
 jobs:
-  markdown-link-check:
+  check-links:
+    name: runner / linkspector
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
-    - uses: gaurav-nelson/github-action-markdown-link-check@v1
-      with:
-        configuration-file: .github/markdown-link-check.json
-        use-quiet-mode: 'yes'
-        use-verbose-mode: 'yes'
-        config-file: 'mlc_config.json'
-        folder-path: 'docs'
-
-      - name: Create Issue From File
-        uses: peter-evans/create-issue-from-file@v5
+      - uses: actions/checkout@v4
+      - name: Run linkspector
+        uses: umbrelladocs/action-linkspector@v1
         with:
-          title: Link Checker Report
-          content-filepath: ./test.md
-          labels: report, automated issue
+          github_token: ${{ secrets.github_token }}
+          reporter: github-pr-review
+          fail_on_error: true
