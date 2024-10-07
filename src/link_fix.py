@@ -105,7 +105,11 @@ def relative_link_check():
                     f.write(f"- `{missing}`\n")
                     print(f"  - {missing}")
                 f.write("\n")  # Add a blank line for separation
-    
+
+    # Remove broken_links_file if it is empty
+    if broken_links_file.exists() and broken_links_file.stat().st_size == 0:
+        broken_links_file.unlink()
+
     if not all_missing_files:
         print("All .html links have corresponding .md files.")
 
