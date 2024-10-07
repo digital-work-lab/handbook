@@ -2,6 +2,11 @@ name: Fix links
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+  pull_request:
+    types: [closed]
   schedule:
     - cron: '10 2 * * 3'
 
