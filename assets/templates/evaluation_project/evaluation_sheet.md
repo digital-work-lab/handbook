@@ -33,7 +33,7 @@ Criterion,Score (1-5)
 "7. Quality (as evaluated in the last session)",
 ```
 
-- Each team member contributed equally as per [RepoSense](https://github.com/reposense/RepoSense) (yes / no) 
+- Each team member contributed equally as per [RepoSense](https://github.com/reposense/RepoSense){: target="_blank"} (yes / no) 
 
 - Explanation of differences in grading in case of unequal contributions:
 
