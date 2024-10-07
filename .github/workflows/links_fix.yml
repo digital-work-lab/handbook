@@ -50,31 +50,26 @@ jobs:
           content-filepath: ./broken_links.md
           labels: report, automated issue
 
-      - name: Check for changes
-        id: changes
-        run: |
-          git diff-index --quiet HEAD || echo "changes"
-        
-      - name: Commit changes if any
-        id: commit
+      - name: Determine if changes have been made
+        id: changed
         run: |
           rm -f broken_links.md
-          git commit -a -m 'Fix links'
-        if: ${{ steps.changes.outputs.result == 'changes' }}
+          echo "has_changes=$(git status --porcelain | wc -l | awk '{print $1}')" >> $GITHUB_OUTPUT
         continue-on-error: false
-
-      - name: Push branch if there are changes
-        if: ${{ steps.commit.outcome == 'success' }}
+        
+      - name: Commit changes if any
+        if: steps.changed.outputs.has_changes != '0'
         run: |
+          git commit -a -m 'Fix links'
           git push --set-upstream origin ${{ env.BRANCH_NAME }}
 
       - name: Delete branch if no changes
-        if: ${{ steps.commit.outcome != 'success' }}
+        if: steps.changed.outputs.has_changes == '0'
         run: |
           git checkout main && git branch -D ${{ env.BRANCH_NAME }}
 
       - name: Create pull request
-        if: ${{ steps.commit.outcome == 'success' }}
+        if: steps.changed.outputs.has_changes != '0'
         uses: repo-sync/pull-request@v2
         with:
           source_branch: "${{ env.BRANCH_NAME }}"
@@ -83,12 +78,3 @@ jobs:
           pr_body: |
             *Fixed links*
 
-      - name: Create pull request
-        if: ${{ steps.commit.outcome == 'success' }}
-        uses: repo-sync/pull-request@v2
-        with:
-          source_branch: "${{ env.BRANCH_NAME }}"
-          destination_branch: "main"
-          pr_title: "Fix links"
-          pr_body: |
-            *Fixed links*
