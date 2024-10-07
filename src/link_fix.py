@@ -12,8 +12,13 @@ def append_target_blank_to_links(file_path):
     # Function to modify the markdown link and add target="_blank"
     def add_target_blank(match):
         link = match.group(1)  # Full markdown link [text](url)
+        url = match.group(3)  # Extracted URL from the link
         existing_attrs = match.group(4)  # Existing {...} attributes block
-        
+
+        # Skip the modification if the link contains "img.shields.io" (indicating a badge)
+        if 'img.shields.io' in url or url.endswith('.png') or url.endswith('.svg'):
+            return match.group(0)  # Return the original match without modification
+
         # If there's already a {...} block, append target="_blank" if not present
         if existing_attrs:
             if 'target="_blank"' not in existing_attrs:
@@ -39,6 +44,11 @@ def append_target_blank_to_links(file_path):
 def link_check():
     directory = Path.cwd()
     for file_path in directory.glob('**/*.md'):
+
+        # Ignore first-level markdown files by checking the depth of the path
+        if len(file_path.relative_to(directory).parts) == 1:
+            continue
+
         append_target_blank_to_links(file_path)
 
 if __name__ == "__main__":

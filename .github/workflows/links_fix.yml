@@ -47,6 +47,6 @@ jobs:
         with:
           source_branch: "${{ env.BRANCH_NAME }}"
           destination_branch: "main"
-          pr_title: "Pull fixed links"
+          pr_title: "Fix links"
           pr_body: |
             *Fixed links*
