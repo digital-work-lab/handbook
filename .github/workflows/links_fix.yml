@@ -1,0 +1,52 @@
+name: Fix links
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '10 2 * * 3'
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v3
+      - name: Setup git
+        run: |
+          git config --global user.name "Links Fixer"
+          git config --global user.email "actions@users.noreply.github.com"
+          git config --global url.https://github.com/.insteadOf git://github.com/
+      - name: Set branch name
+        run: |
+          echo "BRANCH_NAME=link-fix-$(date '+%Y-%m-%d_%H-%M-%S')" >> $GITHUB_ENV
+          echo ${{ env.BRANCH_NAME }}
+      - name: Switch to branch ${{ env.BRANCH_NAME }}
+        run: |
+          git checkout -b ${{ env.BRANCH_NAME }}
+      - name: Fix links
+        run: |
+          python src/link_fix.py
+        continue-on-error: false
+      - name: Commit changes if any
+        id: commit
+        run: |
+          git commit -a -m 'Fix links'
+
+      - name: Push branch if there are changes
+        if: ${{ steps.commit.outcome == 'success' }}
+        run: |
+          git push --set-upstream origin ${{ env.BRANCH_NAME }}
+
+      - name: Delete branch if no changes
+        if: ${{ steps.commit.outcome != 'success' }}
+        run: |
+          git checkout main && git branch -D ${{ env.BRANCH_NAME }}
+      - name: Create pull request
+        if: ${{ steps.commit.outcome == 'success' }}
+        uses: repo-sync/pull-request@v2
+        with:
+          source_branch: "${{ env.BRANCH_NAME }}"
+          destination_branch: "main"
+          pr_title: "Pull fixed links"
+          pr_body: |
+            *Fixed links*
