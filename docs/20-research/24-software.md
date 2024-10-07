@@ -44,7 +44,7 @@ Search-query is a Python package for parsing, validating, simplifying, and seria
 It currently supports PubMed and Web of Science, and can be extended to support other databases.
 As a default it relies on the JSON schema proposed by an expert panel (Haddaway et al., 2022).
 The package can be used programmatically or through the command line, has zero dependencies, and can therefore be integrated in a variety of environments.
-<!-- The heuristics, parsers, and linters are battle-tested on over 500 peer-reviewed queries registered at [searchRxiv](https://www.cabidigitallibrary.org/journal/searchrxiv). -->
+<!-- The heuristics, parsers, and linters are battle-tested on over 500 peer-reviewed queries registered at [searchRxiv](https://www.cabidigitallibrary.org/journal/searchrxiv){: target="_blank"}. -->
 
 ## Recommended research softare
 
