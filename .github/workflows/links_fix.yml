@@ -27,9 +27,33 @@ jobs:
         run: |
           python src/link_fix.py
         continue-on-error: false
+
+      # Check if broken_links.md exists before creating the issue
+      - name: Check for broken links file
+        id: broken_links
+        run: |
+          if [ -f ./broken_links.md ]; then
+            echo "Broken links file found"
+            echo "found=true" >> $GITHUB_ENV
+          else
+            echo "Broken links file not found"
+            echo "found=false" >> $GITHUB_ENV
+          fi
+        continue-on-error: false
+
+      # Create issue if the broken_links.md file exists
+      - name: Create Issue From File
+        if: env.found == 'true'
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: Broken internal links report
+          content-filepath: ./broken_links.md
+          labels: report, automated issue
+
       - name: Commit changes if any
         id: commit
         run: |
+          rm -f broken_links.md
           git commit -a -m 'Fix links'
 
       - name: Push branch if there are changes
