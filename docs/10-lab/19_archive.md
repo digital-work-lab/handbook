@@ -9,4 +9,4 @@ nav_order: 19
 {: .d-inline-block }
 
 {: .confidential } 
-> Confidential data is stored on the [Nextcloud](https://nc-2272638881871040784.nextcloud-ionos.com/index.php/apps/files/files/62?dir=/10-lab/19_archive){: target="_blank"}.
+> Confidential data is stored on the [Nextcloud](https://nc-2272638881871040784.nextcloud-ionos.com/index.php/apps/files/files/62?dir=/10-lab/19_archive).
