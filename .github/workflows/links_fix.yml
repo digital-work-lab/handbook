@@ -27,9 +27,21 @@ jobs:
         run: |
           python src/link_fix.py
         continue-on-error: false
+
+      - name: Create Issue From File
+        if: env.lychee_exit_code != 0
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: Broken internal links report
+          content-filepath: ./broken_links.md
+          labels: report, automated issue
+
+
+
       - name: Commit changes if any
         id: commit
         run: |
+          rm -f broken_links.md
           git commit -a -m 'Fix links'
 
       - name: Push branch if there are changes

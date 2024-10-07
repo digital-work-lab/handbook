@@ -51,5 +51,64 @@ def link_check():
 
         append_target_blank_to_links(file_path)
 
+
+# Regular expression to match internal .html links in markdown files
+# This looks for markdown links [text](relative/path/file.html)
+html_link_pattern = re.compile(r'\[([^\]]+)\]\(([^http][^\)]+\.html)\)')
+baseurl_link_pattern = re.compile(r'\[([^\]]+)\]\(\{\{ ?site\.baseurl ?\}\}([^\)]+\.html)\)')
+
+
+def check_html_links(file_path):
+    base_dir = Path.cwd()
+    # Read the content of the file
+    content = file_path.read_text(encoding='utf-8')
+
+    # Find all matches of regular .html links
+    matches = html_link_pattern.findall(content)
+
+    # List to store missing .md files
+    missing_md_files = []
+
+    # Check normal .html links (relative to current file)
+    for match in matches:
+        html_link = match[1]  # Extracted .html link from the markdown
+        # Replace .html with .md
+        md_link = html_link.replace('.html', '.md')
+        
+        if "{{ site.baseurl }}/" in md_link:
+            md_file_path = base_dir / Path(md_link.replace("{{ site.baseurl }}/", ""))
+        else:
+            # Create the corresponding .md file path relative to the current file
+            md_file_path = file_path.parent / md_link
+
+        # Check if the corresponding .md file exists
+        if not md_file_path.exists():
+            missing_md_files.append(md_file_path)
+
+    return missing_md_files
+
+def relative_link_check():
+    directory = Path.cwd()  # Current directory
+    all_missing_files = []
+    broken_links_file = Path('broken_links.md')  # File to store broken links
+
+    with broken_links_file.open('w', encoding='utf-8') as f:
+        # Iterate over all markdown files recursively
+        for file_path in directory.glob('**/*.md'):
+            # Check for .html links and corresponding .md files
+            missing_files = check_html_links(file_path)
+            if missing_files:
+                all_missing_files.extend(missing_files)
+                f.write(f"## Missing .md files for links in `{file_path}`:\n")
+                print(f"Missing .md files for links in {file_path}:")
+                for missing in missing_files:
+                    f.write(f"- `{missing}`\n")
+                    print(f"  - {missing}")
+                f.write("\n")  # Add a blank line for separation
+    
+    if not all_missing_files:
+        print("All .html links have corresponding .md files.")
+
 if __name__ == "__main__":
     link_check()
+    relative_link_check()
