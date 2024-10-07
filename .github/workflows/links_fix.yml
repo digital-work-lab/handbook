@@ -55,6 +55,7 @@ jobs:
         run: |
           rm -f broken_links.md
           git commit -a -m 'Fix links'
+        continue-on-error: false
 
       - name: Push branch if there are changes
         if: ${{ steps.commit.outcome == 'success' }}
