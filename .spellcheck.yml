@@ -25,15 +25,3 @@ matrix:
     sources:
       - '*.md'
       - 'docs/**/*.md'
-    whitelist:
-      - htmlattribute
-      - htmlcontent
-      - cronjob
-      - nav
-      - Calendly
-      - endfor
-      - endif
-      - geritwagner
-      - GitLab's
-    filters:
-      - pattern: "<[^>]*>"  # Ignore HTML tags

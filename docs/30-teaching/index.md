@@ -8,7 +8,7 @@ nav_order: 4
 
 # Teaching
 
-Our teaching activities include lecures, projects and seminars, which are based on the following process:
+Our teaching activities include lectures, projects and seminars, which are based on the following process:
 
 {: .text-center}
 ```mermaid
@@ -16,11 +16,11 @@ flowchart TB
     subgraph main["Lectures, projects, seminars"]
         direction TB
 
-        Flexnow[("<a href='30_processes/30.15.flexnow.html'>Flexnow</a>")]
-        Flexnow --- Prepare
-        Flexnow --- Grade
-        Univis[("<a href='30_processes/30.16.univis.html'>Univis</a>")]
-        Univis --- Prepare
+        FlexNow[("<a href='30_processes/30.15.flexnow.html'>FlexNow</a>")]
+        FlexNow --- Prepare
+        FlexNow --- Grade
+        UnivIS[("<a href='30_processes/30.16.univis.html'>UnivIS</a>")]
+        UnivIS --- Prepare
         VC[("<a href='30_processes/30.19.virtual_campus.html'>VC</a>")] --- Run
 
         Prepare["<a href='30_processes/30.09.new_modules.html'>Preparation</a>"] --> Run["<a href='30_processes/30.02.courses.html#course-list'>Run lecture/seminar/project</a>"]

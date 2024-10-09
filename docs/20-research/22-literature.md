@@ -8,7 +8,7 @@ nav_order: 3
 # 22 Literature (shared)
 {: .d-inline-block }
 
-colrev repositories (PDFs and obsidian vaults)
+CoLRev repositories (PDFs and obsidian vaults)
 
 [GitHub](https://github.com/orgs/digital-work-lab/repositories){: .btn .btn-green target="_blank"}
 

@@ -73,4 +73,4 @@ print("\nAverage: %.2f\n" % grades["Grade"].astype(float).mean())
 
 grades.to_csv("grades_updated.csv")
 
-# TODO : should produce a report for Flexnow
+# TODO : should produce a report for FlexNow

@@ -19,15 +19,15 @@ flowchart  LR
 
     subgraph Teaching
         direction TB
-        Univis[("<a href='../30-teaching/30_processes/30.16.univis.html'>Univis</a>")]
-        Flexnow[("<a href='../30-teaching/30_processes/30.15.flexnow.html'>Flexnow</a>")]
+        UnivIS[("<a href='../30-teaching/30_processes/30.16.univis.html'>UnivIS</a>")]
+        FlexNow[("<a href='../30-teaching/30_processes/30.15.flexnow.html'>FlexNow</a>")]
         Ext_Lecturers -.-> Course_Orga["<a href='../30-teaching/30_processes/30.02.courses.html'>Course Organization</a> and <a href='../30-teaching/30_processes/30.59.exams.html'>exams</a>"]
         Course_Orga -.-> Certificates["<a href='../30-teaching/30_processes/30.51.certificates.html'>Certificates</a>"]
-        Flexnow --- Course_Orga
-        Flexnow --- Theses
+        FlexNow --- Course_Orga
+        FlexNow --- Theses
         Course_Orga --> LUFV["<a href='../30-teaching/30_processes/30.20.reports.html'>LUFV Reports</a>"]
         Theses["<a href='../30-teaching/30_processes/30.40.theses.html'>Theses</a>"] --> LUFV
-        Univis --- Course_Orga
+        UnivIS --- Course_Orga
     end
 
     subgraph Organizing

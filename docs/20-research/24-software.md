@@ -14,7 +14,7 @@ Our software is available in the [CoLRev Environment](https://github.com/CoLRev-
 ## Collaborative Literature Reviews (CoLRev)
 
 [CoLRev](https://github.com/CoLRev-Environment/colrev){: target="_blank"} is an open-source environment for collaborative literature reviews.
-It integrates with differerent synthesis tools, takes care of the data, and facilitates Git-based collaboration. 
+It integrates with different synthesis tools, takes care of the data, and facilitates Git-based collaboration. 
 To accomplish these goals, CoLRev advances the design of review technology at the intersection of methods, design, cognition, and community building.
 The following features stand out:
 
@@ -32,7 +32,7 @@ Unlike traditional deduplication methods, BibDedupe focuses on entity resolution
 
 - **Automated Duplicate Linking with Zero False Positives**: BibDedupe automates the duplicate linking process with a focus on eliminating false positives.
 - **Preprocessing Approach**: BibDedupe uses a preprocessing approach that reflects the unique error generation process in academic databases, such as author re-formatting, journal abbreviation or translations.
-- **Entity Resolution**: BibDedupe does not simply delete duplicates, but it links duplicates to resolve the entitity and integrates the data. This allows for validation, and undo operations.
+- **Entity Resolution**: BibDedupe does not simply delete duplicates, but it links duplicates to resolve the entity and integrates the data. This allows for validation, and undo operations.
 - **Programmatic Access**: BibDedupe is designed for seamless integration into existing research workflows, providing programmatic access for easy incorporation into scripts and applications.
 - **Transparent and Reproducible Rules**: BibDedupe's blocking and matching rules are transparent and easily reproducible to promote reproducibility in deduplication processes.
 - **Continuous Benchmarking**: Continuous integration tests running on GitHub Actions ensure ongoing benchmarking, maintaining the library's reliability and performance across datasets.
@@ -46,7 +46,7 @@ As a default it relies on the JSON schema proposed by an expert panel (Haddaway 
 The package can be used programmatically or through the command line, has zero dependencies, and can therefore be integrated in a variety of environments.
 <!-- The heuristics, parsers, and linters are battle-tested on over 500 peer-reviewed queries registered at [searchRxiv](https://www.cabidigitallibrary.org/journal/searchrxiv){: target="_blank"}. -->
 
-## Recommended research softare
+## Recommended research software
 
 - [R: Tidyverse](https://www.tidyverse.org/){: target="_blank"}
 - [rOpenSci](https://ropensci.org/){: target="_blank"}
