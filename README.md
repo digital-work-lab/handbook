@@ -8,8 +8,6 @@
 - Information to [clone and reuse](https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/10.10.handbook.html#how-to-copy-the-handbook).
 
 ```
-python src/lab_bot/lab_bot.py
-
 cd src
 python3 stats.py
 ```
