@@ -42,6 +42,9 @@ callouts:
   info:
     title: Info
     color: yellow
+  objective:
+    title: Learning objective
+    color: blue
 
 aux_links:
   "Website":
