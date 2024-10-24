@@ -11,6 +11,7 @@ Categories:
 
 - methods
 - writing
+- The [Bamberg Center for Empirical Studies (BACES)](https://www.uni-bamberg.de/baces/){: target="_blank"} offers free consultation related to data management and statistical analyses
 
 Resources (to sort):
 
