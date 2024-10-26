@@ -2,11 +2,15 @@
     <img alt="Handbook Logo" src="https://raw.githubusercontent.com/digital-work-lab/handbook/main/assets/images/digital-work-lab.png" width="600px">
 </p>
 
+<div align="center">
+
 [![Used by: Digital Work at Otto-Friedrich-Universität Bamberg](https://img.shields.io/badge/Used%20by-%20Digital%20Work%20(Otto--Friedrich--Universit%C3%A4t%20Bamberg)-blue)](https://digital-work-lab.github.io/handbook/)
 ![License: CC-0](https://img.shields.io/badge/License-CC--0-green.svg)
 ![Spelling Check](https://github.com/digital-work-lab/handbook/actions/workflows/spelling.yml/badge.svg)
 ![Links Fix](https://github.com/digital-work-lab/handbook/actions/workflows/links_fix.yml/badge.svg)
 ![Documentation Status](https://img.shields.io/github/actions/workflow/status/digital-work-lab/handbook/pages.yml?label=documentation)
+
+</div>
 
 # The digital-work lab handbook
 
