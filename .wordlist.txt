@@ -1031,3 +1031,7 @@ BAULA
 asciinema
 Prüfungsumschlag
 BACES
+Universit
+img
+svg
+yml
