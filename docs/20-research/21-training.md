@@ -16,6 +16,7 @@ Categories:
 Resources (to sort):
 
 - [The Turing Way](https://book.the-turing-way.org/){: target="_blank"}
+- [Good-enough practices in scientific computing](https://carpentries-lab.github.io/good-enough-practices/index.html){: target="_blank"}
 - [How to document your research software](https://coderefinery.github.io/documentation/){: target="_blank"}
 - [how-to docs](https://nashpy.readthedocs.io/en/stable/contributing/how-to/index.html){: target="_blank"}
 - [Awesome reproducible research](https://github.com/leipzig/awesome-reproducible-research?tab=readme-ov-file){: target="_blank"}
