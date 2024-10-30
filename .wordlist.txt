@@ -1035,3 +1035,8 @@ Universit
 img
 svg
 yml
+Rustpad
+Visualstudio
+Keepass
+config
+gpg
