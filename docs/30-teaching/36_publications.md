@@ -27,8 +27,6 @@ nav_order: 6
 
 <p>Wagner, G. (2024). Git Practice Notebooks. Zenodo. doi:10.5281/zenodo.13892877. Available at: <a href="https://github.com/digital-work-lab/practice-git" target="_blank">https://github.com/digital-work-lab/practice-git</a></p>
 
-<p>Wagner, G. (2024). Python Practice Notebooks. Zenodo. doi:10.5281/zenodo.13892978. Available at: <a href="https://github.com/digital-work-lab/practice-python" target="_blank">https://github.com/digital-work-lab/practice-python</a></p>
-
 </div>
 
 
