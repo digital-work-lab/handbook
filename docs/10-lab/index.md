@@ -33,7 +33,7 @@ flowchart  LR
     subgraph Organizing
         direction LR
 
-        Mail["<a href='10_processes/10.51.mail.html'>Mail</a>"] -.- Website["<a href='10_processes/10.11.website.html'>Website</a>"] -.- Handbook["<a href='10_processes/10.10.handbook.html'>Handbook</a>"] -.- Faculty["<a href='10_processes/10.60.faculty.html'>Faculty</a>"]
+        Mail["<a href='10_processes/10.51.mail.html'>Mail</a>"] ~~~ Website["<a href='10_processes/10.11.website.html'>Website</a>"] ~~~ Handbook["<a href='10_processes/10.10.handbook.html'>Handbook</a>"] ~~~ Faculty["<a href='10_processes/10.60.faculty.html'>Faculty</a>"]
         Orders["<a href='10_processes/10.52.orders.html'>Orders</a>"] --> Reimbursements
 
         
@@ -49,8 +49,9 @@ flowchart  LR
         ZUV --- Controlling
         ZUV --- Orders
         ZUV --- Hiring
+        
         Reimbursements --> Controlling["<a href='10_processes/10.70.controlling.html'>Controlling</a>"]
-        Security["<a href='10_processes/10.72.security.html'>Security</a>"] -.- Compliance["<a href='10_processes/10.71.compliance.html'>Compliance</a>"] -.- Emergencies["<a href='10_processes/10.73.emergencies.html'>Emergencies</a>"] -.- Administration["<a href='10_processes/10.90.administration.html'>Administration</a>"]
+        Security["<a href='10_processes/10.72.security.html'>Security</a>"] ~~~ Compliance["<a href='10_processes/10.71.compliance.html'>Compliance</a>"] ~~~ Emergencies["<a href='10_processes/10.73.emergencies.html'>Emergencies</a>"] ~~~ Administration["<a href='10_processes/10.90.administration.html'>Administration</a>"]
     end
 
     style Organizing fill:white,stroke:#333,stroke-width:3px
