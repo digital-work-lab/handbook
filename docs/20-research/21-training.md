@@ -21,3 +21,4 @@ Resources (to sort):
 - [how-to docs](https://nashpy.readthedocs.io/en/stable/contributing/how-to/index.html){: target="_blank"}
 - [Awesome reproducible research](https://github.com/leipzig/awesome-reproducible-research?tab=readme-ov-file){: target="_blank"}
 - [Awesome open science](https://github.com/ZoranPandovski/awesome-open-science){: target="_blank"}
+- [Instats courses](https://instats.org/){: target="_blank"}
