@@ -23,7 +23,7 @@ flowchart TB
         UnivIS --- Prepare
         VC[("<a href='30_processes/30.19.virtual_campus.html'>VC</a>")] --- Run
 
-        Prepare["<a href='30_processes/30.09.new_modules.html'>Preparation</a>"] --> Run["<a href='30_processes/30.02.courses.html#course-list'>Run lecture/seminar/project</a>"]
+        Prepare["<a href='30_processes/30.09.new_modules.html'>New module</a>"] --> Run["<a href='30_processes/30.02.courses.html#course-list'>Run lecture/seminar/project</a>"]
         Run --> Grade["<a href='30_processes/30.59.exams.html'>Exams, repeat exams</a>, <a href=''>Grading</a>, <a href='30_processes/30.20.reports.html'>Reporting</a>"]
         Pedagogy["<a href='../10-lab/10_processes/10.01.goals.html'>🛠️</a> <a href='30_processes/30.07.pedagogy.html'>Pedagogy</a>"] --- Run
         Grade -.-> Reviews["<a href='30_processes/30.60.reviews.html'>Reviews</a>"]
