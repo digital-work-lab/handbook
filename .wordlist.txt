@@ -1040,3 +1040,10 @@ Visualstudio
 Keepass
 config
 gpg
+HEC
+Montréal
+reconfiguring
+AIHT
+GenAI
+joss
+Instats
