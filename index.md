@@ -12,11 +12,13 @@ This public handbook is a participatory initiative to facilitate our research ac
 It is an integral part of our [culture](docs/10-lab/10_processes/10.01.goals.html) of impact, rigor, openness, participation, and learning.
 To organize procedures, documents and files, the handbook consists of five sections, each with unique numbers: 
 
-- Section 10-19: [Lab management](docs/10-lab/)
-- Section 20-29: [Research](docs/20-research/)
-- Section 30-39: [Teaching](docs/30-teaching/)
-- Section 40-49: [Funding](docs/40-funding)
-- Section 50-59: [Service](docs/50-service/)
+| Section      | Topic & Link                         |
+|--------------|--------------------------------------|
+| 10-19        | [Lab management](docs/10-lab/)       |
+| 20-29        | [Research](docs/20-research/)        |
+| 30-39        | [Teaching](docs/30-teaching/)        |
+| 40-49        | [Funding](docs/40-funding)           |
+| 50-59        | [Service](docs/50-service/)          |
 
 There are external repositories for the following teaching offers:
 
