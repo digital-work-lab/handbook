@@ -13,7 +13,7 @@ It is an integral part of our [culture](docs/10-lab/10_processes/10.01.goals.htm
 
 ## Structure
 
-To organize procedures, documents and files, the handbook consists of five sections, each with unique numbers: 
+To organize procedures, documents and files, the handbook consists of the following sections, each with unique numbers: 
 
 | Number       | Section                              |
 |--------------|--------------------------------------|
