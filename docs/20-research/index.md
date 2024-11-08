@@ -16,9 +16,9 @@ flowchart TB
     subgraph Research
         subgraph Proposal
             direction TB
-            Goals["<a href='20_processes/20.01.goals.html'>Goals</a>"] --> Approval
-            Ideas["<a href='20_processes/20.09.ideas.html'>Ideas</a>"] --> Approval
-            Approval --> Setup["<a href='20_processes/20.15.repo-setup.html'>Repository setup</a>"]
+            Goals["<a href='20_processes/20.01.goals.html'>Goals</a>"] --> Selection
+            Ideas["<a href='20_processes/20.09.ideas.html'>Ideas</a>"] --> Selection
+            Selection --> Setup["<a href='20_processes/20.15.repo-setup.html'>Repository setup</a>"]
         end
 
         Setup --- a
