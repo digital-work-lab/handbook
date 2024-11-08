@@ -46,6 +46,11 @@ callouts:
     title: Learning objective
     color: blue
 
+collections:
+  courses:
+    output: true
+    permalink: /courses/:name.html
+
 aux_links:
   "Website":
     - "https://www.uni-bamberg.de/digital-work/"
