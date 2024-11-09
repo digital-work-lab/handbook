@@ -1,22 +1,23 @@
 ---
 layout: default
-title: 32.02 IDW SS24
-parent: 32 Lectures
+title: EidWI 
+parent: 32 Courses
 grand_parent: Teaching
-nav_order: 3
+semester: 2024-WiSe
+status: ▶
+nav_order: 4
 ---
 
-# 32.02 IDW SS24
+# 32.03 EidWI 2024 WiSe
 
 Field | Value
 --- | ---
-Title | Introduction to digital work
+Title | Einführung in die Wirtschaftsinformatik
 Level | Bachelor
 Lecturer | Gerit Wagner
-Link: VC | [Course](https://vc.uni-bamberg.de/course/view.php?id=68000){: target="_blank"}
+Link: VC | [VC](https://vc.uni-bamberg.de/course/view.php?id=71014){: target="_blank"}
 Link: Website | [Website](https://www.uni-bamberg.de/digital-work/studium/bachelor/introduction-to-digital-work/){: target="_blank"}
 Status | ▶ in-progress
-
 
 ## Process
 
@@ -46,21 +47,41 @@ Deadline: April (summer term), October (winter term)
 
 Start: April (summer term), October (winter term)
 
-- [x] Professor: Schedule evaluations in the pen-ultimate week ([30.21.evaluations]({{ site.baseurl }}/docs/30-teaching/30_processes/30.21.evaluations.html)).
-- [x] Secretary: Order exam materials (Prüfungspapier, Mantelbögen).
+- [ ] Professor: Schedule evaluations in the pen-ultimate week ([30.21.evaluations]({{ site.baseurl }}/docs/30-teaching/30_processes/30.21.evaluations.html)).
+- [ ] Secretary: Order exam materials (Prüfungspapier, Mantelbögen).
 - [ ] Professor (Secretary): Prepare the exams (Deadline: day of the exam), information is typically provided one month before the semester ends (E-Mail: "Prüferbestellung"). Check whether points add up, whether the number of points per task is consistent with the grading expectations - e.g., "list two examples" should correspond to 2 or 4 points. (**TODO: where to store the exam**). Review the exam for typos. Print it and prepare the exam materials. Add the date of the exam to the calendar and prepare to hand it over personally.
-- [x] Scheine ([Formular](https://www.uni-bamberg.de/ism/studium/anmeldung-scheinklausur/){: target="_blank"}), Scheinklausur-anmeldungen bei Erstellung der Klausurbögen berücksichtigen
+- [ ] Scheine ([Formular](https://www.uni-bamberg.de/ism/studium/anmeldung-scheinklausur/){: target="_blank"}), Scheinklausur-anmeldungen bei Erstellung der Klausurbögen berücksichtigen
 
 ## 4. Exam grading and documentation
 
+Before grading (day of the exam)
+
+- [ ] Professor: Cases of cheating (Unterschleif): immediately enter it into FlexNow and send the exam to the examination office (do not grade it)
+- [ ] Professor: Cases of missed exams (Versäumnisklausuren): immediately enter it into FlexNow, archive the exams for 1 year.
+- [ ] Professor: Send the exam sheets, protocols (Anwesenheitslisten), and two empty exams to the examination office immediately after the exams are completed.
+- [ ] Secretary: Empty exams (Versäumnis-Klausur): archive for one semester.
+
 Grading
 
-- [x] Complete grading: [grading process](../30_processes/30.59.exams.html)
+- [ ] Create reminder for the deadline: approx. 15. September (summer term), ??? (winter term). Grade early because colleagues may be on vacation before the deadline (not available to review failed exams).
+- [ ] Add bonus points if any and **if exam is passed**. Otherwise, note the bonus points and add a note "kann nicht angerechnet werden".
+- [ ] Do not dispose of empty exams
+- [ ] Use the [grading scripts](https://github.com/digital-work-lab/handbook/tree/main/src/grading){: target="_blank"} to assign grades and prepare FlexNow import
+- [ ] Have failed exams reviewed by a second professor
+
+Entering Grades into FlexNow
+
+- [ ] Secretary: [Enter grades in FlexNow](../30_processes/30.15.flexnow.html#entering-grades) (or create certificates if exam is not yet available in FlexNow ([script](https://github.com/digital-work-lab/handbook/tree/main/src/scheine){: target="_blank"})).
+- [ ] Professor: Archive bonus exercises (if any).
+
+Sending exams to the examination office
+
+- [ ] Professor: Exams are sent to the examination office (in person): [Silke Nüßlein](https://univis.uni-bamberg.de/prg?search=persons&show=info&department=322130&fullname=Silke+Nue%C3%9Flein){: target="_blank"}, Kapuzinerstr. 25, 00.01
 
 Documentation
 
 - [ ] Professor: Analyse the evaluations, store the files, and document the improvements (see [evaluations]({{ site.baseurl }}/docs/30-teaching/30_processes/30.21.evaluations.html)).
-- [x] Professor: [Report]({{ site.baseurl }}/docs/30-teaching/30_processes/30.20.reports.html) teaching efforts at the end of the semester.
+- [ ] Professor: [Report]({{ site.baseurl }}/docs/30-teaching/30_processes/30.20.reports.html) teaching efforts at the end of the semester.
 
 Deadline: End of August (summer term), March (winter term)
 

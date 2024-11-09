@@ -1,12 +1,14 @@
 ---
 layout: default
-title: 32.01 IDW SS23
-parent: 32 Lectures
+title: IDW
+parent: 32 Courses
 grand_parent: Teaching
+semester: 2024-SoSe
+status: ✔️
 nav_order: 2
 ---
 
-# 32.01 IDW SS23
+# 32.01 IDW 2023 SoSe
 
 Field | Value
 --- | ---
