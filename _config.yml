@@ -49,7 +49,7 @@ callouts:
 collections:
   courses:
     output: true
-    permalink: /courses/:name.html
+    permalink: /docs/30-teaching/37_courses/:name.html
 
 aux_links:
   "Website":
