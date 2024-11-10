@@ -8,10 +8,9 @@ status: ✔️
 student_evaluations: "000062_20240130_WS2324_Evaluation_LRSeminar.pdf"
 improvement_issue: "https://github.com/digital-work-lab/literature-review-seminar/issues/1"
 improvement_status: ✔️
-nav_order: 3
 ---
 
-# 34.02 LR-Sem 2023 WiSe
+# LRSem 2023 WiSe
 
 Field | Value
 --- | ---

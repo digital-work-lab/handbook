@@ -5,10 +5,9 @@ parent: 32 Courses
 grand_parent: Teaching
 semester: 2024-WiSe
 status: ▶
-nav_order: 4
 ---
 
-# 32.03 EidWI 2024 WiSe
+# EidWI 2024 WiSe
 
 Field | Value
 --- | ---

@@ -8,10 +8,9 @@ status: ✔️
 student_evaluations: "000074_20240715_SS24-Digital-Work-Projekt-B.pdf"
 improvement_issue: "https://github.com/digital-work-lab/open-source-project/issues/8"
 improvement_status: ✔️
-nav_order: 4
 ---
 
-# 33.03 OSP 2024 SoSe
+# OSP 2024 SoSe
 
 Field | Value
 --- | ---

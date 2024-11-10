@@ -8,10 +8,9 @@ status: ✔️
 student_evaluations: "000061_20240130_WS2324_Evaluation_WI-Projekt.pdf"
 improvement_issue: "https://github.com/digital-work-lab/open-source-project/issues/3"
 improvement_status: ✔️
-nav_order: 3
 ---
 
-# 33.02 OSP 2023 WiSe
+# OSP 2023 WiSe
 
 Field | Value
 --- | ---

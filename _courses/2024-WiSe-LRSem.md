@@ -5,10 +5,9 @@ parent: 32 Courses
 grand_parent: Teaching
 semester: 2024-WiSe
 status: ▶
-nav_order: 5
 ---
 
-# 34.04 LR-Sem 2024 WiSe
+# LRSem 2024 WiSe
 
 Field | Value
 --- | ---

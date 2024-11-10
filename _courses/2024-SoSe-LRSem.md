@@ -8,10 +8,9 @@ status: ✔️
 student_evaluations: "000087_20240719_SS24-DW-Sem-M__Literature_review_seminar.pdf"
 improvement_issue: "https://github.com/digital-work-lab/literature-review-seminar/issues/6"
 improvement_status: ▶
-nav_order: 3
 ---
 
-# 34.03 LR-Sem 2024 SoSe
+# LRSem 2024 SoSe
 
 Field | Value
 --- | ---

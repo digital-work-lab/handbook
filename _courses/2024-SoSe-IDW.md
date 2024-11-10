@@ -8,10 +8,9 @@ status: 📋
 student_evaluations: "000088_20240721_SS24-Digital-Work-EDW-B_Introduction_Digital_Work.pdf"
 improvement_issue: "https://github.com/digital-work-lab/digital-work-lecture/issues/8"
 improvement_status: ▶
-nav_order: 3
 ---
 
-# 32.02 IDW 2024 SoSe
+# IDW 2024 SoSe
 
 Field | Value
 --- | ---
