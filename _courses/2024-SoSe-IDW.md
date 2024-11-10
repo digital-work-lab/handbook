@@ -57,7 +57,7 @@ Start: April (summer term), October (winter term)
 
 Grading
 
-- [x] Complete grading: [grading process](../30_processes/30.59.exams.html)
+- [x] Complete grading: [grading process]({{ site.baseurl }}/docs/30-teaching/30_processes/30.59.exams.html)
 
 Documentation
 

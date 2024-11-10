@@ -1,12 +1,14 @@
 ---
 layout: default
-title: 33.03 OSD SS24
-parent: 33 Projects
+title: OSD
+parent: 32 Courses
 grand_parent: Teaching
+semester: 2024-SoSe
+status: ✔️
 nav_order: 4
 ---
 
-# 33.03 OSD SS24
+# 33.03 OSD 2024 SoSe
 
 Field | Value
 --- | ---
@@ -14,7 +16,7 @@ Title | WI-Project Open-Source Development
 Lecturer | Gerit Wagner
 Link: VC | [VC](https://vc.uni-bamberg.de/course/view.php?id=67998){: target="_blank"}
 Link: Website | [open-source-development](https://github.com/digital-work-lab/open-source-development){: target="_blank"}
-Status | ▶ in-progress
+Status | ✔️ completed
 
 ## Process
 
@@ -75,7 +77,7 @@ Sending exams to the examination office
 
 Documentation
 
-- [ ] Professor: Analyse the evaluations, store the files, and document the improvements (see [evaluations]({{ site.baseurl }}/docs/30-teaching/30_processes/30.21.evaluations.html)).
+- [x] Professor: Analyse the evaluations, store the files, and document the improvements (see [evaluations]({{ site.baseurl }}/docs/30-teaching/30_processes/30.21.evaluations.html)).
 - [x] Professor: [Report]({{ site.baseurl }}/docs/30-teaching/30_processes/30.20.reports.html) teaching efforts at the end of the semester.
 - [x] Professor: Archive presentation protocols (projects and seminars: digital is sufficient).
 

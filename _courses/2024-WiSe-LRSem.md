@@ -1,12 +1,14 @@
 ---
 layout: default
-title: 34.04 LR-Sem WS 24/25
-parent: 34 Seminars
+title: LRSem
+parent: 32 Courses
 grand_parent: Teaching
+semester: 2024-WiSe
+status: ▶
 nav_order: 5
 ---
 
-# 34.04 LR-Sem WS 24/25
+# 34.04 LR-Sem 2024 WiSe
 
 Field | Value
 --- | ---
@@ -14,8 +16,7 @@ Title | The literature review seminar
 Lecturer | Gerit Wagner
 Link: VC | [VC](https://vc.uni-bamberg.de/course/view.php?id=70990){: target="_blank"}
 Link: Website | [the-literature-review-seminar](https://digital-work-lab.github.io/literature-review-seminar/){: target="_blank"}
-Status | ⟳ in-preparation
-
+Status | ▶ in-preparation
 
 ## Process
 

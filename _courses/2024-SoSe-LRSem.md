@@ -1,35 +1,40 @@
 ---
 layout: default
-title: 33.02 OSD WS23-24
-parent: 33 Projects
+title: LRSem
+parent: 32 Courses
 grand_parent: Teaching
+semester: 2024-SoSe
+status: ✔️
 nav_order: 3
 ---
 
-# 33.02 OSD WS23-24
+# 34.03 LR-Sem 2024 SoSe
 
 Field | Value
 --- | ---
-Title | WI-Project "Open-Source Project
+Title | The literature review seminar
 Lecturer | Gerit Wagner
-Link: VC | [VC](https://vc.uni-bamberg.de/course/view.php?id=64616){: target="_blank"}
-Link: Website | [Website](https://www.uni-bamberg.de/digital-work/studium/bachelor/wi-projekt-open-source-projekt/){: target="_blank"}, [open-source-development](https://digital-work-lab.github.io/open-source-project/){: target="_blank"}
+Link: VC | [VC](https://vc.uni-bamberg.de/course/view.php?id=67999){: target="_blank"}
+Link: Website | [the-literature-review-seminar](https://digital-work-lab.github.io/literature-review-seminar/){: target="_blank"}
 Status | ✔️ completed
 
 ## Process
 
-## 1. Announce the project (4 months before)
+- FlexNow: Seminars must be created for each semester (decentral exams), a seminar paper and presentation are mandatory
+- Grading: the secretary registers students for the seminar, enters grades, and submits them online.
+
+## 1. Announce the seminar (4 months before)
  
 Start: December (summer term), May (winter term)
 
-- [x] Professor: Announce project on the website for the next semester (without dates/rooms).
-- [x] Secretary: Create the project in FlexNow.
-- [x] Professor: Update information in UnivIS (**add keywords „WI-Projekt“ and „WI-Projekte“**), check information on the website. VC/UnivIS: "WI-Projekt-B: Bachelorprojekt aus der Fächergruppe Wirtschaftsinformatik"
-- [x] Professor: The project should be announced in the [Fachschaft WIAI newsletter](https://vc.uni-bamberg.de/course/view.php?id=284){: target="_blank"}
+- [x] Professor: Announce seminar on the website for the next semester (without dates/rooms).
+- [x] Secretary: Create the course in FlexNow.
+- [x] Secretary: Update information in UnivIS (**add keywords „WI-Seminar“ and „WI-Seminare“**), check information on the website.
+- Note: If the course is mentioned on the website, it should automatically be announced in the [Fachschaft WIAI newsletter](https://vc.uni-bamberg.de/course/view.php?id=284){: target="_blank"}
 
 Deadline: mid-May (summer term), December/January (winter term)
 
-## 2. Prepare the project (1 month before)
+## 2. Prepare the seminar (1 month before)
 
 Start: March (summer term), September (winter term)
 
@@ -41,11 +46,12 @@ Start: March (summer term), September (winter term)
 
 Deadline: April (summer term), October (winter term)
 
-## 3. Offer the project
+## 3. Offer the seminar
 
 Start: April (summer term), October (winter term)
 
 - [x] Professor: Schedule evaluations in the pen-ultimate week ([30.21.evaluations]({{ site.baseurl }}/docs/30-teaching/30_processes/30.21.evaluations.html)).
+- [x] Professor (Secretary): Prepare the exams (Deadline: day of the exam), information is typically provided one month before the semester ends (E-Mail: "Prüferbestellung"). Check whether points add up, whether the number of points per task is consistent with the grading expectations - e.g., "list two examples" should correspond to 2 or 4 points. (**TODO: where to store the exam**). Review the exam for typos. Print it and prepare the exam materials. Add the date of the exam to the calendar and prepare to hand it over personally.
 - [x] Scheine ([Formular](https://www.uni-bamberg.de/ism/studium/anmeldung-scheinklausur/){: target="_blank"}), Scheinklausur-anmeldungen bei Erstellung der Klausurbögen berücksichtigen
 
 ## 4. Grading and documentation
@@ -63,12 +69,12 @@ Entering Grades into FlexNow
     - [Login: FlexNow](https://fn2web.zuv.uni-bamberg.de/FN2AUTH/FN2AuthServlet?op=Login){: target="_blank"} - Lehrstuhlmodul - Prüfungsteilnehmer / zentral organisiert / Veranstaltung auswählen / Teilnehmer laden
     - Formular zum Ändern einzelner Teilnehmer: Noten eingeben (Punkte müssen nicht eingegeben werden), speichern und weiter
     - Oder CSV: export (utf-8), add grades/points via vlookup, import (csv-format: semicolon, no quotes)
-        - Im oberen Bereich: Teilnehmer laden, drucken, exportieren via LV-Semester:
+    - Im oberen Bereich: Teilnehmer laden, drucken, exportieren via LV-Semester:
     "Noten endgültig freischalten und verbuchen" ([14.01](https://nc-2272638881871040784.nextcloud-ionos.com/index.php/apps/files/?dir=/10-lab/14_grades/01_lectures&fileid=71){: target="_blank"}). After the activation, changes can only be made through the examination office (wiai.pruefungen@uni-bamberg.de)
     - Only store grades as PDF (not as csv)?
     - Klausuren entsprechend der Reihenfolge im PDF sortieren.
 
-Grades are archived at [14.02](https://nc-2272638881871040784.nextcloud-ionos.com/index.php/apps/files/?dir=/10-lab/14_grades/02_projects&fileid=69){: target="_blank"}.
+- Grades are archived at [14.03](https://nc-2272638881871040784.nextcloud-ionos.com/index.php/apps/files/?dir=/10-lab/14_grades/03_seminars&fileid=72){: target="_blank"}.
 
 Sending exams to the examination office
 
@@ -76,7 +82,7 @@ Sending exams to the examination office
 
 Documentation
 
-- [x] Professor: Analyse the evaluations, store the files, and document the improvements (see [evaluations]({{ site.baseurl }}/docs/30-teaching/30_processes/30.21.evaluations.html)).
+- [ ] Professor: Analyse the evaluations, store the files, and document the improvements (see [evaluations]({{ site.baseurl }}/docs/30-teaching/30_processes/30.21.evaluations.html)).
 - [x] Professor: [Report]({{ site.baseurl }}/docs/30-teaching/30_processes/30.20.reports.html) teaching efforts at the end of the semester.
 - [x] Professor: Archive presentation protocols (projects and seminars: digital is sufficient).
 

@@ -1,12 +1,14 @@
 ---
 layout: default
-title: 33.01 OSD SS23
-parent: 33 Projects
+title: OSD
+parent: 32 Courses
 grand_parent: Teaching
+semester: 2023-SoSe
+status: ✔️
 nav_order: 2
 ---
 
-# 33.01 OSD SS23
+# 33.01 OSD 2023 SoSe
 
 Field | Value
 --- | ---

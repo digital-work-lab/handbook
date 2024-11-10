@@ -52,8 +52,8 @@ Offices: WE5/1.081.
 
 For sharing data, communication and meetings, we use the following tools:
 
-| **E-mails** | **Schedule meetings** | **Meet online** | **Collaborate** | **Share data** |
-| [Outlook](https://mailex.uni-bamberg.de/){: .btn .btn-green target="_blank"} | [Calendly](https://calendly.com/gerit-wagner/30min){: .btn .btn-green target="_blank"} | [Zoom](zoom://open){: .btn .btn-green target="_blank"} | [GitHub](https://github.com/orgs/digital-work-lab/repositories?q=archived%3AFalse){: .btn .btn-green target="_blank"} | [Nextcloud](https://nc-2272638881871040784.nextcloud-ionos.com/index.php/apps/dashboard/){: .btn .btn-green target="_blank"} |
+| **Schedule meetings** | **Meet online** | **Collaborate** | **Share confidential data** |
+| [Calendly](https://calendly.com/gerit-wagner/30min){: .btn .btn-green target="_blank"} | [Zoom](zoom://open){: .btn .btn-green target="_blank"} | [GitHub](https://github.com/orgs/digital-work-lab/repositories?q=archived%3AFalse){: .btn .btn-green target="_blank"} | [Nextcloud](https://nc-2272638881871040784.nextcloud-ionos.com/index.php/apps/dashboard/){: .btn .btn-green target="_blank"} |
 
 ## Contributors
 

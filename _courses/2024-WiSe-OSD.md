@@ -1,12 +1,14 @@
 ---
 layout: default
-title: 33.04 OSD WS 24/25
-parent: 33 Projects
+title: OSD
+parent: 32 Courses
 grand_parent: Teaching
+semester: 2024-WiSe
+status: ▶
 nav_order: 5
 ---
 
-# 33.04 OSD WS 24/25
+# 33.04 OSD 2024 WiSe
 
 Field | Value
 --- | ---
@@ -14,8 +16,7 @@ Title | WI-Project Open-Source Development
 Lecturer | Gerit Wagner
 Link: VC | [VC](https://vc.uni-bamberg.de/course/view.php?id=70989){: target="_blank"}
 Link: Website | [open-source-development](https://github.com/digital-work-lab/open-source-development){: target="_blank"}
-Status | ⟳ in-preparation
-
+Status | ▶ in-preparation
 
 ## Process
 
