@@ -19,7 +19,7 @@ Level | Bachelor
 Lecturer | Gerit Wagner
 Link: VC | [Course](https://vc.uni-bamberg.de/course/view.php?id=68000){: target="_blank"}
 Link: Website | [Website](https://www.uni-bamberg.de/digital-work/studium/bachelor/introduction-to-digital-work/){: target="_blank"}
-Status | 📋 grade / review / repeat exams
+Status | {{ page.status }}
 
 ## Process
 

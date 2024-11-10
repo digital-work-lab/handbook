@@ -18,7 +18,7 @@ Title | Open-Source Projekt (WI-Projekt)
 Lecturer | Gerit Wagner
 Link: VC | [VC](https://vc.uni-bamberg.de/course/view.php?id=70989){: target="_blank"}
 Link: Website | [open-source-development](https://github.com/digital-work-lab/open-source-development){: target="_blank"}
-Status | ▶ in-preparation
+Status | {{ page.status }}
 
 ## Process
 

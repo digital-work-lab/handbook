@@ -18,7 +18,7 @@ Title | Introduction to Digital Work
 Lecturer | Gerit Wagner
 Link: VC | TODO
 Link: Website | [Website](https://www.uni-bamberg.de/digital-work/studium/bachelor/introduction-to-digital-work/){: target="_blank"}
-Status | ⟳ in-preparation
+Status | {{ page.status }}
 
 ## Process
 

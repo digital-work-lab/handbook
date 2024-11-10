@@ -18,6 +18,6 @@ Title | Introduction to digital work
 Lecturer | Gerit Wagner
 Link: VC | [VC](https://vc.uni-bamberg.de/enrol/index.php?id=61244){: target="_blank"}
 Link: Website | [Website](https://www.uni-bamberg.de/digital-work/studium/bachelor/introduction-to-digital-work/){: target="_blank"}
-Status | ✔️ completed
+Status | {{ page.status }}
 
 Lecture (Bachelor)

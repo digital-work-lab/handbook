@@ -18,7 +18,7 @@ Title | The literature review seminar
 Lecturer | Gerit Wagner
 Link: VC | TODO
 Link: Website | [the-literature-review-seminar](https://digital-work-lab.github.io/literature-review-seminar/){: target="_blank"}, [Website](https://www.uni-bamberg.de/digital-work/studium/bachelor/seminar-digital-work/){: target="_blank"}
-Status | ⟳ in-preparation
+Status | {{ page.status }}
 
 ## Process
 

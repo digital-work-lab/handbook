@@ -18,7 +18,7 @@ Title | The literature review seminar
 Lecturer | Gerit Wagner
 Link: VC | [VC](https://vc.uni-bamberg.de/course/view.php?id=70990){: target="_blank"}
 Link: Website | [the-literature-review-seminar](https://digital-work-lab.github.io/literature-review-seminar/){: target="_blank"}
-Status | ▶ in-preparation
+Status | {{ page.status }}
 
 ## Process
 
