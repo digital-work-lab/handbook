@@ -5,6 +5,9 @@ parent: 32 Courses
 grand_parent: Teaching
 semester: 2024-WiSe
 status: ▶
+student_evaluations: ""
+improvement_issue: ""
+improvement_status: ▶
 ---
 
 # EidWI 2024 WiSe
