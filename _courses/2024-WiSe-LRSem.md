@@ -5,6 +5,9 @@ parent: 32 Courses
 grand_parent: Teaching
 semester: 2024-WiSe
 status: ▶
+student_evaluations: ""
+improvement_issue: "https://github.com/digital-work-lab/literature-review-seminar/issues/31"
+improvement_status: ▶
 ---
 
 # LRSem 2024 WiSe

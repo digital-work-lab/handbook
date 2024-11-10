@@ -5,6 +5,9 @@ parent: 32 Courses
 grand_parent: Teaching
 semester: 2024-WiSe
 status: ▶
+student_evaluations: ""
+improvement_issue: "https://github.com/digital-work-lab/open-source-project/issues/10"
+improvement_status: ▶
 ---
 
 # OSP 2024 WiSe
