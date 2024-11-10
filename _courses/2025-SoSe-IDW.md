@@ -3,14 +3,14 @@ layout: default
 title: IDW
 parent: 32 Courses
 grand_parent: Teaching
-semester: 2025-WiSe
+semester: 2025-SoSe
 status: ⟳
 student_evaluations: ""
 improvement_issue: ""
 improvement_status: N/A
 ---
 
-# IDW 2025 WiSe
+# IDW 2025 SoSe
 
 Field | Value
 --- | ---

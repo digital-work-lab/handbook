@@ -14,7 +14,7 @@ improvement_status: N/A
 
 Field | Value
 --- | ---
-Title | WI-Project "Open-Source Project
+Title | Open-Source Projekt (WI-Projekt)
 Lecturer | Gerit Wagner
 Link: VC | TODO
 Link: Website | [Website](https://www.uni-bamberg.de/digital-work/studium/bachelor/wi-projekt-open-source-projekt/){: target="_blank"}
