@@ -21,8 +21,9 @@ Lecturer            | Gerit Wagner
 Link: VC            | [VC](https://vc.uni-bamberg.de/course/view.php?id=71014){: target="_blank"}
 Link: Website       | [Website](https://www.uni-bamberg.de/ism/studium/bachelor/einfuehrung-in-die-wirtschaftsinformatik/){: target="_blank"}
 Status              | {{ page.status }}
-Student Evaluations | {% if page.student_evaluations != "" %} <a href="{{ site.baseurl }}/assets/evaluations/{{ page.student_evaluations }}" target="_blank">PDF</a> {% else %} N/A {% endif %}
-Improvement Issue   | {% if page.improvement_issue != "" %} <a href="{{ page.improvement_issue }}" target="_blank">Issue Link</a> {% else %} N/A {% endif %}
+Student Evaluations | {% if page.student_evaluations != "" %} <a href="{{ site.baseurl }}/assets/evaluations/{{ page.student_evaluations }}" target="_blank">PDF</a> {% else %} <span class="label label-yellow">TODO</span> {% endif %}
+Improvement Issue   | {% if page.improvement_issue != "" %} <a href="{{ page.improvement_issue }}" target="_blank">Issue Link</a> {% else %} <span class="label label-yellow">TODO</span> {% endif %}
+Status of Revisions | {{ page.improvement_status }}
 
 ## Process
 
