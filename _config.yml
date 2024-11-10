@@ -51,6 +51,8 @@ collections:
     output: true
     permalink: /docs/30-teaching/32_courses/:name.html
     order:
+      - 2025-SoSe-OSD.md
+      - 2025-SoSe-LRSem.md
       - 2025-SoSe-IDW.md
       - 2024-WiSe-EidWI.md 
       - 2024-WiSe-LRSem.md 
