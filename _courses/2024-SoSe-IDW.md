@@ -5,6 +5,9 @@ parent: 32 Courses
 grand_parent: Teaching
 semester: 2024-SoSe
 status: 📋
+student_evaluations: "000088_20240721_SS24-Digital-Work-EDW-B_Introduction_Digital_Work.pdf"
+improvement_issue: "https://github.com/digital-work-lab/digital-work-lecture/issues/8"
+improvement_status: ▶
 nav_order: 3
 ---
 
@@ -17,8 +20,7 @@ Level | Bachelor
 Lecturer | Gerit Wagner
 Link: VC | [Course](https://vc.uni-bamberg.de/course/view.php?id=68000){: target="_blank"}
 Link: Website | [Website](https://www.uni-bamberg.de/digital-work/studium/bachelor/introduction-to-digital-work/){: target="_blank"}
-Status | 📋 in-progress
-
+Status | 📋 grade / review / repeat exams
 
 ## Process
 

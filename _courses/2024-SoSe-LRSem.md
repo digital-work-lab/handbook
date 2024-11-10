@@ -5,6 +5,9 @@ parent: 32 Courses
 grand_parent: Teaching
 semester: 2024-SoSe
 status: ✔️
+student_evaluations: "000087_20240719_SS24-DW-Sem-M__Literature_review_seminar.pdf"
+improvement_issue: "https://github.com/digital-work-lab/literature-review-seminar/issues/6"
+improvement_status: ▶
 nav_order: 3
 ---
 
