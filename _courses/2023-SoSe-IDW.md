@@ -20,8 +20,7 @@ Lecturer            | Gerit Wagner
 Link: VC            | [VC](https://vc.uni-bamberg.de/enrol/index.php?id=61244){: target="_blank"}
 Link: Website       | [Website](https://www.uni-bamberg.de/digital-work/studium/bachelor/introduction-to-digital-work/){: target="_blank"}
 Status              | {{ page.status }}
-Student Evaluations | <a href="{{ site.baseurl }}/assets/evaluations/{{ page.student_evaluations }}" target="_blank">PDF</a>
-Improvement Issue   | <a href="{{ page.improvement_issue }}" target="_blank">Issue Link</a>
-Status of Revisions | {{ page.improvement_status }}
+Student Evaluations | {% if page.student_evaluations != "" %} <a href="{{ site.baseurl }}/assets/evaluations/{{ page.student_evaluations }}" target="_blank">PDF</a> {% else %} N/A {% endif %}
+Improvement Issue   | {% if page.improvement_issue != "" %} <a href="{{ page.improvement_issue }}" target="_blank">Issue Link</a> {% else %} N/A {% endif %}
 
 Lecture (Bachelor)

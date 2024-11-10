@@ -20,9 +20,8 @@ Lecturer            | Gerit Wagner
 Link: VC            | [VC](https://vc.uni-bamberg.de/course/view.php?id=67999){: target="_blank"}
 Link: Website       | [the-literature-review-seminar](https://digital-work-lab.github.io/literature-review-seminar/){: target="_blank"}
 Status              | {{ page.status }}
-Student Evaluations | <a href="{{ site.baseurl }}/assets/evaluations/{{ page.student_evaluations }}" target="_blank">PDF</a>
-Improvement Issue   | <a href="{{ page.improvement_issue }}" target="_blank">Issue Link</a>
-Status of Revisions | {{ page.improvement_status }}
+Student Evaluations | {% if page.student_evaluations != "" %} <a href="{{ site.baseurl }}/assets/evaluations/{{ page.student_evaluations }}" target="_blank">PDF</a> {% else %} N/A {% endif %}
+Improvement Issue   | {% if page.improvement_issue != "" %} <a href="{{ page.improvement_issue }}" target="_blank">Issue Link</a> {% else %} N/A {% endif %}
 
 ## Process
 
