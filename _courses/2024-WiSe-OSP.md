@@ -1,6 +1,6 @@
 ---
 layout: default
-title: OSD
+title: OSP
 parent: 32 Courses
 grand_parent: Teaching
 semester: 2024-WiSe
@@ -8,7 +8,7 @@ status: ▶
 nav_order: 5
 ---
 
-# 33.04 OSD 2024 WiSe
+# 33.04 OSP 2024 WiSe
 
 Field | Value
 --- | ---

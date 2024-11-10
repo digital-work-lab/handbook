@@ -1,6 +1,6 @@
 ---
 layout: default
-title: OSD
+title: OSP
 parent: 32 Courses
 grand_parent: Teaching
 semester: 2023-SoSe
@@ -11,7 +11,7 @@ improvement_status: ✔️
 nav_order: 2
 ---
 
-# 33.01 OSD 2023 SoSe
+# 33.01 OSP 2023 SoSe
 
 Field | Value
 --- | ---
