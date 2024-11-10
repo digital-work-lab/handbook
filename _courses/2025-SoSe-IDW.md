@@ -1,6 +1,7 @@
 ---
 layout: default
 title: IDW
+title_long: Introduction to digital work
 parent: 32 Courses
 grand_parent: Teaching
 semester: 2025-SoSe
@@ -12,13 +13,16 @@ improvement_status: N/A
 
 # IDW 2025 SoSe
 
-Field | Value
---- | ---
-Title | Introduction to Digital Work
-Lecturer | Gerit Wagner
-Link: VC | TODO
-Link: Website | [Website](https://www.uni-bamberg.de/digital-work/studium/bachelor/introduction-to-digital-work/){: target="_blank"}
-Status | {{ page.status }}
+Field               | Value
+------------------- | -------------------
+Title               | {{ page.title_long }}
+Lecturer            | Gerit Wagner
+Link: VC            | TODO
+Link: Website       | [Website](https://www.uni-bamberg.de/digital-work/studium/bachelor/introduction-to-digital-work/){: target="_blank"}
+Status              | {{ page.status }}
+Student Evaluations | <a href="{{ site.baseurl }}/assets/evaluations/{{ page.student_evaluations }}" target="_blank">PDF</a>
+Improvement Issue   | <a href="{{ page.improvement_issue }}" target="_blank">Issue Link</a>
+Status of Revisions | {{ page.improvement_status }}
 
 ## Process
 

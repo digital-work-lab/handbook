@@ -1,6 +1,7 @@
 ---
 layout: default
 title: IDW
+title_long: Introduction to digital work
 parent: 32 Courses
 grand_parent: Teaching
 semester: 2024-SoSe
@@ -12,14 +13,17 @@ improvement_status: ▶
 
 # IDW 2024 SoSe
 
-Field | Value
---- | ---
-Title | Introduction to digital work
-Level | Bachelor
-Lecturer | Gerit Wagner
-Link: VC | [Course](https://vc.uni-bamberg.de/course/view.php?id=68000){: target="_blank"}
-Link: Website | [Website](https://www.uni-bamberg.de/digital-work/studium/bachelor/introduction-to-digital-work/){: target="_blank"}
-Status | {{ page.status }}
+Field               | Value
+------------------- | -------------------------------------------------
+Title               | {{ page.title_long }}
+Level               | Bachelor
+Lecturer            | Gerit Wagner
+Link: VC            | [Course](https://vc.uni-bamberg.de/course/view.php?id=68000){: target="_blank"}
+Link: Website       | [Website](https://www.uni-bamberg.de/digital-work/studium/bachelor/introduction-to-digital-work/){: target="_blank"}
+Status              | {{ page.status }}
+Student Evaluations | <a href="{{ site.baseurl }}/assets/evaluations/{{ page.student_evaluations }}" target="_blank">PDF</a>
+Improvement Issue   | <a href="{{ page.improvement_issue }}" target="_blank">Issue Link</a>
+Status of Revisions | {{ page.improvement_status }}
 
 ## Process
 

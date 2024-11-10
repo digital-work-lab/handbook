@@ -1,6 +1,7 @@
 ---
 layout: default
 title: OSP
+title_long: Open-Source Projekt (WI-Projekt)
 parent: 32 Courses
 grand_parent: Teaching
 semester: 2024-WiSe
@@ -12,13 +13,16 @@ improvement_status: ▶
 
 # OSP 2024 WiSe
 
-Field | Value
---- | ---
-Title | Open-Source Projekt (WI-Projekt)
-Lecturer | Gerit Wagner
-Link: VC | [VC](https://vc.uni-bamberg.de/course/view.php?id=70989){: target="_blank"}
-Link: Website | [open-source-development](https://github.com/digital-work-lab/open-source-development){: target="_blank"}
-Status | {{ page.status }}
+Field               | Value
+------------------- | -------------------
+Title               | {{ page.title_long }}
+Lecturer            | Gerit Wagner
+Link: VC            | [VC](https://vc.uni-bamberg.de/course/view.php?id=70989){: target="_blank"}
+Link: Website       | [open-source-development](https://github.com/digital-work-lab/open-source-development){: target="_blank"}
+Status              | {{ page.status }}
+Student Evaluations | <a href="{{ site.baseurl }}/assets/evaluations/{{ page.student_evaluations }}" target="_blank">PDF</a>
+Improvement Issue   | <a href="{{ page.improvement_issue }}" target="_blank">Issue Link</a>
+Status of Revisions | {{ page.improvement_status }}
 
 ## Process
 

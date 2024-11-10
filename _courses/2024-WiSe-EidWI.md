@@ -1,6 +1,7 @@
 ---
 layout: default
 title: EidWI 
+title_long: Einführung in die Wirtschaftsinformatik
 parent: 32 Courses
 grand_parent: Teaching
 semester: 2024-WiSe
@@ -12,14 +13,17 @@ improvement_status: ▶
 
 # EidWI 2024 WiSe
 
-Field | Value
---- | ---
-Title | Einführung in die Wirtschaftsinformatik
-Level | Bachelor
-Lecturer | Gerit Wagner
-Link: VC | [VC](https://vc.uni-bamberg.de/course/view.php?id=71014){: target="_blank"}
-Link: Website | [Website](https://www.uni-bamberg.de/digital-work/studium/bachelor/introduction-to-digital-work/){: target="_blank"}
-Status | {{ page.status }}
+Field               | Value
+------------------- | -------------------
+Title               | {{ page.title_long }}
+Level               | Bachelor
+Lecturer            | Gerit Wagner
+Link: VC            | [VC](https://vc.uni-bamberg.de/course/view.php?id=71014){: target="_blank"}
+Link: Website       | [Website](https://www.uni-bamberg.de/ism/studium/bachelor/einfuehrung-in-die-wirtschaftsinformatik/){: target="_blank"}
+Status              | {{ page.status }}
+Student Evaluations | <a href="{{ site.baseurl }}/assets/evaluations/{{ page.student_evaluations }}" target="_blank">PDF</a>
+Improvement Issue   | <a href="{{ page.improvement_issue }}" target="_blank">Issue Link</a>
+Status of Revisions | {{ page.improvement_status }}
 
 ## Process
 
