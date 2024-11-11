@@ -35,8 +35,17 @@ Status of Revisions | {{ page.improvement_status }}
  
 Start: December (summer term), May (winter term)
 
-- [ ] Professor: Announce seminar on the website for the next semester (without dates/rooms).
+- [ ] Professor: Announce the seminar on the website for the next semester (without dates/rooms).
 - [ ] Secretary: Create the course in FlexNow.
+
+{: .highlight }
+>  Check public holidays
+>
+> Flexnow: Besonderheiten bei Ausstattung/Hinweise:
+> 
+> - 8h KW 20, Freitag, Blocktermin, Seminarraum
+> - 8h KW 21, Freitag, Blocktermin, Seminarraum
+
 - [ ] Secretary: Update information in UnivIS (**add keywords „WI-Seminar“ and „WI-Seminare“**), check information on the website.
 - Note: If the course is mentioned on the website, it should automatically be announced in the [Fachschaft WIAI newsletter](https://vc.uni-bamberg.de/course/view.php?id=284){: target="_blank"}{: target="_blank"}
 
