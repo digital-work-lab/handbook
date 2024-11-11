@@ -30,8 +30,11 @@ Status of Revisions | {{ page.improvement_status }}
  
 Start: December (summer term), May (winter term)
 
+- [x] Secretary: Create the course in FlexNow.
+
+At the end of the semester: 
+
 - [ ] Professor: Announce lecture on the website for the next semester (without dates/rooms).
-- [ ] Secretary: Create the course in FlexNow.
 - [ ] Secretary: Update information in UnivIS (add keywords „WI-Seminar“ and „WI-Seminare“ for seminars), check information on the website.
 
 Deadline: mid-May (summer term), December/January (winter term)
