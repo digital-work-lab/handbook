@@ -32,7 +32,6 @@ Status of Revisions | {{ page.improvement_status }}
  
 Start: December (summer term), May (winter term)
 
-- [ ] Professor: Announce the project on the website for the next semester (without dates/rooms).
 - [ ] Secretary: Create the project in FlexNow.
 
 {: .highlight }
@@ -46,6 +45,7 @@ Start: December (summer term), May (winter term)
 > - 2h in KW 21 (19.05.-23.05.), Donnerstag oder Freitag, Uhrzeit egal, CIP-Pool
 
 - [ ] Secretary: Update information in UnivIS (**add keywords „WI-Projekt“ and „WI-Projekte“**), check information on the website. VC/UnivIS: "WI-Projekt-B: Bachelorprojekt aus der Fächergruppe Wirtschaftsinformatik"
+- [ ] Secretary: At the end of the semester: Announce the project on the website for the next semester (without dates/rooms).
 - [ ] Professor: The project should be announced in the [Fachschaft WIAI newsletter](https://vc.uni-bamberg.de/course/view.php?id=284){: target="_blank"}
 
 Deadline: mid-May (summer term), December/January (winter term)
