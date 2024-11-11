@@ -8,6 +8,23 @@ nav_order: 6
 # 25 Projects
 {: .d-inline-block }
 
+<table>
+  <thead>
+    <tr>
+      <th>Project</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for project in site.projects %}
+    <tr>
+      <td><a href="{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a></td>
+      <td>{{ project.status }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
 {: .confidential } 
 > Confidential project data are stored here:
 > 

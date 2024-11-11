@@ -47,6 +47,10 @@ callouts:
     color: blue
 
 collections:
+  projects:
+    output: true
+    permalink: /docs/20-research/25-projects/:name.html
+
   courses:
     output: true
     permalink: /docs/30-teaching/32_courses/:name.html
