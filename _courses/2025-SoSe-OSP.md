@@ -54,7 +54,7 @@ Deadline: mid-May (summer term), December/January (winter term)
 
 Start: March (summer term), September (winter term)
 
-- [ ] Secretary and Professor: Set dates and request lecture rooms.
+- [ ] Secretary and Professor: Announce dates/rooms on the websites, add to calendar.
 - [ ] IT department: Create the VC course, two weeks before the semester starts (automatically based on UnivIS).
 - [ ] Professor: Create a reminder for the evaluations.
 - [ ] Secretary: Add moderator and session dates in VC.
