@@ -32,7 +32,7 @@ Status of Revisions | {{ page.improvement_status }}
  
 Start: December (summer term), May (winter term)
 
-- [ ] Secretary: Create the project in FlexNow.
+- [x] Secretary: Create the project in FlexNow.
 
 {: .highlight }
 >  Check public holidays
