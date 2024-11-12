@@ -36,7 +36,6 @@ At the end of the semester:
 
 - [ ] Professor: Announce lecture on the website for the next semester (without dates/rooms).
 - [ ] Secretary: Update information in UnivIS (add keywords „WI-Seminar“ and „WI-Seminare“ for seminars), check information on the website.
-- [ ] Have the lecture announced on [instagram](https://www.instagram.com/informatik_unibamberg/){: target="_blank"}
 
 Deadline: mid-May (summer term), December/January (winter term)
 
@@ -46,6 +45,7 @@ Start: March (summer term), September (winter term)
 
 - [ ] Secretary and Professor: Set dates and request lecture rooms.
 - [ ] IT department: Create the VC course, two weeks before the semester starts (automatically based on UnivIS).
+- [ ] Have the lecture announced on [instagram](https://www.instagram.com/informatik_unibamberg/){: target="_blank"}
 - [ ] Professor: Create a reminder for the evaluations.
 - [ ] Secretary: Add moderator and session dates in VC.
 - [ ] Professor: Activate course in VC (visible to students).
