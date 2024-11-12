@@ -49,7 +49,8 @@ At the end of the semester:
 
 - [ ] Professor: Announce the seminar on the website for the next semester (without dates/rooms).
 - [ ] Secretary: Update information in UnivIS (**add keywords „WI-Seminar“ and „WI-Seminare“**), check information on the website.
-- Note: If the course is mentioned on the website, it should automatically be announced in the [Fachschaft WIAI newsletter](https://vc.uni-bamberg.de/course/view.php?id=284){: target="_blank"}{: target="_blank"}
+- Note: If the course is mentioned on the website, it should automatically be in the [Fachschaft WIAI newsletter](https://vc.uni-bamberg.de/course/view.php?id=284){: target="_blank"}{: target="_blank"}
+- [ ] Have the seminar announced on [instagram](https://www.instagram.com/informatik_unibamberg/){: target="_blank"}
 
 Deadline: mid-May (summer term), December/January (winter term)
 

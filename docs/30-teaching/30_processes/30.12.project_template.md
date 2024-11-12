@@ -48,7 +48,7 @@ At the end of the semester:
 
 - [ ] Secretary: Update information in UnivIS (**add keywords „WI-Projekt“ and „WI-Projekte“**), check information on the website. VC/UnivIS: "WI-Projekt-B: Bachelorprojekt aus der Fächergruppe Wirtschaftsinformatik"
 - [ ] Secretary: Announce the project on the website for the next semester (without dates/rooms).
-- [ ] Professor: The project should be announced in the [Fachschaft WIAI newsletter](https://vc.uni-bamberg.de/course/view.php?id=284){: target="_blank"}
+- [ ] Professor: The project should be announced on [instagram](https://www.instagram.com/informatik_unibamberg/){: target="_blank"} and in the [Fachschaft WIAI newsletter](https://vc.uni-bamberg.de/course/view.php?id=284){: target="_blank"}
 
 Deadline: mid-May (summer term), December/January (winter term)
 
