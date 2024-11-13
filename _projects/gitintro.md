@@ -7,7 +7,7 @@ completed: 2024-08-28
 title: gitintro
 title_long: "Rethinking How We Teach Git: Recommendations and Practical Strategies for the Information Systems Curriculum"
 status: published
-improvement_status: pending
+improvement_status: completed
 resources:
  - name: manuscript
    link: https://github.com/digital-work-lab/git-intro
