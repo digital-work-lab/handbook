@@ -1090,3 +1090,5 @@ unterstützen
 weiterhin
 zugänglich
 WiSe
+GoogleDocs
+Mendeley
