@@ -8,7 +8,7 @@ semester: 2024-SoSe
 status: ✔️
 student_evaluations: "000087_20240719_SS24-DW-Sem-M__Literature_review_seminar.pdf"
 improvement_issue: "https://github.com/digital-work-lab/literature-review-seminar/issues/6"
-improvement_status: ▶
+improvement_status: ✔️
 ---
 
 # LRSem 2024 SoSe
