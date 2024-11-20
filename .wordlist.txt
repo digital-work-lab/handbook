@@ -1103,3 +1103,5 @@ Pingo
 Rustpads
 Mentimeter
 Tweedback
+lostmypassword
+url
