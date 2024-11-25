@@ -9,7 +9,7 @@ permalink: /
 # The *Digital-Work Lab* Handbook
 
 Our handbook is a public and participatory initiative to facilitate our research activities, and consistently deliver high-quality service to students.
-It is an integral part of our [culture](docs/10-lab/10_processes/10.01.goals.html) of impact, rigor, openness, participation, and learning.
+It is an integral part of our [culture](docs/00.goals.html) of impact, rigor, openness, participation, and learning.
 
 ## Structure
 

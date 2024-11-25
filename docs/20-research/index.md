@@ -3,7 +3,7 @@ layout: default
 title: Research
 has_children: true
 has_toc: true
-nav_order: 3
+nav_order: 20
 ---
 
 # Research
@@ -37,7 +37,7 @@ flowchart TB
         end
 
     end
-    Publication --> Improvement["<a href='../10-lab/10_processes/10.01.goals.html'>♻️</a> <a href='20_processes/20.35.improvement.html'>Improvement</a>"]
+    Publication --> Improvement["<a href='{{ site.baseurl }}/docs/00.goals.html'>♻️</a> <a href='20_processes/20.35.improvement.html'>Improvement</a>"]
 
     Publication --> PublicationOutput["<a href='29-publications.html'>Publication output</a>"]
 

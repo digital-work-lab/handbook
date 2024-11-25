@@ -3,7 +3,7 @@ layout: default
 title: Teaching
 has_children: true
 has_toc: true
-nav_order: 4
+nav_order: 30
 ---
 
 # Teaching
@@ -25,11 +25,11 @@ flowchart TB
 
         Prepare["<a href='30_processes/30.09.new_modules.html'>New module</a>"] --> Run["<a href='30_processes/30.02.courses.html#course-list'>Run lecture/seminar/project</a>"]
         Run --> Grade["<a href='30_processes/30.59.exams.html'>Exams, repeat exams</a>, <a href=''>Grading</a>, <a href='30_processes/30.20.reports.html'>Reporting</a>"]
-        Pedagogy["<a href='../10-lab/10_processes/10.01.goals.html'>🛠️</a> <a href='30_processes/30.07.pedagogy.html'>Pedagogy</a>"] --- Run
+        Pedagogy["<a href='.{{ site.baseurl }}/docs/00.goals.html'>🛠️</a> <a href='30_processes/30.07.pedagogy.html'>Pedagogy</a>"] --- Run
         Grade -.-> Reviews["<a href='30_processes/30.60.reviews.html'>Reviews</a>"]
         Grade -.-> Certificates["<a href='30_processes/30.51.certificates.html'>Certificates</a>"]
         Run ==> Evaluate["<a href='30_processes/30.21.evaluations.html'>Evaluation</a>"]
-        Evaluate ==> Improve["<a href='../10-lab/10_processes/10.01.goals.html'>♻️</a> <a href='30_processes/30.22.improvements.html'>Improvement</a>"]
+        Evaluate ==> Improve["<a href='.{{ site.baseurl }}/docs/00.goals.html'>♻️</a> <a href='30_processes/30.22.improvements.html'>Improvement</a>"]
         Improve ==> Run
     end
     style main fill:white,stroke:#333,stroke-width:3px
@@ -48,7 +48,7 @@ flowchart TB
         Presentation -.-> Grading
         Advising --> Grading["<a href='30_processes/30.40.theses.html#grading'>Grading</a>"]
         Advising --> Feedback["<a href='https://digital-work-lab.github.io/theses/docs/feedback.html'>Feedback</a>"]
-        Improvement["<a href='../10-lab/10_processes/10.01.goals.html'>♻️</a> <a href='30_processes/30.22.improvements.html'>Improvement</a>"] --> Advising
+        Improvement["<a href='.{{ site.baseurl }}/docs/00.goals.html'>♻️</a> <a href='30_processes/30.22.improvements.html'>Improvement</a>"] --> Advising
         Feedback --> Improvement
     end
     style Theses fill:white,stroke:#333,stroke-width:3px
