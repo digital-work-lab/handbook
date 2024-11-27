@@ -3,9 +3,6 @@ name: Link checker
 on:
   repository_dispatch:
   workflow_dispatch:
-  push:
-    branches:
-      - main
   pull_request:
     types: [closed]
   schedule:
