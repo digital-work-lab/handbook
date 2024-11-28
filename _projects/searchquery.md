@@ -5,7 +5,7 @@ title_long: ""
 parent: 25 Projects
 grand_parent: Research
 started: 2023-10-04
-status: developing
+status: writing
 improvement_status: pending
 ---
 
