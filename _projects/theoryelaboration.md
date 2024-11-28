@@ -4,6 +4,7 @@ title: theoryelaboration
 title_long: ""
 parent: 25 Projects
 grand_parent: Research
+started: 2018-01-15
 status: revising
 improvement_status: pending
 ---

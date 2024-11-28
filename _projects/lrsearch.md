@@ -4,6 +4,7 @@ title: lrsearch
 title_long: ""
 parent: 25 Projects
 grand_parent: Research
+started: 2020-10-01
 status: revising
 improvement_status: pending
 ---

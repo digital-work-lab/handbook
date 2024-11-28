@@ -4,6 +4,7 @@ title: teapad
 title_long: ""
 parent: 25 Projects
 grand_parent: Research
+started: 2024-09-10
 status: writing
 improvement_status: pending
 related:
