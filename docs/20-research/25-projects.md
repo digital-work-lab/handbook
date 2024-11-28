@@ -28,7 +28,7 @@ nav_order: 6
 {: .text-center}
 ```mermaid
 
-flowchart TD
+flowchart LR
     Concept([Concept]) --> Writing([Writing])
     Writing --> UnderReview([Under Review])
     UnderReview --> Revising([Revising])
