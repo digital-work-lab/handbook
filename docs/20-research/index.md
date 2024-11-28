@@ -37,11 +37,11 @@ flowchart LR
 ## Writing
 
 - [Collaboration](20_processes/20.16.collaboration.html)
-- [Writing](20_processes/20.29.writing.html)
-- [Methods](20_processes/20.18.methods.html)
-- [Data](20_processes/20.17.data.html) - [Data](23-data.html)
-- [Literature](22-literature.html)
 - [Softare](24-software.html)
+- [Literature](22-literature.html)
+- [Methods](20_processes/20.18.methods.html)
+- [Data management](20_processes/20.17.data.html) - [Data sets](23-data.html)
+- [Writing](20_processes/20.29.writing.html)
 - [Submission](20_processes/20.30.pre-submission.html)
 
 ## Under Review
@@ -56,7 +56,7 @@ flowchart LR
 
 ## Published
 
-- <a href='{{ site.baseurl }}/docs/00.goals.html'>♻️</a> <a href='20_processes/20.35.improvement.html'>Improvement</a>
+- [Improvement](20_processes/20.35.improvement.html) <a href='{{ site.baseurl }}/docs/00.goals.html'>♻️</a>
 - [Publication](20_processes/20.33.publication.html)
 - [Presentation](20_processes/20.28.presentation.html)
 - [Dissemination](20_processes/20.34.dissemination.html)
