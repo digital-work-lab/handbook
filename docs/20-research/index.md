@@ -37,7 +37,7 @@ flowchart LR
 ## Writing
 
 - [Collaboration](20_processes/20.16.collaboration.html)
-- [Softare](24-software.html)
+- [Software](24-software.html)
 - [Literature](22-literature.html)
 - [Methods](20_processes/20.18.methods.html)
 - [Data management](20_processes/20.17.data.html) - [Data sets](23-data.html)
