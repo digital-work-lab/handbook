@@ -14,14 +14,14 @@ Projects are in [25-Projects](25-projects.html) and can be in the following stat
 ```mermaid
 
 flowchart LR
-    Concept([Concept]) --> Writing([Writing])
-    Writing --> UnderReview([Under Review])
-    UnderReview --> Revising([Revising])
+    Concept(["<a href='#concept'>Concept</a>"]) --> Writing(["<a href='#writing'>Writing</a>"])
+    Writing --> UnderReview(["<a href='#under-review'>Under review</a>"])
+    UnderReview --> Revising(["<a href='#revising'>Revising</a>"])
     Revising --> UnderReview
-    Revising --> Published([Published])
-    Writing --> OnHold([On Hold])
+    Revising --> Published(["<a href='#published'>Published</a>"])
+    Writing --> OnHold(["<a href='#on-hold'>On Hold</a>"])
     Revising --> OnHold
-    OnHold --> Abandoned([Abandoned])
+    OnHold --> Abandoned(["<a href='#abandoned'>Abandoned</a>"])
     OnHold --> Writing
 
 ```
