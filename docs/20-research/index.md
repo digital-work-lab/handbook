@@ -15,16 +15,16 @@ Projects are in [25-Projects](25-projects.html) and can be in the following stat
 
 flowchart LR
     subgraph Projects
-        direction LR
-        Concept(["<a href='#concept'>Concept</a>"]) --> Writing(["<a href='#writing'>Writing</a>"])
-        Writing --> UnderReview(["<a href='#under-review'>Under review</a>"])
-        UnderReview --> Revising(["<a href='#revising'>Revising</a>"])
-        Revising --> UnderReview
-        Revising --> Published(["<a href='#published'>Published</a>"])
+        direction TB
+        Concept(["<a href='#concept'>Concept</a>"]) -.-> Writing(["<a href='#writing'>Writing</a>"])
         Writing --> OnHold(["<a href='#on-hold'>On Hold</a>"])
-        Revising --> OnHold
-        OnHold --> Abandoned(["<a href='#abandoned'>Abandoned</a>"])
         OnHold --> Writing
+        OnHold -.-> Abandoned(["<a href='#abandoned'>Abandoned</a>"])
+        Writing ==> UnderReview(["<a href='#under-review'>Under review</a>"])
+        Revising -.-> OnHold
+        Revising ==> UnderReview
+        UnderReview ==> Revising(["<a href='#revising'>Revising</a>"])
+        Revising ==> Published(["<a href='#published'>Published</a>"])
     end
     style Projects fill:white,stroke:#333,stroke-width:3px
 
