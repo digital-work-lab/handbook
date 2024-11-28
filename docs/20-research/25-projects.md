@@ -25,22 +25,6 @@ nav_order: 6
   </tbody>
 </table>
 
-{: .text-center}
-```mermaid
-
-flowchart LR
-    Concept([Concept]) --> Writing([Writing])
-    Writing --> UnderReview([Under Review])
-    UnderReview --> Revising([Revising])
-    Revising --> UnderReview
-    Revising --> Published([Published])
-    Writing --> OnHold([On Hold])
-    Revising --> OnHold
-    OnHold --> Abandoned([Abandoned])
-    OnHold --> Writing
-
-```
-
 {: .confidential } 
 > Confidential project data are stored here:
 > 
