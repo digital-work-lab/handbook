@@ -5,6 +5,9 @@ title_long: ""
 parent: 25 Projects
 grand_parent: Research
 started: 2022-02-20
+resources:
+ - name: library
+   link: https://github.com/digital-work-lab/lr-dm
 status: writing
 improvement_status: pending
 ---

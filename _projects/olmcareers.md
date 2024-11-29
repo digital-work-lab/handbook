@@ -1,14 +1,14 @@
 ---
 layout: default
-title: searchquery
-title_long: "A Python package to translate literature search queries across databases, such as PubMed and Web of Science."
+title: datawork
+title_long: ""
 parent: 25 Projects
+started: 2023-05-04
 grand_parent: Research
-started: 2023-10-04
-status: writing
 resources:
- - name: library
-   link: https://github.com/CoLRev-Environment/search-query
+ - name: manuscript
+   link: https://github.com/julianprester/dpkw-signalling
+status: concept
 improvement_status: pending
 ---
 
@@ -21,3 +21,10 @@ Title               | {{ page.title_long }}
 Status              | {{ page.status }}
 Improvement         | {{ page.improvement_status }}
 
+{% if page.related %}
+## Related projects 
+
+- {% for item in page.related %}
+  - <a href="{{ item }}">{{ item }}</a>
+{% endfor %}
+{% endif %}

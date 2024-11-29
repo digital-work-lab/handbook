@@ -1,14 +1,18 @@
 ---
 layout: default
-title: algorg
-title_long: ""
+title: bibdedupe
+title_long: "Python library for deduplication of bibliographic records"
 parent: 25 Projects
 grand_parent: Research
-started: 2024-08-14
+started: 2021-04-15
 resources:
- - name: manuscript
-   link: https://github.com/digital-work-lab/alg-org
-status: concept
+ - name: library
+   link: https://github.com/CoLRev-Environment/bib-dedupe
+output:
+ - name: ""
+   type: "Journal article"
+   link: https://joss.theoj.org/papers/10.21105/joss.06318
+status: published
 improvement_status: pending
 ---
 

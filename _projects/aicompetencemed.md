@@ -1,14 +1,11 @@
 ---
 layout: default
-title: searchquery
-title_long: "A Python package to translate literature search queries across databases, such as PubMed and Web of Science."
+title: aicompetencemed
+title_long: ""
 parent: 25 Projects
 grand_parent: Research
-started: 2023-10-04
-status: writing
-resources:
- - name: library
-   link: https://github.com/CoLRev-Environment/search-query
+started: 2022-05-06
+status: under-review
 improvement_status: pending
 ---
 
@@ -21,3 +18,10 @@ Title               | {{ page.title_long }}
 Status              | {{ page.status }}
 Improvement         | {{ page.improvement_status }}
 
+{% if page.related %}
+## Related projects 
+
+- {% for item in page.related %}
+  - <a href="{{ item }}">{{ item }}</a>
+{% endfor %}
+{% endif %}

@@ -5,6 +5,9 @@ title_long: ""
 parent: 25 Projects
 grand_parent: Research
 started: 2024-01-25
+resources:
+ - name: manuscript
+   link: https://github.com/digital-work-lab/data-work
 status: concept
 improvement_status: pending
 ---

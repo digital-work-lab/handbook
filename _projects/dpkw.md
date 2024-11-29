@@ -1,14 +1,18 @@
 ---
 layout: default
-title: algorg
-title_long: ""
+title: dpkw
+title_long: "Exploring the boundaries and processes of digital platforms for knowledge work: A review of information systems research"
 parent: 25 Projects
 grand_parent: Research
-started: 2024-08-14
+started: 2019-04-02
 resources:
  - name: manuscript
-   link: https://github.com/digital-work-lab/alg-org
-status: concept
+   link: https://github.com/digital-work-lab/platform-kwork-lr-manuscript
+output:
+ - name: ""
+   type: "Journal Article"
+   link: https://www.sciencedirect.com/science/article/abs/pii/S096386872100041X
+status: published
 improvement_status: pending
 ---
 

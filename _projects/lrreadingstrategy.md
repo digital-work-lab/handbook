@@ -1,14 +1,16 @@
 ---
 layout: default
-title: algorg
-title_long: ""
+title: lrreadingstrategy
+title_long: "Heuristics for exploratory reading in literature reviews"
 parent: 25 Projects
 grand_parent: Research
-started: 2024-08-14
-resources:
- - name: manuscript
-   link: https://github.com/digital-work-lab/alg-org
-status: concept
+started: 2017-04-22
+completed: 2020-05-17
+output:
+ - name: enlit
+   type: "library"
+   link: https://github.com/digital-work-lab/enlit
+status: published
 improvement_status: pending
 ---
 

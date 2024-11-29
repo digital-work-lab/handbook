@@ -1,14 +1,18 @@
 ---
 layout: default
-title: algorg
-title_long: ""
+title: lrdm
+title_long: "Artificial intelligence and the conduct of literature reviews"
 parent: 25 Projects
 grand_parent: Research
-started: 2024-08-14
+started: 2022-02-20
 resources:
- - name: manuscript
-   link: https://github.com/digital-work-lab/alg-org
-status: concept
+ - name: library
+   link: https://github.com/digital-work-lab/lr-dm
+output:
+ - name: "Artificial intelligence and the conduct of literature reviews"
+   type: "Journal Article"
+   link: "https://journals.sagepub.com/doi/abs/10.1177/02683962211048201"
+status: writing
 improvement_status: pending
 ---
 

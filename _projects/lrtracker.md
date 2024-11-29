@@ -1,14 +1,16 @@
 ---
 layout: default
-title: algorg
-title_long: ""
+title: lrtracker
+title_long: "Meta-analysis of Fitbit effectiveness"
 parent: 25 Projects
 grand_parent: Research
-started: 2024-08-14
-resources:
- - name: manuscript
-   link: https://github.com/digital-work-lab/alg-org
-status: concept
+started: 2018-07-12
+completed: 2020-10-12
+output:
+ - name: "Fitbit-Based Interventions for Healthy Lifestyle Outcomes: Systematic Review and Meta-Analysis"
+   type: "Journal article"
+   link: https://www.jmir.org/2020/10/e23954/
+status: published
 improvement_status: pending
 ---
 
