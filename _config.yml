@@ -54,22 +54,8 @@ collections:
 
   courses:
     output: true
+    sort_by: semester
     permalink: /docs/30-teaching/32_courses/:name.html
-    order:
-      - 2025-SoSe-OSP.md
-      - 2025-SoSe-LRSem.md
-      - 2025-SoSe-IDW.md
-      - 2024-WiSe-EidWI.md 
-      - 2024-WiSe-LRSem.md 
-      - 2024-WiSe-OSP.md
-      - 2024-SoSe-IDW.md 
-      - 2024-SoSe-LRSem.md 
-      - 2024-SoSe-OSP.md 
-      - 2023-WiSe-LRSem.md 
-      - 2023-WiSe-OSP.md 
-      - 2023-SoSe-IDW.md 
-      - 2023-SoSe-OSP.md 
-      - 2022-WiSe-LRSem.md 
 
 aux_links:
   "Website":
