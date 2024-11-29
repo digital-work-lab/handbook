@@ -8,7 +8,26 @@ nav_order: 30
 
 # Teaching
 
-Our teaching activities include lectures, projects and seminars, which are based on the following process:
+Our teaching activities include lectures, projects, and seminars, which are based on the following process:
+
+{: .text-center}
+```mermaid
+flowchart
+    subgraph Theses["Theses"]
+        direction TB
+        Announced([Announced]) --> Registered([Registered])
+        Registered --> Submitted([Submitted])
+        Submitted --> Archived([Archived])
+    end
+    subgraph Courses["Courses (<a href='/32_courses/'>overview</a>)"]
+        direction TB
+        InPreparation([In preparation]) --> InProgress([In progress])
+        InProgress --> GradeReviewRepeat([Grade, review, repeat])
+        GradeReviewRepeat --> Completed([Completed])
+    end
+    style Theses fill:white,stroke:#333,stroke-width:3px
+    style Courses fill:white,stroke:#333,stroke-width:3px
+```
 
 {: .text-center}
 ```mermaid
