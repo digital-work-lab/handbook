@@ -48,6 +48,7 @@ callouts:
 
 collections:
   projects:
+    sort_by: status
     output: true
     permalink: /docs/20-research/25-projects/:name.html
 
