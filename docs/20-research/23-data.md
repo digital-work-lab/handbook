@@ -16,3 +16,7 @@ Data and analyses are available here:
 
 {: .confidential } 
 > Confidential data is stored on the [Nextcloud](https://nc-2272638881871040784.nextcloud-ionos.com/index.php/apps/files/?dir=/20-research/23_data&fileid=88094){: target="_blank"}.
+
+## Resources
+
+- [IEEEDataPortal](https://ieee-dataport.org/datasets){: target="_blank"}
