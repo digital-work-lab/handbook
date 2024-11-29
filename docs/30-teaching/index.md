@@ -19,7 +19,7 @@ flowchart
         Registered --> Submitted([Submitted])
         Submitted --> Archived([Archived])
     end
-    subgraph Courses["Courses (<a href='/32_courses/'>overview</a>)"]
+    subgraph Courses["Courses (<a href='32_courses'>overview</a>)"]
         direction TB
         InPreparation([In preparation]) --> InProgress([In progress])
         InProgress --> GradeReviewRepeat([Grade, review, repeat])
