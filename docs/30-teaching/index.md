@@ -15,15 +15,15 @@ Our teaching activities include lectures, projects, and seminars, which are base
 flowchart
     subgraph Theses["Theses"]
         direction TB
-        Announced([Announced]) --> Registered([Registered])
-        Registered --> Submitted([Submitted])
-        Submitted --> Archived([Archived])
+        Announced(["<a href='#announced'>Announced</a>"]) --> Registered(["<a href='#registered'>Registered</a>"])
+        Registered --> Submitted(["<a href='#submitted'>Submitted</a>"])
+        Submitted --> Archived(["<a href='#archived'>Archived</a>"])
     end
     subgraph Courses["Courses (<a href='32_courses'>overview</a>)"]
         direction TB
-        InPreparation([In preparation]) --> InProgress([In progress])
-        InProgress --> GradeReviewRepeat([Grade, review, repeat])
-        GradeReviewRepeat --> Completed([Completed])
+        InPreparation(["<a href='#in-preparation'>In preparation</a>"]) --> InProgress(["<a href='#in-progress'>In progress</a>"])
+        InProgress --> GradeReviewRepeat(["<a href='#grade-review-repeat'>Grade, review, repeat</a>"])
+        GradeReviewRepeat --> Completed(["<a href='#completed'>Completed</a>"])
     end
     style Theses fill:white,stroke:#333,stroke-width:3px
     style Courses fill:white,stroke:#333,stroke-width:3px
