@@ -31,6 +31,9 @@ flowchart LR
 ```
 <!-- TODO: Cover Research data management, and reproducibility (but check with the team before publishing data - make sure confidential data is protected) -->
 
+{: .highlight }
+> [Here](https://github.com/orgs/digital-work-lab/repositories?q=topic%3Aresearch){: target="_blank"} are all our research repositories on GitHub.
+
 ## Concept
 
 - [Goals](20_processes/20.01.goals.html)
