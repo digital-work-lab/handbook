@@ -29,6 +29,9 @@ flowchart
     style Courses fill:white,stroke:#333,stroke-width:3px
 ```
 
+{: .highlight}
+> [Here](https://github.com/orgs/digital-work-lab/repositories?q=topic%3Ateaching){: target="_blank"} are all our teaching repositories on GitHub.
+
 ---
 
 ## Courses
