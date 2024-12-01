@@ -10,11 +10,8 @@ nav_order: 4
 
 We aim to provide complete data sets and analysis workflows for our studies.
 
-Data and analyses are available here:
-
-- [GitHub](https://github.com/orgs/digital-work-lab/repositories?q=topic%3Adataset){: target="_blank"}
-
 {: .resource } 
+> Our data and analyses are available on [GitHub](https://github.com/orgs/digital-work-lab/repositories?q=topic%3Adataset){: target="_blank"}
 > Confidential data is stored on the [Nextcloud](https://nc-2272638881871040784.nextcloud-ionos.com/index.php/apps/files/?dir=/20-research/23_data&fileid=88094){: target="_blank"}.
 
 ## Resources
