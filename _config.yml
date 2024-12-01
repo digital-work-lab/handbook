@@ -34,9 +34,6 @@ callouts:
   warning:
     title: Warning
     color: red
-  confidential:
-    title: Confidential data
-    color: red
   highlight:
     color: yellow
   info:
@@ -44,6 +41,9 @@ callouts:
     color: yellow
   objective:
     title: Learning objective
+    color: blue
+  resource:
+    title: 🌐 Connected resources
     color: blue
 
 collections:

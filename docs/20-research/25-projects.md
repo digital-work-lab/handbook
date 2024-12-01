@@ -25,7 +25,7 @@ nav_order: 6
   </tbody>
 </table>
 
-{: .confidential } 
+{: .resource } 
 > Confidential project data are stored here:
 > 
 > - [GitHub](https://github.com/orgs/digital-work-lab/repositories?q=topic%3Aresearch){: target="_blank"}

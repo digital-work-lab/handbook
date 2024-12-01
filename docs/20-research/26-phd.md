@@ -9,7 +9,7 @@ nav_order: 7
 {: .d-inline-block }
 
 
-{: .confidential } 
+{: .resource } 
 > Theses are stored here:
 > 
 > - [GitHub](https://github.com/orgs/digital-work-lab/repositories?q=visibility%3Aprivate+archived%3Afalse){: target="_blank"}
