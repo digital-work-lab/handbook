@@ -29,6 +29,8 @@ flowchart
     style Courses fill:white,stroke:#333,stroke-width:3px
 ```
 
+---
+
 ## Courses
 
 [Overview](30_processes/30.02.courses.html)
@@ -51,7 +53,7 @@ flowchart
 - [Report](30_processes/30.20.reports.html)
 - [Reviews](30_processes/30.60.reviews.html)
 - [Certificates](30_processes/30.51.certificates.html)
-- [Improvements](30_processes/30.22.improvements.html) "<a href='.{{ site.baseurl }}/docs/00.goals.html'>♻️</a> 
+- [Improvements](30_processes/30.22.improvements.html) <a href='.{{ site.baseurl }}/docs/00.goals.html'>♻️</a> 
 
 ### Completed
 
@@ -76,6 +78,6 @@ flowchart
 
 - [Grading](30_processes/30.40.theses.html#grading)
 - [Feedback](https://digital-work-lab.github.io/theses/docs/feedback.html)
-- [Improvement](30_processes/30.22.improvements.html) "<a href='.{{ site.baseurl }}/docs/00.goals.html'>♻️</a> 
+- [Improvement](30_processes/30.22.improvements.html) <a href='.{{ site.baseurl }}/docs/00.goals.html'>♻️</a> 
 
 ### Archived
