@@ -55,6 +55,8 @@ flowchart
 
 ### Completed
 
+---
+
 ## Theses
 
 [Thesis page](https://digital-work-lab.github.io/theses/)
