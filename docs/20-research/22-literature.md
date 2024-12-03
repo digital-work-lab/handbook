@@ -8,6 +8,17 @@ nav_order: 3
 # 22 Literature (shared)
 {: .d-inline-block }
 
+- Literature summaries: Git repository with Obsidian (with [Zotero integration](https://github.com/mgmeyers/obsidian-zotero-integration) and [Obsidian Web Clipper](https://obsidian.md/clipper) for web export)
+- References: `references.bib` in Git repository
+- PDFs: Nexcloud
+- Reference manager: Zotero with
+  - [Zotero connector](https://chromewebstore.google.com/detail/zotero-connector/ekhagklcjbdpajgpjgmbionohlpdbjgc) for web exports
+  - Word integration
+  - PDF commenting
+  - **WITHOUT** sync (not Git-based) - export Bibtex/PDF and add to `references.bib` and Nextcloud PDFs with each literature summary. (**TODO: create a Python script/hook to check whether references.bib - literature notes are complete**)
+
+TBD: automate PDF export to Nextcloud?
+
 CoLRev repositories (PDFs and obsidian vaults)
 
 {: .resource } 
