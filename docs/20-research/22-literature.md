@@ -12,4 +12,4 @@ CoLRev repositories (PDFs and obsidian vaults)
 
 {: .resource } 
 > - [Nextcloud](https://nc-2272638881871040784.nextcloud-ionos.com/index.php/apps/files/?dir=/22-literature/23_data&fileid=88094){: target="_blank"} in sections 25 and 36.
->  [GitHub](https://github.com/orgs/digital-work-lab/repositories?q=topic%3Aresearch)
+> - [GitHub](https://github.com/orgs/digital-work-lab/repositories?q=topic%3Aresearch)
