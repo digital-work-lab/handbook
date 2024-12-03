@@ -14,7 +14,14 @@ flowchart  LR
 
     subgraph Orga
         direction LR
-        Security["<a href='10_processes/10.72.security.html'>Security</a>"] ~~~ Compliance["<a href='10_processes/10.71.compliance.html'>Compliance</a>"] ~~~ Emergencies["<a href='10_processes/10.73.emergencies.html'>Emergencies</a>"] ~~~ Administration["<a href='10_processes/10.90.administration.html'>Sys Admin</a>"]
+        subgraph a1[" "]
+            direction LR
+            Security["<a href='10_processes/10.72.security.html'>Security</a>"] ~~~ Compliance["<a href='10_processes/10.71.compliance.html'>Compliance</a>"] ~~~ Emergencies["<a href='10_processes/10.73.emergencies.html'>Emergencies</a>"]
+        end
+        subgraph a2["  "]
+            direction LR
+            Controlling["<a href='10_processes/10.70.controlling.html'>Controlling</a>"] ~~~ Administration["<a href='10_processes/10.90.administration.html'>Sys Admin</a>"]
+        end
     end
 
     subgraph Connecting["Communication Channels"]
@@ -23,7 +30,9 @@ flowchart  LR
     end
 
     style Orga fill:white,stroke:#333,stroke-width:3px
-    style Connecting fill:white,stroke:#333,stroke-width:3px    
+    style Connecting fill:white,stroke:#333,stroke-width:3px
+    style a1 fill:white,stroke:white
+    style a2 fill:white,stroke:white  
 ```
 
 {: .text-center}
@@ -48,7 +57,6 @@ flowchart  TB
 
     subgraph Procurement
         direction LR
-        Reimbursements --> Controlling["<a href='10_processes/10.70.controlling.html'>Controlling</a>"]
         Orders["<a href='10_processes/10.52.orders.html'>Orders</a>"] --> Reimbursements
     end
 
