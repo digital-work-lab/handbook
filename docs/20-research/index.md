@@ -49,7 +49,7 @@ flowchart LR
 - [Methods](20_processes/20.18.methods.html)
 - [Data management](20_processes/20.17.data.html) - [Data sets](23-data.html)
 - [Writing](20_processes/20.29.writing.html)
-- [Submission](20_processes/20.30.pre-submission.html)
+- [Submission](20_processes/20.30.submission.html)
 
 ## Under Review
 
