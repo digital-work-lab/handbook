@@ -64,7 +64,7 @@ flowchart
 
 ## Theses
 
-[Thesis page](https://digital-work-lab.github.io/theses/)
+[Thesis page](https://digital-work-lab.github.io/theses/){: target="_blank"}
 
 {: .highlight }
 > **TODO**: private thesis page
@@ -80,7 +80,7 @@ flowchart
 ### Submitted
 
 - [Grading](30_processes/30.40.theses.html#grading)
-- [Feedback](https://digital-work-lab.github.io/theses/docs/feedback.html)
+- [Feedback](https://digital-work-lab.github.io/theses/docs/feedback.html){: target="_blank"}
 - [Improvement](30_processes/30.22.improvements.html) <a href='.{{ site.baseurl }}/docs/00.goals.html'>♻️</a> 
 
 ### Archived
