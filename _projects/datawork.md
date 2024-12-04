@@ -4,6 +4,7 @@ title: datawork
 title_long: ""
 parent: 25 Projects
 grand_parent: Research
+area: work_practices
 started: 2024-01-25
 resources:
  - name: manuscript

@@ -6,6 +6,7 @@ parent: 25 Projects
 grand_parent: Research
 started: 2016-11-27
 completed: 2020-11-04
+area: knowledge_synthesis
 output:
  - name: "Classifying the ideational impact of Information Systems review articles: A content-enriched deep learning approach"
    type: "Journal article"

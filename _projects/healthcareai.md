@@ -4,6 +4,7 @@ parent: 25 Projects
 grand_parent: Research
 started: 2021-02-03
 completed: 2023-06-10
+area: work_practices
 title: healthcareai
 title_long: "An Overview of AI Maturity in Health Care across 10 OECD Countries"
 status: published

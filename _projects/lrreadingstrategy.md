@@ -6,6 +6,7 @@ parent: 25 Projects
 grand_parent: Research
 started: 2017-04-22
 completed: 2020-05-17
+area: knowledge_synthesis
 output:
  - name: enlit
    type: "library"

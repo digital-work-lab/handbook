@@ -6,7 +6,9 @@ nav_order: 6
 ---
 
 # 25 Projects
-{: .d-inline-block }
+
+{: .highlight }
+> See [Project portfolio](25-projects-gantt).
 
 <table>
   <thead>

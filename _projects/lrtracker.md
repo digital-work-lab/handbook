@@ -4,6 +4,7 @@ title: lrtracker
 title_long: "Meta-analysis of Fitbit effectiveness"
 parent: 25 Projects
 grand_parent: Research
+area: knowledge_synthesis
 started: 2018-07-12
 completed: 2020-10-12
 output:

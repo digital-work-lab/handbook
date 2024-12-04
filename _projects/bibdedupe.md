@@ -4,7 +4,8 @@ title: bibdedupe
 title_long: "Python library for deduplication of bibliographic records"
 parent: 25 Projects
 grand_parent: Research
-started: 2021-04-15
+area: knowledge_synthesis
+started: 2023-11-11
 resources:
  - name: library
    link: https://github.com/CoLRev-Environment/bib-dedupe

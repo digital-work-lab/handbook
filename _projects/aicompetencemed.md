@@ -2,6 +2,7 @@
 layout: default
 title: aicompetencemed
 title_long: ""
+area: work_practices
 parent: 25 Projects
 grand_parent: Research
 started: 2022-05-06

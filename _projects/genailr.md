@@ -4,6 +4,7 @@ title: genailr
 title_long: "Generative Artificial Intelligence for Literature Reviews"
 parent: 25 Projects
 grand_parent: Research
+area: knowledge_synthesis
 started: 2023-12-10
 status: revising
 improvement_status: pending

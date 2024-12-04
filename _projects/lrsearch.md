@@ -5,6 +5,7 @@ title_long: ""
 parent: 25 Projects
 grand_parent: Research
 started: 2020-10-01
+area: knowledge_synthesis
 resources:
  - name: manuscript
    link: https://github.com/digital-work-lab/lr-search-manuscript

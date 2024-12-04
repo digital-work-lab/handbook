@@ -5,6 +5,7 @@ title_long: ""
 parent: 25 Projects
 grand_parent: Research
 started: 2022-02-20
+area: knowledge_synthesis
 resources:
  - name: library
    link: https://github.com/digital-work-lab/lr-dm

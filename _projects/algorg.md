@@ -4,6 +4,7 @@ title: algorg
 title_long: ""
 parent: 25 Projects
 grand_parent: Research
+area: distributed_organizing
 started: 2024-08-14
 resources:
  - name: manuscript

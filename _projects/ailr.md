@@ -1,10 +1,12 @@
 ---
 layout: default
-title: lrdm
+title: ailr
 title_long: "Artificial intelligence and the conduct of literature reviews"
 parent: 25 Projects
 grand_parent: Research
-started: 2022-02-20
+area: knowledge_synthesis
+started: 2020-11-26
+completed: 2021-09-02
 resources:
  - name: library
    link: https://github.com/digital-work-lab/lr-dm

@@ -4,6 +4,7 @@ title: dprelations
 title_long: ""
 parent: 25 Projects
 grand_parent: Research
+area: distributed_organizing
 started: 2023-09-01
 status: under-review
 improvement_status: pending

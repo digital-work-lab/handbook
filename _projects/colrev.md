@@ -4,6 +4,7 @@ title: colrev
 title_long: "An open-source environment for collaborative reviews"
 parent: 25 Projects
 grand_parent: Research
+area: knowledge_synthesis
 started: 2021-04-15
 resources:
  - name: library

@@ -4,6 +4,7 @@ title: datawork
 title_long: ""
 parent: 25 Projects
 started: 2023-05-04
+area: distributed_organizing
 grand_parent: Research
 resources:
  - name: manuscript

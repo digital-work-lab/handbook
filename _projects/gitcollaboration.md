@@ -5,6 +5,7 @@ title_long: ""
 parent: 25 Projects
 grand_parent: Research
 status: writing
+area: distributed_organizing
 started: 2024-03-13
 improvement_status: pending
 related:

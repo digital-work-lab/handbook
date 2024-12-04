@@ -5,6 +5,7 @@ title_long: ""
 parent: 25 Projects
 grand_parent: Research
 started: 2024-09-10
+area: work_practices
 status: writing
 improvement_status: pending
 related:
