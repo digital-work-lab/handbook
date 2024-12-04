@@ -10,12 +10,12 @@ nav_order: 3
 
 - Literature summaries: Git repository with Obsidian (with [Zotero integration](https://github.com/mgmeyers/obsidian-zotero-integration){: target="_blank"} and [Obsidian Web Clipper](https://obsidian.md/clipper){: target="_blank"} for web export)
 - References: `references.bib` in Git repository
-- PDFs: Nexcloud
+- PDFs: Nextcloud
 - Reference manager: Zotero with
   - [Zotero connector](https://chromewebstore.google.com/detail/zotero-connector/ekhagklcjbdpajgpjgmbionohlpdbjgc){: target="_blank"} for web exports
   - Word integration
   - PDF commenting
-  - **WITHOUT** sync (not Git-based) - export Bibtex/PDF and add to `references.bib` and Nextcloud PDFs with each literature summary. (**TODO: create a Python script/hook to check whether references.bib - literature notes are complete**)
+  - **WITHOUT** sync (not Git-based) - export BibTeX/PDF and add to `references.bib` and Nextcloud PDFs with each literature summary. (**TODO: create a Python script/hook to check whether references.bib - literature notes are complete**)
 
 TBD: automate PDF export to Nextcloud?
 
