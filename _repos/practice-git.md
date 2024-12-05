@@ -6,8 +6,8 @@ parent: Projects
 grand_parent: Research
 visibility: Public
 collaborators: ['LaureenTh']
-area: other
-topics: ['teaching-material']
+area: teaching
+topics: ['teaching', 'teaching-material']
 html_url: https://github.com/digital-work-lab/practice-git
 associated_projects: []
 ---

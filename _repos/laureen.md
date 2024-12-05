@@ -6,8 +6,8 @@ parent: Projects
 grand_parent: Research
 visibility: Private
 collaborators: ['LaureenTh']
-area: research
-topics: ['agenda', 'research', 'teaching-materials']
+area: other
+topics: ['agenda']
 html_url: https://github.com/digital-work-lab/laureen
 associated_projects: []
 ---

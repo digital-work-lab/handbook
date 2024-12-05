@@ -6,8 +6,8 @@ parent: Projects
 grand_parent: Research
 visibility: Public
 collaborators: []
-area: other
-topics: ['teaching-materials', 'template']
+area: teaching
+topics: ['teaching', 'teaching-material', 'template']
 html_url: https://github.com/digital-work-lab/thesis-template
 associated_projects: []
 ---

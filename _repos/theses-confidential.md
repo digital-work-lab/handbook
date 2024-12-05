@@ -6,8 +6,8 @@ parent: Projects
 grand_parent: Research
 visibility: Private
 collaborators: []
-area: other
-topics: ['teaching-materials']
+area: teaching
+topics: ['teaching', 'teaching-material']
 html_url: https://github.com/digital-work-lab/theses-confidential
 associated_projects: []
 ---

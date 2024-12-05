@@ -6,8 +6,8 @@ parent: Projects
 grand_parent: Research
 visibility: Public
 collaborators: []
-area: other
-topics: ['teaching-material']
+area: teaching
+topics: ['teaching', 'teaching-material']
 html_url: https://github.com/digital-work-lab/open-source-collaboration-game
 associated_projects: []
 ---
