@@ -51,6 +51,11 @@ collections:
     sort_by: status
     output: true
     permalink: /docs/20-research/25-projects/:name.html
+  
+  repos:
+    sort_by: name
+    output: true
+    permalink: /docs/10-lab/18-resources/:name.html
 
   courses:
     output: true
