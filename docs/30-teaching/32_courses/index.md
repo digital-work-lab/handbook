@@ -7,6 +7,8 @@ nav_order: 3
 has_children: true
 ---
 
+# 32 Courses
+
 <table>
   <thead>
     <tr>
