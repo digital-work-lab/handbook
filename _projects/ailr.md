@@ -14,7 +14,7 @@ output:
  - name: "Artificial intelligence and the conduct of literature reviews"
    type: "Journal Article"
    link: "https://journals.sagepub.com/doi/abs/10.1177/02683962211048201"
-status: writing
+status: published
 improvement_status: pending
 ---
 
