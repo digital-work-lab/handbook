@@ -6,7 +6,7 @@ area: work_practices
 parent: 25 Projects
 grand_parent: Research
 started: 2022-05-06
-status: under-review
+status: revising
 improvement_status: pending
 ---
 
