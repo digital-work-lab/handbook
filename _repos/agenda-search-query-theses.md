@@ -6,8 +6,8 @@ parent: Projects
 grand_parent: Research
 visibility: Private
 collaborators: ['LaureenTh']
-area: other
-topics: ['teaching-material']
+area: teaching
+topics: ['teaching', 'teaching-material']
 html_url: https://github.com/digital-work-lab/agenda-search-query-theses
 archived: False
 updated_recently: True
