@@ -85,6 +85,8 @@ def main():
     output_dir = "_repos"
 
     Path(output_dir).mkdir(parents=True, exist_ok=True)
+    for file in Path(output_dir).glob("*"):
+        file.unlink
 
     for repo in repos:
         print(f"Processing {repo['name']}...")
