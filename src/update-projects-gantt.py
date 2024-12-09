@@ -14,6 +14,7 @@ def parse_md_file(file_path):
     completed_match = re.search(r'completed:\s*(\d{4}-\d{2}-\d{2})', content)
     metadata['completed'] = completed_match.group(1) if completed_match else None
     metadata['area'] = re.search(r'area:\s*(.*)', content).group(1)
+    metadata['status'] = re.search(r'status:\s*(.*)', content).group(1)
     return metadata
 
 def generate_mermaid_chart(projects):
@@ -50,7 +51,10 @@ def generate_mermaid_chart(projects):
         chart += f"\n    section {area}\n"
         for project in items:
             completed_date = project['completed'] if project['completed'] else current_date
-            chart += f"        {project['title']} :a1, {project['started']}, {completed_date}\n"
+            bar_type = "a1"
+            if project["status"] == "revising":
+                bar_type = "crit"
+            chart += f"        {project['title']} :{bar_type}, {project['started']}, {completed_date}\n"
     
     return chart
 
