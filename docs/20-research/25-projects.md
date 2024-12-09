@@ -19,11 +19,32 @@ nav_order: 6
   </thead>
   <tbody>
     {% for project in site.projects %}
+    {% if project.status != "published" and project.status != "revising" and project.status != "under-review" %}
     <tr>
       <td><a href="{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a></td>
       <td>{{ project.status }}</td>
     </tr>
+    {% endif %}
     {% endfor %}
+
+    {% for project in site.projects %}
+    {% if project.status == "revising" or project.status == "under-review" %}
+    <tr>
+      <td><a href="{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a></td>
+      <td>{{ project.status }}</td>
+    </tr>
+    {% endif %}
+    {% endfor %}
+
+    {% for project in site.projects %}
+    {% if project.status == "published" %}
+    <tr>
+      <td><a href="{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a></td>
+      <td>{{ project.status }}</td>
+    </tr>
+    {% endif %}
+    {% endfor %}
+
   </tbody>
 </table>
 
