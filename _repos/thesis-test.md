@@ -6,8 +6,8 @@ parent: Projects
 grand_parent: Research
 visibility: Private
 collaborators: []
-area: other
-topics: []
+area: teaching
+topics: ['teaching', 'teaching-material']
 html_url: https://github.com/digital-work-lab/thesis-test
 archived: False
 updated_recently: True
