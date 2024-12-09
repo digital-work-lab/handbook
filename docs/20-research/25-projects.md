@@ -22,16 +22,22 @@ nav_order: 6
     {% if project.status != "published" and project.status != "revising" and project.status != "under-review" %}
     <tr>
       <td><a href="{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a></td>
-      <td>{{ project.status }}</td>
+      <td style="color: gray;">{{ project.status }}</td>
     </tr>
     {% endif %}
     {% endfor %}
 
     {% for project in site.projects %}
-    {% if project.status == "revising" or project.status == "under-review" %}
+    {% if project.status == "revising" %}
     <tr>
       <td><a href="{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a></td>
-      <td>{{ project.status }}</td>
+      <td style="color: orange;">{{ project.status }}</td>
+    </tr>
+    {% endif %}
+    {% if project.status == "under-review" %}
+    <tr>
+      <td><a href="{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a></td>
+      <td style="color: blue;">{{ project.status }}</td>
     </tr>
     {% endif %}
     {% endfor %}
@@ -40,13 +46,13 @@ nav_order: 6
     {% if project.status == "published" %}
     <tr>
       <td><a href="{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a></td>
-      <td>{{ project.status }}</td>
+      <td style="color: green;">{{ project.status }}</td>
     </tr>
     {% endif %}
     {% endfor %}
-
   </tbody>
 </table>
+
 
 {: .resource } 
 > Confidential project data are stored here:
