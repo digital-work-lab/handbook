@@ -6,8 +6,8 @@ parent: Projects
 grand_parent: Research
 visibility: Public
 collaborators: []
-area: research
-topics: ['lab-management', 'research', 'teaching-materials']
+area: other
+topics: ['lab-management']
 html_url: https://github.com/digital-work-lab/labot
 associated_projects: []
 ---

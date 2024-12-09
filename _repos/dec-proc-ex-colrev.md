@@ -5,7 +5,7 @@ title_long: "dec-proc-ex-colrev"
 parent: Projects
 grand_parent: Research
 visibility: Private
-collaborators: ['julianprester', 'Cohen2000']
+collaborators: ['julianprester']
 area: research
 topics: ['paper', 'research']
 html_url: https://github.com/digital-work-lab/dec-proc-ex-colrev
