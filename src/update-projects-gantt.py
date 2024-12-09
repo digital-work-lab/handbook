@@ -15,6 +15,7 @@ def parse_md_file(file_path):
     metadata['completed'] = completed_match.group(1) if completed_match else None
     metadata['area'] = re.search(r'area:\s*(.*)', content).group(1)
     metadata['status'] = re.search(r'status:\s*(.*)', content).group(1)
+    metadata["path"] = "{{ site.baseurl }}" + file_path.replace('.md', '')
     return metadata
 
 def generate_mermaid_chart(projects):
@@ -45,6 +46,7 @@ def generate_mermaid_chart(projects):
 
     # Sort projects by the started date within each area
     current_date = datetime.now().strftime("%Y-%m-%d")
+    end_note = ""
     for area, items in grouped_projects.items():
         # sort descending
         items.sort(key=lambda x: datetime.strptime(x['started'], "%Y-%m-%d"), reverse=True)
@@ -54,8 +56,16 @@ def generate_mermaid_chart(projects):
             bar_type = "a1"
             if project["status"] == "revising":
                 bar_type = "crit"
-            chart += f"        {project['title']} :{bar_type}, {project['started']}, {completed_date}\n"
+            if project["status"] == "abandoned":
+                bar_type = "done"
+            if project["status"] == "under-review":
+                bar_type = "under_review"
+                
+            # chart += f"        {project['title']} :{bar_type}, {project['started']}, {completed_date}\n"
+            chart += f"        {project['title']} :{project['title']}, {project['started']}, {completed_date}\n"
+            end_note += f"    click {project['title']} href '{project['path']}'\n"
     
+    chart += '\n\n' + end_note
     return chart
 
 def main():
