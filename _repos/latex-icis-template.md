@@ -9,7 +9,7 @@ collaborators: []
 area: research
 topics: ['research', 'template']
 html_url: https://github.com/digital-work-lab/latex-icis-template
-archived: False
+archived: True
 updated_recently: False
 associated_projects: []
 ---

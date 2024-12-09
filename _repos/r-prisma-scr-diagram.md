@@ -9,7 +9,7 @@ collaborators: []
 area: research
 topics: ['research']
 html_url: https://github.com/digital-work-lab/r-prisma-scr-diagram
-archived: False
+archived: True
 updated_recently: False
 associated_projects: []
 ---

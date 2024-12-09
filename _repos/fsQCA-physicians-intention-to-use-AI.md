@@ -9,7 +9,7 @@ collaborators: []
 area: research
 topics: ['dataset', 'research']
 html_url: https://github.com/digital-work-lab/fsQCA-physicians-intention-to-use-AI
-archived: False
+archived: True
 updated_recently: False
 associated_projects: []
 ---
