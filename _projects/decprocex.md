@@ -1,22 +1,17 @@
 ---
 layout: default
-title: dpkw
-title_long: "Exploring the boundaries and processes of digital platforms for knowledge work: A review of information systems research"
+title: decprocex
+title_long: ""
 parent: 25 Projects
 grand_parent: Research
 area: distributed_organizing
-started: 2019-04-02
-completed: 2021-09-18
+started: 2022-02-09
 resources:
  - name: manuscript
-   link: https://github.com/digital-work-lab/platform-kwork-lr-manuscript
+   link: https://github.com/digital-work-lab/dec-proc-ex
  - name: review
-   link: https://github.com/digital-work-lab/platform-kwork-lr
-output:
- - name: ""
-   type: "Journal Article"
-   link: https://www.sciencedirect.com/science/article/abs/pii/S096386872100041X
-status: published
+   link: https://github.com/digital-work-lab/dec-proc-ex-colrev
+status: writing
 improvement_status: pending
 ---
 

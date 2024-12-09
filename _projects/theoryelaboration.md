@@ -9,6 +9,14 @@ started: 2018-01-15
 resources:
   - name: dropbox
     link: https://www.dropbox.com/home/Theory%20elaboration
+  - name: manuscript
+    link: https://github.com/digital-work-lab/theory-elaboration-manuscript
+  - name: analysis
+    link: https://github.com/digital-work-lab/lrs-theory-impact
+  - name: analysis_backup
+    link: https://github.com/digital-work-lab/theory-elaboration
+  - name: draft_theoretical_contributions
+    link: https://github.com/digital-work-lab/theo_con_paper
 status: under-review
 improvement_status: pending
 ---
