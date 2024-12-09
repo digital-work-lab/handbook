@@ -29,4 +29,4 @@ jobs:
     
     - name: Run course validation
       run: |
-        python .github/workflows/validate_collections.py
+        python src/validate_collections.py

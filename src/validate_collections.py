@@ -26,7 +26,7 @@ def check_collections(files_path, schema_path):
 
 if __name__ == "__main__":
 
-    check_collections('./_courses', '.github/workflows/yaml_schema_course.yaml')
+    check_collections('./_courses', 'src/yaml_schema_course.yaml')
 
     if VALID:
         sys.exit(0)  # Exit with success code
