@@ -7,9 +7,12 @@ completed: 2023-06-10
 area: work_practices
 title: healthcareai
 title_long: "An Overview of AI Maturity in Health Care across 10 OECD Countries"
+resources:
+  - name: manuscript
+    link: file:///home/gerit/ownCloud/data/health/HealthCareAI
 status: published
 improvement_status: completed
-outputs:
+output:
   - name: "AI maturity in health care: An overview of 10 OECD countries"
     type: "Journal Article"
     link: "https://www.sciencedirect.com/science/article/abs/pii/S0168851023002233"
@@ -49,3 +52,4 @@ Completed           | {{ page.completed }}
   - <a href="{{ item }}">{{ item }}</a>
 {% endfor %}
 {% endif %}
+

@@ -7,6 +7,9 @@ grand_parent: Research
 started: 2016-11-27
 completed: 2020-11-04
 area: knowledge_synthesis
+resources:
+  - name: manuscript
+    link: https://github.com/digital-work-lab/lrs-impact-nlp
 output:
  - name: "Classifying the ideational impact of Information Systems review articles: A content-enriched deep learning approach"
    type: "Journal article"
@@ -26,6 +29,24 @@ Acronym             | {{ page.title }}
 Title               | {{ page.title_long }}
 Status              | {{ page.status }}
 Improvement         | {{ page.improvement_status }}
+Started             | {{ page.started }}
+Completed           | {{ page.completed }}
+
+{% if page.outputs %}
+## Resources
+
+  {% for output in page.resources %}
+  - [{{ output.name }}]({{ output.link }}){: target="_blank"}
+  {% endfor %}
+{% endif %}
+
+{% if page.outputs %}
+## Outputs
+
+  {% for output in page.outputs %}
+  - [{{ output.type }}]({{ output.link }}){: target="_blank"}
+  {% endfor %}
+{% endif %}
 
 {% if page.related %}
 ## Related projects 

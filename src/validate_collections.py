@@ -28,6 +28,8 @@ if __name__ == "__main__":
 
     check_collections('./_courses', 'src/yaml_schema_course.yaml')
 
+    check_collections('./_projects', 'src/yaml_schema_projects.yaml')
+
     if VALID:
         sys.exit(0)  # Exit with success code
     else:

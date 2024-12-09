@@ -15,7 +15,7 @@ resources:
 related:
  - gitcollaboration
  - teapad
-outputs:
+output:
   - name: "Rethinking How We Teach Git: Recommendations and Practical Strategies for the Information Systems Curriculum"
     type: "Journal Article"
     link: "https://jise.org/archives.html"
