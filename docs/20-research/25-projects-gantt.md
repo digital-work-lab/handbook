@@ -43,29 +43,29 @@ gantt
         lrnlpimpact :lrnlpimpact, 2016-11-27, 2020-11-04
 
 
-    click edures href '{{ site.baseurl }}_projects/edures'
-    click teapad href '{{ site.baseurl }}_projects/teapad'
-    click datawork href '{{ site.baseurl }}_projects/datawork'
-    click lrmhealthcardiacrehab href '{{ site.baseurl }}_projects/lrmhealthcardiacrehab'
-    click aicompetencemed href '{{ site.baseurl }}_projects/aicompetencemed'
-    click healthcareai href '{{ site.baseurl }}_projects/healthcareai'
-    click algorg href '{{ site.baseurl }}_projects/algorg'
-    click gitcollaboration href '{{ site.baseurl }}_projects/gitcollaboration'
-    click dprelations href '{{ site.baseurl }}_projects/dprelations'
-    click olmcareers href '{{ site.baseurl }}_projects/olmcareers'
-    click gitintro href '{{ site.baseurl }}_projects/gitintro'
-    click decprocex href '{{ site.baseurl }}_projects/decprocex'
-    click dpkw href '{{ site.baseurl }}_projects/dpkw'
-    click platformlr href '{{ site.baseurl }}_projects/platformlr'
-    click genailr href '{{ site.baseurl }}_projects/genailr'
-    click bibdedupe href '{{ site.baseurl }}_projects/bibdedupe'
-    click searchquery href '{{ site.baseurl }}_projects/searchquery'
-    click lrdm href '{{ site.baseurl }}_projects/lrdm'
-    click colrev href '{{ site.baseurl }}_projects/colrev'
-    click ailr href '{{ site.baseurl }}_projects/ailr'
-    click lrsearch href '{{ site.baseurl }}_projects/lrsearch'
-    click lrtracker href '{{ site.baseurl }}_projects/lrtracker'
-    click theoryelaboration href '{{ site.baseurl }}_projects/theoryelaboration'
-    click lrreadingstrategy href '{{ site.baseurl }}_projects/lrreadingstrategy'
-    click lrnlpimpact href '{{ site.baseurl }}_projects/lrnlpimpact'
+    click edures href "{{ site.baseurl }}/docs/20-research/25-projects/edures"
+    click teapad href "{{ site.baseurl }}/docs/20-research/25-projects/teapad"
+    click datawork href "{{ site.baseurl }}/docs/20-research/25-projects/datawork"
+    click lrmhealthcardiacrehab href "{{ site.baseurl }}/docs/20-research/25-projects/lrmhealthcardiacrehab"
+    click aicompetencemed href "{{ site.baseurl }}/docs/20-research/25-projects/aicompetencemed"
+    click healthcareai href "{{ site.baseurl }}/docs/20-research/25-projects/healthcareai"
+    click algorg href "{{ site.baseurl }}/docs/20-research/25-projects/algorg"
+    click gitcollaboration href "{{ site.baseurl }}/docs/20-research/25-projects/gitcollaboration"
+    click dprelations href "{{ site.baseurl }}/docs/20-research/25-projects/dprelations"
+    click olmcareers href "{{ site.baseurl }}/docs/20-research/25-projects/olmcareers"
+    click gitintro href "{{ site.baseurl }}/docs/20-research/25-projects/gitintro"
+    click decprocex href "{{ site.baseurl }}/docs/20-research/25-projects/decprocex"
+    click dpkw href "{{ site.baseurl }}/docs/20-research/25-projects/dpkw"
+    click platformlr href "{{ site.baseurl }}/docs/20-research/25-projects/platformlr"
+    click genailr href "{{ site.baseurl }}/docs/20-research/25-projects/genailr"
+    click bibdedupe href "{{ site.baseurl }}/docs/20-research/25-projects/bibdedupe"
+    click searchquery href "{{ site.baseurl }}/docs/20-research/25-projects/searchquery"
+    click lrdm href "{{ site.baseurl }}/docs/20-research/25-projects/lrdm"
+    click colrev href "{{ site.baseurl }}/docs/20-research/25-projects/colrev"
+    click ailr href "{{ site.baseurl }}/docs/20-research/25-projects/ailr"
+    click lrsearch href "{{ site.baseurl }}/docs/20-research/25-projects/lrsearch"
+    click lrtracker href "{{ site.baseurl }}/docs/20-research/25-projects/lrtracker"
+    click theoryelaboration href "{{ site.baseurl }}/docs/20-research/25-projects/theoryelaboration"
+    click lrreadingstrategy href "{{ site.baseurl }}/docs/20-research/25-projects/lrreadingstrategy"
+    click lrnlpimpact href "{{ site.baseurl }}/docs/20-research/25-projects/lrnlpimpact"
 ```

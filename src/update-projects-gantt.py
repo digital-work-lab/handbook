@@ -15,7 +15,7 @@ def parse_md_file(file_path):
     metadata['completed'] = completed_match.group(1) if completed_match else None
     metadata['area'] = re.search(r'area:\s*(.*)', content).group(1)
     metadata['status'] = re.search(r'status:\s*(.*)', content).group(1)
-    metadata["path"] = "{{ site.baseurl }}" + file_path.replace('.md', '')
+    metadata["path"] = "{{ site.baseurl }}/docs/20-research/25-projects/" + file_path.replace('.md', '').replace('_projects/', '')
     return metadata
 
 def generate_mermaid_chart(projects):
@@ -61,9 +61,8 @@ def generate_mermaid_chart(projects):
             if project["status"] == "under-review":
                 bar_type = "under_review"
                 
-            # chart += f"        {project['title']} :{bar_type}, {project['started']}, {completed_date}\n"
             chart += f"        {project['title']} :{project['title']}, {project['started']}, {completed_date}\n"
-            end_note += f"    click {project['title']} href '{project['path']}'\n"
+            end_note += f'    click {project["title"]} href "{project["path"]}"\n'
     
     chart += '\n\n' + end_note
     return chart
