@@ -9,6 +9,7 @@
 ![Spelling Check](https://github.com/digital-work-lab/handbook/actions/workflows/spelling.yml/badge.svg)
 ![Links Fix](https://github.com/digital-work-lab/handbook/actions/workflows/links_fix.yml/badge.svg)
 ![Validate collections](https://github.com/digital-work-lab/handbook/actions/workflows/validate_collections.yml/badge.svg)
+[![Update Repositories](https://github.com/digital-work-lab/handbook/actions/workflows/update_repositories.yaml/badge.svg)](https://github.com/digital-work-lab/handbook/actions/workflows/update_repositories.yaml)
 ![Documentation Status](https://img.shields.io/github/actions/workflow/status/digital-work-lab/handbook/pages.yml?label=documentation)
 
 </div>
