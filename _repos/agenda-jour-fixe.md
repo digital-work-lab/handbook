@@ -9,6 +9,8 @@ collaborators: ['Stella1234-design']
 area: other
 topics: ['agenda', 'lab-management']
 html_url: https://github.com/digital-work-lab/agenda-jour-fixe
+archived: False
+updated_recently: True
 associated_projects: []
 ---
 

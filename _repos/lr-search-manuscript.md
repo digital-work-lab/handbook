@@ -9,6 +9,8 @@ collaborators: ['julianprester']
 area: research
 topics: ['paper', 'research']
 html_url: https://github.com/digital-work-lab/lr-search-manuscript
+archived: False
+updated_recently: False
 associated_projects: []
 ---
 

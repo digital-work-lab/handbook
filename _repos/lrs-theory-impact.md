@@ -9,6 +9,8 @@ collaborators: []
 area: research
 topics: ['paper', 'research']
 html_url: https://github.com/digital-work-lab/lrs-theory-impact
+archived: True
+updated_recently: False
 associated_projects: []
 ---
 

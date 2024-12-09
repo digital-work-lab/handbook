@@ -9,6 +9,8 @@ collaborators: []
 area: research
 topics: ['dataset', 'research']
 html_url: https://github.com/digital-work-lab/dpkw-lr-appendix
+archived: True
+updated_recently: False
 associated_projects: []
 ---
 

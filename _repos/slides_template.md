@@ -9,6 +9,8 @@ collaborators: []
 area: research
 topics: ['research', 'teaching', 'template']
 html_url: https://github.com/digital-work-lab/slides_template
+archived: False
+updated_recently: True
 associated_projects: []
 ---
 

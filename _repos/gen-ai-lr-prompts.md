@@ -9,6 +9,8 @@ collaborators: []
 area: research
 topics: ['research']
 html_url: https://github.com/digital-work-lab/gen-ai-lr-prompts
+archived: False
+updated_recently: True
 associated_projects: []
 ---
 

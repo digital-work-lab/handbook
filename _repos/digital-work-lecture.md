@@ -9,6 +9,8 @@ collaborators: []
 area: teaching
 topics: ['teaching', 'teaching-materials']
 html_url: https://github.com/digital-work-lab/digital-work-lecture
+archived: False
+updated_recently: True
 associated_projects: []
 ---
 

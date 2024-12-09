@@ -9,6 +9,8 @@ collaborators: ['julianprester']
 area: research
 topics: ['paper', 'research']
 html_url: https://github.com/digital-work-lab/dec-proc-ex
+archived: False
+updated_recently: False
 associated_projects: []
 ---
 

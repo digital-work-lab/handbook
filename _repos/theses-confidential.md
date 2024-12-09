@@ -9,6 +9,8 @@ collaborators: []
 area: teaching
 topics: ['teaching', 'teaching-material']
 html_url: https://github.com/digital-work-lab/theses-confidential
+archived: False
+updated_recently: True
 associated_projects: []
 ---
 

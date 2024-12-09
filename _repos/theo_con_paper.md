@@ -9,6 +9,8 @@ collaborators: []
 area: research
 topics: ['paper', 'research']
 html_url: https://github.com/digital-work-lab/theo_con_paper
+archived: False
+updated_recently: False
 associated_projects: []
 ---
 

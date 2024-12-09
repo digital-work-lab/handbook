@@ -9,6 +9,8 @@ collaborators: ['dengdenglele', 'LaureenTh']
 area: teaching
 topics: ['teaching', 'teaching-materials']
 html_url: https://github.com/digital-work-lab/open-source-project
+archived: False
+updated_recently: True
 associated_projects: []
 ---
 

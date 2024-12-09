@@ -9,6 +9,8 @@ collaborators: []
 area: teaching
 topics: ['teaching', 'teaching-materials']
 html_url: https://github.com/digital-work-lab/literature-review-seminar
+archived: False
+updated_recently: True
 associated_projects: []
 ---
 

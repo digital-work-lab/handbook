@@ -9,6 +9,8 @@ collaborators: []
 area: other
 topics: ['lab-management']
 html_url: https://github.com/digital-work-lab/labot
+archived: False
+updated_recently: True
 associated_projects: []
 ---
 

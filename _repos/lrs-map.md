@@ -9,6 +9,8 @@ collaborators: []
 area: research
 topics: ['research']
 html_url: https://github.com/digital-work-lab/lrs-map
+archived: True
+updated_recently: False
 associated_projects: []
 ---
 

@@ -9,6 +9,8 @@ collaborators: ['dengdenglele', 'LaureenTh', 'Stella1234-design']
 area: research
 topics: ['paper', 'research']
 html_url: https://github.com/digital-work-lab/teapad
+archived: False
+updated_recently: True
 associated_projects: []
 ---
 

@@ -9,6 +9,8 @@ collaborators: ['julianprester']
 area: research
 topics: ['research', 'template']
 html_url: https://github.com/digital-work-lab/paper-template
+archived: False
+updated_recently: True
 associated_projects: []
 ---
 

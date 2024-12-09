@@ -9,6 +9,8 @@ collaborators: []
 area: other
 topics: ['academic', 'handbook', 'lab-management']
 html_url: https://github.com/digital-work-lab/handbook
+archived: False
+updated_recently: True
 associated_projects: []
 ---
 

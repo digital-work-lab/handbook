@@ -9,6 +9,8 @@ collaborators: ['LaureenTh']
 area: teaching
 topics: ['teaching', 'teaching-materials']
 html_url: https://github.com/digital-work-lab/theses
+archived: False
+updated_recently: True
 associated_projects: []
 ---
 

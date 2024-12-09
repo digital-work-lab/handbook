@@ -9,6 +9,8 @@ collaborators: []
 area: research
 topics: ['research']
 html_url: https://github.com/digital-work-lab/literature-search-resources
+archived: False
+updated_recently: True
 associated_projects: []
 ---
 

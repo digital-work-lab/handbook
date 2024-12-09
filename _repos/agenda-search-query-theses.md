@@ -9,6 +9,8 @@ collaborators: ['LaureenTh']
 area: other
 topics: ['teaching-materials']
 html_url: https://github.com/digital-work-lab/agenda-search-query-theses
+archived: False
+updated_recently: True
 associated_projects: []
 ---
 

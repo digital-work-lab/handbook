@@ -9,6 +9,8 @@ collaborators: ['LaureenTh']
 area: research
 topics: ['research']
 html_url: https://github.com/digital-work-lab/rethink-git-teaching
+archived: False
+updated_recently: True
 associated_projects: []
 ---
 

@@ -9,6 +9,8 @@ collaborators: ['LaureenTh']
 area: teaching
 topics: ['teaching', 'teaching-material']
 html_url: https://github.com/digital-work-lab/practice-git
+archived: False
+updated_recently: True
 associated_projects: []
 ---
 
