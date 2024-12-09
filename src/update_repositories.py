@@ -88,6 +88,9 @@ def main():
 
     for repo in repos:
         print(f"Processing {repo['name']}...")
+        if repo["html_url"] in ["https://github.com/digital-work-lab/digital-work-lab.github.io"]:
+            print(f"Skipping {repo['name']}")
+            continue
         area = "other"
         if "research" in repo["topics"]:
             area = "research"
