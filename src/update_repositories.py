@@ -86,13 +86,14 @@ def main():
 
     Path(output_dir).mkdir(parents=True, exist_ok=True)
     for file in Path(output_dir).glob("*"):
+        print(f"Removing {file}")
         file.unlink
 
     for repo in repos:
-        print(f"Processing {repo['name']}...")
         if repo["html_url"] in ["https://github.com/digital-work-lab/digital-work-lab.github.io"]:
             print(f"Skipping {repo['name']}")
             continue
+        print(f"Processing {repo['name']}...")
         area = "other"
         if "research" in repo["topics"]:
             area = "research"
