@@ -1,6 +1,7 @@
 import os
 import requests
 from pathlib import Path
+from datetime import datetime, timedelta
 
 ORG_NAME = "digital-work-lab"
 BASE_URL = "https://api.github.com"
@@ -59,6 +60,8 @@ collaborators: {repo_data['collaborators']}
 area: {repo_data['area']}
 topics: {repo_data['topics']}
 html_url: {repo_data['html_url']}
+archived: {repo_data['archived']}
+updated_recently: {repo_data['updated_recently']}
 associated_projects: []
 ---
 
@@ -84,6 +87,8 @@ def main():
     repos = get_org_repositories(ORG_NAME)
     cwd = Path.cwd()
     output_dir = cwd / "_repos"
+
+    six_months_ago = datetime.now() - timedelta(days=180)
 
     Path(output_dir).mkdir(parents=True, exist_ok=True)
     for file in Path(output_dir).glob("*"):
@@ -114,7 +119,9 @@ def main():
             "area": area,
             "topics": repo["topics"],
             "created_at": repo["created_at"],
-            "collaborators": get_repo_collaborators(ORG_NAME, repo["name"])
+            "archived": repo["archived"],
+            "collaborators": get_repo_collaborators(ORG_NAME, repo["name"]),
+            "updated_recently": datetime.strptime(repo["pushed_at"], "%Y-%m-%dT%H:%M:%SZ") > six_months_ago,
         }
         create_markdown_file(repo_data, output_dir)
 
