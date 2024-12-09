@@ -31,7 +31,7 @@ nav_order: 6
     {% if project.status == "revising" %}
     <tr>
       <td><a href="{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a></td>
-      <td style="color: orange;">{{ project.status }}</td>
+      <td style="color: orange;"><strong>{{ project.status }}</strong></td>
     </tr>
     {% endif %}
     {% if project.status == "under-review" %}
