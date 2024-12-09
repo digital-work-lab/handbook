@@ -24,7 +24,7 @@ Improvement         | {{ page.improvement_status }}
 Started             | {{ page.started }}
 Completed           | {{ page.completed }}
 
-{% if page.outputs %}
+{% if page.resources %}
 ## Resources
 
   {% for output in page.resources %}
