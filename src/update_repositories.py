@@ -82,12 +82,18 @@ URL                 | [Repository Link]({repo_data['html_url']})
 
 def main():
     repos = get_org_repositories(ORG_NAME)
-    output_dir = "_repos"
+    cwd = Path.cwd()
+    output_dir = cwd / "_repos"
 
     Path(output_dir).mkdir(parents=True, exist_ok=True)
     for file in Path(output_dir).glob("*"):
         print(f"Removing {file}")
-        file.unlink
+        file.unlink()
+
+    # print contents of output_dir
+    print(f"Contents of {output_dir}:")
+    for file in Path(output_dir).glob("*"):
+        print(f"  {file}")
 
     for repo in repos:
         if repo["html_url"] in ["https://github.com/digital-work-lab/digital-work-lab.github.io"]:
@@ -113,6 +119,12 @@ def main():
         create_markdown_file(repo_data, output_dir)
 
     print(f"Markdown files created in {output_dir}")
+
+    # print contents of output_dir
+    print(f"Contents of {output_dir}:")
+    for file in Path(output_dir).glob("*"):
+        print(f"  {file}")
+
 
 if __name__ == "__main__":
     main()

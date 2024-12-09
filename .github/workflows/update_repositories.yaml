@@ -22,6 +22,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
 
+      - name: Change to Repo Directory
+        run: cd ${{ github.workspace }}
+
       - name: Run update script
         env:
           GITHUB_TOKEN: ${{ secrets.MY_PAT_TOKEN }}
