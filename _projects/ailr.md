@@ -7,9 +7,6 @@ grand_parent: Research
 area: knowledge_synthesis
 started: 2020-11-26
 completed: 2021-09-02
-resources:
- - name: library
-   link: https://github.com/digital-work-lab/lr-dm
 output:
  - name: "Artificial intelligence and the conduct of literature reviews"
    type: "Journal Article"
