@@ -51,7 +51,7 @@ def check_dangling_repos():
         # get yaml header, resources and links
         yaml_header = project_content.split('---')[1]
         data = yamale.make_data(content=yaml_header)
-        for resource in data[0][0]["resources"]:
+        for resource in data[0][0].get("resources", []):
             if resource["link"].startswith("https://github.com/"):
                 linked_repos.append(resource["link"])
     
