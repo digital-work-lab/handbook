@@ -1,25 +1,15 @@
 ---
 layout: default
-title: lrnlpimpact
-title_long: "A deep-learning approach for citation searches"
+title: olmworkcycles
+title_long: ""
 parent: 25 Projects
+started: 2024-01-15
+area: distributed_organizing
 grand_parent: Research
-started: 2016-11-27
-completed: 2020-11-04
-area: knowledge_synthesis
 resources:
-  - name: manuscript
-    link: https://github.com/digital-work-lab/lrs-impact-nlp
-  - name: conference_paper
-    link: https://github.com/digital-work-lab/lrs-impact-uniformity
-output:
- - name: "Classifying the ideational impact of Information Systems review articles: A content-enriched deep learning approach"
-   type: "Journal article"
-   link: https://www.sciencedirect.com/science/article/abs/pii/S0167923620301871
- - name: deep-cenic
-   type: "library"
-   link: https://github.com/julianprester/deep-cenic
-status: published
+ - name: manuscript
+   link: https://github.com/digital-work-lab/olm-work-cycles
+status: concept
 improvement_status: pending
 ---
 
