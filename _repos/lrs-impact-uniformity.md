@@ -12,7 +12,7 @@ html_url: https://github.com/digital-work-lab/lrs-impact-uniformity
 archived: True
 updated_recently: False
 associated_projects: []
-labot_workflow_status: not-found
+labot_workflow_status: not-applicable
 project_type: []
 ---
 
