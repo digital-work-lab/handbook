@@ -132,9 +132,10 @@ def get_project_type(owner, repo_name):
         return []
 
     contents = response.json()
+    print(contents)
     file_names = [content['name'] for content in contents]
     p_types = []
-    if 'paper.md' in file_names or 'data/data/paper.md' in file_names:
+    if 'paper.md' in file_names:
         p_types.append('paper')
     if 'settings.json' in file_names and 'status.yaml' in file_names:
         p_types.append('colrev')
@@ -188,6 +189,8 @@ def main():
             "labot_workflow_status": labot_workflow_status,
             "project_type": get_project_type(ORG_NAME, repo["name"])
         }
+        if "paper" in repo_data["topics"] and 'paper' not in repo_data['project_type']:
+            repo_data["project_type"].append("paper")
         if 'paper' not in repo_data['project_type']:
             repo_data["labot_workflow_status"] = "not-applicable"
         create_markdown_file(repo_data, output_dir)
