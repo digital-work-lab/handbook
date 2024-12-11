@@ -101,6 +101,7 @@ archived: {repo_data['archived']}
 updated_recently: {repo_data['updated_recently']}
 associated_projects: []
 labot_workflow_status: {repo_data['labot_workflow_status']}
+project_type: {repo_data['project_type']}
 ---
 
 # {{ page.title }}
@@ -120,6 +121,22 @@ URL                 | [Repository Link]({repo_data['html_url']}){{: target="_bla
 
     with open(file_path, 'w') as file:
         file.write(yaml_header)
+
+def get_project_type(owner, repo_name):
+    """Check the project type."""
+    repo_contents_url = f"{BASE_URL}/repos/{owner}/{repo_name}/contents"
+    response = requests.get(repo_contents_url, headers=HEADERS)
+    
+    if response.status_code != 200:
+        print(f"Error fetching repository contents: {response.json()}")
+        return []
+
+    contents = response.json()
+    file_names = [content['name'] for content in contents]
+    p_types = []
+    if 'settings.json' in file_names and 'status.yaml' in file_names:
+        p_types.append('colrev')
+    return p_types
 
 def main():
     repos = get_org_repositories(ORG_NAME)
@@ -155,7 +172,6 @@ def main():
             area = "teaching"
 
 
-
         repo_data = {
             "name": repo["name"],
             "html_url": repo["html_url"],
@@ -167,7 +183,8 @@ def main():
             "archived": repo["archived"],
             "collaborators": get_repo_collaborators(ORG_NAME, repo["name"]),
             "updated_recently": datetime.strptime(repo["pushed_at"], "%Y-%m-%dT%H:%M:%SZ") > six_months_ago,
-            "labot_workflow_status": labot_workflow_status
+            "labot_workflow_status": labot_workflow_status,
+            "project_type": get_project_type(ORG_NAME, repo["name"])
         }
         create_markdown_file(repo_data, output_dir)
 
