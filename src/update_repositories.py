@@ -74,7 +74,7 @@ Title               | {{ page.title_long }}
 Visibility          | {{ page.visibility }}
 Collaborators       | {{ page.collaborators }}
 Topics              | {{ page.topics }}
-URL                 | [Repository Link]({repo_data['html_url']})
+URL                 | [Repository Link]({repo_data['html_url']}){{: target="_blank"}}
 
 [![Request Access](https://img.shields.io/badge/Request-Access-blue?style=for-the-badge)]({repo_data['html_url']}/issues/new?assignees=geritwagner&labels=access+request&template=request-repo-access.md&title=%5BAccess+Request%5D+Request+for+access+to+repository)
 
@@ -88,6 +88,7 @@ def main():
     cwd = Path.cwd()
     output_dir = cwd / "_repos"
 
+    lycheeignore_path = cwd / ".lycheeignore"
     six_months_ago = datetime.now() - timedelta(days=180)
 
     Path(output_dir).mkdir(parents=True, exist_ok=True)
@@ -125,12 +126,21 @@ def main():
         }
         create_markdown_file(repo_data, output_dir)
 
+        # append repo_data["html_url"] to .lycheeignore if it's not already there
+        with open(lycheeignore_path, 'r') as file:
+            lycheeignore = file.read()
+            if repo_data["html_url"] not in lycheeignore:
+                with open(lycheeignore_path, 'a') as file:
+                    file.write(f"{repo_data['html_url']}\n")
+
     print(f"Markdown files created in {output_dir}")
 
     # print contents of output_dir
     print(f"Contents of {output_dir}:")
     for file in Path(output_dir).glob("*"):
         print(f"  {file}")
+
+
 
 
 if __name__ == "__main__":
