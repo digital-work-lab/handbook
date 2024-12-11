@@ -12,7 +12,7 @@ html_url: https://github.com/digital-work-lab/repo_example
 archived: False
 updated_recently: False
 associated_projects: []
-labot_workflow_status: No workflow found
+labot_workflow_status: not-found
 ---
 
 # { page.title }
