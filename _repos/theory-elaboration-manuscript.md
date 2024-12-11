@@ -9,7 +9,7 @@ collaborators: []
 area: research
 topics: ['paper', 'research']
 html_url: https://github.com/digital-work-lab/theory-elaboration-manuscript
-archived: False
+archived: True
 updated_recently: False
 associated_projects: []
 labot_workflow_status: not-found
