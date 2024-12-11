@@ -134,6 +134,8 @@ def get_project_type(owner, repo_name):
     contents = response.json()
     file_names = [content['name'] for content in contents]
     p_types = []
+    if 'paper.md' in file_names or 'data/data/paper.md' in file_names:
+        p_types.append('paper')
     if 'settings.json' in file_names and 'status.yaml' in file_names:
         p_types.append('colrev')
     return p_types
