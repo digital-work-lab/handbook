@@ -12,6 +12,7 @@ html_url: https://github.com/digital-work-lab/agenda-gerit-julian
 archived: False
 updated_recently: True
 associated_projects: []
+labot_workflow_status: No workflow found
 ---
 
 # { page.title }

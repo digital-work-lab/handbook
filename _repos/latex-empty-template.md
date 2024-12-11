@@ -12,6 +12,7 @@ html_url: https://github.com/digital-work-lab/latex-empty-template
 archived: True
 updated_recently: False
 associated_projects: []
+labot_workflow_status: No workflow found
 ---
 
 # { page.title }
