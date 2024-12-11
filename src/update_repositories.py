@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 
 ORG_NAME = "digital-work-lab"
 BASE_URL = "https://api.github.com"
-workflow_filename = "labot.yaml"
+workflow_filename = ".github/workflows/labot.yml"
 
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 if not GITHUB_TOKEN:
@@ -26,7 +26,9 @@ def get_workflow_id_by_filename(owner, repo_name, workflow_filename):
     
     workflows = response.json().get('workflows', [])
     for workflow in workflows:
-        if workflow['name'].lower() == workflow_filename.lower():  # Matching by filename
+        print(workflow['path'])
+        print(workflow['path'].lower() == workflow_filename.lower())
+        if workflow['path'].lower() == workflow_filename.lower():  # Matching by filename
             return workflow['id']
 
     return None  # Return None if the workflow is not found
@@ -144,6 +146,7 @@ def main():
             print(f"Skipping {repo['name']}")
             continue
         workflow_id = get_workflow_id_by_filename(ORG_NAME, repo['name'], workflow_filename)
+        print(workflow_id)
         labot_workflow_status = get_workflow_status(ORG_NAME, repo['name'], workflow_id)
 
         print(f"Processing {repo['name']}...")
