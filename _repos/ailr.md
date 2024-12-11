@@ -13,7 +13,7 @@ archived: True
 updated_recently: True
 associated_projects: []
 labot_workflow_status: not-found
-project_type: []
+project_type: ['paper']
 ---
 
 # { page.title }

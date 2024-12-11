@@ -9,11 +9,11 @@ collaborators: ['LaureenTh']
 area: research
 topics: ['paper', 'research']
 html_url: https://github.com/digital-work-lab/git-intro
-archived: False
+archived: True
 updated_recently: True
 associated_projects: []
 labot_workflow_status: not-found
-project_type: []
+project_type: ['paper']
 ---
 
 # { page.title }
