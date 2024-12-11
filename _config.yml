@@ -42,6 +42,9 @@ callouts:
   objective:
     title: Learning objective
     color: blue
+  news:
+    title: 🎉 News
+    color: blue
   resource:
     title: 🌐 Connected resources
     color: blue
@@ -56,6 +59,11 @@ collections:
     sort_by: name
     output: true
     permalink: /docs/10-lab/18-resources/:name.html
+
+  news:
+    sort_by: date
+    output: true
+    permalink: /docs/10-lab/:name.html
 
   courses:
     output: true
