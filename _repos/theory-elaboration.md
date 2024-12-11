@@ -12,8 +12,8 @@ html_url: https://github.com/digital-work-lab/theory-elaboration
 archived: False
 updated_recently: False
 associated_projects: []
-labot_workflow_status: not-applicable
-project_type: []
+labot_workflow_status: not-found
+project_type: ['paper']
 ---
 
 # { page.title }

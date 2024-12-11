@@ -12,8 +12,8 @@ html_url: https://github.com/digital-work-lab/dec-proc-ex-colrev
 archived: False
 updated_recently: True
 associated_projects: []
-labot_workflow_status: not-applicable
-project_type: ['colrev']
+labot_workflow_status: failure
+project_type: ['colrev', 'paper']
 ---
 
 # { page.title }
