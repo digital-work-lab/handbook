@@ -34,7 +34,7 @@ def get_workflow_id_by_filename(owner, repo_name, workflow_filename):
 def get_workflow_status(owner, repo_name, workflow_id):
     """Fetches the status of the latest workflow run."""
     if workflow_id is None:
-        return "No workflow found"
+        return "not-found"
     url = f"{BASE_URL}/repos/{owner}/{repo_name}/actions/workflows/{workflow_id}/runs"
     response = requests.get(url, headers=HEADERS)
 
