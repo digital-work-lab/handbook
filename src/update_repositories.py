@@ -188,6 +188,8 @@ def main():
             "labot_workflow_status": labot_workflow_status,
             "project_type": get_project_type(ORG_NAME, repo["name"])
         }
+        if 'paper' not in repo_data['project_type']:
+            repo_data["labot_workflow_status"] = "not-applicable"
         create_markdown_file(repo_data, output_dir)
 
         # append repo_data["html_url"] to .lycheeignore if it's not already there
