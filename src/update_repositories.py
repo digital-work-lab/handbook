@@ -5,6 +5,7 @@ from datetime import datetime, timedelta
 
 ORG_NAME = "digital-work-lab"
 BASE_URL = "https://api.github.com"
+workflow_filename = "labot.yaml"
 
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 if not GITHUB_TOKEN:
@@ -14,6 +15,42 @@ HEADERS = {
     "Authorization": f"Bearer {GITHUB_TOKEN}",
     "Accept": "application/vnd.github.mercy-preview+json"
 }
+
+def get_workflow_id_by_filename(owner, repo_name, workflow_filename):
+    """Gets the workflow ID for a specific workflow file in the repository."""
+    url = f"{BASE_URL}/repos/{owner}/{repo_name}/actions/workflows"
+    response = requests.get(url, headers=HEADERS)
+
+    if response.status_code != 200:
+        raise Exception(f"Error fetching workflows: {response.json()}")
+    
+    workflows = response.json().get('workflows', [])
+    for workflow in workflows:
+        if workflow['name'].lower() == workflow_filename.lower():  # Matching by filename
+            return workflow['id']
+
+    return None  # Return None if the workflow is not found
+
+def get_workflow_status(owner, repo_name, workflow_id):
+    """Fetches the status of the latest workflow run."""
+    if workflow_id is None:
+        return "No workflow found"
+    url = f"{BASE_URL}/repos/{owner}/{repo_name}/actions/workflows/{workflow_id}/runs"
+    response = requests.get(url, headers=HEADERS)
+
+    if response.status_code != 200:
+        raise Exception(f"Error fetching workflow runs: {response.json()}")
+    
+    runs = response.json().get('workflow_runs', [])
+    if not runs:
+        return "No runs found"
+
+    # You can filter the runs to get the latest one
+    latest_run = runs[0]  # Most recent run
+    status = latest_run['status']  # Can be 'queued', 'in_progress', 'completed'
+    conclusion = latest_run.get('conclusion', 'No conclusion')  # 'success', 'failure', 'neutral', etc.
+    
+    return conclusion
 
 def get_org_repositories(org_name):
     url = f"{BASE_URL}/orgs/{org_name}/repos"
@@ -63,6 +100,7 @@ html_url: {repo_data['html_url']}
 archived: {repo_data['archived']}
 updated_recently: {repo_data['updated_recently']}
 associated_projects: []
+labot_workflow_status: {repo_data['labot_workflow_status']}
 ---
 
 # {{ page.title }}
@@ -105,12 +143,17 @@ def main():
         if repo["html_url"] in ["https://github.com/digital-work-lab/digital-work-lab.github.io"]:
             print(f"Skipping {repo['name']}")
             continue
+        workflow_id = get_workflow_id_by_filename(ORG_NAME, repo['name'], workflow_filename)
+        labot_workflow_status = get_workflow_status(ORG_NAME, repo['name'], workflow_id)
+
         print(f"Processing {repo['name']}...")
         area = "other"
         if "research" in repo["topics"]:
             area = "research"
         elif "teaching" in repo["topics"]:
             area = "teaching"
+
+
 
         repo_data = {
             "name": repo["name"],
@@ -123,6 +166,7 @@ def main():
             "archived": repo["archived"],
             "collaborators": get_repo_collaborators(ORG_NAME, repo["name"]),
             "updated_recently": datetime.strptime(repo["pushed_at"], "%Y-%m-%dT%H:%M:%SZ") > six_months_ago,
+            "labot_workflow_status": labot_workflow_status
         }
         create_markdown_file(repo_data, output_dir)
 
