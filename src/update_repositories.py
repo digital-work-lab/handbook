@@ -26,8 +26,6 @@ def get_workflow_id_by_filename(owner, repo_name, workflow_filename):
     
     workflows = response.json().get('workflows', [])
     for workflow in workflows:
-        print(workflow['path'])
-        print(workflow['path'].lower() == workflow_filename.lower())
         if workflow['path'].lower() == workflow_filename.lower():  # Matching by filename
             return workflow['id']
 
