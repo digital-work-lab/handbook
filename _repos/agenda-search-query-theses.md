@@ -12,7 +12,7 @@ html_url: https://github.com/digital-work-lab/agenda-search-query-theses
 archived: False
 updated_recently: True
 associated_projects: []
-labot_workflow_status: not-applicable
+labot_workflow_status: not-found
 project_type: []
 ---
 
