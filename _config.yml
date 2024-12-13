@@ -34,9 +34,6 @@ callouts:
   warning:
     title: Warning
     color: red
-  confidential:
-    title: Confidential data
-    color: red
   highlight:
     color: yellow
   info:
@@ -45,30 +42,33 @@ callouts:
   objective:
     title: Learning objective
     color: blue
+  news:
+    title: 🎉 News
+    color: blue
+  resource:
+    title: 🌐 Connected resources
+    color: blue
 
 collections:
   projects:
+    sort_by: status
     output: true
     permalink: /docs/20-research/25-projects/:name.html
+  
+  repos:
+    sort_by: name
+    output: true
+    permalink: /docs/10-lab/18-resources/:name.html
+
+  news:
+    sort_by: date
+    output: true
+    permalink: /docs/10-lab/:name.html
 
   courses:
     output: true
+    sort_by: semester
     permalink: /docs/30-teaching/32_courses/:name.html
-    order:
-      - 2025-SoSe-OSP.md
-      - 2025-SoSe-LRSem.md
-      - 2025-SoSe-IDW.md
-      - 2024-WiSe-EidWI.md 
-      - 2024-WiSe-LRSem.md 
-      - 2024-WiSe-OSP.md
-      - 2024-SoSe-IDW.md 
-      - 2024-SoSe-LRSem.md 
-      - 2024-SoSe-OSP.md 
-      - 2023-WiSe-LRSem.md 
-      - 2023-WiSe-OSP.md 
-      - 2023-SoSe-IDW.md 
-      - 2023-SoSe-OSP.md 
-      - 2022-WiSe-LRSem.md 
 
 aux_links:
   "Website":

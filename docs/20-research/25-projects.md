@@ -6,7 +6,9 @@ nav_order: 6
 ---
 
 # 25 Projects
-{: .d-inline-block }
+
+{: .highlight }
+> See [Project portfolio](25-projects-gantt).
 
 <table>
   <thead>
@@ -17,15 +19,42 @@ nav_order: 6
   </thead>
   <tbody>
     {% for project in site.projects %}
+    {% if project.status != "published" and project.status != "revising" and project.status != "under-review" %}
     <tr>
       <td><a href="{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a></td>
-      <td>{{ project.status }}</td>
+      <td style="color: gray;">{{ project.status }}</td>
     </tr>
+    {% endif %}
+    {% endfor %}
+
+    {% for project in site.projects %}
+    {% if project.status == "revising" %}
+    <tr>
+      <td><a href="{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a></td>
+      <td style="color: orange;"><strong>{{ project.status }}</strong></td>
+    </tr>
+    {% endif %}
+    {% if project.status == "under-review" %}
+    <tr>
+      <td><a href="{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a></td>
+      <td style="color: blue;">{{ project.status }}</td>
+    </tr>
+    {% endif %}
+    {% endfor %}
+
+    {% for project in site.projects %}
+    {% if project.status == "published" %}
+    <tr>
+      <td><a href="{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a></td>
+      <td style="color: green;">{{ project.status }}</td>
+    </tr>
+    {% endif %}
     {% endfor %}
   </tbody>
 </table>
 
-{: .confidential } 
+
+{: .resource } 
 > Confidential project data are stored here:
 > 
 > - [GitHub](https://github.com/orgs/digital-work-lab/repositories?q=topic%3Aresearch){: target="_blank"}

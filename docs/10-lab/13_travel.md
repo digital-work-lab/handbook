@@ -10,5 +10,5 @@ nav_order: 3
 
 This category contains travel documents created by [10.50 travel process](10_processes/10.50.travel.html).
 
-{: .confidential } 
+{: .resource } 
 > Confidential data is stored on the [Nextcloud](https://nc-2272638881871040784.nextcloud-ionos.com/index.php/apps/files/files/61?dir=/10-lab/13_travel){: target="_blank"}.

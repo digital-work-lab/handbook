@@ -3,54 +3,84 @@ layout: default
 title: Teaching
 has_children: true
 has_toc: true
-nav_order: 4
+nav_order: 30
 ---
 
 # Teaching
 
-Our teaching activities include lectures, projects and seminars, which are based on the following process:
+Our teaching activities include lectures, projects, and seminars, which are based on the following process:
 
 {: .text-center}
 ```mermaid
-flowchart TB
-    subgraph main["Lectures, projects, seminars"]
+flowchart
+    subgraph Theses["Theses"]
         direction TB
-
-        FlexNow[("<a href='30_processes/30.15.flexnow.html'>FlexNow</a>")]
-        FlexNow --- Prepare
-        FlexNow --- Grade
-        UnivIS[("<a href='30_processes/30.16.univis.html'>UnivIS</a>")]
-        UnivIS --- Prepare
-        VC[("<a href='30_processes/30.19.virtual_campus.html'>VC</a>")] --- Run
-
-        Prepare["<a href='30_processes/30.09.new_modules.html'>New module</a>"] --> Run["<a href='30_processes/30.02.courses.html#course-list'>Run lecture/seminar/project</a>"]
-        Run --> Grade["<a href='30_processes/30.59.exams.html'>Exams, repeat exams</a>, <a href=''>Grading</a>, <a href='30_processes/30.20.reports.html'>Reporting</a>"]
-        Pedagogy["<a href='../10-lab/10_processes/10.01.goals.html'>🛠️</a> <a href='30_processes/30.07.pedagogy.html'>Pedagogy</a>"] --- Run
-        Grade -.-> Reviews["<a href='30_processes/30.60.reviews.html'>Reviews</a>"]
-        Grade -.-> Certificates["<a href='30_processes/30.51.certificates.html'>Certificates</a>"]
-        Run ==> Evaluate["<a href='30_processes/30.21.evaluations.html'>Evaluation</a>"]
-        Evaluate ==> Improve["<a href='../10-lab/10_processes/10.01.goals.html'>♻️</a> <a href='30_processes/30.22.improvements.html'>Improvement</a>"]
-        Improve ==> Run
+        Announced(["<a href='#announced'>Announced</a>"]) --> Registered(["<a href='#registered'>Registered</a>"])
+        Registered --> Submitted(["<a href='#submitted'>Submitted</a>"])
+        Submitted --> Archived(["<a href='#archived'>Archived</a>"])
     end
-    style main fill:white,stroke:#333,stroke-width:3px
-
-```
-
-In addition, we advise Bachelor's and Master's theses based on the following process:
-
-{: .text-center}
-```mermaid
-flowchart TB
-    subgraph Theses
+    subgraph Courses["Courses (<a href='32_courses'>overview</a>)"]
         direction TB
-        Registration["<a href='30_processes/30.40.theses.html#registration'>Registration</a>"] --> Advising["<a href='30_processes/30.40.theses.html#advising'>Advising</a>"]
-        Advising -. Master's students .-> Presentation["<a href='30_processes/30.40.theses.html#thesis-presentation'>Presentation</a>"]
-        Presentation -.-> Grading
-        Advising --> Grading["<a href='30_processes/30.40.theses.html#grading'>Grading</a>"]
-        Advising --> Feedback["<a href='https://digital-work-lab.github.io/theses/docs/feedback.html'>Feedback</a>"]
-        Improvement["<a href='../10-lab/10_processes/10.01.goals.html'>♻️</a> <a href='30_processes/30.22.improvements.html'>Improvement</a>"] --> Advising
-        Feedback --> Improvement
+        InPreparation(["<a href='#in-preparation'>In preparation</a>"]) --> InProgress(["<a href='#in-progress'>In progress</a>"])
+        InProgress --> GradeReviewRepeat(["<a href='#grade-review-repeat'>Grade, review, repeat</a>"])
+        GradeReviewRepeat --> Completed(["<a href='#completed'>Completed</a>"])
     end
     style Theses fill:white,stroke:#333,stroke-width:3px
-
+    style Courses fill:white,stroke:#333,stroke-width:3px
 ```
+
+{: .resource }
+> All our teaching repositories on [GitHub](https://github.com/orgs/digital-work-lab/repositories?q=topic%3Ateaching){: target="_blank"}.
+
+---
+
+## Courses
+
+[Overview](30_processes/30.02.courses.html)
+
+### In preparation
+
+- [FlexNow](30_processes/30.15.flexnow.html) to [create a new module](30_processes/30.09.new_modules.html)
+- [UnivIS](30_processes/30.16.univis.html) to announce courses
+
+### In progress
+
+- [VC](30_processes/30.19.virtual_campus.html) for student communication
+- [Pedagogy](30_processes/30.07.pedagogy.html) <a href='.{{ site.baseurl }}/docs/00.goals.html'>🛠️</a>
+- [Evaluations](30_processes/30.21.evaluations.html)
+
+### Grade, review, repeat
+
+- [Exams, repeat exams](30_processes/30.59.exams.html)
+- [FlexNow](30_processes/30.15.flexnow.html) to enter grades
+- [Report](30_processes/30.20.reports.html)
+- [Reviews](30_processes/30.60.reviews.html)
+- [Certificates](30_processes/30.51.certificates.html)
+- [Improvements](30_processes/30.22.improvements.html) <a href='.{{ site.baseurl }}/docs/00.goals.html'>♻️</a> 
+
+### Completed
+
+---
+
+## Theses
+
+[Thesis page](https://digital-work-lab.github.io/theses/){: target="_blank"}
+
+{: .highlight }
+> **TODO**: private thesis page
+
+### Announced
+
+- [Registration](30_processes/30.40.theses.html#registration)
+
+### Registered
+
+- [Advising](30_processes/30.40.theses.html#advising)
+
+### Submitted
+
+- [Grading](30_processes/30.40.theses.html#grading)
+- [Feedback](https://digital-work-lab.github.io/theses/docs/feedback.html){: target="_blank"}
+- [Improvement](30_processes/30.22.improvements.html) <a href='.{{ site.baseurl }}/docs/00.goals.html'>♻️</a> 
+
+### Archived

@@ -1,0 +1,22 @@
+filename: regex(r'^.*\.md$')
+layout: str(equals='default')
+title: str()
+title_long: str()
+parent: str(equals="25 Projects")
+grand_parent: str(equals="Research")
+improvement_status: regex(r'^(completed|pending)$')
+status: regex(r'^(concept|writing|under-review|revising|published)$')
+area: regex(r'^(work_practices|distributed_organizing|knowledge_synthesis)$')
+started: day()
+completed: day(required=False)
+resources: list(str(), include('resource'))
+output: list(str(), include('output_item'), required=False)
+related: list(str(), required=False)
+---
+resource:
+  name: str()
+  link: str()
+output_item:
+  name: str()
+  link: str()
+  type: str()

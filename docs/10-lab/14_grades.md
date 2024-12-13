@@ -15,5 +15,5 @@ This category contains grades:
 - 14.03 projects
 - 14.04 theses
 
-{: .confidential } 
+{: .resource } 
 > Confidential data is stored on the [Nextcloud](https://nc-2272638881871040784.nextcloud-ionos.com/index.php/apps/files/files/59?dir=/10-lab/14_grades){: target="_blank"}.

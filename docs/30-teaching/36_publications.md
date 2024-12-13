@@ -30,5 +30,5 @@ nav_order: 6
 </div>
 
 
-{: .confidential } 
+{: .resource } 
 >  This category also contains confidential content (such as PDFs of related work) 

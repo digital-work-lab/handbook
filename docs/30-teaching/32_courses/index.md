@@ -7,6 +7,8 @@ nav_order: 3
 has_children: true
 ---
 
+# 32 Courses
+
 <table>
   <thead>
     <tr>
@@ -25,3 +27,14 @@ has_children: true
     {% endfor %}
   </tbody>
 </table>
+
+
+[➕ lecture](../30_processes/30.10.lecture.html) [➕ project](../30_processes/30.12.projects.html) [➕ seminar](../30_processes/30.11.seminars.html)
+{: .text-center }
+
+Status
+
+- ⟳ in-preparation
+- ▶ in-progress
+- 📋 grade / review / repeat exams
+- ✔️ completed

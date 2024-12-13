@@ -2,6 +2,7 @@
 layout: default
 parent: 25 Projects
 grand_parent: Research
+area: distributed_organizing
 started: 2023-04-04
 completed: 2024-08-28
 title: gitintro
@@ -14,7 +15,7 @@ resources:
 related:
  - gitcollaboration
  - teapad
-outputs:
+output:
   - name: "Rethinking How We Teach Git: Recommendations and Practical Strategies for the Information Systems Curriculum"
     type: "Journal Article"
     link: "https://jise.org/archives.html"
@@ -34,7 +35,7 @@ Improvement         | {{ page.improvement_status }}
 Started             | {{ page.started }}
 Completed           | {{ page.completed }}
 
-{% if page.outputs %}
+{% if page.resources %}
 ## Resources
 
   {% for output in page.resources %}
