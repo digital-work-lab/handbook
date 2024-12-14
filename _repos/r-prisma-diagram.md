@@ -5,7 +5,7 @@ title_long: "PRISMA diagram in R"
 parent: Projects
 grand_parent: Research
 visibility: Public
-collaborators: ['Stella1234-design']
+collaborators: []
 area: research
 topics: ['diagram', 'r', 'research']
 html_url: https://github.com/digital-work-lab/r-prisma-diagram

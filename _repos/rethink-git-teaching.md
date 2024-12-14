@@ -5,7 +5,7 @@ title_long: "rethink-git-teaching"
 parent: Projects
 grand_parent: Research
 visibility: Public
-collaborators: ['LaureenTh', 'Stella1234-design']
+collaborators: ['LaureenTh']
 area: research
 topics: ['research']
 html_url: https://github.com/digital-work-lab/rethink-git-teaching

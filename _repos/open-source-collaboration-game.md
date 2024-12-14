@@ -5,7 +5,7 @@ title_long: "open-source-collaboration-game"
 parent: Projects
 grand_parent: Research
 visibility: Public
-collaborators: ['Stella1234-design']
+collaborators: []
 area: teaching
 topics: ['teaching', 'teaching-material']
 html_url: https://github.com/digital-work-lab/open-source-collaboration-game

@@ -5,7 +5,7 @@ title_long: "gen-ai-lr-prompts"
 parent: Projects
 grand_parent: Research
 visibility: Public
-collaborators: ['Stella1234-design']
+collaborators: []
 area: research
 topics: ['research']
 html_url: https://github.com/digital-work-lab/gen-ai-lr-prompts

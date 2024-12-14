@@ -5,7 +5,7 @@ title_long: "dpkw-lr-appendix"
 parent: Projects
 grand_parent: Research
 visibility: Public
-collaborators: ['Stella1234-design']
+collaborators: []
 area: research
 topics: ['dataset', 'research']
 html_url: https://github.com/digital-work-lab/dpkw-lr-appendix

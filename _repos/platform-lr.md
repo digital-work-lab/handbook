@@ -5,7 +5,7 @@ title_long: "platform-lr"
 parent: Projects
 grand_parent: Research
 visibility: Private
-collaborators: ['Stella1234-design']
+collaborators: []
 area: research
 topics: ['paper', 'research']
 html_url: https://github.com/digital-work-lab/platform-lr

@@ -5,7 +5,7 @@ title_long: "agenda-search-query-theses"
 parent: Projects
 grand_parent: Research
 visibility: Private
-collaborators: ['LaureenTh', 'Stella1234-design']
+collaborators: ['LaureenTh']
 area: teaching
 topics: ['teaching', 'teaching-material']
 html_url: https://github.com/digital-work-lab/agenda-search-query-theses

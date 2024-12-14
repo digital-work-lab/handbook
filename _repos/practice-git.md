@@ -5,7 +5,7 @@ title_long: "Notebooks to practice Git in GitHub Codespaces"
 parent: Projects
 grand_parent: Research
 visibility: Public
-collaborators: ['LaureenTh', 'Stella1234-design']
+collaborators: ['LaureenTh']
 area: teaching
 topics: ['teaching', 'teaching-material']
 html_url: https://github.com/digital-work-lab/practice-git

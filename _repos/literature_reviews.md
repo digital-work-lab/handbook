@@ -5,7 +5,7 @@ title_long: "literature_reviews"
 parent: Projects
 grand_parent: Research
 visibility: Private
-collaborators: ['Stella1234-design']
+collaborators: []
 area: research
 topics: ['research']
 html_url: https://github.com/digital-work-lab/literature_reviews

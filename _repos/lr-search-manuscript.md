@@ -5,7 +5,7 @@ title_long: "lr-search-manuscript"
 parent: Projects
 grand_parent: Research
 visibility: Private
-collaborators: ['julianprester', 'Stella1234-design']
+collaborators: ['julianprester']
 area: research
 topics: ['paper', 'research']
 html_url: https://github.com/digital-work-lab/lr-search-manuscript

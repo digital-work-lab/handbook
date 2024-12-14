@@ -5,7 +5,7 @@ title_long: "thesis-test"
 parent: Projects
 grand_parent: Research
 visibility: Private
-collaborators: ['Stella1234-design']
+collaborators: []
 area: teaching
 topics: ['teaching', 'teaching-material']
 html_url: https://github.com/digital-work-lab/thesis-test

@@ -5,7 +5,7 @@ title_long: "theory-elaboration-manuscript"
 parent: Projects
 grand_parent: Research
 visibility: Private
-collaborators: ['Stella1234-design']
+collaborators: []
 area: research
 topics: ['paper', 'research']
 html_url: https://github.com/digital-work-lab/theory-elaboration-manuscript

@@ -5,7 +5,7 @@ title_long: "ENLIT is a tool that supports scholars in exploring new literature"
 parent: Projects
 grand_parent: Research
 visibility: Public
-collaborators: ['Stella1234-design']
+collaborators: []
 area: research
 topics: ['backward-search', 'grobid', 'literature', 'reading', 'research', 'skimming']
 html_url: https://github.com/digital-work-lab/enlit
