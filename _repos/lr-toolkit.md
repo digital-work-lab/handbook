@@ -5,7 +5,7 @@ title_long: "lr-toolkit"
 parent: Projects
 grand_parent: Research
 visibility: Private
-collaborators: []
+collaborators: ['Stella1234-design']
 area: research
 topics: ['paper', 'research']
 html_url: https://github.com/digital-work-lab/lr-toolkit

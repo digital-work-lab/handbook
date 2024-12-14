@@ -5,7 +5,7 @@ title_long: "lr_tools"
 parent: Projects
 grand_parent: Research
 visibility: Private
-collaborators: ['dengdenglele']
+collaborators: ['dengdenglele', 'Stella1234-design']
 area: research
 topics: ['research']
 html_url: https://github.com/digital-work-lab/lr_tools

@@ -5,7 +5,7 @@ title_long: "Agenda: Gerit - Laureen"
 parent: Projects
 grand_parent: Research
 visibility: Private
-collaborators: ['LaureenTh']
+collaborators: ['LaureenTh', 'Stella1234-design']
 area: other
 topics: ['agenda']
 html_url: https://github.com/digital-work-lab/agenda-gerit-laureen

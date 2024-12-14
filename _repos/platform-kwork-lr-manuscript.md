@@ -5,7 +5,7 @@ title_long: "Paper on digital platforms for knowledge work (DPKW) for JSIS"
 parent: Projects
 grand_parent: Research
 visibility: Private
-collaborators: ['julianprester']
+collaborators: ['julianprester', 'Stella1234-design']
 area: research
 topics: ['paper', 'research']
 html_url: https://github.com/digital-work-lab/platform-kwork-lr-manuscript

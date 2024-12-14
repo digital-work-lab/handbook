@@ -5,7 +5,7 @@ title_long: "gen-ai-lr"
 parent: Projects
 grand_parent: Research
 visibility: Private
-collaborators: ['julianprester']
+collaborators: ['julianprester', 'Stella1234-design']
 area: research
 topics: ['paper', 'research']
 html_url: https://github.com/digital-work-lab/gen-ai-lr

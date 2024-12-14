@@ -5,7 +5,7 @@ title_long: "Template for papers"
 parent: Projects
 grand_parent: Research
 visibility: Public
-collaborators: ['julianprester']
+collaborators: ['julianprester', 'Stella1234-design']
 area: research
 topics: ['research', 'template']
 html_url: https://github.com/digital-work-lab/paper-template

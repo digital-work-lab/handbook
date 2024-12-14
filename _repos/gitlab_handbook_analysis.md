@@ -5,7 +5,7 @@ title_long: "gitlab_handbook_analysis"
 parent: Projects
 grand_parent: Research
 visibility: Private
-collaborators: ['julianprester']
+collaborators: ['julianprester', 'Stella1234-design']
 area: research
 topics: ['research']
 html_url: https://github.com/digital-work-lab/gitlab_handbook_analysis

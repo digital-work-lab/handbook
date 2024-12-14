@@ -5,7 +5,7 @@ title_long: "lrs-map"
 parent: Projects
 grand_parent: Research
 visibility: Private
-collaborators: []
+collaborators: ['Stella1234-design']
 area: research
 topics: ['research']
 html_url: https://github.com/digital-work-lab/lrs-map

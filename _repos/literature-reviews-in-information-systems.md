@@ -5,7 +5,7 @@ title_long: "Collection of literature reviews in information systems"
 parent: Projects
 grand_parent: Research
 visibility: Private
-collaborators: []
+collaborators: ['Stella1234-design']
 area: research
 topics: ['research']
 html_url: https://github.com/digital-work-lab/literature-reviews-in-information-systems

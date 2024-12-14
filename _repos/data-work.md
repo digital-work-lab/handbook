@@ -5,7 +5,7 @@ title_long: "data-work"
 parent: Projects
 grand_parent: Research
 visibility: Private
-collaborators: ['hopfkons']
+collaborators: ['hopfkons', 'Stella1234-design']
 area: research
 topics: ['paper', 'research']
 html_url: https://github.com/digital-work-lab/data-work

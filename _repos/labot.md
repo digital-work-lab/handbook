@@ -1,11 +1,11 @@
 ---
 layout: default
 title: labot
-title_long: "labot"
+title_long: "🤖 LaBot is a bot facilitating work in the digital-work-lab"
 parent: Projects
 grand_parent: Research
 visibility: Public
-collaborators: []
+collaborators: ['Stella1234-design']
 area: other
 topics: ['lab-management']
 html_url: https://github.com/digital-work-lab/labot

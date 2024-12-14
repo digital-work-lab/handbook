@@ -5,7 +5,7 @@ title_long: "Agenda: Gerit - Julian"
 parent: Projects
 grand_parent: Research
 visibility: Private
-collaborators: ['julianprester']
+collaborators: ['julianprester', 'Stella1234-design']
 area: other
 topics: ['agenda']
 html_url: https://github.com/digital-work-lab/agenda-gerit-julian

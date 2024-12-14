@@ -5,7 +5,7 @@ title_long: "edu-res"
 parent: Projects
 grand_parent: Research
 visibility: Private
-collaborators: ['LaureenTh']
+collaborators: ['LaureenTh', 'Stella1234-design']
 area: research
 topics: ['paper', 'research']
 html_url: https://github.com/digital-work-lab/edu-res

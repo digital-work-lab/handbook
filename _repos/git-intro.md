@@ -5,7 +5,7 @@ title_long: "Teaching tip for introducing Git"
 parent: Projects
 grand_parent: Research
 visibility: Private
-collaborators: ['LaureenTh']
+collaborators: ['LaureenTh', 'Stella1234-design']
 area: research
 topics: ['paper', 'research']
 html_url: https://github.com/digital-work-lab/git-intro

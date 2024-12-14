@@ -5,7 +5,7 @@ title_long: "colrev-manuscript"
 parent: Projects
 grand_parent: Research
 visibility: Private
-collaborators: ['julianprester', 'dengdenglele']
+collaborators: ['julianprester', 'dengdenglele', 'Stella1234-design']
 area: research
 topics: ['paper', 'research']
 html_url: https://github.com/digital-work-lab/colrev-manuscript

@@ -5,7 +5,7 @@ title_long: "Template for slides (Marp, Markdown)"
 parent: Projects
 grand_parent: Research
 visibility: Public
-collaborators: []
+collaborators: ['Stella1234-design']
 area: research
 topics: ['research', 'teaching', 'template']
 html_url: https://github.com/digital-work-lab/slides_template
