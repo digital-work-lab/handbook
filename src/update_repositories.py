@@ -191,7 +191,7 @@ def main():
         }
         if "paper" in repo_data["topics"] and 'paper' not in repo_data['project_type']:
             repo_data["project_type"].append("paper")
-        if not("paper" in repo_data['project_type'] or "teaching-material" in repo_data['topics']):
+        if not("paper" in repo_data['project_type'] or "teaching-materials" in repo_data['topics']):
             repo_data["labot_workflow_status"] = "not-applicable"
         create_markdown_file(repo_data, output_dir)
 
