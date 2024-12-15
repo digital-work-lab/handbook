@@ -1,7 +1,7 @@
 ---
 layout: default
 title: handbook
-title_long: "The handbook of the digital work lab"
+title_long: "📖 The handbook of the digital work lab"
 parent: Projects
 grand_parent: Research
 visibility: Public
