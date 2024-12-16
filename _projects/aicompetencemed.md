@@ -9,7 +9,7 @@ resources:
   - name: dropbox
     link: https://www.dropbox.com/home/Questionnaire%20destin%C3%A9%20aux%20%C3%A9tudiants%20de%20m%C3%A9decine
 started: 2022-05-06
-status: revising
+status: under-review
 improvement_status: pending
 ---
 
