@@ -7,12 +7,12 @@ grand_parent: Research
 visibility: Private
 collaborators: ['LaureenTh', 'Stella1234-design']
 area: research
-topics: ['research', 'teaching-materials']
+topics: ['research', 'teaching']
 html_url: https://github.com/digital-work-lab/work_hub
 archived: False
 updated_recently: True
 associated_projects: []
-labot_workflow_status: not-found
+labot_workflow_status: not-applicable
 project_type: []
 ---
 
