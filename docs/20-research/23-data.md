@@ -17,3 +17,4 @@ We aim to provide complete data sets and analysis workflows for our studies.
 ## Resources
 
 - [IEEEDataPortal](https://ieee-dataport.org/datasets){: target="_blank"}
+- [BERD](https://www.berd-nfdi.de/){: target="_blank"}
