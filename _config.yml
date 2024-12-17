@@ -17,7 +17,7 @@ search:
     focus_shortcut_key: 'k'
 
 mermaid:
-  version: "11.1.0"
+  version: "11.4.0"
 
 plugins:
   - "jekyll-github-metadata"
