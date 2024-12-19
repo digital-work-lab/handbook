@@ -5,14 +5,14 @@ title_long: "The Literature Review Seminar covers different goals of reviews, th
 parent: Projects
 grand_parent: Research
 visibility: Public
-collaborators: []
+collaborators: ['Stella1234-design']
 area: teaching
 topics: ['teaching', 'teaching-materials']
 html_url: https://github.com/digital-work-lab/literature-review-seminar
 archived: False
 updated_recently: True
 associated_projects: []
-labot_workflow_status: not-applicable
+labot_workflow_status: not-found
 project_type: []
 ---
 

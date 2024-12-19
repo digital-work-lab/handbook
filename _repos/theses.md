@@ -5,14 +5,14 @@ title_long: "Resources for Bachelor's and Master's theses (Digital Work Lab, Ott
 parent: Projects
 grand_parent: Research
 visibility: Public
-collaborators: ['LaureenTh']
+collaborators: ['LaureenTh', 'Stella1234-design']
 area: teaching
 topics: ['teaching', 'teaching-materials']
 html_url: https://github.com/digital-work-lab/theses
 archived: False
 updated_recently: True
 associated_projects: []
-labot_workflow_status: not-applicable
+labot_workflow_status: not-found
 project_type: []
 ---
 

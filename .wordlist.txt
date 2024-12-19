@@ -1180,3 +1180,8 @@ RZ
 forloop
 repos
 elsif
+Compendia
+Classcentral
+Coursera
+EdX
+BERD

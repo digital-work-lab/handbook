@@ -1,13 +1,13 @@
 ---
 layout: default
 title: work_hub
-title_long: "work_hub"
+title_long: "🏢 The Digital-Work-Lab Work Hub"
 parent: Projects
 grand_parent: Research
 visibility: Private
-collaborators: ['LaureenTh']
+collaborators: ['LaureenTh', 'Stella1234-design']
 area: research
-topics: ['research', 'teaching-materials']
+topics: ['research', 'teaching']
 html_url: https://github.com/digital-work-lab/work_hub
 archived: False
 updated_recently: True
