@@ -18,11 +18,13 @@ graph TD
     end
 
     subgraph LocalWorkflow["Local workflow"]
-        D["Zotero/Obsidian"]
+        K["Import paper in Zotero"]
+        K --> L["Export to Obsidian"]
+        L --> D["Create literature summary, add PDF and reference"]
     end
 
     subgraph OnlineWorkflow["Online workflow"]
-        J["Updates on GitHub"]
+        J["Create and update files in shared repository on GitHub"]
     end
 
     J --> E
