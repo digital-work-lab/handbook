@@ -18,7 +18,7 @@ graph TD
     end
 
     subgraph Local workflow
-        D["Zotero/Obsidian (Optional)"]
+        D["Zotero/Obsidian"]
     end
 
     subgraph Online workflow
@@ -68,7 +68,7 @@ No setup is required.
 
 Example repository: [work_hub](https://github.com/digital-work-lab/work_hub)
 
-TODO:
+**TODO**:
 
 - Update repo setup: include Git-LFS
 - Existing projects: Move PDFs to git repositories with git-lfs [Nextcloud](https://nc-2272638881871040784.nextcloud-ionos.com/index.php/apps/files/?dir=/22-literature/23_data&fileid=88094){: target="_blank"} in sections 25 and 36.
