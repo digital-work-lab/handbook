@@ -1,7 +1,7 @@
 ---
 layout: default
 title: agenda-jour-fixe
-title_long: "Agenda: Jour-Fixe"
+title_long: "✅ Agenda: Jour-Fixe"
 parent: Projects
 grand_parent: Research
 visibility: Private

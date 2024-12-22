@@ -1,7 +1,7 @@
 ---
 layout: default
 title: agenda-search-query-theses
-title_long: "agenda-search-query-theses"
+title_long: "✅ Agenda: SearchQuery theses"
 parent: Projects
 grand_parent: Research
 visibility: Private

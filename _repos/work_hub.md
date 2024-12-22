@@ -1,7 +1,7 @@
 ---
 layout: default
 title: work_hub
-title_long: "🏢 The Digital-Work-Lab Work Hub"
+title_long: "📚 The Digital-Work-Lab Work Hub"
 parent: Projects
 grand_parent: Research
 visibility: Private

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: agenda-gerit-julian
-title_long: "Agenda: Gerit - Julian"
+title_long: "✅ Agenda: Gerit - Julian"
 parent: Projects
 grand_parent: Research
 visibility: Private

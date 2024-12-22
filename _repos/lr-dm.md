@@ -5,7 +5,7 @@ title_long: "Paper on data management for literature reviews"
 parent: Projects
 grand_parent: Research
 visibility: Private
-collaborators: ['julianprester']
+collaborators: ['julianprester', 'dengdenglele']
 area: research
 topics: ['paper', 'research']
 html_url: https://github.com/digital-work-lab/lr-dm

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: labot
-title_long: "🤖 LaBot is a bot facilitating work in the digital-work-lab"
+title_long: "🪄 LaBot is a bot facilitating work in the digital-work-lab"
 parent: Projects
 grand_parent: Research
 visibility: Public

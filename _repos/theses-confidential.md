@@ -1,7 +1,7 @@
 ---
 layout: default
 title: theses-confidential
-title_long: "theses-confidential"
+title_long: "🔒 Confidential thesis documentation"
 parent: Projects
 grand_parent: Research
 visibility: Private

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: agenda-gerit-laureen
-title_long: "Agenda: Gerit - Laureen"
+title_long: "✅ Agenda: Gerit - Laureen"
 parent: Projects
 grand_parent: Research
 visibility: Private
