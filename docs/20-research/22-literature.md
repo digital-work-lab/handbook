@@ -8,6 +8,8 @@ nav_order: 3
 # 22 Literature (shared)
 {: .d-inline-block }
 
+Example repository: [work_hub](https://github.com/digital-work-lab/work_hub)
+
 - Literature summaries: Git repository with Obsidian (with [Zotero integration](https://github.com/mgmeyers/obsidian-zotero-integration){: target="_blank"} and [Obsidian Web Clipper](https://obsidian.md/clipper){: target="_blank"} for web export)
 - References: `references.bib` in Git repository
 - PDFs: Git-LFS
