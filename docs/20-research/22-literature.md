@@ -17,11 +17,11 @@ graph TD
         C@{ shape: lean-r, label: "PDFs (Git-LFS)" }
     end
 
-    subgraph Local workflow
+    subgraph LocalWorkflow["Local workflow"]
         D["Zotero/Obsidian"]
     end
 
-    subgraph Online workflow
+    subgraph OnlineWorkflow["Online workflow"]
         J["Updates on GitHub"]
     end
 
@@ -29,6 +29,10 @@ graph TD
     E[Pull Request]
     D --> E
     E --> SharedRepository
+
+    style LocalWorkflow fill:white,stroke:#333,stroke-width:3px
+    style SharedRepository fill:white,stroke:#333,stroke-width:3px
+    style OnlineWorkflow fill:white,stroke:#333,stroke-width:3px
 
 ```
 
