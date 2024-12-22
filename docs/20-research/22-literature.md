@@ -12,9 +12,9 @@ nav_order: 3
 graph TD
     subgraph SharedRepository["Shared repository"]
         direction LR
-        A["References (references.bib)"]
-        B[Literature Summaries]
-        C["PDFs (Git-LFS)"]
+        A@{ shape: lean-r, label: "References (references.bib)" }
+        B@{ shape: lean-r, label: "Literature Summaries" }
+        C@{ shape: lean-r, label: "PDFs (Git-LFS)" }
     end
 
     subgraph Local workflow
