@@ -8,7 +8,30 @@ nav_order: 3
 # 22 Literature (shared)
 {: .d-inline-block }
 
-Example repository: [work_hub](https://github.com/digital-work-lab/work_hub)
+```mermaid
+graph TD
+    subgraph SharedRepository["Shared repository"]
+        direction LR
+        A["References (references.bib)"]
+        B[Literature Summaries]
+        C["PDFs (Git-LFS)"]
+    end
+
+    subgraph Local workflow
+        D["Zotero/Obsidian (Optional)"]
+    end
+
+    subgraph Online workflow
+        J["Updates on GitHub"] --> E
+    end
+
+    E[Pull Request]
+    D --> E
+    E --> SharedRepository
+
+```
+
+## Shared repository
 
 Git repository with
 
@@ -17,32 +40,25 @@ Git repository with
 - Obsidian literature summaries
 - If Word integration (citation plugin) is needed: Zotero (for individual projects)
 
+## Local workflow
+
 Zotero can be used (recommended) to facilitate the export to the repository
+
 - Quick export - with [Zotero connector](https://chromewebstore.google.com/detail/zotero-connector/ekhagklcjbdpajgpjgmbionohlpdbjgc){: target="_blank"} for web exports, [Zotero integration](https://github.com/mgmeyers/obsidian-zotero-integration){: target="_blank"} and [Obsidian Web Clipper](https://obsidian.md/clipper){: target="_blank"} for web export
+
+## Online workflow
+
+No setup is required.
+
+## Pull request
+
+Supported by Labot.
 
 {: .highlight }
 > **IMPORTANT**
 > All contents, including the references, literature summaries, and PDFs, should be versioned in Git, carefully crafted and controlled to ensure high quality. 
 
-```mermaid
-graph TD
-    subgraph SharedRepository
-        direction LR
-        A["References (references.bib)"]
-        B[Literature Summaries]
-        C["PDFs (Git-LFS)"]
-    end
-
-    subgraph Local Import Workflow
-        D["Zotero/Obsidian (Optional)"]
-    end
-
-    E[Pull Request]
-    D --> E
-    E --> SharedRepository
-
-    J["Updates on GitHub"] --> E
-```
+Example repository: [work_hub](https://github.com/digital-work-lab/work_hub)
 
 TODO:
 
@@ -51,6 +67,7 @@ TODO:
 - Update repo setup: include Git-LFS
 - Existing projects: Move PDFs to git repositories with git-lfs [Nextcloud](https://nc-2272638881871040784.nextcloud-ionos.com/index.php/apps/files/?dir=/22-literature/23_data&fileid=88094){: target="_blank"} in sections 25 and 36.
 - TBD: CoLRev repositories (PDFs and obsidian vaults)
+- Labot support for pull-requests
 
 {: .resource } 
 > - [GitHub](https://github.com/orgs/digital-work-lab/repositories?q=topic%3Aresearch){: target="_blank"}
