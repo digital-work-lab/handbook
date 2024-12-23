@@ -9,7 +9,7 @@ nav_order: 3
 {: .d-inline-block }
 
 ```mermaid
-graph TD
+graph BT
     subgraph SharedRepository["Shared repository"]
         direction LR
         A@{ shape: lean-r, label: "References (references.bib)" }
@@ -35,7 +35,6 @@ graph TD
     style LocalWorkflow fill:white,stroke:#333,stroke-width:3px
     style SharedRepository fill:white,stroke:#333,stroke-width:3px
     style OnlineWorkflow fill:white,stroke:#333,stroke-width:3px
-
 ```
 
 ## Shared repository
