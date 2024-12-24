@@ -8,6 +8,42 @@ ORG_NAME = "digital-work-lab"
 BASE_URL = "https://api.github.com"
 workflow_filename = ".github/workflows/labot.yml"
 
+PROJECT_PAGE = """
+# {{ page.title }}
+
+Field               | Value
+------------------- | ----------------------------------
+Acronym             | {{ page.title }}
+Title               | {{ page.title_long }}
+Status              | {{ page.status }}
+Improvement         | {{ page.improvement_status }}
+Started             | {{ page.started }}
+Completed           | {{ page.completed }}
+
+{% if page.resources %}
+## Resources
+
+  {% for output in page.resources %}
+  - [{{ output.name }}]({{ output.link }}){: target="_blank"}
+  {% endfor %}
+{% endif %}
+
+{% if page.outputs %}
+## Outputs
+
+  {% for output in page.outputs %}
+  - [{{ output.type }}]({{ output.link }}){: target="_blank"}
+  {% endfor %}
+{% endif %}
+
+{% if page.related %}
+## Related projects 
+
+- {% for item in page.related %}
+  - <a href="{{ item }}">{{ item }}</a>
+{% endfor %}
+{% endif %}"""
+
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 if not GITHUB_TOKEN:
     raise EnvironmentError("The GITHUB_TOKEN environment variable is not set or empty.")
@@ -165,7 +201,42 @@ def export_project(repo_data: dict):
         yaml_header = paper_md_content.split("---")[1]
         # parse dict
         paper_data = yaml.safe_load(yaml_header)
-        print(paper_data) 
+
+        # write to repo_data["name"].md file
+        # select paper_data["project"]
+        # write to _projects
+        cwd = Path.cwd()
+        output_dir = cwd / "_projects"
+        Path(output_dir).mkdir(parents=True, exist_ok=True)
+        file_name = f"{repo_data['name']}.md"
+        file_path = os.path.join(output_dir, file_name)
+        title_long = ""
+        if paper_data['project']['status'] == "published":
+            title_long = paper_data['title']
+        yaml_header = f"""---
+layout: default
+title: {paper_data['project']['abbreviation']}
+title_long: "{title_long}"
+parent: 25 Projects
+grand_parent: Research
+started: {paper_data['project']['started']}
+area: {paper_data['project']['area']}
+resources: {paper_data['project'].get('resources', [])}
+status: {paper_data['project']['status']}
+improvement_status: {paper_data['project']['improvement_status']}
+topics: {repo_data['topics']}
+repository_url: {repo_data['html_url']}
+archived: {repo_data['archived']}
+updated_recently: {repo_data['updated_recently']}
+associated_projects: []
+labot_workflow_status: {repo_data['labot_workflow_status']}
+project_type: {repo_data['project_type']}
+---
+"""
+        # write yaml_header to file
+        with open(file_path, 'w') as file:
+            file.write(yaml_header)
+            file.write(PROJECT_PAGE)
 
     except ValueError as e:
         print(f"Error decoding JSON: {e}")
