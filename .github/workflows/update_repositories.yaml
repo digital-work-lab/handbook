@@ -23,7 +23,7 @@ jobs:
       - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests
+          pip install requests pyyaml
 
       - name: Change to Repo Directory
         run: cd ${{ github.workspace }}

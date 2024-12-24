@@ -2,6 +2,7 @@ import os
 import requests
 from pathlib import Path
 from datetime import datetime, timedelta
+import yaml
 
 ORG_NAME = "digital-work-lab"
 BASE_URL = "https://api.github.com"
@@ -145,18 +146,30 @@ def export_project(repo_data: dict):
 
     if repo_data["name"] != "lrdm":
         return
-    
-    # read yaml header of paper.md
-    url = f"{repo_data['html_url']}/contents/paper.md"
+
+    HEADERS = {
+        "Authorization": f"Bearer {GITHUB_TOKEN}",
+    }
+
+    # url = f"{repo_data['html_url']}/refs/heads/main/paper.md"
+    url = f"https://raw.githubusercontent.com/{ORG_NAME}/{repo_data['name']}/main/paper.md"
+    print(url)
     response = requests.get(url, headers=HEADERS)
     if response.status_code != 200:
-        print(f"Error fetching paper.md: {response.json()}")
+        print(f"Error fetching paper.md: {response.status_code} - {response.text}")
         return
-    paper_md = response.json()
-    paper_md_content = paper_md['content']
-    paper_md_content = base64.b64decode(paper_md_content).decode('utf-8')
-    print(paper_md_content)
 
+    try:
+        paper_md_content = response.text
+        # get the yaml header in the md:
+        yaml_header = paper_md_content.split("---")[1]
+        # parse dict
+        paper_data = yaml.safe_load(yaml_header)
+        print(paper_data) 
+
+    except ValueError as e:
+        print(f"Error decoding JSON: {e}")
+        print(f"Response content: {response.text}")
 
 def main():
     repos = get_org_repositories(ORG_NAME)
@@ -212,7 +225,7 @@ def main():
             repo_data["labot_workflow_status"] = "not-applicable"
         create_markdown_file(repo_data, output_dir)
         
-        if repo_data["project_type"] == "paper":
+        if "paper" in repo_data["project_type"]:
             export_project(repo_data)
 
         # append repo_data["html_url"] to .lycheeignore if it's not already there
@@ -220,7 +233,7 @@ def main():
             lycheeignore = file.read()
             if repo_data["html_url"] not in lycheeignore:
                 with open(lycheeignore_path, 'a') as file:
-                    file.write(f"{repo_data['html_url']}\n")
+                    file.write(f"\n{repo_data['html_url']}")
 
     print(f"Markdown files created in {output_dir}")
 
