@@ -141,6 +141,23 @@ def get_project_type(owner, repo_name):
         p_types.append('colrev')
     return p_types
 
+def export_project(repo_data: dict):
+
+    if repo_data["name"] != "lrdm":
+        return
+    
+    # read yaml header of paper.md
+    url = f"{repo_data['html_url']}/contents/paper.md"
+    response = requests.get(url, headers=HEADERS)
+    if response.status_code != 200:
+        print(f"Error fetching paper.md: {response.json()}")
+        return
+    paper_md = response.json()
+    paper_md_content = paper_md['content']
+    paper_md_content = base64.b64decode(paper_md_content).decode('utf-8')
+    print(paper_md_content)
+
+
 def main():
     repos = get_org_repositories(ORG_NAME)
     cwd = Path.cwd()
@@ -194,6 +211,9 @@ def main():
         if not("paper" in repo_data['project_type'] or "teaching-materials" in repo_data['topics']):
             repo_data["labot_workflow_status"] = "not-applicable"
         create_markdown_file(repo_data, output_dir)
+        
+        if repo_data["project_type"] == "paper":
+            export_project(repo_data)
 
         # append repo_data["html_url"] to .lycheeignore if it's not already there
         with open(lycheeignore_path, 'r') as file:
