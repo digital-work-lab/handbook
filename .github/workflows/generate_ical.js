@@ -1,24 +1,20 @@
 const fs = require('fs');
 const path = require('path');
 const yaml = require('js-yaml');
-const { createEvents } = require('ics'); // Correctly import the ics module
+const { createEvents } = require('ics');
+const { DateTime } = require('luxon'); // For timezone handling
 
 function parseDateTime(dateTimeString) {
-    // Parse "YYYY-MM-DD HH:MM" into [YYYY, MM, DD, HH, MM]
-    const dateTimeParts = dateTimeString.split(' ');
-    const dateParts = dateTimeParts[0].split('-').map(Number); // [YYYY, MM, DD]
-    const timeParts = dateTimeParts[1] ? dateTimeParts[1].split(':').map(Number) : [0, 0]; // [HH, MM] or default to [0, 0]
-
-    if (
-        dateParts.length === 3 &&
-        timeParts.length === 2 &&
-        !isNaN(dateParts[0]) &&
-        !isNaN(dateParts[1]) &&
-        !isNaN(dateParts[2]) &&
-        !isNaN(timeParts[0]) &&
-        !isNaN(timeParts[1])
-    ) {
-        return [...dateParts, ...timeParts]; // [YYYY, MM, DD, HH, MM]
+    // Parse "YYYY-MM-DD HH:MM" into Berlin timezone [YYYY, MM, DD, HH, MM]
+    const dateTime = DateTime.fromFormat(dateTimeString, 'yyyy-MM-dd HH:mm', { zone: 'Europe/Berlin' });
+    if (dateTime.isValid) {
+        return [
+            dateTime.year,
+            dateTime.month,
+            dateTime.day,
+            dateTime.hour,
+            dateTime.minute,
+        ];
     } else {
         console.warn(`Invalid date-time format: ${dateTimeString}`);
         return null; // Return null for invalid date-time
@@ -48,7 +44,7 @@ async function loadEvents() {
                 end,
                 title: event.title,
                 description: event.description || '',
-                location: event.location || ''
+                location: event.location || '',
             };
         })
         .filter(event => event !== null); // Filter out invalid events
@@ -61,7 +57,7 @@ function generateICal(events) {
             end: event.end,
             title: event.title,
             description: event.description,
-            location: event.location
+            location: event.location,
         }))
     );
 

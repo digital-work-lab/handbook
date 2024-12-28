@@ -21,7 +21,7 @@ jobs:
         node-version: '16'
 
     - name: Install dependencies
-      run: npm install js-yaml ics
+      run: npm install js-yaml ics luxon
 
     - name: Generate iCal File
       run: node .github/workflows/generate_ical.js
