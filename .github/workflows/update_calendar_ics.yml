@@ -1,6 +1,7 @@
 name: Generate iCal File
 
 on:
+  workflow_dispatch:
   push:
     paths:
       - 'docs/calendar/calendar.js'
