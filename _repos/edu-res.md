@@ -1,7 +1,7 @@
 ---
 layout: default
 title: edu-res
-title_long: "edu-res"
+title_long: "Survey and paper on open educational resources"
 parent: Projects
 grand_parent: Research
 visibility: Private
