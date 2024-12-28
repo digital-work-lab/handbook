@@ -1,0 +1,8 @@
+- start: "2024-12-24 16:00"
+  end: "2024-12-24 20:00"
+  title: "Test3"
+  color: "green"
+- start: "2024-12-25 00:00"
+  end: "2025-01-04 24:00"
+  title: "Holiday"
+
