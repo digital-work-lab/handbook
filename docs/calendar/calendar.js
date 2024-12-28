@@ -23,10 +23,12 @@ async function initCalendar() {
         views: {
             timeGridWeek: {pointer: true},
         },
+        eventClick: function(info) {
+            popUpEvent(info.event);
+        },
         dayMaxEvents: true,
         nowIndicator: true,
-        selectable: true,
-        editable: false,
+        eventStartEditable: false,
     });
     
     window.ec = ec;
@@ -81,6 +83,53 @@ function generateICal() {
     a.click();
     document.body.removeChild(a);
     URL.revokeObjectURL(url);
+}
+
+function popUpEvent(event) {
+    const startTime = event.start.toLocaleString();
+    const endTime = event.end ? event.end.toLocaleString() : 'undefined';
+    
+    // modal
+    const modal = document.createElement('div');
+    modal.style.cssText = `
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        z-index: 1000;
+        width: 400px;
+    `;
+    
+    // overlay
+    const overlay = document.createElement('div');
+    overlay.style.cssText = `
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0,0,0,0.5);
+        z-index: 999;
+    `;
+    
+    modal.innerHTML = `
+        <div>
+            <h3>${event.title}</h3>
+            <p>start: ${startTime}</p>
+            <p>  end: ${endTime}</p>
+            <div style="text-align: center; margin-top: 15px;">
+                <button onclick="this.closest('div').parentElement.parentElement.remove();document.querySelector('[data-modal-overlay]').remove()">Close</button>
+            </div>
+        </div>
+    `;
+    
+    overlay.setAttribute('data-modal-overlay', '');
+    document.body.appendChild(overlay);
+    document.body.appendChild(modal);
 }
 
 document.addEventListener('DOMContentLoaded', () => {
