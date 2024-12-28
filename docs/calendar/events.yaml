@@ -5,4 +5,7 @@
 - start: "2024-12-25 00:00"
   end: "2025-01-04 24:00"
   title: "Holiday"
-
+- start: "2025-01-20 00:00"
+  end: "2025-01-30 24:00"
+  title: "Holiday"
+  color: "red"
