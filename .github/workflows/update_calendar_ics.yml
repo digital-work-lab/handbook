@@ -69,7 +69,6 @@ jobs:
             fs.writeFileSync(outputPath, icalContent, 'utf8');
             console.log(`iCal file generated and saved to: ${outputPath}`);
         })();
-      "
 
     - name: Commit and Push Changes
       run: |
