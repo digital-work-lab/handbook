@@ -1,7 +1,6 @@
 const fs = require('fs');
 const path = require('path');
 const yaml = require('js-yaml');
-const { createEvents } = require('ics');
 const { DateTime } = require('luxon'); // For timezone handling
 
 function parseDateTime(dateTimeString) {
@@ -51,22 +50,61 @@ async function loadEvents() {
 }
 
 function generateICal(events) {
-    const { value, error } = createEvents(
-        events.map(event => ({
-            start: event.start,
-            end: event.end,
-            title: event.title,
-            description: event.description,
-            location: event.location,
-        }))
-    );
+    const vtimezone = `
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20231029T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20240331T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+END:VTIMEZONE`;
 
-    if (error) {
-        console.error('Detailed Error Information:', error); // Log full error details
-        throw new Error(`Error generating iCal file: ${JSON.stringify(error, null, 2)}`);
-    }
+    const vevents = events
+        .map(event => {
+            return `
+BEGIN:VEVENT
+UID:${Math.random().toString(36).substring(2, 15)}
+SUMMARY:${event.title}
+DTSTAMP:${DateTime.now().toUTC().toFormat("yyyyMMdd'T'HHmmss'Z'")}
+DTSTART;TZID=Europe/Berlin:${DateTime.fromObject({
+                year: event.start[0],
+                month: event.start[1],
+                day: event.start[2],
+                hour: event.start[3],
+                minute: event.start[4],
+            }).toFormat("yyyyMMdd'T'HHmmss")}
+DTEND;TZID=Europe/Berlin:${DateTime.fromObject({
+                year: event.end[0],
+                month: event.end[1],
+                day: event.end[2],
+                hour: event.end[3],
+                minute: event.end[4],
+            }).toFormat("yyyyMMdd'T'HHmmss")}
+DESCRIPTION:${event.description}
+LOCATION:${event.location}
+END:VEVENT`;
+        })
+        .join("\n");
 
-    return value;
+    return `BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:-//YourOrganization//YourProduct//EN
+METHOD:PUBLISH
+X-PUBLISHED-TTL:PT1H
+${vtimezone}
+${vevents}
+END:VCALENDAR`;
 }
 
 (async () => {
