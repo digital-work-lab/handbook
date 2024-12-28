@@ -71,7 +71,7 @@ No setup is required.
 > **IMPORTANT**
 > All contents, including the references, literature summaries, and PDFs, should be versioned in Git, carefully crafted and controlled to ensure high quality. 
 
-Example repository: [work_hub](https://github.com/digital-work-lab/work_hub)
+Example repository: [work_hub](https://github.com/digital-work-lab/work_hub){: target="_blank"}
 
 **TODO**:
 
