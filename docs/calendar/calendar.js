@@ -27,7 +27,6 @@ async function initCalendar() {
         nowIndicator: true,
         selectable: true,
         editable: true,
-        //eventSources: [{url: "calendar/events.json"}]
     });
     
     window.ec = ec;

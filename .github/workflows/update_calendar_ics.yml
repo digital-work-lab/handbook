@@ -24,52 +24,7 @@ jobs:
       run: npm install js-yaml ics
 
     - name: Generate iCal File
-      run: |
-        # Use Node.js to execute the script
-        node -e "
-        const fs = require('fs');
-        const path = require('path');
-        const yaml = require('js-yaml');
-        const ics = require('ics');
-
-        async function loadEvents() {
-            const yamlText = fs.readFileSync('docs/calendar/events.yaml', 'utf8');
-            const events = yaml.load(yamlText);
-
-            if (!Array.isArray(events)) {
-                throw new Error('Parsed YAML is not an array');
-            }
-
-            return events.map(event => ({
-                start: event.start,
-                end: event.end,
-                title: event.title,
-                color: event.color
-            }));
-        }
-
-        function generateICal(events) {
-            const cal = ics();
-            events.forEach(event => {
-                cal.addEvent({
-                    title: event.title || ' ',
-                    description: '',
-                    location: '',
-                    start: event.start,
-                    end: event.end
-                });
-            });
-            return cal.toString();
-        }
-
-        (async () => {
-            const events = await loadEvents();
-            const icalContent = generateICal(events);
-
-            const outputPath = path.join('docs/calendar/digital_work_cal.ical');
-            fs.writeFileSync(outputPath, icalContent, 'utf8');
-            console.log(`iCal file generated and saved to: ${outputPath}`);
-        })();
+      run: node .github/workflows/generate_ical.js
 
     - name: Commit and Push Changes
       run: |
