@@ -3,9 +3,6 @@
 	body {
 		padding: 0;
 	}
-	html {
-		font-size: 12px;
-	}
 	h4 {
 		margin-top: 0;
 	}
@@ -20,11 +17,13 @@
 }
 
 .ec {
-	height: 640px;
+	height: 600px;
 }
-.ec.ec-day-grid {
+.ec.ec-day-grid  {
 	height: 400px;
+	font-size: 70%;
 }
+
 @media (min-width: 576px) {
 	.ec {
 		height: 700px;
@@ -68,4 +67,16 @@ body.ec-dark svg.light {
 .toggle-dark-button svg {
 	width: 1.25rem;
 	height: 1.25rem;
+}
+
+.ec-day-grid .ec-day-head {
+	text-align: center;
+}
+
+.ec-button {
+	font-size: 0.8rem;
+}
+
+.ec-center .ec-title {
+	margin-top: 0.25em;
 }
