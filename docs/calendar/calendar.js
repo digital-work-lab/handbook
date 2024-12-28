@@ -29,6 +29,7 @@ async function initCalendar() {
         dayMaxEvents: true,
         nowIndicator: true,
         eventStartEditable: false,
+        hiddenDays: [0,6],
     });
     
     window.ec = ec;
