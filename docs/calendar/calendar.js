@@ -26,7 +26,7 @@ async function initCalendar() {
         dayMaxEvents: true,
         nowIndicator: true,
         selectable: true,
-        editable: true,
+        editable: false,
     });
     
     window.ec = ec;
