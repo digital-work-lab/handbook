@@ -1,0 +1,82 @@
+name: Generate iCal File
+
+on:
+  push:
+    paths:
+      - 'docs/calendar/calendar.js'
+      - 'docs/calendar/events.yaml'
+
+jobs:
+  generate-ical:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '16'
+
+    - name: Install dependencies
+      run: npm install js-yaml ics
+
+    - name: Generate iCal File
+      run: |
+        # Use Node.js to execute the script
+        node -e "
+        const fs = require('fs');
+        const path = require('path');
+        const yaml = require('js-yaml');
+        const ics = require('ics');
+
+        async function loadEvents() {
+            const yamlText = fs.readFileSync('docs/calendar/events.yaml', 'utf8');
+            const events = yaml.load(yamlText);
+
+            if (!Array.isArray(events)) {
+                throw new Error('Parsed YAML is not an array');
+            }
+
+            return events.map(event => ({
+                start: event.start,
+                end: event.end,
+                title: event.title,
+                color: event.color
+            }));
+        }
+
+        function generateICal(events) {
+            const cal = ics();
+            events.forEach(event => {
+                cal.addEvent({
+                    title: event.title || ' ',
+                    description: '',
+                    location: '',
+                    start: event.start,
+                    end: event.end
+                });
+            });
+            return cal.toString();
+        }
+
+        (async () => {
+            const events = await loadEvents();
+            const icalContent = generateICal(events);
+
+            const outputPath = path.join('docs/calendar/digital_work_cal.ical');
+            fs.writeFileSync(outputPath, icalContent, 'utf8');
+            console.log(`iCal file generated and saved to: ${outputPath}`);
+        })();
+      "
+
+    - name: Commit and Push Changes
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git add docs/calendar/digital_work_cal.ical
+        git commit -m "Update digital_work_cal.ical"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
