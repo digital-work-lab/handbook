@@ -26,8 +26,7 @@ async function initCalendar() {
         dayMaxEvents: true,
         nowIndicator: true,
         selectable: true,
-        editable: true,
-        //eventSources: [{url: "calendar/events.json"}]
+        editable: false,
     });
     
     window.ec = ec;
@@ -87,3 +86,4 @@ function generateICal() {
 document.addEventListener('DOMContentLoaded', () => {
     initCalendar();
 });
+

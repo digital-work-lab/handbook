@@ -1,7 +1,7 @@
 ---
 layout: default
 title: gen-ai-lr
-title_long: "gen-ai-lr"
+title_long: "Commentary paper on the use of generative AI for literature reviews"
 parent: Projects
 grand_parent: Research
 visibility: Private
