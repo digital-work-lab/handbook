@@ -12,6 +12,13 @@ completed: day(required=False)
 resources: list(str(), include('resource'))
 output: list(str(), include('output_item'), required=False)
 related: list(str(), required=False)
+topics: str()
+labot_workflow_status: bool()
+archived: bool()
+associated_projects: str()
+project_type: str()
+repository_url: str()
+updated_recently: bool()
 ---
 resource:
   name: str()

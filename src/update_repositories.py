@@ -180,8 +180,8 @@ def get_project_type(owner, repo_name):
 
 def export_project(repo_data: dict):
 
-    if repo_data["name"] != "lrdm":
-        return
+    # if repo_data["name"] != "lrdm":
+    #     return
 
     HEADERS = {
         "Authorization": f"Bearer {GITHUB_TOKEN}",
@@ -241,6 +241,8 @@ project_type: {repo_data['project_type']}
     except ValueError as e:
         print(f"Error decoding JSON: {e}")
         print(f"Response content: {response.text}")
+    except KeyError as e:
+        print(f"KeyError: {e}")
 
 def main():
     repos = get_org_repositories(ORG_NAME)
