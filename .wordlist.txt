@@ -1186,3 +1186,4 @@ Coursera
 EdX
 BERD
 LFS
+ics
