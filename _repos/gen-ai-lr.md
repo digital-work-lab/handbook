@@ -12,7 +12,7 @@ html_url: https://github.com/digital-work-lab/gen-ai-lr
 archived: False
 updated_recently: True
 associated_projects: []
-labot_workflow_status: success
+labot_workflow_status: None
 project_type: ['paper']
 ---
 
