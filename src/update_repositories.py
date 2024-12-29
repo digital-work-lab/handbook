@@ -7,42 +7,11 @@ import yaml
 ORG_NAME = "digital-work-lab"
 BASE_URL = "https://api.github.com"
 workflow_filename = ".github/workflows/labot.yml"
+cwd = Path.cwd()
+OUTPUT_DIR = cwd / "_repos"
 
-PROJECT_PAGE = """
-# {{ page.title }}
 
-Field               | Value
-------------------- | ----------------------------------
-Acronym             | {{ page.title }}
-Title               | {{ page.title_long }}
-Status              | {{ page.status }}
-Improvement         | {{ page.improvement_status }}
-Started             | {{ page.started }}
-Completed           | {{ page.completed }}
 
-{% if page.resources %}
-## Resources
-
-  {% for output in page.resources %}
-  - [{{ output.name }}]({{ output.link }}){: target="_blank"}
-  {% endfor %}
-{% endif %}
-
-{% if page.outputs %}
-## Outputs
-
-  {% for output in page.outputs %}
-  - [{{ output.type }}]({{ output.link }}){: target="_blank"}
-  {% endfor %}
-{% endif %}
-
-{% if page.related %}
-## Related projects 
-
-- {% for item in page.related %}
-  - <a href="{{ item }}">{{ item }}</a>
-{% endfor %}
-{% endif %}"""
 
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 if not GITHUB_TOKEN:
@@ -119,45 +88,6 @@ def get_repo_collaborators(owner, repo_name):
 
     return [collab['login'] for collab in response.json() if collab['login'] != "geritwagner"]
 
-def create_markdown_file(repo_data, output_dir):
-    """Creates a markdown file with YAML front matter."""
-    file_name = f"{repo_data['name']}.md"
-    file_path = os.path.join(output_dir, file_name)
-    yaml_header = f"""---
-layout: default
-title: {repo_data['name']}
-title_long: "{repo_data['description'] or repo_data['name']}"
-parent: Projects
-grand_parent: Research
-visibility: {repo_data['visibility']}
-collaborators: {repo_data['collaborators']}
-area: {repo_data['area']}
-topics: {repo_data['topics']}
-html_url: {repo_data['html_url']}
-archived: {repo_data['archived']}
-updated_recently: {repo_data['updated_recently']}
-associated_projects: []
-labot_workflow_status: {repo_data['labot_workflow_status']}
-project_type: {repo_data['project_type']}
----
-
-# {{ page.title }}
-
-Field               | Value
-------------------- | ----------------------------------
-Acronym             | {{ page.title }}
-Title               | {{ page.title_long }}
-Visibility          | {{ page.visibility }}
-Collaborators       | {{ page.collaborators }}
-Topics              | {{ page.topics }}
-URL                 | [Repository Link]({repo_data['html_url']}){{: target="_blank"}}
-
-[![Request Access](https://img.shields.io/badge/Request-Access-blue?style=for-the-badge)]({repo_data['html_url']}/issues/new?assignees=geritwagner&labels=access+request&template=request-repo-access.md&title=%5BAccess+Request%5D+Request+for+access+to+repository)
-
-"""
-
-    with open(file_path, 'w') as file:
-        file.write(yaml_header)
 
 def get_project_type(owner, repo_name):
     """Check the project type."""
@@ -178,88 +108,121 @@ def get_project_type(owner, repo_name):
         p_types.append('colrev')
     return p_types
 
-def export_project(repo_data: dict):
-
-    # if repo_data["name"] != "lrdm":
-    #     return
-
-    HEADERS = {
-        "Authorization": f"Bearer {GITHUB_TOKEN}",
-    }
-
-    # url = f"{repo_data['html_url']}/refs/heads/main/paper.md"
-    url = f"https://raw.githubusercontent.com/{ORG_NAME}/{repo_data['name']}/main/paper.md"
-    print(url)
-    response = requests.get(url, headers=HEADERS)
-    if response.status_code != 200:
-        print(f"Error fetching paper.md: {response.status_code} - {response.text}")
-        return
-
-    try:
-        paper_md_content = response.text
-        # get the yaml header in the md:
-        yaml_header = paper_md_content.split("---")[1]
-        # parse dict
-        paper_data = yaml.safe_load(yaml_header)
-
-        # write to repo_data["name"].md file
-        # select paper_data["project"]
-        # write to _projects
-        cwd = Path.cwd()
-        output_dir = cwd / "_projects"
-        Path(output_dir).mkdir(parents=True, exist_ok=True)
-        file_name = f"{repo_data['name']}.md"
-        file_path = os.path.join(output_dir, file_name)
-        title_long = ""
-        if paper_data['project']['status'] == "published":
-            title_long = paper_data['title']
-        yaml_header = f"""---
+def generate_default_yaml_header(repo_data):
+    """Generates the default YAML header for a repository."""
+    return f"""---
 layout: default
-title: {paper_data['project']['abbreviation']}
-title_long: "{title_long}"
+title: {repo_data['name']}
+title_long: "{repo_data['title_long']}"
 parent: 25 Projects
 grand_parent: Research
+visibility: {repo_data['visibility']}
+collaborators: {repo_data['collaborators']}
+area: {repo_data['area']}
+topics: {repo_data['topics']}
+html_url: {repo_data['html_url']}
+archived: {repo_data['archived']}
+updated_recently: {repo_data['updated_recently']}
+associated_projects: []
+labot_workflow_status: {repo_data['labot_workflow_status']}
+project_type: {repo_data['project_type']}"""
+
+def generate_paper_specific_yaml_header(paper_data, repo_data):
+    """Generates additional YAML header content for paper-specific projects."""
+    return f"""
 started: {paper_data['project']['started']}
 area: {paper_data['project']['area']}
 resources: {paper_data['project'].get('resources', [])}
 status: {paper_data['project']['status']}
 improvement_status: {paper_data['project']['improvement_status']}
-topics: {repo_data['topics']}
 repository_url: {repo_data['html_url']}
-archived: {repo_data['archived']}
-updated_recently: {repo_data['updated_recently']}
-associated_projects: []
-labot_workflow_status: {repo_data['labot_workflow_status']}
-project_type: {repo_data['project_type']}
 ---
 """
-        # write yaml_header to file
-        with open(file_path, 'w') as file:
-            file.write(yaml_header)
-            file.write(PROJECT_PAGE)
 
-    except ValueError as e:
-        print(f"Error decoding JSON: {e}")
-        print(f"Response content: {response.text}")
-    except KeyError as e:
-        print(f"KeyError: {e}")
+def generate_markdown_content(yaml_header, markdown_body):
+    """Combines YAML header and markdown body to create the complete content."""
+    return yaml_header + markdown_body
+
+def create_markdown_file(repo_data, content):
+    """Writes the markdown content to a file."""
+    file_name = f"{repo_data['name']}.md"
+    file_path = os.path.join(OUTPUT_DIR, file_name)
+    Path(OUTPUT_DIR).mkdir(parents=True, exist_ok=True)
+    with open(file_path, 'w') as file:
+        file.write(content)
+
+def fetch_paper_data(repo_data):
+    """Fetches paper.md content for a repository."""
+    HEADERS = {"Authorization": f"Bearer {GITHUB_TOKEN}"}
+    url = f"https://raw.githubusercontent.com/{ORG_NAME}/{repo_data['name']}/main/paper.md"
+    response = requests.get(url, headers=HEADERS)
+    if response.status_code != 200:
+        print(f"Error fetching paper.md: {response.status_code} - {response.text}")
+        return None
+    return response.text
+
+def process_repo(repo_data):
+    """Processes a repository to create its markdown file."""
+    if "paper" in repo_data["project_type"]:
+        paper_content = fetch_paper_data(repo_data)
+        paper_data = {}
+        if paper_content:
+            try:
+                paper_yaml_header = paper_content.split("---")[1]
+                paper_data = yaml.safe_load(paper_yaml_header)
+                title_long = paper_data['title'] if paper_data['project']['status'] == "published" else ""
+            except Exception as e:
+                print(f"Error processing paper.md: {e}")
+                title_long = "ERROR"
+
+        else:
+            title_long = "ERROR"
+    else:
+        title_long = repo_data["description"]
+    repo_data["title_long"] = title_long
+
+    yaml_header = generate_default_yaml_header(repo_data)
+
+    if "paper" in repo_data["project_type"]:
+        try:
+            yaml_header += generate_paper_specific_yaml_header(paper_data, repo_data)
+        except Exception as e:
+            print(f"Error processing paper.md: {e}")
+
+    yaml_header += "\n---\n"
+
+    markdown_body = f"""
+# {{ page.title }}
+
+Field               | Value
+------------------- | ----------------------------------
+Acronym             | {{ page.title }}
+Title               | {{ page.title_long }}
+Visibility          | {{ page.visibility }}
+Collaborators       | {{ page.collaborators }}
+Topics              | {{ page.topics }}
+URL                 | [Repository Link]({repo_data['html_url']}){{: target="_blank"}}
+
+[![Request Access](https://img.shields.io/badge/Request-Access-blue?style=for-the-badge)](https://github.com/digital-work-lab/handbook/issues/new?assignees=geritwagner&labels=access+request&template=request-repo-access.md&title=%5BAccess+Request%5D+Request+for+access+to+repository)
+"""
+
+    content = generate_markdown_content(yaml_header, markdown_body)
+    create_markdown_file(repo_data, content)
 
 def main():
     repos = get_org_repositories(ORG_NAME)
-    cwd = Path.cwd()
-    output_dir = cwd / "_repos"
 
     lycheeignore_path = cwd / ".lycheeignore"
     six_months_ago = datetime.now() - timedelta(days=180)
 
-    Path(output_dir).mkdir(parents=True, exist_ok=True)
-    for file in Path(output_dir).glob("*"):
+    Path(OUTPUT_DIR).mkdir(parents=True, exist_ok=True)
+    for file in Path(OUTPUT_DIR).glob("*"):
         print(f"Removing {file}")
         file.unlink()
 
-    # print contents of output_dir
-    print(f"Contents of {output_dir}:")
-    for file in Path(output_dir).glob("*"):
+    # print contents of OUTPUT_DIR
+    print(f"Contents of {OUTPUT_DIR}:")
+    for file in Path(OUTPUT_DIR).glob("*"):
         print(f"  {file}")
 
     for repo in repos:
@@ -296,10 +259,8 @@ def main():
             repo_data["project_type"].append("paper")
         if not("paper" in repo_data['project_type'] or "teaching-materials" in repo_data['topics']):
             repo_data["labot_workflow_status"] = "not-applicable"
-        create_markdown_file(repo_data, output_dir)
-        
-        if "paper" in repo_data["project_type"]:
-            export_project(repo_data)
+
+        process_repo(repo_data)
 
         # append repo_data["html_url"] to .lycheeignore if it's not already there
         with open(lycheeignore_path, 'r') as file:
@@ -308,11 +269,11 @@ def main():
                 with open(lycheeignore_path, 'a') as file:
                     file.write(f"\n{repo_data['html_url']}")
 
-    print(f"Markdown files created in {output_dir}")
+    print(f"Markdown files created in {OUTPUT_DIR}")
 
-    # print contents of output_dir
-    print(f"Contents of {output_dir}:")
-    for file in Path(output_dir).glob("*"):
+    # print contents of OUTPUT_DIR
+    print(f"Contents of {OUTPUT_DIR}:")
+    for file in Path(OUTPUT_DIR).glob("*"):
         print(f"  {file}")
 
 
