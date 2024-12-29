@@ -18,44 +18,43 @@ nav_order: 6
     </tr>
   </thead>
   <tbody>
-    {% for project in site.projects %}
-    {% if project.status != "published" and project.status != "revising" and project.status != "under-review" %}
+    {% for repo in site.repos %}
+    {% if repo.topics contains "paper" %}
+    {% if repo.status != "published" and repo.status != "revising" and repo.status != "under-review" %}
     <tr>
-      <td><a href="{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a></td>
-      <td style="color: gray;">{{ project.status }}</td>
+      <td><a href="{{ site.baseurl }}{{ repo.url }}">{{ repo.title }}</a></td>
+      <td style="color: gray;">{{ repo.status }}</td>
     </tr>
+    {% endif %}
     {% endif %}
     {% endfor %}
 
-    {% for project in site.projects %}
-    {% if project.status == "revising" %}
+    {% for repo in site.repos %}
+    {% if repo.topics contains "paper" %}
+    {% if repo.status == "revising" %}
     <tr>
-      <td><a href="{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a></td>
-      <td style="color: orange;"><strong>{{ project.status }}</strong></td>
+      <td><a href="{{ site.baseurl }}{{ repo.url }}">{{ repo.title }}</a></td>
+      <td style="color: orange;"><strong>{{ repo.status }}</strong></td>
     </tr>
     {% endif %}
-    {% if project.status == "under-review" %}
+    {% if repo.status == "under-review" %}
     <tr>
-      <td><a href="{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a></td>
-      <td style="color: blue;">{{ project.status }}</td>
+      <td><a href="{{ site.baseurl }}{{ repo.url }}">{{ repo.title }}</a></td>
+      <td style="color: blue;">{{ repo.status }}</td>
     </tr>
+    {% endif %}
     {% endif %}
     {% endfor %}
 
-    {% for project in site.projects %}
-    {% if project.status == "published" %}
+    {% for repo in site.repos %}
+    {% if repo.topics contains "paper" %}
+    {% if repo.status == "published" %}
     <tr>
-      <td><a href="{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a></td>
-      <td style="color: green;">{{ project.status }}</td>
+      <td><a href="{{ site.baseurl }}{{ repo.url }}">{{ repo.title }}</a></td>
+      <td style="color: green;">{{ repo.status }}</td>
     </tr>
+    {% endif %}
     {% endif %}
     {% endfor %}
   </tbody>
 </table>
-
-
-{: .resource } 
-> Confidential project data are stored here:
-> 
-> - [GitHub](https://github.com/orgs/digital-work-lab/repositories?q=topic%3Aresearch){: target="_blank"}
-> - [Nextcloud](https://nc-2272638881871040784.nextcloud-ionos.com/index.php/apps/files/?dir=/20-research/25_projects&fileid=88094){: target="_blank"}
