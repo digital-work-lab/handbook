@@ -1,8 +1,8 @@
 ---
 layout: default
 title: lrdm
-title_long: "Paper on data management for literature reviews"
-parent: Projects
+title_long: ""
+parent: 25 Projects
 grand_parent: Research
 visibility: Private
 collaborators: ['julianprester', 'dengdenglele']
@@ -14,6 +14,14 @@ updated_recently: True
 associated_projects: []
 labot_workflow_status: success
 project_type: ['paper']
+started: 2022-02-20
+area: knowledge_synthesis
+resources: []
+status: writing
+improvement_status: pending
+repository_url: https://github.com/digital-work-lab/lrdm
+---
+
 ---
 
 # { page.title }
@@ -27,5 +35,4 @@ Collaborators       | { page.collaborators }
 Topics              | { page.topics }
 URL                 | [Repository Link](https://github.com/digital-work-lab/lrdm){: target="_blank"}
 
-[![Request Access](https://img.shields.io/badge/Request-Access-blue?style=for-the-badge)](https://github.com/digital-work-lab/lrdm/issues/new?assignees=geritwagner&labels=access+request&template=request-repo-access.md&title=%5BAccess+Request%5D+Request+for+access+to+repository)
-
+[![Request Access](https://img.shields.io/badge/Request-Access-blue?style=for-the-badge)](https://github.com/digital-work-lab/handbook/issues/new?assignees=geritwagner&labels=access+request&template=request-repo-access.md&title=%5BAccess+Request%5D+Request+for+access+to+repository)

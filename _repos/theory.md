@@ -1,8 +1,8 @@
 ---
 layout: default
 title: theory
-title_long: "theory"
-parent: Projects
+title_long: "None"
+parent: 25 Projects
 grand_parent: Research
 visibility: Private
 collaborators: []
@@ -27,5 +27,4 @@ Collaborators       | { page.collaborators }
 Topics              | { page.topics }
 URL                 | [Repository Link](https://github.com/digital-work-lab/theory){: target="_blank"}
 
-[![Request Access](https://img.shields.io/badge/Request-Access-blue?style=for-the-badge)](https://github.com/digital-work-lab/theory/issues/new?assignees=geritwagner&labels=access+request&template=request-repo-access.md&title=%5BAccess+Request%5D+Request+for+access+to+repository)
-
+[![Request Access](https://img.shields.io/badge/Request-Access-blue?style=for-the-badge)](https://github.com/digital-work-lab/handbook/issues/new?assignees=geritwagner&labels=access+request&template=request-repo-access.md&title=%5BAccess+Request%5D+Request+for+access+to+repository)

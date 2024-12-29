@@ -1,8 +1,8 @@
 ---
 layout: default
 title: data-work
-title_long: "data-work"
-parent: Projects
+title_long: "ERROR"
+parent: 25 Projects
 grand_parent: Research
 visibility: Private
 collaborators: ['hopfkons']
@@ -27,5 +27,4 @@ Collaborators       | { page.collaborators }
 Topics              | { page.topics }
 URL                 | [Repository Link](https://github.com/digital-work-lab/data-work){: target="_blank"}
 
-[![Request Access](https://img.shields.io/badge/Request-Access-blue?style=for-the-badge)](https://github.com/digital-work-lab/data-work/issues/new?assignees=geritwagner&labels=access+request&template=request-repo-access.md&title=%5BAccess+Request%5D+Request+for+access+to+repository)
-
+[![Request Access](https://img.shields.io/badge/Request-Access-blue?style=for-the-badge)](https://github.com/digital-work-lab/handbook/issues/new?assignees=geritwagner&labels=access+request&template=request-repo-access.md&title=%5BAccess+Request%5D+Request+for+access+to+repository)

@@ -1,8 +1,8 @@
 ---
 layout: default
 title: rethink-git-teaching
-title_long: "rethink-git-teaching"
-parent: Projects
+title_long: "None"
+parent: 25 Projects
 grand_parent: Research
 visibility: Public
 collaborators: ['LaureenTh']
@@ -27,5 +27,4 @@ Collaborators       | { page.collaborators }
 Topics              | { page.topics }
 URL                 | [Repository Link](https://github.com/digital-work-lab/rethink-git-teaching){: target="_blank"}
 
-[![Request Access](https://img.shields.io/badge/Request-Access-blue?style=for-the-badge)](https://github.com/digital-work-lab/rethink-git-teaching/issues/new?assignees=geritwagner&labels=access+request&template=request-repo-access.md&title=%5BAccess+Request%5D+Request+for+access+to+repository)
-
+[![Request Access](https://img.shields.io/badge/Request-Access-blue?style=for-the-badge)](https://github.com/digital-work-lab/handbook/issues/new?assignees=geritwagner&labels=access+request&template=request-repo-access.md&title=%5BAccess+Request%5D+Request+for+access+to+repository)

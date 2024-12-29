@@ -2,7 +2,7 @@
 layout: default
 title: agenda-search-query-theses
 title_long: "✅ Agenda: SearchQuery theses"
-parent: Projects
+parent: 25 Projects
 grand_parent: Research
 visibility: Private
 collaborators: ['LaureenTh']
@@ -27,5 +27,4 @@ Collaborators       | { page.collaborators }
 Topics              | { page.topics }
 URL                 | [Repository Link](https://github.com/digital-work-lab/agenda-search-query-theses){: target="_blank"}
 
-[![Request Access](https://img.shields.io/badge/Request-Access-blue?style=for-the-badge)](https://github.com/digital-work-lab/agenda-search-query-theses/issues/new?assignees=geritwagner&labels=access+request&template=request-repo-access.md&title=%5BAccess+Request%5D+Request+for+access+to+repository)
-
+[![Request Access](https://img.shields.io/badge/Request-Access-blue?style=for-the-badge)](https://github.com/digital-work-lab/handbook/issues/new?assignees=geritwagner&labels=access+request&template=request-repo-access.md&title=%5BAccess+Request%5D+Request+for+access+to+repository)
