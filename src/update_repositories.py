@@ -192,16 +192,16 @@ def process_repo(repo_data):
     yaml_header += "\n---\n"
 
     markdown_body = f"""
-# {{ page.title }}
+# {{{{ page.title }}}}
 
 Field               | Value
 ------------------- | ----------------------------------
-Acronym             | {{ page.title }}
-Title               | {{ page.title_long }}
-Visibility          | {{ page.visibility }}
-Collaborators       | {{ page.collaborators }}
-Topics              | {{ page.topics }}
-URL                 | [Repository Link]({repo_data['html_url']}){{: target="_blank"}}
+Acronym             | {{{{ page.title }}}}
+Title               | {{{{ page.title_long }}}}
+Visibility          | {{{{ page.visibility }}}}
+Collaborators       | {{{{ page.collaborators topics | join: ", "}}}}
+Topics              | {{{{ page.topics | join: ", " }}}}
+URL                 | [{repo_data['html_url']}]({repo_data['html_url']}){{: target="_blank"}}
 
 [![Request Access](https://img.shields.io/badge/Request-Access-blue?style=for-the-badge)](https://github.com/digital-work-lab/handbook/issues/new?assignees=geritwagner&labels=access+request&template=request-repo-access.md&title=%5BAccess+Request%5D+Request+for+access+to+repository)
 """
