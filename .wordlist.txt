@@ -1187,3 +1187,4 @@ EdX
 BERD
 LFS
 ics
+JabRef
