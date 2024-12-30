@@ -80,3 +80,7 @@ body.ec-dark svg.light {
 .ec-center .ec-title {
 	margin-top: 0.25em;
 }
+
+h4 {
+	text-transform: none !important;
+}
