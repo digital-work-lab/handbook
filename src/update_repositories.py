@@ -99,7 +99,6 @@ def get_project_type(owner, repo_name):
         return []
 
     contents = response.json()
-    print(contents)
     file_names = [content['name'] for content in contents]
     p_types = []
     if 'paper.md' in file_names:
@@ -230,7 +229,6 @@ def main():
             print(f"Skipping {repo['name']}")
             continue
         workflow_id = get_workflow_id_by_filename(ORG_NAME, repo['name'], workflow_filename)
-        print(workflow_id)
         labot_workflow_status = get_workflow_status(ORG_NAME, repo['name'], workflow_id)
 
         print(f"Processing {repo['name']}...")
