@@ -1,7 +1,7 @@
 ---
 layout: default
 title: theory-elaboration-manuscript
-title_long: "ERROR"
+title_long: ""
 parent: 25 Projects
 grand_parent: Research
 visibility: Private
@@ -9,11 +9,19 @@ collaborators: []
 area: research
 topics: ['paper', 'research']
 html_url: https://github.com/digital-work-lab/theory-elaboration-manuscript
-archived: True
-updated_recently: False
+archived: False
+updated_recently: True
 associated_projects: []
 labot_workflow_status: not-found
 project_type: ['paper']
+started: 2018-01-15
+area: knowledge_synthesis
+resources: []
+status: under-review
+improvement_status: pending
+repository_url: https://github.com/digital-work-lab/theory-elaboration-manuscript
+---
+
 ---
 
 # {{ page.title }}
