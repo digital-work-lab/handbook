@@ -1,7 +1,7 @@
 ---
 layout: default
 title: ailr
-title_long: "ERROR"
+title_long: "Artificial Intelligence and the Conduct of Literature Reviews"
 parent: 25 Projects
 grand_parent: Research
 visibility: Private
@@ -9,11 +9,19 @@ collaborators: []
 area: research
 topics: ['paper', 'research']
 html_url: https://github.com/digital-work-lab/ailr
-archived: True
+archived: False
 updated_recently: True
 associated_projects: []
 labot_workflow_status: not-found
 project_type: ['paper']
+started: 2020-11-26
+area: knowledge_synthesis
+resources: []
+status: published
+improvement_status: pending
+repository_url: https://github.com/digital-work-lab/ailr
+---
+
 ---
 
 # {{ page.title }}
