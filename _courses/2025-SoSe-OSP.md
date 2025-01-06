@@ -60,6 +60,7 @@ Start: March (summer term), September (winter term)
 - [ ] Professor: The project should be announced on [Instagram](https://www.instagram.com/informatik_unibamberg/){: target="_blank"} and in the [Fachschaft WIAI newsletter](https://vc.uni-bamberg.de/course/view.php?id=284){: target="_blank"}
 - [ ] Professor: Create a reminder for the evaluations.
 - [ ] Secretary: Add moderator and session dates in VC.
+- [ ] Professor: Summarize the feedback from the last course and explain how it was addressed.
 - [ ] Professor: Activate course in VC (visible to students).
 
 Deadline: April (summer term), October (winter term)
