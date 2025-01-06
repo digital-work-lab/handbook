@@ -198,7 +198,7 @@ Field               | Value
 Acronym             | {{{{ page.title }}}}
 Title               | {{{{ page.title_long }}}}
 Visibility          | {{{{ page.visibility }}}}
-Collaborators       | {{{{ page.collaborators topics | join: ", "}}}}
+Access              | {{{{ page.collaborators topics | join: ", "}}}}
 Topics              | {{{{ page.topics | join: ", " }}}}
 URL                 | [{repo_data['html_url']}]({repo_data['html_url']}){{: target="_blank"}}
 
