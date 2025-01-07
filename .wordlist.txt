@@ -1190,3 +1190,4 @@ ics
 JabRef
 cli
 lfs
+SPSS
