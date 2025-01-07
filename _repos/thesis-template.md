@@ -23,7 +23,7 @@ Field               | Value
 Acronym             | {{ page.title }}
 Title               | {{ page.title_long }}
 Visibility          | {{ page.visibility }}
-Collaborators       | {{ page.collaborators topics | join: ", "}}
+Access              | {{ page.collaborators topics | join: ", "}}
 Topics              | {{ page.topics | join: ", " }}
 URL                 | [https://github.com/digital-work-lab/thesis-template](https://github.com/digital-work-lab/thesis-template){: target="_blank"}
 
