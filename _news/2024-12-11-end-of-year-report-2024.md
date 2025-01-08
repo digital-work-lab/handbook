@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "End-of-year Report 2024"
-headline: We published our [End-of-year Report 2024](docs/10-lab/2024-12-11-end-of-year-report-2024.html)
+headline: We published our [End-of-year Report 2024]({{ site.baseurl }}/docs/10-lab/2024-12-11-end-of-year-report-2024.html)
 parent: Lab Management
 date: 2024-12-11
 ---
