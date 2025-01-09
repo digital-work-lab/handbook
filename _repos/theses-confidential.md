@@ -5,7 +5,7 @@ title_long: "🔒 Confidential thesis documentation"
 parent: 25 Projects
 grand_parent: Research
 visibility: Private
-collaborators: []
+collaborators: ['Stella1234-design']
 area: teaching
 topics: ['teaching', 'teaching-material']
 html_url: https://github.com/digital-work-lab/theses-confidential
