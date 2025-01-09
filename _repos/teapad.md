@@ -17,7 +17,7 @@ project_type: ['paper']
 started: 2024-09-10
 area: work_practices
 resources: []
-status: under_review
+status: under-review
 improvement_status: pending
 repository_url: https://github.com/digital-work-lab/teapad
 ---
