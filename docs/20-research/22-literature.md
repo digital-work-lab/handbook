@@ -10,7 +10,7 @@ nav_order: 3
 
 ```mermaid
 graph BT
-    subgraph SharedRepository["Shared repository"]
+    subgraph SharedRepository["Shared Repository"]
         direction LR
         A@{ shape: lean-r, label: "References (references.bib)" }
         B@{ shape: lean-r, label: "Literature Summaries" }
@@ -24,7 +24,7 @@ graph BT
     end
 
     subgraph OnlineWorkflow["Online workflow"]
-        J["Create and update files in shared repository on GitHub"]
+        J["Revise files in a shared repository on GitHub (upload of PDFs is not possible)"]
     end
 
     J --> E
@@ -59,17 +59,14 @@ Zotero can be used (recommended) to facilitate the export to the repository
 
 ## Online workflow
 
-No setup is required.
+- No setup is required.
+- Uploading PDFs to git-lfs is not possible.
 
 **TODO**: Create concept notes with a script (not manually with obsidian/Zotero?)
 
 ## Pull request
 
-**TODO**: Labot support for pull-requests
-
-{: .highlight }
-> **IMPORTANT**
-> All contents, including the references, literature summaries, and PDFs, should be versioned in Git, carefully crafted and controlled to ensure high quality. 
+- Labot support is enabled for pull requests (e.g., checking consistency, updating references).
 
 Example repository: [work_hub](https://github.com/digital-work-lab/work_hub){: target="_blank"}
 
