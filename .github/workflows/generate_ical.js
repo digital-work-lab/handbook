@@ -44,9 +44,11 @@ async function loadEvents() {
                 title: event.title,
                 description: event.description || '',
                 location: event.location || '',
+                recurrence: event.recurrence || null, // Include recurrence if provided
             };
         })
         .filter(event => event !== null); // Filter out invalid events
+
 }
 
 function generateICal(events) {
@@ -71,6 +73,7 @@ END:VTIMEZONE`;
 
     const vevents = events
         .map(event => {
+            const recurrenceRule = event.recurrence ? `RRULE:${event.recurrence}` : '';
             return `
 BEGIN:VEVENT
 UID:${Math.random().toString(36).substring(2, 15)}
@@ -90,6 +93,7 @@ DTEND;TZID=Europe/Berlin:${DateTime.fromObject({
                 hour: event.end[3],
                 minute: event.end[4],
             }).toFormat("yyyyMMdd'T'HHmmss")}
+${recurrenceRule}
 DESCRIPTION:${event.description}
 LOCATION:${event.location}
 END:VEVENT`;
