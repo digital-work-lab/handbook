@@ -1,5 +1,5 @@
 async function initCalendar() {
-    const events = await loadEvents();
+    const events = await loadEventsFromICal();
     const ec = new EventCalendar(document.getElementById('ec'), {
         view: 'dayGridMonth',
         customButtons: {
@@ -21,7 +21,7 @@ async function initCalendar() {
         scrollTime: '09:00:00',
         events: events,
         views: {
-            timeGridWeek: {pointer: true},
+            timeGridWeek: { pointer: true },
         },
         eventClick: function(info) {
             popUpEvent(info.event);
@@ -29,34 +29,36 @@ async function initCalendar() {
         dayMaxEvents: true,
         nowIndicator: true,
         eventStartEditable: false,
-        hiddenDays: [0,6],
+        hiddenDays: [0, 6],
     });
-    
+
     window.ec = ec;
 }
 
-// parse events.yaml
-async function loadEvents() {
+// Parse events from iCal file
+async function loadEventsFromICal() {
     try {
-        const response = await fetch('calendar/events.yaml');
+        const response = await fetch('https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/calendar/digital_work_cal.ical');
         if (!response.ok) {
             throw new Error("Network response was not ok: " + response.statusText);
         }
-        const yamlText = await response.text();
-        const events = jsyaml.load(yamlText);
-        
-        if (!Array.isArray(events)) {
-            throw new Error("Parsed YAML is not an array");
-        }
+        const iCalText = await response.text();
+        const jcalData = ICAL.parse(iCalText);
+        const vcalendar = new ICAL.Component(jcalData);
+        const vevents = vcalendar.getAllSubcomponents('vevent');
 
-        return events.map(event => ({
-            start: event.start,
-            end: event.end,
-            title: event.title,
-            color: event.color
-        }));
+        return vevents.map(vevent => {
+            const event = new ICAL.Event(vevent);
+            return {
+                start: event.startDate.toJSDate(),
+                end: event.endDate.toJSDate(),
+                title: event.summary,
+                description: event.description,
+                location: event.location,
+            };
+        });
     } catch (error) {
-        console.error("Error fetching or parsing YAML:", error);
+        console.error("Error fetching or parsing iCal file:", error);
         return [];
     }
 }
@@ -68,7 +70,7 @@ function _pad(num) {
 
 function generateICal() {
     const events = ec.getEvents();
-    
+
     var cal = ics();
 
     events.forEach(event => {
@@ -89,7 +91,7 @@ function generateICal() {
 function popUpEvent(event) {
     const startTime = event.start.toLocaleString();
     const endTime = event.end ? event.end.toLocaleString() : 'undefined';
-    
+
     // modal
     const modal = document.createElement('div');
     modal.style.cssText = `
@@ -104,7 +106,7 @@ function popUpEvent(event) {
         z-index: 1000;
         width: 400px;
     `;
-    
+
     // overlay
     const overlay = document.createElement('div');
     overlay.style.cssText = `
@@ -116,18 +118,18 @@ function popUpEvent(event) {
         background: rgba(0,0,0,0.5);
         z-index: 999;
     `;
-    
+
     modal.innerHTML = `
         <div>
             <h3>${event.title}</h3>
             <p>start: ${startTime}</p>
-            <p>  end: ${endTime}</p>
+            <p>end: ${endTime}</p>
             <div style="text-align: center; margin-top: 15px;">
                 <button onclick="this.closest('div').parentElement.parentElement.remove();document.querySelector('[data-modal-overlay]').remove()">Close</button>
             </div>
         </div>
     `;
-    
+
     overlay.setAttribute('data-modal-overlay', '');
     document.body.appendChild(overlay);
     document.body.appendChild(modal);
@@ -136,4 +138,3 @@ function popUpEvent(event) {
 document.addEventListener('DOMContentLoaded', () => {
     initCalendar();
 });
-
