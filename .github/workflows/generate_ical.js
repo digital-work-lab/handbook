@@ -1,7 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 const yaml = require('js-yaml');
-const { DateTime } = require('luxon'); // For timezone handling
+const { DateTime } = require('luxon');
+const { RRule } = require('rrule');
 
 function parseDateTime(dateTimeString) {
     // Parse "YYYY-MM-DD HH:MM" into Berlin timezone [YYYY, MM, DD, HH, MM]
@@ -21,35 +22,57 @@ function parseDateTime(dateTimeString) {
 }
 
 async function loadEvents() {
-    const yamlText = fs.readFileSync('docs/calendar/events.yaml', 'utf8');
-    const events = yaml.load(yamlText);
+    try {
+        const yamlText = fs.readFileSync('./docs/calendar/events.yaml', 'utf8'); // Read the YAML file
+        const events = yaml.load(yamlText);
 
-    if (!Array.isArray(events)) {
-        throw new Error('Parsed YAML is not an array');
-    }
+        if (!Array.isArray(events)) {
+            throw new Error("Parsed YAML is not an array");
+        }
 
-    return events
-        .map(event => {
-            const start = parseDateTime(event.start);
-            const end = parseDateTime(event.end);
+        const expandedEvents = [];
+        for (const event of events) {
+            const startDate = new Date(event.start);
+            const endDate = new Date(event.end);
 
-            if (!start || !end) {
-                console.warn(`Skipping event with invalid dates: ${JSON.stringify(event)}`);
-                return null; // Skip invalid events
+            if (event.recurrence) {
+                const rrule = new RRule({
+                    ...RRule.parseString(event.recurrence),
+                    dtstart: startDate,
+                });
+
+                rrule.all().forEach(date => {
+                    const end = new Date(date.getTime() + (endDate - startDate));
+                    expandedEvents.push({
+                        start: date.toISOString(),
+                        end: end.toISOString(),
+                        title: event.title,
+                        color: event.color,
+                        location: event.location,
+                        description: event.description,
+                    });
+                });
+            } else {
+                // Non-recurring event
+                expandedEvents.push({
+                    start: event.start,
+                    end: event.end,
+                    title: event.title,
+                    color: event.color,
+                    location: event.location,
+                    description: event.description,
+                });
             }
+        }
 
-            return {
-                start,
-                end,
-                title: event.title,
-                description: event.description || '',
-                location: event.location || '',
-                recurrence: event.recurrence || null, // Include recurrence if provided
-            };
-        })
-        .filter(event => event !== null); // Filter out invalid events
-
+        console.log("Expanded events:", expandedEvents);
+        return expandedEvents;
+    } catch (error) {
+        console.error("Error fetching or parsing YAML:", error);
+        return [];
+    }
 }
+
 
 function generateICal(events) {
     const vtimezone = `
@@ -71,33 +94,43 @@ TZNAME:CEST
 END:DAYLIGHT
 END:VTIMEZONE`;
 
+    function parseDate(input) {
+        try {
+            if (typeof input === 'string' && input.includes('T')) {
+                return DateTime.fromISO(input);
+            } else if (typeof input === 'string') {
+                return DateTime.fromFormat(input, "yyyy-MM-dd HH:mm");
+            } else {
+                throw new Error("Invalid date format");
+            }
+        } catch (error) {
+            console.error("Error parsing date:", input, error);
+            return null;
+        }
+    }
+
     const vevents = events
         .map(event => {
-            const recurrenceRule = event.recurrence ? `RRULE:${event.recurrence}` : '';
+            const dtstart = parseDate(event.start);
+            const dtend = parseDate(event.end);
+
+            if (!dtstart || !dtend) {
+                console.error("Skipping event due to invalid dates:", event);
+                return null;
+            }
+
             return `
 BEGIN:VEVENT
 UID:${Math.random().toString(36).substring(2, 15)}
 SUMMARY:${event.title}
 DTSTAMP:${DateTime.now().toUTC().toFormat("yyyyMMdd'T'HHmmss'Z'")}
-DTSTART;TZID=Europe/Berlin:${DateTime.fromObject({
-                year: event.start[0],
-                month: event.start[1],
-                day: event.start[2],
-                hour: event.start[3],
-                minute: event.start[4],
-            }).toFormat("yyyyMMdd'T'HHmmss")}
-DTEND;TZID=Europe/Berlin:${DateTime.fromObject({
-                year: event.end[0],
-                month: event.end[1],
-                day: event.end[2],
-                hour: event.end[3],
-                minute: event.end[4],
-            }).toFormat("yyyyMMdd'T'HHmmss")}
-${recurrenceRule}
-DESCRIPTION:${event.description}
-LOCATION:${event.location}
+DTSTART;TZID=Europe/Berlin:${dtstart.toFormat("yyyyMMdd'T'HHmmss")}
+DTEND;TZID=Europe/Berlin:${dtend.toFormat("yyyyMMdd'T'HHmmss")}
+DESCRIPTION:${event.description || ''}
+LOCATION:${event.location || ''}
 END:VEVENT`;
         })
+        .filter(Boolean) // Remove null values
         .join("\n");
 
     return `BEGIN:VCALENDAR
