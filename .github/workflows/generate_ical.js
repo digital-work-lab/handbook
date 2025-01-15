@@ -136,7 +136,7 @@ END:VEVENT`;
     return `BEGIN:VCALENDAR
 VERSION:2.0
 CALSCALE:GREGORIAN
-PRODID:-//YourOrganization//YourProduct//EN
+PRODID:-//Digital Work Lab//Calendar Export Tool//EN
 METHOD:PUBLISH
 X-PUBLISHED-TTL:PT1H
 ${vtimezone}
