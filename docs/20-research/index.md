@@ -38,7 +38,7 @@ flowchart LR
 
 - [Goals](20_processes/20.01.goals.html)
 - [Ideas](20_processes/20.09.ideas.html)
-- Selection
+- [Selection](20_processes/20.12.selection.html)
 - [Repository setup](20_processes/20.15.repo-setup.html)
 
 ## Writing
