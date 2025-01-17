@@ -5,14 +5,14 @@ title_long: ""
 parent: 25 Projects
 grand_parent: Research
 visibility: Private
-collaborators: ['julianprester']
+collaborators: ['julianprester', 'dengdenglele']
 area: research
 topics: ['paper', 'research']
 html_url: https://github.com/digital-work-lab/lrdm
 archived: False
 updated_recently: True
 associated_projects: []
-labot_workflow_status: success
+labot_workflow_status: failure
 project_type: ['paper']
 started: 2022-02-20
 area: knowledge_synthesis
