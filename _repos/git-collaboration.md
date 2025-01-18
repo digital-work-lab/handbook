@@ -12,7 +12,7 @@ html_url: https://github.com/digital-work-lab/git-collaboration
 archived: False
 updated_recently: True
 associated_projects: []
-labot_workflow_status: success
+labot_workflow_status: failure
 project_type: ['paper']
 ---
 
