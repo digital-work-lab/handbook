@@ -1,7 +1,7 @@
 ---
 layout: default
 title: git-collaboration
-title_long: "ERROR"
+title_long: ""
 parent: 25 Projects
 grand_parent: Research
 visibility: Private
@@ -12,7 +12,7 @@ html_url: https://github.com/digital-work-lab/git-collaboration
 archived: False
 updated_recently: True
 associated_projects: []
-labot_workflow_status: failure
+labot_workflow_status: success
 project_type: ['paper']
 ---
 
