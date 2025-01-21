@@ -1191,3 +1191,9 @@ JabRef
 cli
 lfs
 SPSS
+issuecomment
+Förderprogramme
+Gleichstellungsbeauftragten
+Wissenschaft
+adam
+eva
