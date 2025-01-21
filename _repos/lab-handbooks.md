@@ -1,18 +1,18 @@
 ---
 layout: default
 title: lab-handbooks
-title_long: "ERROR"
+title_long: ""
 parent: 25 Projects
 grand_parent: Research
 visibility: Private
-collaborators: []
+collaborators: ['LaureenTh']
 area: research
 topics: ['paper', 'research']
 html_url: https://github.com/digital-work-lab/lab-handbooks
 archived: False
 updated_recently: True
 associated_projects: []
-labot_workflow_status: failure
+labot_workflow_status: success
 project_type: ['paper']
 ---
 
