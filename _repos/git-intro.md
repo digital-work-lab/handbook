@@ -1,7 +1,7 @@
 ---
 layout: default
 title: git-intro
-title_long: "ERROR"
+title_long: "Rethinking How We Teach Git: Pedagogical Recommendations and Practical Strategies for the Information Systems Curriculum"
 parent: 25 Projects
 grand_parent: Research
 visibility: Private
@@ -9,10 +9,10 @@ collaborators: ['LaureenTh']
 area: research
 topics: ['paper', 'research']
 html_url: https://github.com/digital-work-lab/git-intro
-archived: True
+archived: False
 updated_recently: True
 associated_projects: []
-labot_workflow_status: not-found
+labot_workflow_status: None
 project_type: ['paper']
 ---
 
