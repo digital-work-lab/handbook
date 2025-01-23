@@ -15,7 +15,7 @@ associated_projects: []
 labot_workflow_status: success
 project_type: ['paper']
 started: 2022-02-20
-area: knowledge_synthesis
+research_area: knowledge_synthesis
 resources: []
 status: writing
 improvement_status: pending

@@ -15,7 +15,7 @@ associated_projects: []
 labot_workflow_status: not-found
 project_type: ['paper']
 started: 2020-11-26
-area: knowledge_synthesis
+research_area: knowledge_synthesis
 resources: []
 status: published
 improvement_status: pending

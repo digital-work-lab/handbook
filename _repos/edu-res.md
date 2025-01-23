@@ -15,7 +15,7 @@ associated_projects: []
 labot_workflow_status: success
 project_type: ['paper']
 started: 2024-10-10
-area: work_practices
+research_area: work_practices
 resources: []
 status: writing
 improvement_status: pending

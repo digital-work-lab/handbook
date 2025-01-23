@@ -15,7 +15,7 @@ associated_projects: []
 labot_workflow_status: failure
 project_type: ['paper']
 started: 2025-XX-YY
-area: work_practices|distributed_organizing|knowledge_synthesis
+research_area: work_practices|distributed_organizing|knowledge_synthesis
 resources: []
 status: writing
 improvement_status: pending

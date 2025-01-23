@@ -130,7 +130,7 @@ def generate_paper_specific_yaml_header(paper_data, repo_data):
     """Generates additional YAML header content for paper-specific projects."""
     return f"""
 started: {paper_data['project']['started']}
-area: {paper_data['project']['area']}
+research_area: {paper_data['project']['area']}
 resources: {paper_data['project'].get('resources', [])}
 status: {paper_data['project']['status']}
 improvement_status: {paper_data['project']['improvement_status']}
