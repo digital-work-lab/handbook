@@ -12,7 +12,7 @@ html_url: https://github.com/digital-work-lab/git-intro
 archived: False
 updated_recently: True
 associated_projects: []
-labot_workflow_status: None
+labot_workflow_status: success
 project_type: ['paper']
 ---
 
