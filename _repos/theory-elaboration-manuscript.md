@@ -1,19 +1,27 @@
 ---
 layout: default
-title: fsQCA-physicians-intention-to-use-AI
-title_long: "None"
+title: theory-elaboration-manuscript
+title_long: ""
 parent: 25 Projects
 grand_parent: Research
-visibility: Public
+visibility: Private
 collaborators: ['digital-work-labot']
 area: research
-topics: ['dataset', 'research']
-html_url: https://github.com/digital-work-lab/fsQCA-physicians-intention-to-use-AI
-archived: True
-updated_recently: False
+topics: ['paper', 'research']
+html_url: https://github.com/digital-work-lab/theory-elaboration-manuscript
+archived: False
+updated_recently: True
 associated_projects: []
-labot_workflow_status: not-applicable
-project_type: []
+labot_workflow_status: not-found
+project_type: ['paper']
+started: 2018-01-15
+research_area: knowledge_synthesis
+resources: []
+status: under-review
+improvement_status: pending
+repository_url: https://github.com/digital-work-lab/theory-elaboration-manuscript
+---
+
 ---
 
 # {{ page.title }}
@@ -25,6 +33,6 @@ Title               | {{ page.title_long }}
 Visibility          | {{ page.visibility }}
 Access              | {{ page.collaborators topics | join: ", "}}
 Topics              | {{ page.topics | join: ", " }}
-URL                 | [https://github.com/digital-work-lab/fsQCA-physicians-intention-to-use-AI](https://github.com/digital-work-lab/fsQCA-physicians-intention-to-use-AI){: target="_blank"}
+URL                 | [https://github.com/digital-work-lab/theory-elaboration-manuscript](https://github.com/digital-work-lab/theory-elaboration-manuscript){: target="_blank"}
 
 [![Request Access](https://img.shields.io/badge/Request-Access-blue?style=for-the-badge)](https://github.com/digital-work-lab/handbook/issues/new?assignees=geritwagner&labels=access+request&template=request-repo-access.md&title=%5BAccess+Request%5D+Request+for+access+to+repository)

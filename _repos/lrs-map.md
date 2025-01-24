@@ -1,14 +1,14 @@
 ---
 layout: default
-title: fsQCA-physicians-intention-to-use-AI
+title: lrs-map
 title_long: "None"
 parent: 25 Projects
 grand_parent: Research
-visibility: Public
+visibility: Private
 collaborators: ['digital-work-labot']
 area: research
-topics: ['dataset', 'research']
-html_url: https://github.com/digital-work-lab/fsQCA-physicians-intention-to-use-AI
+topics: ['research']
+html_url: https://github.com/digital-work-lab/lrs-map
 archived: True
 updated_recently: False
 associated_projects: []
@@ -25,6 +25,6 @@ Title               | {{ page.title_long }}
 Visibility          | {{ page.visibility }}
 Access              | {{ page.collaborators topics | join: ", "}}
 Topics              | {{ page.topics | join: ", " }}
-URL                 | [https://github.com/digital-work-lab/fsQCA-physicians-intention-to-use-AI](https://github.com/digital-work-lab/fsQCA-physicians-intention-to-use-AI){: target="_blank"}
+URL                 | [https://github.com/digital-work-lab/lrs-map](https://github.com/digital-work-lab/lrs-map){: target="_blank"}
 
 [![Request Access](https://img.shields.io/badge/Request-Access-blue?style=for-the-badge)](https://github.com/digital-work-lab/handbook/issues/new?assignees=geritwagner&labels=access+request&template=request-repo-access.md&title=%5BAccess+Request%5D+Request+for+access+to+repository)

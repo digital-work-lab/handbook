@@ -5,7 +5,7 @@ title_long: "Resources for Bachelor's and Master's theses (Digital Work Lab, Ott
 parent: 25 Projects
 grand_parent: Research
 visibility: Public
-collaborators: ['Access Denied: Requires admin rights']
+collaborators: ['LaureenTh', 'Stella1234-design', 'digital-work-labot']
 area: teaching
 topics: ['teaching', 'teaching-materials']
 html_url: https://github.com/digital-work-lab/theses

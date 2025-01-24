@@ -5,7 +5,7 @@ title_long: "Notebooks to practice Git in GitHub Codespaces"
 parent: 25 Projects
 grand_parent: Research
 visibility: Public
-collaborators: ['Access Denied: Requires admin rights']
+collaborators: ['LaureenTh', 'digital-work-labot']
 area: teaching
 topics: ['teaching', 'teaching-material']
 html_url: https://github.com/digital-work-lab/practice-git

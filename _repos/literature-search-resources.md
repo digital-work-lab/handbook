@@ -5,7 +5,7 @@ title_long: "None"
 parent: 25 Projects
 grand_parent: Research
 visibility: Public
-collaborators: ['Access Denied: Requires admin rights']
+collaborators: ['digital-work-labot']
 area: research
 topics: ['research']
 html_url: https://github.com/digital-work-lab/literature-search-resources

@@ -5,7 +5,7 @@ title_long: ""
 parent: 25 Projects
 grand_parent: Research
 visibility: Public
-collaborators: ['Access Denied: Requires admin rights']
+collaborators: ['julianprester', 'digital-work-labot']
 area: research
 topics: ['research', 'template']
 html_url: https://github.com/digital-work-lab/paper-template

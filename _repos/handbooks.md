@@ -5,7 +5,7 @@ title_long: "Overview of employee handbooks"
 parent: 25 Projects
 grand_parent: Research
 visibility: Public
-collaborators: ['Access Denied: Requires admin rights']
+collaborators: ['julianprester', 'LaureenTh', 'Stella1234-design', 'digital-work-labot']
 area: research
 topics: ['research']
 html_url: https://github.com/digital-work-lab/handbooks
