@@ -38,8 +38,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.LABOT_PAT_TOKEN }}
         run: |
-          git config --global user.email "actions@users.noreply.github.com"
-          git config --global user.name "labot"
+          git config --global user.email "digital-work-labot@users.noreply.github.com"
+          git config --global user.name "digital-work-labot"
           if [[ -n "$(git status --porcelain)" ]]; then
             git add .
             git commit -m "Update repository overview"

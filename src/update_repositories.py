@@ -86,7 +86,7 @@ def get_repo_collaborators(owner, repo_name):
     elif response.status_code != 200:
         return []
 
-    return [collab['login'] for collab in response.json() if collab['login'] != "geritwagner"]
+    return [collab['login'] for collab in response.json() if collab['login'] not in ["geritwagner", "digital-work-labot"]]
 
 
 def get_project_type(owner, repo_name):
