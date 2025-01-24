@@ -5,7 +5,7 @@ title_long: "📚 The Digital-Work-Lab Work Hub"
 parent: 25 Projects
 grand_parent: Research
 visibility: Private
-collaborators: ['LaureenTh', 'Stella1234-design', 'digital-work-labot']
+collaborators: []
 area: research
 topics: ['research', 'teaching']
 html_url: https://github.com/digital-work-lab/work_hub

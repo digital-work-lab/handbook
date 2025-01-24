@@ -5,7 +5,7 @@ title_long: "None"
 parent: 25 Projects
 grand_parent: Research
 visibility: Public
-collaborators: ['LaureenTh']
+collaborators: ['Access Denied: Requires admin rights']
 area: research
 topics: ['research']
 html_url: https://github.com/digital-work-lab/rethink-git-teaching

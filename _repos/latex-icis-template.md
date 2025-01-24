@@ -5,7 +5,7 @@ title_long: "LaTeX document class for ICIS"
 parent: 25 Projects
 grand_parent: Research
 visibility: Public
-collaborators: []
+collaborators: ['Access Denied: Requires admin rights']
 area: research
 topics: ['research', 'template']
 html_url: https://github.com/digital-work-lab/latex-icis-template

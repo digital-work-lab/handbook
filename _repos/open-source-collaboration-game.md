@@ -5,7 +5,7 @@ title_long: "None"
 parent: 25 Projects
 grand_parent: Research
 visibility: Public
-collaborators: []
+collaborators: ['Access Denied: Requires admin rights']
 area: teaching
 topics: ['teaching', 'teaching-material']
 html_url: https://github.com/digital-work-lab/open-source-collaboration-game

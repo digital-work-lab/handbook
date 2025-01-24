@@ -5,7 +5,7 @@ title_long: "Template for Bachelor's and Master's theses"
 parent: 25 Projects
 grand_parent: Research
 visibility: Public
-collaborators: ['LaureenTh', 'Stella1234-design', 'digital-work-labot']
+collaborators: ['Access Denied: Requires admin rights']
 area: teaching
 topics: ['teaching', 'teaching-material', 'template']
 html_url: https://github.com/digital-work-lab/thesis-template
