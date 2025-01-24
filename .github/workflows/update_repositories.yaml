@@ -30,13 +30,13 @@ jobs:
 
       - name: Run update script
         env:
-          GITHUB_TOKEN: ${{ secrets.MY_PAT_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.LABOT_PAT_TOKEN }}
         run: |
           python src/update_repositories.py
       
       - name: Commit and Push changes
         env:
-          GITHUB_TOKEN: ${{ secrets.MY_PAT_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.LABOT_PAT_TOKEN }}
         run: |
           git config --global user.email "actions@users.noreply.github.com"
           git config --global user.name "labot"
