@@ -9,4 +9,4 @@ nav_order: 18
 
 A collection of snippets, best practices, and learnings.
 
-- 
+<!-- Note: we may add more structure later / if necessary -->
