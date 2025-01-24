@@ -5,7 +5,7 @@ title_long: "ERROR"
 parent: 25 Projects
 grand_parent: Research
 visibility: Private
-collaborators: ['hopfkons', 'digital-work-labot']
+collaborators: ['hopfkons']
 area: research
 topics: ['paper', 'research']
 html_url: https://github.com/digital-work-lab/data-work

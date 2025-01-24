@@ -5,7 +5,7 @@ title_long: ""
 parent: 25 Projects
 grand_parent: Research
 visibility: Private
-collaborators: ['julianprester', 'dengdenglele', 'digital-work-labot']
+collaborators: ['julianprester', 'dengdenglele']
 area: research
 topics: ['paper', 'research']
 html_url: https://github.com/digital-work-lab/lrdm

@@ -5,7 +5,7 @@ title_long: ""
 parent: 25 Projects
 grand_parent: Research
 visibility: Private
-collaborators: ['digital-work-labot']
+collaborators: []
 area: research
 topics: ['paper', 'research']
 html_url: https://github.com/digital-work-lab/theory-elaboration-manuscript

@@ -5,7 +5,7 @@ title_long: ""
 parent: 25 Projects
 grand_parent: Research
 visibility: Private
-collaborators: ['dengdenglele', 'LaureenTh', 'Stella1234-design', 'digital-work-labot']
+collaborators: ['dengdenglele', 'LaureenTh', 'Stella1234-design']
 area: research
 topics: ['paper', 'research']
 html_url: https://github.com/digital-work-lab/teapad

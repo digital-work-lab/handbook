@@ -5,7 +5,7 @@ title_long: "✅ Agenda: Jour-Fixe"
 parent: 25 Projects
 grand_parent: Research
 visibility: Private
-collaborators: ['Stella1234-design', 'digital-work-labot']
+collaborators: ['Stella1234-design']
 area: other
 topics: ['agenda', 'lab-management']
 html_url: https://github.com/digital-work-lab/agenda-jour-fixe

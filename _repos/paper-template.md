@@ -5,7 +5,7 @@ title_long: ""
 parent: 25 Projects
 grand_parent: Research
 visibility: Public
-collaborators: ['julianprester', 'digital-work-labot']
+collaborators: ['julianprester']
 area: research
 topics: ['research', 'template']
 html_url: https://github.com/digital-work-lab/paper-template

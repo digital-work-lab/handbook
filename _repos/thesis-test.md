@@ -5,7 +5,7 @@ title_long: "None"
 parent: 25 Projects
 grand_parent: Research
 visibility: Private
-collaborators: ['digital-work-labot']
+collaborators: []
 area: teaching
 topics: ['teaching', 'teaching-material']
 html_url: https://github.com/digital-work-lab/thesis-test

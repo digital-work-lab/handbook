@@ -5,7 +5,7 @@ title_long: "The Literature Review Seminar covers different goals of reviews, th
 parent: 25 Projects
 grand_parent: Research
 visibility: Public
-collaborators: ['LaureenTh', 'Stella1234-design', 'digital-work-labot']
+collaborators: ['LaureenTh', 'Stella1234-design']
 area: teaching
 topics: ['teaching', 'teaching-materials']
 html_url: https://github.com/digital-work-lab/literature-review-seminar

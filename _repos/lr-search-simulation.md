@@ -5,7 +5,7 @@ title_long: "None"
 parent: 25 Projects
 grand_parent: Research
 visibility: Private
-collaborators: ['julianprester', 'digital-work-labot']
+collaborators: ['julianprester']
 area: research
 topics: ['research']
 html_url: https://github.com/digital-work-lab/lr-search-simulation

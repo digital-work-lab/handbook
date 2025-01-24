@@ -5,7 +5,7 @@ title_long: ""
 parent: 25 Projects
 grand_parent: Research
 visibility: Private
-collaborators: ['LaureenTh', 'digital-work-labot']
+collaborators: ['LaureenTh']
 area: research
 topics: ['paper', 'research']
 html_url: https://github.com/digital-work-lab/edu-res

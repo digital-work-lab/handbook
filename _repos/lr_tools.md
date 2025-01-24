@@ -5,7 +5,7 @@ title_long: "None"
 parent: 25 Projects
 grand_parent: Research
 visibility: Private
-collaborators: ['dengdenglele', 'digital-work-labot']
+collaborators: ['dengdenglele']
 area: research
 topics: ['research']
 html_url: https://github.com/digital-work-lab/lr_tools

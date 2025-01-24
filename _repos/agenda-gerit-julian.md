@@ -5,7 +5,7 @@ title_long: "✅ Agenda: Gerit - Julian"
 parent: 25 Projects
 grand_parent: Research
 visibility: Private
-collaborators: ['julianprester', 'digital-work-labot']
+collaborators: ['julianprester']
 area: other
 topics: ['agenda']
 html_url: https://github.com/digital-work-lab/agenda-gerit-julian

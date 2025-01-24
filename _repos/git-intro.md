@@ -5,7 +5,7 @@ title_long: "Rethinking How We Teach Git: Pedagogical Recommendations and Practi
 parent: 25 Projects
 grand_parent: Research
 visibility: Private
-collaborators: ['LaureenTh', 'digital-work-labot']
+collaborators: ['LaureenTh']
 area: research
 topics: ['paper', 'research']
 html_url: https://github.com/digital-work-lab/git-intro

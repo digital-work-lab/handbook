@@ -5,7 +5,7 @@ title_long: "None"
 parent: 25 Projects
 grand_parent: Research
 visibility: Public
-collaborators: ['digital-work-labot']
+collaborators: []
 area: research
 topics: ['dataset', 'research']
 html_url: https://github.com/digital-work-lab/fsQCA-physicians-intention-to-use-AI

@@ -5,7 +5,7 @@ title_long: "None"
 parent: 25 Projects
 grand_parent: Research
 visibility: Public
-collaborators: ['LaureenTh', 'digital-work-labot']
+collaborators: ['LaureenTh']
 area: research
 topics: ['research']
 html_url: https://github.com/digital-work-lab/rethink-git-teaching
