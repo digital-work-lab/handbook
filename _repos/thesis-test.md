@@ -7,12 +7,12 @@ grand_parent: Research
 visibility: Private
 collaborators: []
 area: teaching
-topics: ['teaching', 'teaching-material']
+topics: ['teaching', 'teaching-materials']
 html_url: https://github.com/digital-work-lab/thesis-test
 archived: False
 updated_recently: True
 associated_projects: []
-labot_workflow_status: not-applicable
+labot_workflow_status: not-found
 project_type: []
 ---
 

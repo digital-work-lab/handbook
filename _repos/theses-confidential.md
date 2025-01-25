@@ -7,12 +7,12 @@ grand_parent: Research
 visibility: Private
 collaborators: ['Stella1234-design']
 area: teaching
-topics: ['teaching', 'teaching-material']
+topics: ['teaching', 'teaching-materials']
 html_url: https://github.com/digital-work-lab/theses-confidential
 archived: False
 updated_recently: True
 associated_projects: []
-labot_workflow_status: not-applicable
+labot_workflow_status: not-found
 project_type: []
 ---
 

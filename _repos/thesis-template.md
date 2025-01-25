@@ -7,12 +7,12 @@ grand_parent: Research
 visibility: Public
 collaborators: ['LaureenTh', 'Stella1234-design']
 area: teaching
-topics: ['teaching', 'teaching-material', 'template']
+topics: ['teaching', 'teaching-materials', 'template']
 html_url: https://github.com/digital-work-lab/thesis-template
 archived: False
 updated_recently: True
 associated_projects: []
-labot_workflow_status: not-applicable
+labot_workflow_status: not-found
 project_type: []
 ---
 
