@@ -6,7 +6,7 @@ parent: 32 Courses
 grand_parent: Teaching
 semester: 2024-WiSe
 status: ▶
-student_evaluations: ""
+student_evaluations: "000108_20250126_WS24_25-ISM-EidWI-B__Einführung_in_die_Wirtschaftsinformatik_Vorlesung.pdf"
 improvement_issue: ""
 improvement_status: ▶
 ---

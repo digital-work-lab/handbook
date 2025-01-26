@@ -6,7 +6,7 @@ parent: 32 Courses
 grand_parent: Teaching
 semester: 2024-WiSe
 status: ▶
-student_evaluations: ""
+student_evaluations: "000109_20250126_WS24_25-DW-Sem-M__Literature_Review_Seminar.pdf"
 improvement_issue: "https://github.com/digital-work-lab/literature-review-seminar/issues/31"
 improvement_status: ▶
 ---

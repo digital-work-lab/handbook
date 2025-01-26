@@ -6,7 +6,7 @@ parent: 32 Courses
 grand_parent: Teaching
 semester: 2024-WiSe
 status: ▶
-student_evaluations: ""
+student_evaluations: "000110_20250126_WS24_25-Digital-Work-Projekt-B__Bachelorprojekt_aus_der_Fächergruppe_Wirtschaftsinformatik.pdf"
 improvement_issue: "https://github.com/digital-work-lab/open-source-project/issues/10"
 improvement_status: ▶
 ---
@@ -68,11 +68,11 @@ Grading
 Entering Grades into FlexNow
 
 - [ ] Secretary: [Enter grades in FlexNow](../30_processes/30.15.flexnow.html#entering-grades) (or create certificates if exam is not yet available in FlexNow ([script](https://github.com/digital-work-lab/handbook/tree/main/src/scheine){: target="_blank"})).
-- [ ] Professor: Archive grades and presentation protocols (projects and seminars: digital is sufficient) at [14.02](https://nc-2272638881871040784.nextcloud-ionos.com/index.php/apps/files/?dir=/10-lab/14_grades/02_projects&fileid=69){: target="_blank"}.
+- [x] Professor: Archive grades and presentation protocols (projects and seminars: digital is sufficient) at [14.02](https://nc-2272638881871040784.nextcloud-ionos.com/index.php/apps/files/?dir=/10-lab/14_grades/02_projects&fileid=69){: target="_blank"}.
 
 Sending exams to the examination office
 
-- [ ] Professor: Exams are sent to the examination office (in person): [Silke Nüßlein](https://univis.uni-bamberg.de/prg?search=persons&show=info&department=322130&fullname=Silke+Nue%C3%9Flein){: target="_blank"}, Kapuzinerstr. 25, 00.01
+- [x] Professor: Exams are sent to the examination office (in person): [Silke Nüßlein](https://univis.uni-bamberg.de/prg?search=persons&show=info&department=322130&fullname=Silke+Nue%C3%9Flein){: target="_blank"}, Kapuzinerstr. 25, 00.01
 
 Documentation
 
