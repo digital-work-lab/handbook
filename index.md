@@ -58,7 +58,7 @@ Offices: WE5/1.081.
 For sharing data, communication and meetings, we use the following tools:
 
 | **Schedule meetings** | **Meet online** | **Collaborate** | **Share confidential data** |
-| [Calendly](https://calendly.com/gerit-wagner/30min){: .btn .btn-green target="_blank"} | [Zoom](zoom://open){: .btn .btn-green target="_blank"} | [Repositories](docs/10-lab/18_resources/18.12.repositories.html){: .btn .btn-green target="_blank"} | [Nextcloud](https://nc-2272638881871040784.nextcloud-ionos.com/index.php/apps/dashboard/){: .btn .btn-green target="_blank"} |
+| [Calendly](https://calendly.com/gerit-wagner/30min){: .btn .btn-green target="_blank"} | [Zoom](zoom://open){: .btn .btn-green target="_blank"} | [Repositories](docs/10-lab/18_resources/18.12.repositories.html){: .btn .btn-green } | [Nextcloud](https://nc-2272638881871040784.nextcloud-ionos.com/index.php/apps/dashboard/){: .btn .btn-green target="_blank"} |
 
 ## Contributors
 
