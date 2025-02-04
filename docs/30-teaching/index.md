@@ -66,8 +66,8 @@ flowchart
 
 [Thesis page](https://digital-work-lab.github.io/theses/){: target="_blank"}
 
-{: .highlight }
-> **TODO**: private thesis page
+{: .resource }
+> Confidential thesis data is in [theses-confidential](https://github.com/digital-work-lab/theses-confidential){: target="_blank"}
 
 ### Announced
 
