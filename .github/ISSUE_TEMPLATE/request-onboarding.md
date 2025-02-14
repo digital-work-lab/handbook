@@ -10,8 +10,14 @@ assignees: geritwagner
 
 **GitHub Username:** <!-- Replace with your GitHub username -->
 
-### Admin Actions (for maintainers only):
+### Admin Action for Maintainer:
 
-- [ ] Approve and add user to the GitHub team
-- [ ] Trigger `labot` roll-on command
+```
+@digital-work-labot onboard GITHUB_ID
+```
+
+This will 
+
 - [ ] Create agenda repository (`student-github-id` with initial access for student, SO, and GW)
+- [ ] Create an issue ot approve and add user to the GitHub team
+- [ ] Reminder to remove SO from repo
