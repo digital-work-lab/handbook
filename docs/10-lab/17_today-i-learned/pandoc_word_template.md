@@ -8,7 +8,7 @@ nav_order: 1
 
 # Pandoc Word Template
 
-Pandoc supports Word templates (aka **reference-doc**) for efficient formatting.
+Pandoc supports Word templates (aka **reference-doc**) for efficient formatting. (see [docs](https://pandoc.org/MANUAL.html) --reference-doc=FILE|URL, DOCX).
 
 >[!Note]
 > Pandoc reference documents do not support every detailed formatting step(such as tables).
@@ -18,4 +18,4 @@ We store templates for IS journals in the [templates](https://github.com/digital
 
 ## Resources
 
-- [Guideline for creating templates](https://quarto.org/docs/output-formats/ms-word-templates.html)
+- [Guideline for creating templates](https://bookdown.org/yihui/rmarkdown-cookbook/word-template.html)
