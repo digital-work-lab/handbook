@@ -8,7 +8,12 @@ nav_order: 1
 
 # Pandoc Word Template
 
-Pandoc supports Word templates (aka **reference-doc**) for efficient formatting. (see [docs](https://pandoc.org/MANUAL.html) --reference-doc=FILE|URL, DOCX).
+Pandoc supports Word templates (aka **reference-doc**) for efficient formatting. (see [docs](https://pandoc.org/MANUAL.html) `--reference-doc=FILE|URL`, `DOCX`).
+
+It is helpful to:
+
+- Check the style name in the generated Word document.
+- Open the Word [styles gallery](https://support.microsoft.com/en-us/office/add-and-remove-styles-from-the-quick-styles-gallery-21c5b9de-b19e-4575-bc87-cb2b55ece224) to modify styles.
 
 >[!Note]
 > Pandoc reference documents do not support every detailed formatting step(such as tables).
