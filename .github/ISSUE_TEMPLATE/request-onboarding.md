@@ -1,8 +1,7 @@
 ---
 title: "Request to Join the Team"
-labels: [onboarding, access-request]
-assignees:
-  - geritwagner
+labels: onboarding
+assignees: geritwagner
 ---
 
 ## Request to Join the Team

@@ -4,7 +4,6 @@ about: Use this template to request access to a private repository
 title: "[Access Request] Request for access to repository"
 labels: access request
 assignees: geritwagner
-
 ---
 
 ### Requested Repositories
