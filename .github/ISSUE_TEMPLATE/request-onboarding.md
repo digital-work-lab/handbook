@@ -1,4 +1,6 @@
 ---
+name: Request Onboarding
+about: Use this template to start the onboarding process
 title: "Request to Join the Team"
 labels: onboarding
 assignees: geritwagner
