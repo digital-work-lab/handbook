@@ -5,10 +5,10 @@ title_long: Einführung in die Wirtschaftsinformatik
 parent: 32 Courses
 grand_parent: Teaching
 semester: 2024-WiSe
-status: ▶
+status: 	✔️
 student_evaluations: "000108_20250126_WS24_25-ISM-EidWI-B__Einführung_in_die_Wirtschaftsinformatik_Vorlesung.pdf"
 improvement_issue: ""
-improvement_status: ▶
+improvement_status: 	✔️
 ---
 
 # EidWI 2024 WiSe
@@ -62,31 +62,31 @@ Start: April (summer term), October (winter term)
 
 Before grading (day of the exam)
 
-- [ ] Professor: Cases of cheating (Unterschleif): immediately enter it into FlexNow and send the exam to the examination office (do not grade it)
-- [ ] Professor: Cases of missed exams (Versäumnisklausuren): immediately enter it into FlexNow, archive the exams for 1 year.
-- [ ] Professor: Send the exam sheets, protocols (Anwesenheitslisten), and two empty exams to the examination office immediately after the exams are completed.
-- [ ] Secretary: Empty exams (Versäumnis-Klausur): archive for one semester.
+- [x] Professor: Cases of cheating (Unterschleif): immediately enter it into FlexNow and send the exam to the examination office (do not grade it)
+- [x] Professor: Cases of missed exams (Versäumnisklausuren): immediately enter it into FlexNow, archive the exams for 1 year.
+- [x] Professor: Send the exam sheets, protocols (Anwesenheitslisten), and two empty exams to the examination office immediately after the exams are completed.
+- [x] Secretary: Empty exams (Versäumnis-Klausur): archive for one semester.
 
 Grading
 
-- [ ] Create reminder for the deadline: approx. 15. September (summer term), ??? (winter term). Grade early because colleagues may be on vacation before the deadline (not available to review failed exams).
-- [ ] Add bonus points if any and **if exam is passed**. Otherwise, note the bonus points and add a note "kann nicht angerechnet werden".
-- [ ] Do not dispose of empty exams
-- [ ] Use the [grading scripts](https://github.com/digital-work-lab/handbook/tree/main/src/grading){: target="_blank"} to assign grades and prepare FlexNow import
-- [ ] Have failed exams reviewed by a second professor
+- [x] Create reminder for the deadline: approx. 15. September (summer term), ??? (winter term). Grade early because colleagues may be on vacation before the deadline (not available to review failed exams).
+- [x] Add bonus points if any and **if exam is passed**. Otherwise, note the bonus points and add a note "kann nicht angerechnet werden".
+- [x] Do not dispose of empty exams
+- [x] Use the [grading scripts](https://github.com/digital-work-lab/handbook/tree/main/src/grading){: target="_blank"} to assign grades and prepare FlexNow import
+- [x] Have failed exams reviewed by a second professor
 
 Entering Grades into FlexNow
 
-- [ ] Secretary: [Enter grades in FlexNow](../30_processes/30.15.flexnow.html#entering-grades) (or create certificates if exam is not yet available in FlexNow ([script](https://github.com/digital-work-lab/handbook/tree/main/src/scheine){: target="_blank"})).
-- [ ] Professor: Archive bonus exercises (if any).
+- [x] Secretary: [Enter grades in FlexNow](../30_processes/30.15.flexnow.html#entering-grades) (or create certificates if exam is not yet available in FlexNow ([script](https://github.com/digital-work-lab/handbook/tree/main/src/scheine){: target="_blank"})).
+- [x] Professor: Archive bonus exercises (if any).
 
 Sending exams to the examination office
 
-- [ ] Professor: Exams are sent to the examination office (in person): [Silke Nüßlein](https://univis.uni-bamberg.de/prg?search=persons&show=info&department=322130&fullname=Silke+Nue%C3%9Flein){: target="_blank"}, Kapuzinerstr. 25, 00.01
+- [x] Professor: Exams are sent to the examination office (in person): [Silke Nüßlein](https://univis.uni-bamberg.de/prg?search=persons&show=info&department=322130&fullname=Silke+Nue%C3%9Flein){: target="_blank"}, Kapuzinerstr. 25, 00.01
 
 Documentation
 
-- [ ] Professor: Analyse the evaluations, store the files, and document the improvements (see [evaluations]({{ site.baseurl }}/docs/30-teaching/30_processes/30.21.evaluations.html)).
+- [x] Professor: Analyse the evaluations, store the files, and document the improvements (see [evaluations]({{ site.baseurl }}/docs/30-teaching/30_processes/30.21.evaluations.html)).
 - [ ] Professor: [Report]({{ site.baseurl }}/docs/30-teaching/30_processes/30.20.reports.html) teaching efforts at the end of the semester.
 
 Deadline: End of August (summer term), March (winter term)
@@ -95,7 +95,7 @@ Deadline: End of August (summer term), March (winter term)
 
 Students have the possibility to repeat the exam in the following term (even if the lecture is not offered again). Registration for students in FlexNow is created by the examination office. (true???)
 
-- [ ] Professor: Upon notification by the examination office (E-Mail: "Prüferbestellung"), create the repeat exam. Student registrations are available in FlexNow.
-- [ ] Repeat relevant steps of *Exams and documentation* (step 4) 
+- [x] Professor: Upon notification by the examination office (E-Mail: "Prüferbestellung"), create the repeat exam. Student registrations are available in FlexNow.
+- [x] Repeat relevant steps of *Exams and documentation* (step 4) 
 
 Students can review their exams and grades in person (Einsichtnahme) on the dates set by the examination office ([link](https://www.uni-bamberg.de/pruefungsamt/einsichtnahmen/){: target="_blank"}).
