@@ -1204,3 +1204,4 @@ isj
 IONOS
 NextCloud
 OpenAI
+LaserJet
