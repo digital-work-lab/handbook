@@ -1205,3 +1205,6 @@ IONOS
 NextCloud
 OpenAI
 LaserJet
+uv
+flatpak
+KeepassXC
