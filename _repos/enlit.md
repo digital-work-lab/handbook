@@ -9,8 +9,8 @@ collaborators: []
 area: research
 topics: ['backward-search', 'grobid', 'literature', 'reading', 'research', 'skimming']
 html_url: https://github.com/digital-work-lab/enlit
-archived: True
-updated_recently: False
+archived: False
+updated_recently: True
 associated_projects: []
 labot_workflow_status: not-applicable
 project_type: []
