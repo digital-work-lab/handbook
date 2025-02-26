@@ -1208,3 +1208,5 @@ LaserJet
 uv
 flatpak
 KeepassXC
+NHR
+HPC
