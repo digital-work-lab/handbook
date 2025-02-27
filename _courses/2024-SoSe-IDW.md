@@ -5,7 +5,7 @@ title_long: Introduction to Digital Work
 parent: 32 Courses
 grand_parent: Teaching
 semester: 2024-SoSe
-status: 📋
+status: ✔️
 student_evaluations: "000088_20240721_SS24-Digital-Work-EDW-B_Introduction_Digital_Work.pdf"
 improvement_issue: "https://github.com/digital-work-lab/digital-work-lecture/issues/8"
 improvement_status: ▶
@@ -66,7 +66,7 @@ Grading
 
 Documentation
 
-- [ ] Professor: Analyse the evaluations, store the files, and document the improvements (see [evaluations]({{ site.baseurl }}/docs/30-teaching/30_processes/30.21.evaluations.html)).
+- [x] Professor: Analyse the evaluations, store the files, and document the improvements (see [evaluations]({{ site.baseurl }}/docs/30-teaching/30_processes/30.21.evaluations.html)).
 - [x] Professor: [Report]({{ site.baseurl }}/docs/30-teaching/30_processes/30.20.reports.html) teaching efforts at the end of the semester.
 
 Deadline: End of August (summer term), March (winter term)
@@ -75,7 +75,7 @@ Deadline: End of August (summer term), March (winter term)
 
 Students have the possibility to repeat the exam in the following term (even if the lecture is not offered again). Registration for students in FlexNow is created by the examination office. (true???)
 
-- [ ] Professor: Upon notification by the examination office (E-Mail: "Prüferbestellung"), create the repeat exam. Student registrations are available in FlexNow.
-- [ ] Repeat relevant steps of *Exams and documentation* (step 4) 
+- [x] Professor: Upon notification by the examination office (E-Mail: "Prüferbestellung"), create the repeat exam. Student registrations are available in FlexNow.
+- [x] Repeat relevant steps of *Exams and documentation* (step 4) 
 
 Students can review their exams and grades in person (Einsichtnahme) on the dates set by the examination office ([link](https://www.uni-bamberg.de/pruefungsamt/einsichtnahmen/){: target="_blank"}).
