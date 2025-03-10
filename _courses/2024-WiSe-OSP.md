@@ -5,10 +5,10 @@ title_long: Open-Source Projekt (WI-Projekt)
 parent: 32 Courses
 grand_parent: Teaching
 semester: 2024-WiSe
-status: ▶
+status: ✔️
 student_evaluations: "000110_20250126_WS24_25-Digital-Work-Projekt-B__Bachelorprojekt_aus_der_Fächergruppe_Wirtschaftsinformatik.pdf"
 improvement_issue: "https://github.com/digital-work-lab/open-source-project/issues/10"
-improvement_status: ▶
+improvement_status: ✔️
 ---
 
 # OSP 2024 WiSe
