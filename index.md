@@ -20,6 +20,19 @@ It is an integral part of our [culture](docs/00.goals.html) of impact, rigor, op
   </ul>
 </div>
 
+{: .news }
+{% assign sorted_news = site.news | sort: "date" | reverse %}
+- {% for news in sorted_news limit:3 %}
+    {{ news.headline }}
+  {% endfor %}
+
+
+{: .news }
+{% assign sorted_news = site.news | sort: "date" | reverse %}
+{% for news in sorted_news limit:3 %}
+  > - {{ news.headline }}
+{% endfor %}
+
 ## Structure
 
 To organize procedures, documents and files, the handbook consists of the following sections, each with unique numbers: 
