@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Effectiveness of mHealth in Remote Cardiac Rehabilitation"
-headline: We published a <a href="docs/10-lab/2025-02-28-mhealth-cardiac-rehabilitation.html">meta-analysis on the effectiveness of home-based cardiac rehabilitation via mHealth</a>
+headline: We published a [meta-analysis on the effectiveness of home-based cardiac rehabilitation via mHealth](docs/10-lab/2025-02-28-mhealth-cardiac-rehabilitation.html)
 parent: Lab Management
 date: 2025-03-11
 ---
