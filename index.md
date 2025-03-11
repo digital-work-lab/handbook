@@ -12,7 +12,7 @@ Our handbook is a public and participatory initiative to facilitate our research
 It is an integral part of our [culture](docs/00.goals.html) of impact, rigor, openness, participation, and learning.
 
 {: .news }
-{% for news in site.news %}
+{% for news in site.news limit:3 %}
 > - {{ news.headline }}
 {% endfor %}
 
