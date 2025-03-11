@@ -13,7 +13,8 @@ It is an integral part of our [culture](docs/00.goals.html) of impact, rigor, op
 
 {: .news }
 {% assign sorted_news = site.news | sort: "date" | reverse %}
-{% for news in sorted_news limit:3 %}> - {{ news.headline }}{% endfor %}
+{% for news in sorted_news limit:3 %}> - {{ news.headline }}
+{% endfor %}
 
 ## Structure
 
