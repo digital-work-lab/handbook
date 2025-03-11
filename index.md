@@ -11,10 +11,11 @@ permalink: /
 Our handbook is a public and participatory initiative to facilitate our research activities, and consistently deliver high-quality service to students.
 It is an integral part of our [culture](docs/00.goals.html) of impact, rigor, openness, participation, and learning.
 
-{: .news }
+<div class="news">
 {% for news in site.news limit:3 %}
 > - {{ news.headline }}
 {% endfor %}
+</div>
 
 ## Structure
 
