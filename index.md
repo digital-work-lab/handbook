@@ -12,7 +12,9 @@ Our handbook is a public and participatory initiative to facilitate our research
 It is an integral part of our [culture](docs/00.goals.html) of impact, rigor, openness, participation, and learning.
 
 <div class="news">
-{% for news in site.news limit:3 %}
+{% assign sorted_news = site.news | sort: "date" | reverse %}
+{: .news }
+{% for news in sorted_news limit:3 %}
 > - {{ news.headline }}
 {% endfor %}
 </div>
