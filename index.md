@@ -11,27 +11,9 @@ permalink: /
 Our handbook is a public and participatory initiative to facilitate our research activities, and consistently deliver high-quality service to students.
 It is an integral part of our [culture](docs/00.goals.html) of impact, rigor, openness, participation, and learning.
 
-<div class="news">
-  {% assign sorted_news = site.news | sort: "date" | reverse %}
-  <ul>
-    {% for news in sorted_news limit:3 %}
-      <li>{{ news.headline }}</li>
-    {% endfor %}
-  </ul>
-</div>
-
 {: .news }
 {% assign sorted_news = site.news | sort: "date" | reverse %}
-- {% for news in sorted_news limit:3 %}
-    {{ news.headline }}
-  {% endfor %}
-
-
-{: .news }
-{% assign sorted_news = site.news | sort: "date" | reverse %}
-{% for news in sorted_news limit:3 %}
-  > - {{ news.headline }}
-{% endfor %}
+{% for news in sorted_news limit:3 %}> - {{ news.headline }}{% endfor %}
 
 ## Structure
 
