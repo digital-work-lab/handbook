@@ -20,7 +20,7 @@ We are excited to share our recently published systematic review and meta-analys
 - This study highlights the **potential of mHealth technologies** to bridge the gap in **remote cardiac rehabilitation delivery**, particularly for underserved populations.
 - Future research should focus on improving the **clinical and cost-effectiveness evidence** to support wider adoption in clinical practice and health policy.
 
-📖 **Read the full article**: [Lancet Digital Health (2025)](https://doi.org/10.1016/j.landig.2025.01.011)
+📖 **Read the full article**: [Lancet Digital Health (2025)](https://doi.org/10.1016/j.landig.2025.01.011){: target="_blank"}
 
 ### Citation:
 <div class="references">
