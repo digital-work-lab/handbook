@@ -42,8 +42,8 @@ Start: December (summer term), May (winter term)
 >
 > Flexnow: Besonderheiten bei Ausstattung/Hinweise:
 > 
-> - 8h KW 20, Freitag, Blocktermin, Seminarraum
-> - 8h KW 21, Freitag, Blocktermin, Seminarraum
+> - 8h Semesterwoche 5, Freitag, Blocktermin, Seminarraum
+> - 8h Semesterwoche 6, Freitag, Blocktermin, Seminarraum
 
 At the end of the semester: 
 
