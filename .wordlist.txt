@@ -1211,3 +1211,5 @@ KeepassXC
 NHR
 HPC
 Gestaltung
+Digitalisierung
+Hochschulforum
