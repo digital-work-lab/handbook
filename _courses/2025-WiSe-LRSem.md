@@ -11,7 +11,7 @@ improvement_issue: ""
 improvement_status: N/A
 ---
 
-# LRSem 20XX WiSe
+# LRSem 2025 WiSe
 
 Field               | Value
 ------------------- | -------------------
@@ -35,7 +35,7 @@ Status of Revisions | {{ page.improvement_status }}
  
 Start: December (summer term), May (winter term)
 
-- [ ] Secretary: Create the course in FlexNow.
+- [x] Secretary: Create the course in FlexNow.
 
 {: .highlight }
 >  Check public holidays

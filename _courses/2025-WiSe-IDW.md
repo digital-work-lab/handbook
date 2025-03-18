@@ -11,7 +11,7 @@ improvement_issue: ""
 improvement_status: N/A
 ---
 
-# IDW 20XX WiSe
+# IDW 2025 WiSe
 
 Field               | Value
 ------------------- | -------------------
@@ -30,7 +30,7 @@ Status of Revisions | {{ page.improvement_status }}
  
 Start: December (summer term), May (winter term)
 
-- [ ] Secretary: Create the course in FlexNow.
+- [x] Secretary: Create the course in FlexNow.
 
 At the end of the semester: 
 
