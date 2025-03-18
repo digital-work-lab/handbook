@@ -39,10 +39,10 @@ Start: December (summer term), May (winter term)
 >
 > Flexnow: Besonderheiten bei Ausstattung/Hinweise:
 > 
-> - 2h in KW 17 (23.04.-25.04.) Tag und Zeit egal
-> - 4h in KW 18, (28.04.-02.05.) Freitag, Uhrzeit egal, CIP-Pool
-> - 2 x 4h in KW 19 (05.05.-09.05.), Donnerstag und Freitag, Uhrzeit egal, CIP-Pool
-> - 2h in KW 21 (19.05.-23.05.), Donnerstag oder Freitag, Uhrzeit egal, CIP-Pool
+> - 2h in Semesterwoche 1, Tag und Zeit egal
+> - 4h in Semesterwoche 2, Freitag, Uhrzeit egal, CIP-Pool
+> - 2 x 4h in Semesterwoche 3, Donnerstag und Freitag, Uhrzeit egal, CIP-Pool
+> - 2h in Semesterwoche 5, Donnerstag oder Freitag, Uhrzeit egal, CIP-Pool
 
 At the end of the semester: 
 
