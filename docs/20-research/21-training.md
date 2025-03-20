@@ -23,3 +23,4 @@ Resources (to sort):
 - [Awesome open science](https://github.com/ZoranPandovski/awesome-open-science){: target="_blank"}
 - [Instats courses](https://instats.org/){: target="_blank"}
 - [IDIS: International Doctoral Network in Information Systems](https://idis.digital/){: target="_blank"}
+- [VHB Prodoc](https://www.vhbonline.org/veranstaltungen/prodok){: target="_blank"}
