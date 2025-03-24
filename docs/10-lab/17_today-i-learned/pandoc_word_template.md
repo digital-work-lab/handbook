@@ -15,7 +15,7 @@ It is helpful to:
 - Check the style name in the generated Word document.
 - Open the Word [styles gallery](https://support.microsoft.com/en-us/office/add-and-remove-styles-from-the-quick-styles-gallery-21c5b9de-b19e-4575-bc87-cb2b55ece224){: target="_blank"} to modify styles.
 
->[!Note]
+{: .highlight}
 > Pandoc reference documents do not support every detailed formatting step(such as tables).
 > And they don't have to! We simply reserve some time to format the final document (once) and work in Git/Markdown.
 
