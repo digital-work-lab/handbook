@@ -5,7 +5,7 @@ title_long: "✅ Agenda: SearchQuery theses"
 parent: 25 Projects
 grand_parent: Research
 visibility: Private
-collaborators: ['LaureenTh', 'katharinaernst', 'ThomasFleischmann', 'k-schnickmann']
+collaborators: ['annaglr', 'LaureenTh', 'katharinaernst', 'ThomasFleischmann', 'Peteer98', 'k-schnickmann']
 area: teaching
 topics: ['teaching', 'teaching-material']
 html_url: https://github.com/digital-work-lab/agenda-search-query-theses
