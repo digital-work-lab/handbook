@@ -12,6 +12,7 @@ Publications are listed in [FIS](https://fis.uni-bamberg.de/entities/person/b64b
 ## 2025
 
 <div class="references">
+    <p>Li, L., Ringeval, M., Wagner, G., Paré, G., Ozemek, C., & Kitsiou, S. (2025). Effectiveness of home-based cardiac rehabilitation interventions delivered via mHealth technologies: a systematic review and meta-analysis. <em>The Lancet Digital Health</em>. Published online February 28, 2025. doi:<a href="https://doi.org/10.1016/j.landig.2025.01.011" target="_blank">10.1016/j.landig.2025.01.011</a></p>
  <p><b>Wagner, G.</b>, and Thurner, L. "Rethinking How We Teach Git: Recommendations and Practical Strategies for the Information Systems Curriculum". <i>Journal of Information Systems Education</i>, 36(1).</p>
 </div>
 
