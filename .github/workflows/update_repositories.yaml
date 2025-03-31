@@ -1,4 +1,4 @@
-fname: Update repository overview
+name: Update repository overview
 on:
   schedule:
     - cron: '0 0 * * *'
