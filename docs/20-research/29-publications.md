@@ -12,9 +12,9 @@ Publications are listed in [FIS](https://fis.uni-bamberg.de/entities/person/b64b
 ## 2025
 
 <div class="references">
-  <p><b>Wagner, G.</b>, Ringeval, M., Raymond, L., & Paré, G. "Digital health competences and AI beliefs as conditions for the practice of evidence-based medicine: a study of prospective physicians in Canada". <i>Medical Education Online</i>, 30(1). https://doi.org/10.1080/10872981.2025.2459910</p>
+  <p><b>Wagner, G.</b>, Ringeval, M., Raymond, L., & Paré, G. "Digital health competences and AI beliefs as conditions for the practice of evidence-based medicine: a study of prospective physicians in Canada". <i>Medical Education Online</i>, 30(1). doi:<a href="https://doi.org/10.1080/10872981.2025.2459910" target="_blank">10.1080/10872981.2025.2459910</a></p>
   <p>Li, L., Ringeval, M., <b>Wagner, G.</b>, Paré, G., Ozemek, C., & Kitsiou, S. (2025). Effectiveness of home-based cardiac rehabilitation interventions delivered via mHealth technologies: a systematic review and meta-analysis. <i>The Lancet Digital Health</i>, 7(4), e238-e254. doi:<a href="https://doi.org/10.1016/j.landig.2025.01.011" target="_blank">10.1016/j.landig.2025.01.011</a></p>
-  <p><b>Wagner, G.</b>, and Thurner, L. "Rethinking How We Teach Git: Recommendations and Practical Strategies for the Information Systems Curriculum". <i>Journal of Information Systems Education</i>, 36(1).</p>
+  <p><b>Wagner, G.</b>, and Thurner, L. "Rethinking How We Teach Git: Recommendations and Practical Strategies for the Information Systems Curriculum". <i>Journal of Information Systems Education</i>, 36(1), 1-12. doi:<a href="https://doi.org/10.62273/BTKM5634" target="_blank">10.62273/BTKM5634</a></p>
 </div>
 
 ## 2024
