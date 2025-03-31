@@ -3,11 +3,12 @@ import re
 
 
 # Regular expression to match markdown links that start with http and may or may not have a {...} block
-markdown_link_pattern = re.compile(r'(\[([^\]]+)\]\((http[^\)]+)\))(\{[^}]*\})?')
+markdown_link_pattern = re.compile(r"(\[([^\]]+)\]\((http[^\)]+)\))(\{[^}]*\})?")
+
 
 def append_target_blank_to_links(file_path):
     # Read the content of the file
-    content = file_path.read_text(encoding='utf-8')
+    content = file_path.read_text(encoding="utf-8")
 
     # Function to modify the markdown link and add target="_blank"
     def add_target_blank(match):
@@ -16,14 +17,14 @@ def append_target_blank_to_links(file_path):
         existing_attrs = match.group(4)  # Existing {...} attributes block
 
         # Skip the modification if the link contains "img.shields.io" (indicating a badge)
-        if 'img.shields.io' in url or url.endswith('.png') or url.endswith('.svg'):
+        if "img.shields.io" in url or url.endswith(".png") or url.endswith(".svg"):
             return match.group(0)  # Return the original match without modification
 
         # If there's already a {...} block, append target="_blank" if not present
         if existing_attrs:
             if 'target="_blank"' not in existing_attrs:
                 # Add target="_blank" within the existing {...} block
-                updated_attrs = existing_attrs.rstrip(' }') + ' target="_blank" }'
+                updated_attrs = existing_attrs.rstrip(" }") + ' target="_blank" }'
                 return link + updated_attrs
             else:
                 return link + existing_attrs
@@ -33,18 +34,18 @@ def append_target_blank_to_links(file_path):
 
     # Apply the function to all matches found in the file content
     updated_content = markdown_link_pattern.sub(add_target_blank, content)
-    
+
     # Write back the updated content if changes were made
     if updated_content != content:
-        file_path.write_text(updated_content, encoding='utf-8')
-        print(f'Updated links in {file_path}')
+        file_path.write_text(updated_content, encoding="utf-8")
+        print(f"Updated links in {file_path}")
     else:
-        print(f'No changes needed in {file_path}')
+        print(f"No changes needed in {file_path}")
+
 
 def link_check():
     directory = Path.cwd()
-    for file_path in directory.glob('**/*.md'):
-
+    for file_path in directory.glob("**/*.md"):
         # Ignore first-level markdown files by checking the depth of the path
         if len(file_path.relative_to(directory).parts) == 1:
             continue
@@ -54,14 +55,16 @@ def link_check():
 
 # Regular expression to match internal .html links in markdown files
 # This looks for markdown links [text](relative/path/file.html)
-html_link_pattern = re.compile(r'\[([^\]]+)\]\(([^http][^\)]+\.html)\)')
-baseurl_link_pattern = re.compile(r'\[([^\]]+)\]\(\{\{ ?site\.baseurl ?\}\}([^\)]+\.html)\)')
+html_link_pattern = re.compile(r"\[([^\]]+)\]\(([^http][^\)]+\.html)\)")
+baseurl_link_pattern = re.compile(
+    r"\[([^\]]+)\]\(\{\{ ?site\.baseurl ?\}\}([^\)]+\.html)\)"
+)
 
 
 def check_html_links(file_path):
     base_dir = Path.cwd()
     # Read the content of the file
-    content = file_path.read_text(encoding='utf-8')
+    content = file_path.read_text(encoding="utf-8")
 
     # Find all matches of regular .html links
     matches = html_link_pattern.findall(content)
@@ -73,8 +76,8 @@ def check_html_links(file_path):
     for match in matches:
         html_link = match[1]  # Extracted .html link from the markdown
         # Replace .html with .md
-        md_link = html_link.replace('.html', '.md')
-        
+        md_link = html_link.replace(".html", ".md")
+
         if "{{ site.baseurl }}/" in md_link:
             md_file_path = base_dir / Path(md_link.replace("{{ site.baseurl }}/", ""))
         else:
@@ -87,14 +90,15 @@ def check_html_links(file_path):
 
     return missing_md_files
 
+
 def relative_link_check():
     directory = Path.cwd()  # Current directory
     all_missing_files = []
-    broken_links_file = Path('broken_links.md')  # File to store broken links
+    broken_links_file = Path("broken_links.md")  # File to store broken links
 
-    with broken_links_file.open('w', encoding='utf-8') as f:
+    with broken_links_file.open("w", encoding="utf-8") as f:
         # Iterate over all markdown files recursively
-        for file_path in directory.glob('**/*.md'):
+        for file_path in directory.glob("**/*.md"):
             # Check for .html links and corresponding .md files
             missing_files = check_html_links(file_path)
             if missing_files:
@@ -112,6 +116,7 @@ def relative_link_check():
 
     if not all_missing_files:
         print("All .html links have corresponding .md files.")
+
 
 if __name__ == "__main__":
     link_check()

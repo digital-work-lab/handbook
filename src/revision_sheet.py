@@ -4,30 +4,35 @@ from docx import Document
 from docx.shared import Inches
 import re
 
+
 # Function to list only markdown files in the current directory, excluding paper.md and CONTRIBUTING.md
 def get_files_in_current_directory():
-    excluded_files = {'paper.md', 'CONTRIBUTING.md'}
-    return [f for f in os.listdir('.') if os.path.isfile(f) and f.endswith('.md') and f not in excluded_files]
+    excluded_files = {"paper.md", "CONTRIBUTING.md"}
+    return [
+        f
+        for f in os.listdir(".")
+        if os.path.isfile(f) and f.endswith(".md") and f not in excluded_files
+    ]
+
 
 # Prompt user to select a file
 files = get_files_in_current_directory()
 questions = [
-    inquirer.List('file',
-                  message="Select the file to process",
-                  choices=files),
+    inquirer.List("file", message="Select the file to process", choices=files),
 ]
-selected_file = inquirer.prompt(questions)['file']
+selected_file = inquirer.prompt(questions)["file"]
 
 # Load the content of the selected file
-with open(selected_file, 'r', encoding='utf-8') as file:
+with open(selected_file, "r", encoding="utf-8") as file:
     lines = file.readlines()
+
 
 def parse_comments(lines):
     comments = []
     current_id = None
     current_comment = []
     current_response = []
-    mode = 'id'  # Tracks if we are in ID, comment, or response mode
+    mode = "id"  # Tracks if we are in ID, comment, or response mode
     in_multiline_comment = False
 
     for line in lines:
@@ -54,56 +59,67 @@ def parse_comments(lines):
         if line.startswith("# "):
             # Save the previous comment if we were working on one
             if current_id is not None:
-                comments.append((current_id, "\n".join(current_comment), "\n".join(current_response)))
+                comments.append(
+                    (
+                        current_id,
+                        "\n".join(current_comment),
+                        "\n".join(current_response),
+                    )
+                )
                 current_comment, current_response = [], []  # Reset for the new section
 
             # Set the new comment ID and switch to comment mode
             current_id = line[2:].strip()
-            mode = 'comment'
+            mode = "comment"
 
         # Start of the response section
         elif line.startswith("> "):
-            mode = 'response'
-            current_response.append(line[2:].strip())  # Start with the first line of response text
+            mode = "response"
+            current_response.append(
+                line[2:].strip()
+            )  # Start with the first line of response text
 
         # Append lines to the current section (comment or response)
         else:
-            if mode == 'comment':
+            if mode == "comment":
                 current_comment.append(line)
-            elif mode == 'response':
+            elif mode == "response":
                 current_response.append(line)
 
     # Append the last collected comment and response after the loop
     if current_id is not None:
-        comments.append((current_id, "\n".join(current_comment), "\n".join(current_response)))
+        comments.append(
+            (current_id, "\n".join(current_comment), "\n".join(current_response))
+        )
 
     return comments
+
 
 def add_markdown_text(paragraph, text):
     """Adds text with Markdown-style bold and italic formatting to a Word paragraph."""
     # Patterns for bold (**text** or __text__) and italic (*text* or _text_)
-    bold_italic_pattern = re.compile(r"(\*\*\*)(.*?)\1")   # Matches ***bold italic***
-    bold_pattern = re.compile(r"(\*\*|__)(.*?)\1")         # Matches **bold** or __bold__
-    italic_pattern = re.compile(r"(\*|_)(.*?)\1")          # Matches *italic* or _italic_
+    bold_italic_pattern = re.compile(r"(\*\*\*)(.*?)\1")  # Matches ***bold italic***
+    bold_pattern = re.compile(r"(\*\*|__)(.*?)\1")  # Matches **bold** or __bold__
+    italic_pattern = re.compile(r"(\*|_)(.*?)\1")  # Matches *italic* or _italic_
 
     # Keep track of the position in text
     pos = 0
     for match in re.finditer(r"(\*\*\*|__|\*\*|\*|_)(.+?)\1", text):
         # Add text before the match
         if match.start() > pos:
-            paragraph.add_run(text[pos:match.start()])
+            paragraph.add_run(text[pos : match.start()])
 
         style = match.group(1)  # Markdown style found (** or *)
         matched_text = match.group(2)  # Matched content
 
         # Apply formatting based on style
         run = paragraph.add_run(matched_text)
-        if style in ('***', '___'):  # Bold italic
+        if style in ("***", "___"):  # Bold italic
             run.bold = True
             run.italic = True
-        elif style in ('**', '__'):  # Bold
+        elif style in ("**", "__"):  # Bold
             run.bold = True
-        elif style in ('*', '_'):    # Italic
+        elif style in ("*", "_"):  # Italic
             run.italic = True
 
         # Update position
@@ -113,6 +129,7 @@ def add_markdown_text(paragraph, text):
     if pos < len(text):
         paragraph.add_run(text[pos:])
 
+
 def create_word_table(comments, output_filename="revision_table.docx"):
     # Create a new Word document
     doc = Document()
@@ -120,7 +137,7 @@ def create_word_table(comments, output_filename="revision_table.docx"):
 
     # Add table with three columns
     table = doc.add_table(rows=1, cols=3)
-    table.style = 'Table Grid'
+    table.style = "Table Grid"
     table.autofit = False
 
     # Set column widths
@@ -155,6 +172,7 @@ def create_word_table(comments, output_filename="revision_table.docx"):
     # Save the document
     doc.save(output_filename)
     print(f"Revision table saved to {output_filename}")
+
 
 # Parse comments and create Word table
 comments = parse_comments(lines)
