@@ -15,9 +15,3 @@ assignees: geritwagner
 ```
 @digital-work-labot onboard GITHUB_ID
 ```
-
-This will 
-
-- [ ] Create agenda repository from https://github.com/digital-work-lab/agenda_template (`student-github-id` with initial access for student, SO, and GW)
-- [ ] Create an issue ot approve and add user to the GitHub team
-- [ ] Reminder to remove SO from repo
