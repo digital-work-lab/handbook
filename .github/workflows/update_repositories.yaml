@@ -1,4 +1,4 @@
-name: Update repository overview
+fname: Update repository overview
 on:
   schedule:
     - cron: '0 0 * * *'
@@ -33,6 +33,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.LABOT_PAT_TOKEN }}
         run: |
           python src/update_repositories.py
+          python src/update-projects-gantt
       
       - name: Commit and Push changes
         env:
