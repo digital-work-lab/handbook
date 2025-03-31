@@ -1,14 +1,14 @@
 ---
 layout: default
-title: agenda_gerit_geritwagner
-title_long: "✅ Agenda repository for geritwagner"
+title: agenda_gerit_k-schnickmann
+title_long: "✅ Agenda repository for k-schnickmann"
 parent: 25 Projects
 grand_parent: Research
 visibility: Private
-collaborators: ['LaureenTh']
+collaborators: ['k-schnickmann', 'Stella1234-design']
 area: other
 topics: ['agenda']
-html_url: https://github.com/digital-work-lab/agenda_gerit_geritwagner
+html_url: https://github.com/digital-work-lab/agenda_gerit_k-schnickmann
 archived: False
 updated_recently: True
 associated_projects: []
@@ -25,6 +25,6 @@ Title               | {{ page.title_long }}
 Visibility          | {{ page.visibility }}
 Access              | {{ page.collaborators topics | join: ", "}}
 Topics              | {{ page.topics | join: ", " }}
-URL                 | [https://github.com/digital-work-lab/agenda_gerit_geritwagner](https://github.com/digital-work-lab/agenda_gerit_geritwagner){: target="_blank"}
+URL                 | [https://github.com/digital-work-lab/agenda_gerit_k-schnickmann](https://github.com/digital-work-lab/agenda_gerit_k-schnickmann){: target="_blank"}
 
 [![Request Access](https://img.shields.io/badge/Request-Access-blue?style=for-the-badge)](https://github.com/digital-work-lab/handbook/issues/new?assignees=geritwagner&labels=access+request&template=request-repo-access.md&title=%5BAccess+Request%5D+Request+for+access+to+repository)
