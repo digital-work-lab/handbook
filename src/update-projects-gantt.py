@@ -20,11 +20,14 @@ def parse_md_file(file_path):
 
 def generate_mermaid_chart(projects):
     """Generate a Mermaid Gantt chart."""
-    chart = """gantt
-    title Research Portfolio
-    dateFormat YYYY-MM-DD
-    axisFormat %Y
-    """
+    chart = """---
+displayMode: compact
+---
+gantt
+title Research Portfolio
+dateFormat YYYY-MM-DD
+axisFormat %Y
+"""
     
     # Group projects by their area
     grouped_projects = {
