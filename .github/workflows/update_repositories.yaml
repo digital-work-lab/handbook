@@ -33,7 +33,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.LABOT_PAT_TOKEN }}
         run: |
           python src/update_repositories.py
-          python src/update-projects-gantt
+          python src/update-projects-gantt.py
       
       - name: Commit and Push changes
         env:
