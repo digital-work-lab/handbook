@@ -28,7 +28,7 @@ Publications are listed in [FIS](https://fis.uni-bamberg.de/entities/person/b64b
 ## 2023
 
 <div class="references">
- <p>Paré, G., <b>Wagner, G.</b>, and Prester, J. "How to develop and frame impactful review articles: Key recommendations". <i>Journal of Decision Systems</i>, accepted for publication.</p>
+ <p>Paré, G., <b>Wagner, G.</b>, and Prester, J. "How to develop and frame impactful review articles: Key recommendations". <i>Journal of Decision Systems</i>, 33(4), 566-582. doi:<a href="https://doi.org/10.1080/12460125.2023.2197701">10.1080/12460125.2023.2197701</a></p>
  <p><b>Wagner, G.</b>, Raymond, L, and Paré, G. "Understanding prospective physicians’ intention to use artificial intelligence in their future medical practice: A configurational analysis". <i>JMIR Medical Education</i>, 9, e45631.</p>
  <p>Morquin, D., Ologeanu-Taddei, R., Paré, G., and <b>Wagner, G.</b> "Design and Evaluation of a Method to Solve Organization-Enterprise System Misfits in the Post-Implementation Phase: An Action Research". <i>Information Systems Journal (ISJ)</i>, 33(5), 1–34.</p>
 </div>
