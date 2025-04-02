@@ -5,7 +5,7 @@ title_long: "None"
 parent: 25 Projects
 grand_parent: Research
 visibility: Public
-collaborators: ['julianprester', 'LaureenTh', 'Stella1234-design']
+collaborators: ['julianprester', 'LaureenTh', 'k-schnickmann', 'Stella1234-design']
 area: research
 topics: ['research', 'template']
 html_url: https://github.com/digital-work-lab/templates

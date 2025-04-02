@@ -5,7 +5,7 @@ title_long: "Lecture Introduction to Digital Work"
 parent: 25 Projects
 grand_parent: Research
 visibility: Public
-collaborators: ['LaureenTh', 'Stella1234-design']
+collaborators: ['LaureenTh', 'k-schnickmann', 'Stella1234-design']
 area: teaching
 topics: ['teaching', 'teaching-materials']
 html_url: https://github.com/digital-work-lab/digital-work-lecture

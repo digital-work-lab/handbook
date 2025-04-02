@@ -5,7 +5,7 @@ title_long: "The open-source project: teaching collaborative open-source softwar
 parent: 25 Projects
 grand_parent: Research
 visibility: Public
-collaborators: ['dengdenglele', 'LaureenTh', 'Stella1234-design']
+collaborators: ['dengdenglele', 'LaureenTh', 'k-schnickmann', 'Stella1234-design']
 area: teaching
 topics: ['teaching', 'teaching-materials']
 html_url: https://github.com/digital-work-lab/open-source-project

@@ -5,7 +5,7 @@ title_long: "📖 The handbook of the digital work lab"
 parent: 25 Projects
 grand_parent: Research
 visibility: Public
-collaborators: ['LaureenTh', 'Stella1234-design']
+collaborators: ['LaureenTh', 'k-schnickmann', 'Stella1234-design']
 area: other
 topics: ['academic', 'handbook', 'lab-management']
 html_url: https://github.com/digital-work-lab/handbook
