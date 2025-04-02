@@ -10,5 +10,5 @@ nav_order: 1
 
 Photos with free licenses are available at
 
-- [Freepik](https://de.freepik.com/)
-- [Unsplash](https://unsplash.com/)
+- [Freepik](https://de.freepik.com/){: target="_blank"}
+- [Unsplash](https://unsplash.com/){: target="_blank"}
