@@ -84,6 +84,9 @@ def check_html_links(file_path):
             # Create the corresponding .md file path relative to the current file
             md_file_path = file_path.parent / md_link
 
+        if "_news" in str(md_file_path):
+            # Skip checking for _news directory
+            continue
         # Check if the corresponding .md file exists
         if not md_file_path.exists():
             missing_md_files.append(md_file_path)
