@@ -6,8 +6,8 @@ parent: 25 Projects
 grand_parent: Research
 visibility: Private
 collaborators: []
-area: other
-topics: []
+area: research
+topics: ['paper', 'research']
 html_url: https://github.com/digital-work-lab/aicompetencemed
 archived: False
 updated_recently: True

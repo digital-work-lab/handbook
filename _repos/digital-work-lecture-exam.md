@@ -6,8 +6,8 @@ parent: 25 Projects
 grand_parent: Research
 visibility: Private
 collaborators: []
-area: other
-topics: []
+area: teaching
+topics: ['teaching']
 html_url: https://github.com/digital-work-lab/digital-work-lecture-exam
 archived: False
 updated_recently: True

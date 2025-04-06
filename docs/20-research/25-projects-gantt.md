@@ -22,6 +22,7 @@ axisFormat %Y
 
     section others
         beals :beals, 2025-03-28, 2025-04-06
+        bib-dedupe :bib-dedupe, 2025-03-04, 2025-04-06
         edu-res :edu-res, 2024-10-10, 2025-04-06
         teapad :teapad, 2024-09-10, 2025-04-06
         genailr :genailr, 2023-12-10, 2025-04-06
@@ -31,6 +32,7 @@ axisFormat %Y
 
 
     click beals href "{{ site.baseurl }}/docs/20-research/25-projects/_repos/beals"
+    click bib-dedupe href "{{ site.baseurl }}/docs/20-research/25-projects/_repos/bib-dedupe"
     click edu-res href "{{ site.baseurl }}/docs/20-research/25-projects/_repos/edu-res"
     click teapad href "{{ site.baseurl }}/docs/20-research/25-projects/_repos/teapad"
     click genailr href "{{ site.baseurl }}/docs/20-research/25-projects/_repos/genailr"

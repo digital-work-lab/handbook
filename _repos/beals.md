@@ -12,7 +12,7 @@ html_url: https://github.com/digital-work-lab/beals
 archived: False
 updated_recently: True
 associated_projects: []
-labot_workflow_status: failure
+labot_workflow_status: success
 project_type: ['paper']
 started: 2025-03-28
 research_area: knowledge_synthesis

@@ -6,8 +6,8 @@ parent: 25 Projects
 grand_parent: Research
 visibility: Private
 collaborators: []
-area: other
-topics: []
+area: research
+topics: ['paper', 'research']
 html_url: https://github.com/digital-work-lab/bib-dedupe
 archived: False
 updated_recently: True
