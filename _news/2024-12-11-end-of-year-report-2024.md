@@ -24,8 +24,8 @@ date: 2024-12-11
 - Teaching notes: GitIntro accepted, currently working on GitCollaboration, TeaPad, EduRes 
 - 🏆 Chosen-Chair Award
 
+<!--
 ---
-
 ## Hands-on: SOP Update
 
 **Objective:** Revise the Standard Operating Procedures ([SOP](https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/10.04.sop.html){: target="_blank"}) to better align with our team's needs and goals.
@@ -35,6 +35,7 @@ date: 2024-12-11
 3. Discuss how we should organize them, complement, remove, or adapt current items.
 
 **Outcome**: Revisions of the SOP.
+-->
 
 ---
 
