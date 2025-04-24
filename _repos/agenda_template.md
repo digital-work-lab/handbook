@@ -7,7 +7,7 @@ grand_parent: Research
 visibility: Public
 collaborators: []
 area: other
-topics: []
+topics: ['agenda']
 html_url: https://github.com/digital-work-lab/agenda_template
 archived: False
 updated_recently: True

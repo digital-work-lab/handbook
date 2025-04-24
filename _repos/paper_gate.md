@@ -7,7 +7,7 @@ grand_parent: Research
 visibility: Private
 collaborators: []
 area: other
-topics: []
+topics: ['lab-management']
 html_url: https://github.com/digital-work-lab/paper_gate
 archived: False
 updated_recently: True

@@ -7,12 +7,12 @@ grand_parent: Research
 visibility: Private
 collaborators: []
 area: teaching
-topics: ['teaching']
+topics: ['teaching', 'teaching-materials']
 html_url: https://github.com/digital-work-lab/digital-work-lecture-exam
 archived: False
 updated_recently: True
 associated_projects: []
-labot_workflow_status: not-applicable
+labot_workflow_status: not-found
 project_type: []
 ---
 

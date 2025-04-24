@@ -7,7 +7,7 @@ grand_parent: Research
 visibility: Private
 collaborators: []
 area: other
-topics: []
+topics: ['agenda']
 html_url: https://github.com/digital-work-lab/agenda_gerit
 archived: False
 updated_recently: True
