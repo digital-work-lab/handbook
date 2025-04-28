@@ -5,7 +5,7 @@ title_long: Introduction to Digital Work
 parent: 32 Courses
 grand_parent: Teaching
 semester: 2025-SoSe
-status: ⟳
+status: ▶
 student_evaluations: ""
 improvement_issue: ""
 improvement_status: N/A

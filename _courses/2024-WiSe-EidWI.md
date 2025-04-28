@@ -5,10 +5,10 @@ title_long: Einführung in die Wirtschaftsinformatik
 parent: 32 Courses
 grand_parent: Teaching
 semester: 2024-WiSe
-status: 	✔️
+status: ✔️
 student_evaluations: "000108_20250126_WS24_25-ISM-EidWI-B__Einführung_in_die_Wirtschaftsinformatik_Vorlesung.pdf"
 improvement_issue: ""
-improvement_status: 	✔️
+improvement_status:	✔️
 ---
 
 # EidWI 2024 WiSe
