@@ -11,7 +11,11 @@ nav_order: 1
 ## Formatting
 
 - Use alignment (e.g., `ctrl`+`d`+`h`+`l` for left alignment)
-- Adapt size of the slide to the figure (`ctrl`+`h`+`ö`)
+- Adapt the size of the slide to the figure (`ctrl`+`h`+`ö`)
+
+## Elements
+
+- Consider the use of [free-form shapes](https://support.microsoft.com/en-us/office/draw-or-edit-a-freeform-shape-44d7bb9d-c05c-4e1c-a486-e35fc322299b) and editing individual points.
 
 ## Export when embedding figures in papers
 
