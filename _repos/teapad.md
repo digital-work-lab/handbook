@@ -12,7 +12,7 @@ html_url: https://github.com/digital-work-lab/teapad
 archived: False
 updated_recently: True
 associated_projects: []
-labot_workflow_status: success
+labot_workflow_status: failure
 project_type: ['paper']
 started: 2024-09-10
 research_area: work_practices
