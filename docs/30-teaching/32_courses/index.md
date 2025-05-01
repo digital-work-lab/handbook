@@ -5,6 +5,8 @@ parent: Teaching
 has_toc: true
 nav_order: 3
 has_children: true
+redirect_from:
+  - /docs/30-teaching/30_processes/30.02.courses.html
 ---
 
 # 32 Courses
