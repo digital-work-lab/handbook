@@ -1232,3 +1232,5 @@ dev
 dirs
 Schnickmann
 schnickmann
+Studiengänge
+inclusivity
