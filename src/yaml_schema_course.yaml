@@ -1,4 +1,4 @@
-filename: regex(r'^20\d{2}-(WiSe|SoSe)-(IDW|OSP|LRSem|EidWI)\.md$')
+filename: regex(r'^20\d{2}-(WiSe|SoSe)-(IDW|OSP|LRSem|EidWI).*\.md$')
 layout: str(equals='default')
 title: regex(r'(IDW|OSP|LRSem|EidWI)')
 title_long: str()
