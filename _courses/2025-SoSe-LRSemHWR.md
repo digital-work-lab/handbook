@@ -1,6 +1,6 @@
 ---
 layout: default
-title: LRSem
+title: LRSemHWR
 title_long: The Literature Review Seminar (HWR)
 parent: 32 Courses
 grand_parent: Teaching

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: LRSem
+title: LRSemIDIS
 title_long: The Literature Review Seminar (IDIS)
 parent: 32 Courses
 grand_parent: Teaching
