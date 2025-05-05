@@ -48,6 +48,9 @@ callouts:
   resource:
     title: 🌐 Connected resources
     color: blue
+  labot:
+    title: 🛠️ Labot
+    color: blue
 
 collections:
   projects:
