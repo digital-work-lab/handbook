@@ -61,7 +61,7 @@ Start: March (summer term), September (winter term)
 - [ ] ~~Have the seminar announced on [Instagram](https://www.instagram.com/informatik_unibamberg/){: target="_blank"}~~
 - [ ] Professor: Create a reminder for the evaluations.
 - [ ] ~~Secretary: Add moderator and session dates in VC.~~
-- [ ] Professor: Summarize the feedback from the last course and explain how it was addressed.
+- [ ] ~~Professor: Summarize the feedback from the last course and explain how it was addressed.~~
 - [ ] ~~Professor: Activate course in VC (visible to students).~~
 
 Deadline: April (summer term), October (winter term)
@@ -71,9 +71,6 @@ Deadline: April (summer term), October (winter term)
 Start: April (summer term), October (winter term)
 
 - [ ] Professor: Schedule evaluations in the pen-ultimate week ([30.21.evaluations]({{ site.baseurl }}/docs/30-teaching/30_processes/30.21.evaluations.html)).
-- [ ] Professor (Secretary): Prepare the exams (Deadline: day of the exam), information is typically provided one month before the semester ends (E-Mail: "Prüferbestellung"). Check whether points add up, whether the number of points per task is consistent with the grading expectations - e.g., "list two examples" should correspond to 2 or 4 points. (**TODO: where to store the exam**). Review the exam for typos. Print it and prepare the exam materials. Add the date of the exam to the calendar and prepare to hand it over personally.
-- [ ] Scheine ([Formular](https://www.uni-bamberg.de/ism/studium/anmeldung-scheinklausur/){: target="_blank"}), Scheinklausur-anmeldungen bei Erstellung der Klausurbögen berücksichtigen
-- [ ] Professor: Add presentation dates to the [calendar](../../calendar/events.yaml)
 
 ## 4. Grading and documentation
 
