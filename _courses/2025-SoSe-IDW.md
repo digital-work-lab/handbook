@@ -17,7 +17,7 @@ Field               | Value
 ------------------- | -------------------
 Title               | {{ page.title_long }}
 Lecturer            | Gerit Wagner
-Link: VC            | TODO
+Link: VC            | [VC](https://vc.uni-bamberg.de/course/view.php?id=71961){: target="_blank"}
 Link: Website       | [Website](https://www.uni-bamberg.de/digital-work/studium/bachelor/introduction-to-digital-work/){: target="_blank"}
 Status              | {{ page.status }}
 Student Evaluations | {% if page.student_evaluations != "" %} <a href="{{ site.baseurl }}/assets/evaluations/{{ page.student_evaluations }}" target="_blank">PDF</a> {% else %} <span class="label label-yellow">Pending</span> {% endif %}
