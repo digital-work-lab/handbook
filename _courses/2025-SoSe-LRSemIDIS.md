@@ -26,9 +26,9 @@ Status of Revisions | {{ page.improvement_status }}
 ## Process
 
 {: .info }
-> Offered as part of [IDIS](https://idis.digital/phd-course/)
+> Offered as part of [IDIS](https://idis.digital/phd-course/){: target="_blank"}
 > 
-> Website: [here](https://digital-work-lab.github.io/literature-review-seminar/2025_IDIS/).
+> Website: [here](https://digital-work-lab.github.io/literature-review-seminar/2025_IDIS/){: target="_blank"}.
 
 ## 1. Announce the seminar (4 months before)
  
