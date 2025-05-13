@@ -46,8 +46,8 @@ Start: December (summer term), May (winter term)
 
 At the end of the semester: 
 
-- [ ] Secretary: Update information in UnivIS (**add keywords „WI-Projekt“ and „WI-Projekte“**), check information on the website. VC/UnivIS: "WI-Projekt-B: Bachelorprojekt aus der Fächergruppe Wirtschaftsinformatik"
-- [ ] Secretary: Announce the project on the website for the next semester (without dates/rooms).
+- [x] Secretary: Update information in UnivIS (**add keywords „WI-Projekt“ and „WI-Projekte“**), check information on the website. VC/UnivIS: "WI-Projekt-B: Bachelorprojekt aus der Fächergruppe Wirtschaftsinformatik"
+- [x] Secretary: Announce the project on the website for the next semester (without dates/rooms).
 
 Deadline: mid-May (summer term), December/January (winter term)
 
@@ -55,13 +55,13 @@ Deadline: mid-May (summer term), December/January (winter term)
 
 Start: March (summer term), September (winter term)
 
-- [ ] Secretary and Professor: Announce dates/rooms on the websites, add to calendar.
-- [ ] IT department: Create the VC course, two weeks before the semester starts (automatically based on UnivIS).
-- [ ] Professor: The project should be announced on [Instagram](https://www.instagram.com/informatik_unibamberg/){: target="_blank"} and in the [Fachschaft WIAI newsletter](https://vc.uni-bamberg.de/course/view.php?id=284){: target="_blank"}
-- [ ] Professor: Create a reminder for the evaluations.
-- [ ] Secretary: Add moderator and session dates in VC.
-- [ ] Professor: Summarize the feedback from the last course and explain how it was addressed.
-- [ ] Professor: Activate course in VC (visible to students).
+- [x] Secretary and Professor: Announce dates/rooms on the websites, add to calendar.
+- [x] IT department: Create the VC course, two weeks before the semester starts (automatically based on UnivIS).
+- [x] Professor: The project should be announced on [Instagram](https://www.instagram.com/informatik_unibamberg/){: target="_blank"} and in the [Fachschaft WIAI newsletter](https://vc.uni-bamberg.de/course/view.php?id=284){: target="_blank"}
+- [x] Professor: Create a reminder for the evaluations.
+- [x] Secretary: Add moderator and session dates in VC.
+- [x] Professor: Summarize the feedback from the last course and explain how it was addressed.
+- [x] Professor: Activate course in VC (visible to students).
 
 Deadline: April (summer term), October (winter term)
 
