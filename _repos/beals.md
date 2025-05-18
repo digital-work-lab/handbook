@@ -1,7 +1,7 @@
 ---
 layout: default
 title: beals
-title_long: "ERROR"
+title_long: ""
 parent: 25 Projects
 grand_parent: Research
 visibility: Private
@@ -14,6 +14,14 @@ updated_recently: True
 associated_projects: []
 labot_workflow_status: failure
 project_type: ['paper']
+started: 2025-03-28
+research_area: knowledge_synthesis
+resources: []
+status: writing
+improvement_status: pending
+repository_url: https://github.com/digital-work-lab/beals
+---
+
 ---
 
 # {{ page.title }}
