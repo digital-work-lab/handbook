@@ -26,10 +26,8 @@ Status of Revisions | {{ page.improvement_status }}
 
 ## Process
 
-**TODO**: set deadline etc.
-
 - FlexNow: Seminars must be created for each semester (decentral exams), a seminar paper and presentation are mandatory
-- Grading: the secretary registers students for the seminar, enters grades, and submits them online.
+- Grading: the secretary registers students for the seminar, enters grades, and submits them online. Students do not need to register on FlexNow.
 
 ## 1. Announce the seminar (4 months before)
  
@@ -71,9 +69,10 @@ Deadline: April (summer term), October (winter term)
 
 Start: April (summer term), October (winter term)
 
-- [ ] Professor: Schedule evaluations in the pen-ultimate week ([30.21.evaluations]({{ site.baseurl }}/docs/30-teaching/30_processes/30.21.evaluations.html)).
+- [ ] Professor: Set deadline for protocol submissions (upload in VC).
 - [ ] Professor: Set the date for the presentation.
 - [ ] Professor: Add presentation dates to the [calendar](../../calendar/events.yaml)
+- [ ] Professor: Schedule evaluations in the pen-ultimate week ([30.21.evaluations]({{ site.baseurl }}/docs/30-teaching/30_processes/30.21.evaluations.html)).
 
 ## 4. Grading and documentation
 
