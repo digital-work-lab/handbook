@@ -1,7 +1,7 @@
 ---
 layout: default
 title: paper-template
-title_long: "ERROR"
+title_long: ""
 parent: 25 Projects
 grand_parent: Research
 visibility: Public
@@ -14,6 +14,14 @@ updated_recently: True
 associated_projects: []
 labot_workflow_status: failure
 project_type: ['paper']
+started: 2025-XX-YY
+research_area: work_practices|distributed_organizing|knowledge_synthesis
+resources: []
+status: writing
+improvement_status: pending
+repository_url: https://github.com/digital-work-lab/paper-template
+---
+
 ---
 
 # {{ page.title }}
