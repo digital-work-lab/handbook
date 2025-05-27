@@ -13,7 +13,7 @@ UV is useful for package and virtual environment management.
 It allows users to specify dependencies at the beginning of a module and call it as a script (uv automatically installs the dependencies):
 
 ```
-uv module_script.py
+uv run module_script.py
 ```
 
 ```
