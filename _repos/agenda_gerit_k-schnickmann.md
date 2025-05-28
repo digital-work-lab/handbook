@@ -5,7 +5,7 @@ title_long: "✅ Agenda repository for k-schnickmann"
 parent: 25 Projects
 grand_parent: Research
 visibility: Private
-collaborators: ['k-schnickmann', 'Stella1234-design']
+collaborators: ['k-schnickmann']
 area: other
 topics: ['agenda']
 html_url: https://github.com/digital-work-lab/agenda_gerit_k-schnickmann
