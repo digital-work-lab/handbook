@@ -22,7 +22,7 @@ jobs:
         if: env.lychee_exit_code != 0
         uses: peter-evans/create-issue-from-file@v5
         with:
-          issue-number: 397
+          issue-number: 212
           title: Link Checker Report
           content-filepath: ./lychee/out.md
           labels: report, automated issue
@@ -68,9 +68,11 @@ jobs:
         if: env.found == 'true'
         uses: peter-evans/create-issue-from-file@v5
         with:
+          issue-number: 396
           title: Broken internal links report
           content-filepath: ./broken_links.md
           labels: report, automated issue
+          reopen-closed: true
 
       - name: Determine if changes have been made
         id: changed
