@@ -5,7 +5,7 @@ title_long: "✅ Agenda repository for Alexa-St"
 parent: 25 Projects
 grand_parent: Research
 visibility: Private
-collaborators: ['Stella1234-design', 'Alexa-St']
+collaborators: ['Alexa-St']
 area: other
 topics: ['agenda']
 html_url: https://github.com/digital-work-lab/agenda_gerit_Alexa-St
