@@ -84,3 +84,8 @@
   end: "2025-07-25 13:30"
   color: "lightgreen"
   location: "WE5/01.094"
+- title: "LRSem (HWR Berlin)"
+  start: "2025-06-20 10:15"
+  end: "2025-06-20 14:00"
+  color: "lightgreen"
+  location: "HWR Campus Schöneberg - B 5.12"
