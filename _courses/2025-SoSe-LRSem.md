@@ -69,9 +69,9 @@ Deadline: April (summer term), October (winter term)
 
 Start: April (summer term), October (winter term)
 
-- [ ] Professor: Set deadline for protocol submissions (upload in VC).
-- [ ] Professor: Set the date for the presentation.
-- [ ] Professor: Add presentation dates to the [calendar](../../calendar/events.yaml)
+- [x] Professor: Set deadline for protocol submissions (upload in VC).
+- [x] Professor: Set the date for the presentation.
+- [x] Professor: Add presentation dates to the [calendar](../../calendar/events.yaml)
 - [ ] Professor: Schedule evaluations in the pen-ultimate week ([30.21.evaluations]({{ site.baseurl }}/docs/30-teaching/30_processes/30.21.evaluations.html)).
 
 ## 4. Grading and documentation
