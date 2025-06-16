@@ -17,7 +17,7 @@ Field               | Value
 ------------------- | -------------------
 Title               | {{ page.title_long }}
 Lecturer            | Gerit Wagner
-Link: Website       | [the-literature-review-seminar](https://digital-work-lab.github.io/literature-review-seminar/){: target="_blank"}, [Website](https://www.uni-bamberg.de/digital-work/studium/bachelor/seminar-digital-work/){: target="_blank"}
+Link: Website       | [the-literature-review-seminar](https://digital-work-lab.github.io/literature-review-seminar/2025_HWR/){: target="_blank"}, [Website](https://digital-work-lab.github.io/literature-review-seminar/2025_HWR/){: target="_blank"}
 Status              | {{ page.status }}
 Student Evaluations | {% if page.student_evaluations != "" %} <a href="{{ site.baseurl }}/assets/evaluations/{{ page.student_evaluations }}" target="_blank">PDF</a> {% else %} <span class="label label-yellow">Pending</span> {% endif %}
 Improvement Issue   | {% if page.improvement_issue != "" %} <a href="{{ page.improvement_issue }}" target="_blank">Issue Link</a> {% else %} <span class="label label-yellow">Pending</span> {% endif %}
