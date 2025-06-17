@@ -69,6 +69,7 @@ Deadline: April (summer term), October (winter term)
 
 Start: April (summer term), October (winter term)
 
+- [ ] Secretary: Add the presentation (exam) dates to the department calendar
 - [ ] Professor: Set deadline for pull-request evaluation.
 - [ ] Professor: Set the date for the code review session.
 - [ ] Professor: Add the code review session to the [calendar](../../calendar/events.yaml)

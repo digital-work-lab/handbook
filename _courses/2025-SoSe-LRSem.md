@@ -69,6 +69,7 @@ Deadline: April (summer term), October (winter term)
 
 Start: April (summer term), October (winter term)
 
+- [x] Secretary: Add the presentation (exam) dates to the department calendar
 - [x] Professor: Set deadline for protocol submissions (upload in VC).
 - [x] Professor: Set the date for the presentation.
 - [x] Professor: Add presentation dates to the [calendar](../../calendar/events.yaml)
