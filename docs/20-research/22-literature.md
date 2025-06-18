@@ -79,7 +79,7 @@ Example repository: [work_hub](https://github.com/digital-work-lab/work_hub){: t
 - TBD: CoLRev repositories (PDFs and obsidian vaults)
 
 <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; max-width:100%;">
-  <iframe src="https://www.youtube.com/watch?v=7zE5i0WrLko"
+  <iframe src="https://www.youtube-nocookie.com/embed/7zE5i0WrLko"
           frameborder="0" allowfullscreen
           style="position:absolute; top:0; left:0; width:100%; height:100%;">
   </iframe>
