@@ -78,5 +78,13 @@ Example repository: [work_hub](https://github.com/digital-work-lab/work_hub){: t
 - Existing projects: Move PDFs to git repositories with Git-LFS [Nextcloud](https://nc-2272638881871040784.nextcloud-ionos.com/index.php/apps/files/?dir=/22-literature/23_data&fileid=88094){: target="_blank"} in sections 25 and 36.
 - TBD: CoLRev repositories (PDFs and obsidian vaults)
 
+<div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; max-width:100%;">
+  <iframe src="https://www.youtube.com/watch?v=7zE5i0WrLko"
+          frameborder="0" allowfullscreen
+          style="position:absolute; top:0; left:0; width:100%; height:100%;">
+  </iframe>
+</div>
+
+
 {: .resource } 
 > - [GitHub](https://github.com/orgs/digital-work-lab/repositories?q=topic%3Aresearch){: target="_blank"}
