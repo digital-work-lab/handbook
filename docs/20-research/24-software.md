@@ -13,6 +13,17 @@ Our software is available in the [CoLRev Environment](https://github.com/CoLRev-
 
 ## Collaborative Literature Reviews (CoLRev)
 
+<table>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/CoLRev-Ecosystem/colrev/main/docs/figures/logo_small.png" alt="CoLRev Logo" width="120"></td>
+    <td>
+      <a href="https://github.com/CoLRev-Environment/colrev"><img src="https://img.shields.io/github/commit-activity/t/CoLRev-Environment/colrev" alt="Total commits"></a><br>
+      <a href="https://github.com/CoLRev-Environment/colrev"><img src="https://img.shields.io/github/contributors-anon/CoLRev-Environment/colrev" alt="Contributors"></a><br>
+      <a href="https://zenodo.org/badge/latestdoi/363073613"><img src="https://zenodo.org/badge/363073613.svg" alt="DOI"></a>
+    </td>
+  </tr>
+</table>
+
 [CoLRev](https://github.com/CoLRev-Environment/colrev){: target="_blank"} is an open-source environment for collaborative literature reviews.
 It integrates with different synthesis tools, takes care of the data, and facilitates Git-based collaboration. 
 To accomplish these goals, CoLRev advances the design of review technology at the intersection of methods, design, cognition, and community building.
