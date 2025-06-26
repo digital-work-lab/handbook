@@ -15,7 +15,7 @@ Our software is available in the [CoLRev Environment](https://github.com/CoLRev-
 
 <table>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/CoLRev-Ecosystem/colrev/main/docs/figures/logo_small.png" alt="CoLRev Logo" width="120"></td>
+    <td><img src="https://raw.githubusercontent.com/CoLRev-Ecosystem/colrev/main/docs/figures/logo_small.png" alt="CoLRev Logo" width="300"></td>
     <td>
       <a href="https://github.com/CoLRev-Environment/colrev"><img src="https://img.shields.io/github/commit-activity/t/CoLRev-Environment/colrev" alt="Total commits"></a><br>
       <a href="https://github.com/CoLRev-Environment/colrev"><img src="https://img.shields.io/github/contributors-anon/CoLRev-Environment/colrev" alt="Contributors"></a><br>
@@ -37,6 +37,22 @@ The following features stand out:
 - Enables typological and methodological pluralism throughout the process
 
 ## search-query
+
+<table>
+  <tr>
+    <td>
+      <img src="https://raw.githubusercontent.com/CoLRev-Environment/search-query/refs/heads/main/docs/source/_static/search_query_logo.svg" alt="SearchQuery Logo" width="120">
+    </td>
+    <td>
+      <a href="https://github.com/CoLRev-Environment/search-query">
+        <img src="https://img.shields.io/github/commit-activity/t/CoLRev-Environment/search-query" alt="Total commits">
+      </a><br>
+      <a href="https://github.com/CoLRev-Environment/search-query">
+        <img src="https://img.shields.io/github/contributors-anon/CoLRev-Environment/search-query" alt="Contributors">
+      </a><br>
+    </td>
+  </tr>
+</table>
 
 **search-query** is a Python package for parsing, validating, simplifying, and serializing search queries for academic databases. It currently supports PubMed, EBSCOHost, and Web of Science, using a standardized JSON schema (Haddaway et al., 2022).
 
