@@ -41,7 +41,7 @@ The following features stand out:
 <table>
   <tr>
     <td>
-      <img src="https://raw.githubusercontent.com/CoLRev-Environment/search-query/refs/heads/main/docs/source/_static/search_query_logo.svg" alt="SearchQuery Logo" width="120">
+      <img src="https://raw.githubusercontent.com/CoLRev-Environment/search-query/refs/heads/main/docs/source/_static/search_query_logo.svg" alt="SearchQuery Logo" width="250">
     </td>
     <td>
       <a href="https://github.com/CoLRev-Environment/search-query">
@@ -64,6 +64,21 @@ The following features stand out:
 - Tested on real-world queries from [searchRxiv](https://www.searchrxiv.org/)
 
 ## BibDedupe
+
+<table>
+  <tr>
+    <td>
+    </td>
+    <td>
+      <a href="https://github.com/CoLRev-Environment/bib-dedupe">
+        <img src="https://img.shields.io/github/commit-activity/t/CoLRev-Environment/bib-dedupe" alt="Total commits">
+      </a><br>
+      <a href="https://github.com/CoLRev-Environment/bib-dedupe">
+        <img src="https://img.shields.io/github/contributors-anon/CoLRev-Environment/bib-dedupe" alt="Contributors">
+      </a><br>
+    </td>
+  </tr>
+</table>
 
 [BibDedupe](https://github.com/CoLRev-Environment/bib-dedupe){: target="_blank"} is an open-source **Python library for deduplication of bibliographic records**, tailored for literature reviews.
 Unlike traditional deduplication methods, BibDedupe focuses on entity resolution, linking duplicate records instead of simply deleting them.
