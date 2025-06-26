@@ -25,6 +25,17 @@ The following features stand out:
 - Operates a model for data quality, content curation, and reuse
 - Enables typological and methodological pluralism throughout the process
 
+## search-query
+
+**search-query** is a Python package for parsing, validating, simplifying, and serializing search queries for academic databases. It currently supports PubMed, EBSCOHost, and Web of Science, using a standardized JSON schema (Haddaway et al., 2022).
+
+**Highlights:**
+
+- Programmatic use, CLI interface, and optional integration via pre-commit hooks
+- Zero dependencies: easily embeddable across environments
+- Extensible parser/validator architecture
+- Tested on real-world queries from [searchRxiv](https://www.searchrxiv.org/)
+
 ## BibDedupe
 
 [BibDedupe](https://github.com/CoLRev-Environment/bib-dedupe){: target="_blank"} is an open-source **Python library for deduplication of bibliographic records**, tailored for literature reviews.
@@ -37,14 +48,6 @@ Unlike traditional deduplication methods, BibDedupe focuses on entity resolution
 - **Transparent and Reproducible Rules**: BibDedupe's blocking and matching rules are transparent and easily reproducible to promote reproducibility in deduplication processes.
 - **Continuous Benchmarking**: Continuous integration tests running on GitHub Actions ensure ongoing benchmarking, maintaining the library's reliability and performance across datasets.
 - **Efficient and Parallel Computation**: BibDedupe implements computations efficiently and in parallel, using appropriate data structures and functions for optimal performance.
-
-## SearchQuery
-
-[Search-query](https://github.com/CoLRev-Environment/search-query){: target="_blank"} is a Python package for parsing, validating, simplifying, and serializing literature search queries.
-It currently supports PubMed and Web of Science, and can be extended to support other databases.
-As a default it relies on the JSON schema proposed by an expert panel (Haddaway et al., 2022).
-The package can be used programmatically or through the command line, has zero dependencies, and can therefore be integrated in a variety of environments.
-<!-- The heuristics, parsers, and linters are battle-tested on over 500 peer-reviewed queries registered at [searchRxiv](https://www.cabidigitallibrary.org/journal/searchrxiv){: target="_blank"}. -->
 
 ## Recommended research software
 
