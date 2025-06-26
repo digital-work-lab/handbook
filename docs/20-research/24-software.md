@@ -65,20 +65,12 @@ The following features stand out:
 
 ## BibDedupe
 
-<table>
-  <tr>
-    <td>
-    </td>
-    <td>
-      <a href="https://github.com/CoLRev-Environment/bib-dedupe">
-        <img src="https://img.shields.io/github/commit-activity/t/CoLRev-Environment/bib-dedupe" alt="Total commits">
-      </a><br>
-      <a href="https://github.com/CoLRev-Environment/bib-dedupe">
-        <img src="https://img.shields.io/github/contributors-anon/CoLRev-Environment/bib-dedupe" alt="Contributors">
-      </a><br>
-    </td>
-  </tr>
-</table>
+<a href="https://github.com/CoLRev-Environment/bib-dedupe">
+  <img src="https://img.shields.io/github/commit-activity/t/CoLRev-Environment/bib-dedupe" alt="Total commits">
+</a>
+<a href="https://github.com/CoLRev-Environment/bib-dedupe">
+  <img src="https://img.shields.io/github/contributors-anon/CoLRev-Environment/bib-dedupe" alt="Contributors">
+</a>
 
 [BibDedupe](https://github.com/CoLRev-Environment/bib-dedupe){: target="_blank"} is an open-source **Python library for deduplication of bibliographic records**, tailored for literature reviews.
 Unlike traditional deduplication methods, BibDedupe focuses on entity resolution, linking duplicate records instead of simply deleting them.
