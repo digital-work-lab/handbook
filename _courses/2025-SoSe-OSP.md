@@ -70,10 +70,10 @@ Deadline: April (summer term), October (winter term)
 Start: April (summer term), October (winter term)
 
 - [x] Secretary: Add the presentation (exam) dates to the department calendar
-- [ ] Professor: Set deadline for pull-request evaluation.
-- [ ] Professor: Set the date for the code review session.
-- [ ] Professor: Add the code review session to the [calendar](../../calendar/events.yaml)
-- [ ] Professor: Schedule evaluations in the pen-ultimate week ([30.21.evaluations]({{ site.baseurl }}/docs/30-teaching/30_processes/30.21.evaluations.html)).
+- [x] Professor: Set deadline for pull-request evaluation.
+- [x] Professor: Set the date for the code review session.
+- [x] Professor: Add the code review session to the [calendar](../../calendar/events.yaml)
+- [x] Professor: Schedule evaluations in the pen-ultimate week ([30.21.evaluations]({{ site.baseurl }}/docs/30-teaching/30_processes/30.21.evaluations.html)).
 - [ ] Scheine ([Formular](https://www.uni-bamberg.de/ism/studium/anmeldung-scheinklausur/){: target="_blank"}), Scheinklausur-anmeldungen bei Erstellung der Klausurbögen berücksichtigen
 
 ## 4. Grading and documentation
