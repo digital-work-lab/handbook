@@ -7,7 +7,7 @@ grand_parent: Teaching
 semester: 2025-SoSe
 status: ▶
 student_evaluations: ""
-improvement_issue: ""
+improvement_issue: "https://github.com/digital-work-lab/literature-review-seminar/issues/221"
 improvement_status: N/A
 ---
 

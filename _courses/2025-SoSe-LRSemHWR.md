@@ -7,7 +7,7 @@ grand_parent: Teaching
 semester: 2025-SoSe
 status: ▶
 student_evaluations: ""
-improvement_issue: ""
+improvement_issue: "https://github.com/digital-work-lab/literature-review-seminar/issues/220"
 improvement_status: N/A
 ---
 
@@ -59,7 +59,7 @@ Start: March (summer term), September (winter term)
 - [x] Secretary and Professor: Set dates and request lecture rooms.
 - [ ] ~~IT department: Create the VC course, two weeks before the semester starts (automatically based on UnivIS).~~
 - [ ] ~~Have the seminar announced on [Instagram](https://www.instagram.com/informatik_unibamberg/){: target="_blank"}~~
-- [ ] Professor: Create a reminder for the evaluations.
+- [ ] ~~Professor: Create a reminder for the evaluations.~~
 - [ ] ~~Secretary: Add moderator and session dates in VC.~~
 - [ ] ~~Professor: Summarize the feedback from the last course and explain how it was addressed.~~
 - [ ] ~~Professor: Activate course in VC (visible to students).~~
@@ -70,7 +70,7 @@ Deadline: April (summer term), October (winter term)
 
 Start: April (summer term), October (winter term)
 
-- [ ] Professor: Schedule evaluations in the pen-ultimate week ([30.21.evaluations]({{ site.baseurl }}/docs/30-teaching/30_processes/30.21.evaluations.html)).
+- [x] Professor: Evaluations (on paper)
 
 ## 4. Grading and documentation
 
@@ -78,7 +78,7 @@ Note: no grading.
 
 Documentation
 
-- [ ] Professor: Analyse the evaluations, store the files, and document the improvements (see [evaluations]({{ site.baseurl }}/docs/30-teaching/30_processes/30.21.evaluations.html)).
-- [ ] Professor: [Report]({{ site.baseurl }}/docs/30-teaching/30_processes/30.20.reports.html) teaching efforts at the end of the semester.
+- [x] Professor: Analyse the evaluations, store the files, and document the improvements (see [evaluations]({{ site.baseurl }}/docs/30-teaching/30_processes/30.21.evaluations.html)).
+- [ ] ~~Professor: [Report]({{ site.baseurl }}/docs/30-teaching/30_processes/30.20.reports.html) teaching efforts at the end of the semester.~~
 
 Deadline: End of August (summer term), March (winter term)
