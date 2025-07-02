@@ -61,7 +61,7 @@ The following features stand out:
 - Programmatic use, CLI interface, and optional integration via pre-commit hooks
 - Zero dependencies: easily embeddable across environments
 - Extensible parser/validator architecture
-- Tested on real-world queries from [searchRxiv](https://www.searchrxiv.org/)
+- Tested on real-world queries from [searchRxiv](https://www.searchrxiv.org/){: target="_blank"}
 
 ## BibDedupe
 

@@ -8,4 +8,4 @@ nav_order: 1
 
 # Personal website
 
-Today, more than ever, a website is like a business card... See [this](https://vandybgsa.github.io/handbook/personal-website.html#setup) guide.
+Today, more than ever, a website is like a business card... See [this](https://vandybgsa.github.io/handbook/personal-website.html#setup){: target="_blank"} guide.
