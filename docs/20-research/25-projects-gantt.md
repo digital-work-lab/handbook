@@ -21,14 +21,14 @@ axisFormat %Y
     section knowledge_synthesis
 
     section others
-        beals :beals, 2025-03-28, 2025-07-02
-        bib-dedupe :bib-dedupe, 2025-03-04, 2025-07-02
-        edu-res :edu-res, 2024-10-10, 2025-07-02
-        teapad :teapad, 2024-09-10, 2025-07-02
-        genailr :genailr, 2023-12-10, 2025-07-02
-        lrdm :lrdm, 2022-02-20, 2025-07-02
-        ailr :ailr, 2020-11-26, 2025-07-02
-        theory-elaboration-manuscript :theory-elaboration-manuscript, 2018-01-15, 2025-07-02
+        beals :beals, 2025-03-28, 2025-07-03
+        bib-dedupe :bib-dedupe, 2025-03-04, 2025-07-03
+        edu-res :edu-res, 2024-10-10, 2025-07-03
+        teapad :teapad, 2024-09-10, 2025-07-03
+        genailr :genailr, 2023-12-10, 2025-07-03
+        lrdm :lrdm, 2022-02-20, 2025-07-03
+        ailr :ailr, 2020-11-26, 2025-07-03
+        theory-elaboration-manuscript :theory-elaboration-manuscript, 2018-01-15, 2025-07-03
 
 
     click beals href "{{ site.baseurl }}/docs/20-research/25-projects/_repos/beals"
