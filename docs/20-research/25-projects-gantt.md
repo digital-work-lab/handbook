@@ -31,12 +31,12 @@ axisFormat %Y
         theory-elaboration-manuscript :theory-elaboration-manuscript, 2018-01-15, 2025-07-08
 
 
-    click beals href "{{ site.baseurl }}/docs/20-research/25-projects/_repos/beals"
-    click bib-dedupe href "{{ site.baseurl }}/docs/20-research/25-projects/_repos/bib-dedupe"
-    click edu-res href "{{ site.baseurl }}/docs/20-research/25-projects/_repos/edu-res"
-    click teapad href "{{ site.baseurl }}/docs/20-research/25-projects/_repos/teapad"
-    click genailr href "{{ site.baseurl }}/docs/20-research/25-projects/_repos/genailr"
-    click lrdm href "{{ site.baseurl }}/docs/20-research/25-projects/_repos/lrdm"
-    click ailr href "{{ site.baseurl }}/docs/20-research/25-projects/_repos/ailr"
-    click theory-elaboration-manuscript href "{{ site.baseurl }}/docs/20-research/25-projects/_repos/theory-elaboration-manuscript"
+    click beals href "{{ site.baseurl }}/docs/10-lab/18-resources/beals.html"
+    click bib-dedupe href "{{ site.baseurl }}/docs/10-lab/18-resources/bib-dedupe.html"
+    click edu-res href "{{ site.baseurl }}/docs/10-lab/18-resources/edu-res.html"
+    click teapad href "{{ site.baseurl }}/docs/10-lab/18-resources/teapad.html"
+    click genailr href "{{ site.baseurl }}/docs/10-lab/18-resources/genailr.html"
+    click lrdm href "{{ site.baseurl }}/docs/10-lab/18-resources/lrdm.html"
+    click ailr href "{{ site.baseurl }}/docs/10-lab/18-resources/ailr.html"
+    click theory-elaboration-manuscript href "{{ site.baseurl }}/docs/10-lab/18-resources/theory-elaboration-manuscript.html"
 ```

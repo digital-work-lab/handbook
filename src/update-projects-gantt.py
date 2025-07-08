@@ -19,12 +19,9 @@ def parse_md_file(file_path):
     metadata["completed"] = completed_match.group(1) if completed_match else None
     metadata["area"] = re.search(r"area:\s*(.*)", content).group(1)
     metadata["status"] = re.search(r"status:\s*(.*)", content).group(1)
-    metadata[
-        "path"
-    ] = "{{ site.baseurl }}/docs/20-research/25-projects/" + file_path.replace(
-        ".md", ""
-    ).replace(
-        "_projects/", ""
+    slug = os.path.splitext(os.path.basename(file_path))[0]
+    metadata["path"] = (
+        f"{{{{ site.baseurl }}}}/docs/10-lab/18-resources/{slug}.html"
     )
     return metadata
 
