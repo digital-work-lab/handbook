@@ -12,7 +12,7 @@ A useful tool for developing, analyzing and testing regex is [regex101.com](http
 
 Python supports named groups:
 
-```Python
+```python
 import re
 
 text = "Today's date is 2025-07-10."
