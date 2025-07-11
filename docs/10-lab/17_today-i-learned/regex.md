@@ -8,7 +8,7 @@ nav_order: 1
 
 # Regex
 
-A useful tool for developing, analyzing and testing regex is [regex101.com](https://regex101.com/).
+A useful tool for developing, analyzing and testing regex is [regex101.com](https://regex101.com/){: target="_blank"}.
 
 Python supports named groups:
 
