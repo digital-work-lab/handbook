@@ -30,8 +30,14 @@ jobs:
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
         git add docs/calendar/digital_work_cal.ical
-        git commit -m "Update digital_work_cal.ical"
-        git push
+
+        if git diff --cached --quiet; then
+          echo "No changes to commit."
+        else
+          git commit -m "Update digital_work_cal.ical"
+          git push
+        fi
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
