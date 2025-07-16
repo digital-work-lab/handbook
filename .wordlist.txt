@@ -1408,3 +1408,8 @@ Jour
 abgeholt
 Raumplanung
 CIP
+Lisrel
+SmartPLS
+JASP
+jamovi
+lavaan
