@@ -7,7 +7,7 @@ grand_parent: Teaching
 semester: 2025-WiSe
 status: ⟳
 student_evaluations: ""
-improvement_issue: "https://github.com/digital-work-lab/digital-work-lecture/issues/121"
+improvement_issue: ""
 improvement_status: N/A
 ---
 

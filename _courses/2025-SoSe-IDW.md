@@ -6,8 +6,8 @@ parent: 32 Courses
 grand_parent: Teaching
 semester: 2025-SoSe
 status: ▶
-student_evaluations: ""
-improvement_issue: ""
+student_evaluations: "000135_20250719_SS25_IDW.pdf"
+improvement_issue: "https://github.com/digital-work-lab/digital-work-lecture/issues/121"
 improvement_status: N/A
 ---
 
