@@ -4,14 +4,14 @@ title: OSP
 title_long: Open-Source Projekt (WI-Projekt)
 parent: 32 Courses
 grand_parent: Teaching
-semester: 2023-SoSe
+semester: 2023-SuSe
 status: ✔️
 student_evaluations: "000033_20230723_SS23-Evaluation-Digital-Work-Projekt-B.pdf"
 improvement_issue: "https://github.com/digital-work-lab/open-source-project/issues/9"
 improvement_status: ✔️
 ---
 
-# OSP 2023 SoSe
+# OSP 2023 SuSe
 
 Field               | Value
 ------------------- | ------------------------------------------------

@@ -4,14 +4,14 @@ title: IDW
 title_long: Introduction to Digital Work
 parent: 32 Courses
 grand_parent: Teaching
-semester: 2023-SoSe
+semester: 2023-SuSe
 status: ✔️
 student_evaluations: "000032_20230709_SS23-Evaluation-Digital-Work-EDW-B.pdf"
 improvement_issue: "https://github.com/digital-work-lab/digital-work-lecture/issues/7"
 improvement_status: ✔️
 ---
 
-# IDW 2023 SoSe
+# IDW 2023 SuSe
 
 Field               | Value
 ------------------- | ---------------------------------------------------------------------------------------------------------------------

@@ -4,14 +4,14 @@ title: IDW
 title_long: Introduction to Digital Work
 parent: 32 Courses
 grand_parent: Teaching
-semester: 2024-SoSe
+semester: 2024-SuSe
 status: ✔️
 student_evaluations: "000088_20240721_SS24-Digital-Work-EDW-B_Introduction_Digital_Work.pdf"
 improvement_issue: "https://github.com/digital-work-lab/digital-work-lecture/issues/8"
 improvement_status: ▶
 ---
 
-# IDW 2024 SoSe
+# IDW 2024 SuSe
 
 Field               | Value
 ------------------- | -------------------------------------------------
@@ -27,38 +27,38 @@ Status of Revisions | {{ page.improvement_status }}
 
 ## Process
 
-## 1. Announce the course (4 months before)
+## 1. Announce the Course (4 Months Before)
  
 Start: December (summer term), May (winter term)
 
 - [x] Professor: Announce lecture on the website for the next semester (without dates/rooms).
-- [x] Secretary: Create the course in FlexNow.
-- [x] Secretary: Update information in UnivIS (add keywords „WI-Seminar“ and „WI-Seminare“ for seminars), check information on the website.
+- [x] Team Assistant: Create the course in FlexNow.
+- [x] Team Assistant: Update information in UnivIS (add keywords „WI-Seminar“ and „WI-Seminare“ for seminars), check information on the website.
 
 Deadline: mid-May (summer term), December/January (winter term)
 
-## 2. Prepare the course (1 month before)
+## 2. Prepare the Course (1 Month Before)
 
 Start: March (summer term), September (winter term)
 
-- [x] Secretary and Professor: Set dates and request lecture rooms.
+- [x] Team Assistant and Professor: Set dates and request lecture rooms.
 - [x] IT department: Create the VC course, two weeks before the semester starts (automatically based on UnivIS).
 - [x] Professor: Create a reminder for the evaluations.
-- [x] Secretary: Add moderator and session dates in VC.
+- [x] Team Assistant: Add moderator and session dates in VC.
 - [x] Professor: Activate course in VC (visible to students).
 
 Deadline: April (summer term), October (winter term)
 
-## 3. Offer the course
+## 3. Offer the Course
 
 Start: April (summer term), October (winter term)
 
 - [x] Professor: Schedule evaluations in the pen-ultimate week ([30.21.evaluations]({{ site.baseurl }}/docs/30-teaching/30_processes/30.21.evaluations.html)).
-- [x] Secretary: Order exam materials (Prüfungspapier, Mantelbögen).
-- [ ] Professor (Secretary): Prepare the exams (Deadline: day of the exam), information is typically provided one month before the semester ends (E-Mail: "Prüferbestellung"). Check whether points add up, whether the number of points per task is consistent with the grading expectations - e.g., "list two examples" should correspond to 2 or 4 points. (**TODO: where to store the exam**). Review the exam for typos. Print it and prepare the exam materials. Add the date of the exam to the calendar and prepare to hand it over personally.
+- [x] Team Assistant: Order exam materials (Prüfungspapier, Mantelbögen).
+- [ ] Professor (Team Assistant): Prepare the exams (Deadline: day of the exam), information is typically provided one month before the semester ends (E-Mail: "Prüferbestellung"). Check whether points add up, whether the number of points per task is consistent with the grading expectations - e.g., "list two examples" should correspond to 2 or 4 points. (**TODO: where to store the exam**). Review the exam for typos. Print it and prepare the exam materials. Add the date of the exam to the calendar and prepare to hand it over personally.
 - [x] Scheine ([Formular](https://www.uni-bamberg.de/ism/studium/anmeldung-scheinklausur/){: target="_blank"}), Scheinklausur-anmeldungen bei Erstellung der Klausurbögen berücksichtigen
 
-## 4. Exam grading and documentation
+## 4. Exam Grading and Documentation
 
 Grading
 
@@ -71,7 +71,7 @@ Documentation
 
 Deadline: End of August (summer term), March (winter term)
 
-## 5. Repeat exam (following term)
+## 5. Repeat Exam (Following Term)
 
 Students have the possibility to repeat the exam in the following term (even if the lecture is not offered again). Registration for students in FlexNow is created by the examination office. (true???)
 
