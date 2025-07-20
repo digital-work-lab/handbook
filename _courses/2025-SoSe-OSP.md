@@ -4,14 +4,14 @@ title: OSP
 title_long: Open-Source Projekt (WI-Projekt)
 parent: 32 Courses
 grand_parent: Teaching
-semester: 2025-SoSe
+semester: 2025-SuSe
 status: ▶
 student_evaluations: ""
 improvement_issue: "https://github.com/digital-work-lab/open-source-project/issues/189"
 improvement_status: N/A
 ---
 
-# OSP 2025 SoSe
+# OSP 2025 SuSe
 
 Field               | Value
 ------------------- | -------------------
@@ -26,13 +26,13 @@ Status of Revisions | {{ page.improvement_status }}
 
 ## Process
 
-- Grading: the secretary registers students for the seminar, enters grades, and submits them online. Students do not need to register on FlexNow.
+- Grading: the team assistant registers students for the seminar, enters grades, and submits them online. Students do not need to register on FlexNow.
 
-## 1. Announce the project (4 months before)
+## 1. Announce the Project (4 Months Before)
  
 Start: December (summer term), May (winter term)
 
-- [x] Secretary: Create the project in FlexNow.
+- [x] Team Assistant: Create the project in FlexNow.
 
 {: .highlight }
 >  Check public holidays
@@ -46,37 +46,37 @@ Start: December (summer term), May (winter term)
 
 At the end of the semester: 
 
-- [x] Secretary: Update information in UnivIS (**add keywords „WI-Projekt“ and „WI-Projekte“**), check information on the website. VC/UnivIS: "WI-Projekt-B: Bachelorprojekt aus der Fächergruppe Wirtschaftsinformatik"
-- [x] Secretary: Announce the project on the website for the next semester (without dates/rooms).
+- [x] Team Assistant: Update information in UnivIS (**add keywords „WI-Projekt“ and „WI-Projekte“**), check information on the website. VC/UnivIS: "WI-Projekt-B: Bachelorprojekt aus der Fächergruppe Wirtschaftsinformatik"
+- [x] Team Assistant: Announce the project on the website for the next semester (without dates/rooms).
 
 Deadline: mid-May (summer term), December/January (winter term)
 
-## 2. Prepare the project (1 month before)
+## 2. Prepare the Project (1 Month Before)
 
 Start: March (summer term), September (winter term)
 
-- [x] Secretary and Professor: Announce dates/rooms on the websites, add to calendar.
+- [x] Team Assistant and Professor: Announce dates/rooms on the websites, add to calendar.
 - [x] IT department: Create the VC course, two weeks before the semester starts (automatically based on UnivIS).
 - [x] Professor: The project should be announced on [Instagram](https://www.instagram.com/informatik_unibamberg/){: target="_blank"} and in the [Fachschaft WIAI newsletter](https://vc.uni-bamberg.de/course/view.php?id=284){: target="_blank"}
 - [x] Professor: Create a reminder for the evaluations.
-- [x] Secretary: Add moderator and session dates in VC.
+- [x] Team Assistant: Add moderator and session dates in VC.
 - [x] Professor: Summarize the feedback from the last course and explain how it was addressed.
 - [x] Professor: Activate course in VC (visible to students).
 
 Deadline: April (summer term), October (winter term)
 
-## 3. Offer the project
+## 3. Offer the Project
 
 Start: April (summer term), October (winter term)
 
-- [x] Secretary: Add the presentation (exam) dates to the department calendar
+- [x] Team Assistant: Add the presentation (exam) dates to the department calendar
 - [x] Professor: Set deadline for pull-request evaluation.
 - [x] Professor: Set the date for the code review session.
 - [x] Professor: Add the code review session to the [calendar](../../calendar/events.yaml)
 - [x] Professor: Schedule evaluations in the pen-ultimate week ([30.21.evaluations]({{ site.baseurl }}/docs/30-teaching/30_processes/30.21.evaluations.html)).
 - [ ] Scheine ([Formular](https://www.uni-bamberg.de/ism/studium/anmeldung-scheinklausur/){: target="_blank"}), Scheinklausur-anmeldungen bei Erstellung der Klausurbögen berücksichtigen
 
-## 4. Grading and documentation
+## 4. Grading and Documentation
 
 Grading
 
@@ -85,7 +85,7 @@ Grading
 
 Entering Grades into FlexNow
 
-- [ ] Secretary: [Enter grades in FlexNow](../30_processes/30.15.flexnow.html#entering-grades) (or create certificates if exam is not yet available in FlexNow ([script](https://github.com/digital-work-lab/handbook/tree/main/src/scheine){: target="_blank"})).
+- [ ] Team Assistant: [Enter grades in FlexNow](../30_processes/30.15.flexnow.html#entering-grades) (or create certificates if exam is not yet available in FlexNow ([script](https://github.com/digital-work-lab/handbook/tree/main/src/scheine){: target="_blank"})).
 - [ ] Professor: Archive grades and presentation protocols (projects and seminars: digital is sufficient) at [14.02](https://nc-2272638881871040784.nextcloud-ionos.com/index.php/apps/files/?dir=/10-lab/14_grades/02_projects&fileid=69){: target="_blank"}.
 
 Sending exams to the examination office
