@@ -13,6 +13,7 @@ io
 Ph
 cronjob
 nav
+SuSe
 Calendly
 endfor
 endif
