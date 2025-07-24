@@ -1430,3 +1430,7 @@ Nebentätigkeit
 StGB
 Vorteilsannahme
 BayBG
+Bewertung
+Kante
+Zustand
+fehlendem
