@@ -31,7 +31,7 @@ Status of Revisions | {{ page.improvement_status }}
 Start: December (summer term), May (winter term)
 
 - [x] Professor: Announce project on the website for the next semester (without dates/rooms).
-- [x] Secretary: Create the project in FlexNow.
+- [x] Team Assistant: Create the project in FlexNow.
 - [x] Professor: Update information in UnivIS (**add keywords „WI-Projekt“ and „WI-Projekte“**), check information on the website. VC/UnivIS: "WI-Projekt-B: Bachelorprojekt aus der Fächergruppe Wirtschaftsinformatik"
 - [x] Professor: The project should be announced in the [Fachschaft WIAI newsletter](https://vc.uni-bamberg.de/course/view.php?id=284){: target="_blank"}
 
@@ -41,10 +41,10 @@ Deadline: mid-May (summer term), December/January (winter term)
 
 Start: March (summer term), September (winter term)
 
-- [x] Secretary and Professor: Set dates and request lecture rooms.
+- [x] Team Assistant and Professor: Set dates and request lecture rooms.
 - [x] IT department: Create the VC course, two weeks before the semester starts (automatically based on UnivIS).
 - [x] Professor: Create a reminder for the evaluations.
-- [x] Secretary: Add moderator and session dates in VC.
+- [x] Team Assistant: Add moderator and session dates in VC.
 - [x] Professor: Activate course in VC (visible to students).
 
 Deadline: April (summer term), October (winter term)
@@ -66,7 +66,7 @@ Grading
 
 Entering Grades into FlexNow
 
-- [x] Secretary: Enter grades in FlexNow (or create certificates if exam is not yet available in FlexNow ([script](https://github.com/digital-work-lab/handbook/tree/main/src/scheine){: target="_blank"})).
+- [x] Team Assistant: Enter grades in FlexNow (or create certificates if exam is not yet available in FlexNow ([script](https://github.com/digital-work-lab/handbook/tree/main/src/scheine){: target="_blank"})).
 
     - [Login: FlexNow](https://fn2web.zuv.uni-bamberg.de/FN2AUTH/FN2AuthServlet?op=Login){: target="_blank"} - Lehrstuhlmodul - Prüfungsteilnehmer / zentral organisiert / Veranstaltung auswählen / Teilnehmer laden
     - Formular zum Ändern einzelner Teilnehmer: Noten eingeben (Punkte müssen nicht eingegeben werden), speichern und weiter

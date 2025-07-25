@@ -32,8 +32,8 @@ Status of Revisions | {{ page.improvement_status }}
 Start: December (summer term), May (winter term)
 
 - [x] Professor: Announce lecture on the website for the next semester (without dates/rooms).
-- [x] Secretary: Create the course in FlexNow.
-- [x] Secretary: Update information in UnivIS (add keywords „WI-Seminar“ and „WI-Seminare“ for seminars), check information on the website.
+- [x] Team Assistant: Create the course in FlexNow.
+- [x] Team Assistant: Update information in UnivIS (add keywords „WI-Seminar“ and „WI-Seminare“ for seminars), check information on the website.
 
 Deadline: mid-May (summer term), December/January (winter term)
 
@@ -41,10 +41,10 @@ Deadline: mid-May (summer term), December/January (winter term)
 
 Start: March (summer term), September (winter term)
 
-- [x] Secretary and Professor: Set dates and request lecture rooms.
+- [x] Team Assistant and Professor: Set dates and request lecture rooms.
 - [x] IT department: Create the VC course, two weeks before the semester starts (automatically based on UnivIS).
 - [x] Professor: Create a reminder for the evaluations.
-- [x] Secretary: Add moderator and session dates in VC.
+- [x] Team Assistant: Add moderator and session dates in VC.
 - [x] Professor: Activate course in VC (visible to students).
 
 Deadline: April (summer term), October (winter term)
@@ -54,8 +54,8 @@ Deadline: April (summer term), October (winter term)
 Start: April (summer term), October (winter term)
 
 - [x] Professor: Schedule evaluations in the pen-ultimate week ([30.21.evaluations]({{ site.baseurl }}/docs/30-teaching/30_processes/30.21.evaluations.html)).
-- [x] Secretary: Order exam materials (Prüfungspapier, Mantelbögen).
-- [x] Professor (Secretary): Prepare the exams (Deadline: day of the exam), information is typically provided one month before the semester ends (E-Mail: "Prüferbestellung"). Use the [exam checklist](30.59.exams.html#preparing-the-exam).
+- [x] Team Assistant: Order exam materials (Prüfungspapier, Mantelbögen).
+- [x] Professor (Team Assistant): Prepare the exams (Deadline: day of the exam), information is typically provided one month before the semester ends (E-Mail: "Prüferbestellung"). Use the [exam checklist](30.59.exams.html#preparing-the-exam).
 - [x] Scheine ([Formular](https://www.uni-bamberg.de/ism/studium/anmeldung-scheinklausur/){: target="_blank"}), Scheinklausur-anmeldungen bei Erstellung der Klausurbögen berücksichtigen
 
 ## 4. Exam grading and documentation
