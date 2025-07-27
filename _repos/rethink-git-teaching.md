@@ -10,7 +10,7 @@ area: research
 topics: ['research']
 html_url: https://github.com/digital-work-lab/rethink-git-teaching
 archived: True
-updated_recently: True
+updated_recently: False
 associated_projects: []
 labot_workflow_status: not-applicable
 project_type: []
