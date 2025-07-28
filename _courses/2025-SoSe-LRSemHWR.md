@@ -5,7 +5,7 @@ title_long: The Literature Review Seminar (HWR)
 parent: 32 Courses
 grand_parent: Teaching
 semester: 2025-SoSe
-status: ▶
+status: ✔️
 student_evaluations: "000130_20250807_SS25_LRSem_HWR_Berlin.pdf"
 improvement_issue: "https://github.com/digital-work-lab/literature-review-seminar/issues/220"
 improvement_status: N/A
