@@ -5,7 +5,7 @@ title_long: The Literature Review Seminar (IDIS)
 parent: 32 Courses
 grand_parent: Teaching
 semester: 2025-SoSe
-status: ▶
+status: ✔️
 student_evaluations: "000131_20250708_SS25_LRSem_IDIS.pdf"
 improvement_issue: "https://github.com/digital-work-lab/literature-review-seminar/issues/221"
 improvement_status: N/A
@@ -78,7 +78,7 @@ Note: no grading.
 
 Documentation
 
-- [ ] Professor: Analyse the evaluations, store the files, and document the improvements (see [evaluations]({{ site.baseurl }}/docs/30-teaching/30_processes/30.21.evaluations.html)).
+- [x] Professor: Analyse the evaluations, store the files, and document the improvements (see [evaluations]({{ site.baseurl }}/docs/30-teaching/30_processes/30.21.evaluations.html)).
 - [ ] ~~Professor: [Report]({{ site.baseurl }}/docs/30-teaching/30_processes/30.20.reports.html) teaching efforts at the end of the semester.~~
 
 Deadline: End of August (summer term), March (winter term)
