@@ -19,21 +19,15 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Run spellcheck
-        id: spellcheck
-        uses: rojopolis/spellcheck-github-actions@v0
-        continue-on-error: true
+      - name: Install cspell
+        run: npm install -g cspell
 
-      - name: Copy output to file for issue
+      - name: Run cspell and save to file
         run: |
           mkdir -p tmp
-          if [ -f .spellcheck-output.txt ]; then
-            cp .spellcheck-output.txt tmp/spellcheck-report.md
-          else
-            echo "⚠️ No .spellcheck-output.txt generated. Spellcheck may not have found any issues or misconfigured output." > tmp/spellcheck-report.md
-          fi
+          find . -name '*.md' -o -name '*.txt' | xargs cspell > tmp/spellcheck-report.md || true
 
-      - name: Check if spellcheck report has content
+      - name: Check if spelling errors were found
         id: check_errors
         run: |
           if [ -s tmp/spellcheck-report.md ]; then
