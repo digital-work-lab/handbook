@@ -34,7 +34,7 @@ jobs:
 
       - name: Check for misspellings and create issue
         if: success() || failure()
-        uses: peter-evans/create-issue@v5
+        uses: peter-evans/create-issue@v4
         with:
           title: "Spellcheck: Spelling Issues Found"
           body: |
