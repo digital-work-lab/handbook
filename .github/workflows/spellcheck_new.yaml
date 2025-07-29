@@ -46,7 +46,7 @@ jobs:
         if: steps.check_errors.outputs.has_errors == 'true'
         uses: peter-evans/create-issue-from-file@v5
         with:
-          title: Spellcheck Report: Spelling Issues Found
+          title: "Spellcheck Report: Spelling Issues Found"
           content-filepath: tmp/spellcheck-report.md
           labels: |
             spelling
