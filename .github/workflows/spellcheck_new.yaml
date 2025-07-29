@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Run spellcheck
@@ -24,27 +24,32 @@ jobs:
         uses: rojopolis/spellcheck-github-actions@v0
         continue-on-error: true
 
-      - name: Capture spellcheck output
+      - name: Copy output to file for issue
         run: |
           mkdir -p tmp
-          cp .spellcheck.yml tmp/
-          cp -r .spellcheck-output tmp/ || true
-          find . -name '*.md' -exec cat {} + | \
-            npx cspell --config=.spellcheck.yml stdin > tmp/spellcheck-output.txt || true
+          if [ -f .spellcheck-output.txt ]; then
+            cp .spellcheck-output.txt tmp/spellcheck-report.md
+          else
+            echo "⚠️ No .spellcheck-output.txt generated. Spellcheck may not have found any issues or misconfigured output." > tmp/spellcheck-report.md
+          fi
 
-      - name: Check for misspellings and create issue
-        if: success() || failure()
-        uses: peter-evans/create-issue@v4
+      - name: Check if spellcheck report has content
+        id: check_errors
+        run: |
+          if [ -s tmp/spellcheck-report.md ]; then
+            echo "has_errors=true" >> $GITHUB_OUTPUT
+          else
+            echo "has_errors=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Create Issue From File
+        if: steps.check_errors.outputs.has_errors == 'true'
+        uses: peter-evans/create-issue-from-file@v5
         with:
-          title: "Spellcheck: Spelling Issues Found"
-          body: |
-            The spellcheck GitHub Action has detected potential spelling issues in the latest push or pull request.
-
-            ```
-            ${{ steps.spellcheck.outputs.results }}
-            ```
-
-            Please review the suggested corrections.
-          labels: spelling
+          title: Spellcheck Report: Spelling Issues Found
+          content-filepath: tmp/spellcheck-report.md
+          labels: |
+            spelling
+            automated issue
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
