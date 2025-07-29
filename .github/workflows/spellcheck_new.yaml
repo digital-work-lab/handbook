@@ -45,5 +45,7 @@ jobs:
           labels: |
             spelling
             automated issue
+          issue-number: "413"
+          assignees: ""
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
