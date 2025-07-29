@@ -46,7 +46,7 @@ jobs:
             spelling
             automated issue
           issue-number: "413"
-          assignees: ""
+          assignees: "geritwagner"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
