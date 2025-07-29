@@ -1,0 +1,50 @@
+name: Spellcheck and Report
+
+on:
+  push:
+    paths:
+      - '**.md'
+      - '**.txt'
+  pull_request:
+    paths:
+      - '**.md'
+      - '**.txt'
+  workflow_dispatch:
+
+jobs:
+  spellcheck:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Run spellcheck
+        id: spellcheck
+        uses: rojopolis/spellcheck-github-actions@v0
+        continue-on-error: true
+
+      - name: Capture spellcheck output
+        run: |
+          mkdir -p tmp
+          cp .spellcheck.yml tmp/
+          cp -r .spellcheck-output tmp/ || true
+          find . -name '*.md' -exec cat {} + | \
+            npx cspell --config=.spellcheck.yml stdin > tmp/spellcheck-output.txt || true
+
+      - name: Check for misspellings and create issue
+        if: success() || failure()
+        uses: peter-evans/create-issue@v5
+        with:
+          title: "Spellcheck: Spelling Issues Found"
+          body: |
+            The spellcheck GitHub Action has detected potential spelling issues in the latest push or pull request.
+
+            ```
+            ${{ steps.spellcheck.outputs.results }}
+            ```
+
+            Please review the suggested corrections.
+          labels: spelling
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
