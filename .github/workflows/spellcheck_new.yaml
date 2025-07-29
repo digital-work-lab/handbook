@@ -25,7 +25,7 @@ jobs:
       - name: Run cspell and save to file
         run: |
           mkdir -p tmp
-          find . -name '*.md' -o -name '*.txt' | xargs cspell > tmp/spellcheck-report.md || true
+          find . -name '*.md' -o -name '*.txt' | xargs cspell --config .cspell.json > tmp/spellcheck-report.md || true
 
       - name: Check if spelling errors were found
         id: check_errors
