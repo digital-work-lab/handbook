@@ -49,3 +49,14 @@ jobs:
           assignees: ""
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Close Issue if No Errors
+        if: steps.check_errors.outputs.has_errors == 'false'
+        uses: peter-evans/close-issue@v3
+        with:
+          issue-number: 413
+          comment: |
+            ✅ No spelling errors were found in the latest check.
+            This issue is being automatically closed.
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
