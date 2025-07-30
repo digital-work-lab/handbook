@@ -34,7 +34,7 @@ jobs:
         run: |
           docker run -d --name languagetool \
             -p 8081:8081 \
-            languagetoolorg/languagetool
+            erikvl87/languagetool
 
       - name: Wait for LanguageTool to be ready
         run: |
