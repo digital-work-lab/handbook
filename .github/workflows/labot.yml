@@ -3,9 +3,11 @@ name: Labot checks
 on:
   workflow_dispatch:
   push:
-    branches: [main]
+    branches:
+      - main
   pull_request:
-    branches: [main]
+    branches:
+      - main
   issues:
     types: [opened]
   issue_comment:
@@ -13,11 +15,10 @@ on:
 
 jobs:
   install-and-run:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest  # Use the latest Ubuntu environment
     permissions:
       contents: write
       issues: write
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -29,27 +30,6 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: 3.12
-
-      - name: Start LanguageTool server
-        run: |
-          docker run -d --name languagetool \
-            -p 8010:8010 \
-            erikvl87/languagetool
-
-      - name: Wait for LanguageTool to be ready
-        run: |
-          echo "Waiting for LanguageTool server to start..."
-          for i in {1..60}; do
-            if curl -s http://localhost:8010/v2/check -d '{}' -H "Content-Type: application/json" | grep -q '"matches"'; then
-              echo "LanguageTool is ready."
-              exit 0
-            fi
-            echo "Waiting... ($i)"
-            sleep 2
-          done
-          echo "LanguageTool failed to start in time."
-          docker logs languagetool
-          exit 1
 
       - name: Cache pip dependencies
         uses: actions/cache@v4
@@ -71,19 +51,14 @@ jobs:
           git config --global user.name "digital-work-labot"
           git config --global url.https://github.com/.insteadOf git://github.com/
 
-      - name: Workaround for detached HEAD (for PRs)
+      - name: workaround for detached HEAD
         if: ${{ github.event_name == 'pull_request' }}
         run: |
           git fetch origin '+refs/heads/*:refs/remotes/origin/*'
-          git checkout ${GITHUB_HEAD_REF#refs/heads/} || \
-          git checkout -b ${GITHUB_HEAD_REF#refs/heads/} && git pull
+          git checkout ${GITHUB_HEAD_REF#refs/heads/} || git checkout -b ${GITHUB_HEAD_REF#refs/heads/} && git pull
 
       - name: Run labot.repository.main()
         run: |
           python -m labot.repository
         env:
           GITHUB_TOKEN: ${{ secrets.MY_PAT_TOKEN }}
-
-      - name: Stop LanguageTool container
-        if: always()
-        run: docker rm -f languagetool || true
