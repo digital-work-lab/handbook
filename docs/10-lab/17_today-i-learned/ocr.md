@@ -10,7 +10,7 @@ nav_order: 1
 
 ## OCR for PDFs
 
-To OCR all PDFs in a folder using Docker and [`ocrmypdf`](https://github.com/ocrmypdf/OCRmyPDF):
+To OCR all PDFs in a folder using Docker and [`ocrmypdf`](https://github.com/ocrmypdf/OCRmyPDF){: target="_blank"}:
 
 1. Place your input files in a `pdfs/` directory.
 2. Run the following shell script to OCR each file using English and German (`eng+deu`) language support:
