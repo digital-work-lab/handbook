@@ -1,7 +1,7 @@
 ---
 layout: default
 title: open-source-project
-title_long: "The open-source project: teaching collaborative open-source software development with Git and Python in the context of CoLRev"
+title_long: "The open source project: teaching collaborative open source software development with Git and Python in the context of CoLRev"
 parent: 25 Projects
 grand_parent: Research
 visibility: Public
