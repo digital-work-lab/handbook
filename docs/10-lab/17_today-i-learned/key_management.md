@@ -18,6 +18,7 @@ To store a key across sessions, add the `export API_KEY="your-api-key"` statemen
 
 {: .info }
 > **Common key variables for local setup**
+> 
 > export OPENAI_KEY="XXX"
 > export GITHUB_TOKEN="XXX"
 
