@@ -67,23 +67,23 @@ Start: April (summer term), October (winter term)
 
 Before grading (day of the exam)
 
-- [ ] Professor: Cases of cheating (Unterschleif): immediately enter it into FlexNow and send the exam to the examination office (do not grade it)
-- [ ] Professor: Cases of missed exams (Versäumnisklausuren): immediately enter it into FlexNow, archive the exams for 1 year.
-- [ ] Professor: Send the exam sheets, protocols (Anwesenheitslisten), and two empty exams to the examination office immediately after the exams are completed.
-- [ ] Team Assistant: Empty exams (Versäumnis-Klausur): archive for one semester.
+- [x] Professor: Cases of cheating (Unterschleif): immediately enter it into FlexNow and send the exam to the examination office (do not grade it)
+- [x] Professor: Cases of missed exams (Versäumnisklausuren): immediately enter it into FlexNow, archive the exams for 1 year.
+- [x] Professor: Send the exam sheets, protocols (Anwesenheitslisten), and two empty exams to the examination office immediately after the exams are completed.
+- [x] Team Assistant: Empty exams (Versäumnis-Klausur): archive for one semester.
 
 Grading
 
-- [ ] Create reminder for the deadline: approx. 15. September (summer term), ??? (winter term). Grade early because colleagues may be on vacation before the deadline (not available to review failed exams).
-- [ ] Add bonus points if any and **if exam is passed**. Otherwise, note the bonus points and add a note "kann nicht angerechnet werden".
-- [ ] Do not dispose of empty exams
-- [ ] Use the [grading scripts](https://github.com/digital-work-lab/handbook/tree/main/src/grading){: target="_blank"} to assign grades and prepare FlexNow import
+- [x] Create reminder for the deadline: approx. 15. September (summer term), ??? (winter term). Grade early because colleagues may be on vacation before the deadline (not available to review failed exams).
+- [x] Add bonus points if any and **if exam is passed**. Otherwise, note the bonus points and add a note "kann nicht angerechnet werden".
+- [x] Do not dispose of empty exams
+- [x] Use the [grading scripts](https://github.com/digital-work-lab/handbook/tree/main/src/grading){: target="_blank"} to assign grades and prepare FlexNow import
 - [ ] Have failed exams reviewed by a second professor
 
 Entering Grades into FlexNow
 
 - [ ] Team Assistant: [Enter grades in FlexNow](../30_processes/30.15.flexnow.html#entering-grades) (or create certificates if exam is not yet available in FlexNow ([script](https://github.com/digital-work-lab/handbook/tree/main/src/scheine){: target="_blank"})).
-- [ ] Professor: Archive bonus exercises (if any).
+- [x] Professor: Archive bonus exercises (if any).
 
 Sending exams to the examination office
 
