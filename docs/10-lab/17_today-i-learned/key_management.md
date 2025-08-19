@@ -16,6 +16,11 @@ export API_KEY="your-api-key"
 
 To store a key across sessions, add the `export API_KEY="your-api-key"` statement to `~/.bash_profile` or `~/.profile`.
 
+{: .info }
+> **Common key variables for local setup:
+> export OPENAI_KEY="XXX"
+> export GITHUB_TOKEN="XXX"
+
 Access the key in Python:
 
 ```
