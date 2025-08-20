@@ -24,23 +24,24 @@ Overview of journals:
 
 | Journal | Latest Volume/Issue |
 |---------|---------------------|
-| americas-conference-on-information-systems | 2010 |
-| communications-of-the-association-for-information-systems | 55 |
-| decision-support-systems | 189 |
+| americas-conference-on-information-systems | 2020 |
+| communications-of-the-association-for-information-systems | 57 |
+| decision-support-systems | 195 |
 | european-conference-on-information-systems | 2025 |
-| european-journal-of-information-systems | 33_6 |
+| european-journal-of-information-systems | 34_4 |
 | hawaii-international-conference-on-system-sciences | 2020 |
-| information-and-management | 62_1 |
-| information-systems-frontiers | 22_5 |
-| information-systems-journal | 34_6 |
-| information-systems-research | 35_4 |
+| information-and-management | 62_6 |
+| information-systems-frontiers | 27_3 |
+| information-systems-journal | 35_4 |
+| information-systems-research | 36_2 |
 | international-conference-on-information-systems | 2024 |
-| journal-of-information-technology | 40_1 |
-| journal-of-management-information-systems | 41_3 |
-| journal-of-the-association-for-information-systems | 25_6 |
-| mis-quarterly | 48_3 |
-| pacific-asia-conference-on-information-systems | 2020 |
+| journal-of-information-technology | 40_2 |
+| journal-of-management-information-systems | 42_2 |
+| journal-of-the-association-for-information-systems | 26_4 |
+| mis-quarterly | 49_2 |
+| pacific-asia-conference-on-information-systems | 2025 |
 | the-journal-of-strategic-information-systems | 34_3 |
+
 
 <!-- END -->
 
