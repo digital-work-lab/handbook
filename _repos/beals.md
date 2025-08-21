@@ -44,12 +44,12 @@ Completed           | {{ page.completed }}
 ## Resources
 
 {% for output in page.resources %}
-- [{{ output.name }}]({{ output.link }}){{: target="_blank"}}
+- [{{ output.name }}]({{ output.link }}){: target="_blank"}
 {% endfor %}
 ## Outputs
 
 {% for output in page.outputs %}
-- [{{ output.type }}]({{ output.link }}){{: target="_blank"}}
+- [{{ output.type }}]({{ output.link }}){: target="_blank"}
 {% endfor %}
 ## Related projects 
 
