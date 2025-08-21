@@ -6,7 +6,7 @@ parent: 32 Courses
 grand_parent: Teaching
 semester: 2025-SoSe
 status: ▶
-student_evaluations: ""
+student_evaluations: "000141_20250802_SS25-LRSem.pdf"
 improvement_issue: "https://github.com/digital-work-lab/literature-review-seminar/issues/199"
 improvement_status: N/A
 ---
