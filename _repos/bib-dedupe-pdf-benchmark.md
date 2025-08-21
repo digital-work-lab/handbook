@@ -33,13 +33,13 @@ Completed           | {{ page.completed }}
 
 [![Request Access](https://img.shields.io/badge/Request-Access-blue?style=for-the-badge)](https://github.com/digital-work-lab/handbook/issues/new?assignees=geritwagner&labels=access+request&template=request-repo-access.md&title=%5BAccess+Request%5D+Request+for+access+to+repository)
 
-{{% if page.resources and page.resources != empty %}}
+{{% endunless page.resources == empty %}}
 ## Resources
 
   {{% for output in page.resources %}}
   - [{{ output.name }}]({{ output.link }}){{: target="_blank"}}
   {{% endfor %}}
-{{% endif %}}
+{{% endunless %}}
 
 {{% if page.outputs and page.outputs != empty %}}
 ## Outputs
