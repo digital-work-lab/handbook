@@ -12,7 +12,7 @@ html_url: https://github.com/digital-work-lab/git-collaboration
 archived: False
 updated_recently: True
 associated_projects: []
-labot_workflow_status: success
+labot_workflow_status: None
 project_type: ['paper']
 ---
 
@@ -33,7 +33,7 @@ Completed           | {{ page.completed }}
 
 [![Request Access](https://img.shields.io/badge/Request-Access-blue?style=for-the-badge)](https://github.com/digital-work-lab/handbook/issues/new?assignees=geritwagner&labels=access+request&template=request-repo-access.md&title=%5BAccess+Request%5D+Request+for+access+to+repository)
 
-{{% if page.resources %}}
+{{% if page.resources and page.resources != empty %}}
 ## Resources
 
   {{% for output in page.resources %}}
@@ -41,7 +41,7 @@ Completed           | {{ page.completed }}
   {{% endfor %}}
 {{% endif %}}
 
-{{% if page.outputs %}}
+{{% if page.outputs and page.outputs != empty %}}
 ## Outputs
 
   {{% for output in page.outputs %}}
@@ -49,7 +49,7 @@ Completed           | {{ page.completed }}
   {{% endfor %}}
 {{% endif %}}
 
-{{% if page.related %}}
+{{% if page.related and page.related != empty %}}
 ## Related projects 
 
 - {{% for item in page.related %}}
