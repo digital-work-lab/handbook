@@ -6,8 +6,8 @@ parent: 25 Projects
 grand_parent: Research
 visibility: Public
 collaborators: []
-area: other
-topics: []
+area: research
+topics: ['research']
 html_url: https://github.com/digital-work-lab/bib-dedupe-pdf-benchmark
 archived: False
 updated_recently: True
