@@ -234,7 +234,7 @@ Completed           | {{{{ page.completed }}}}
 ## Resources
 
   {{{{% for output in page.resources %}}}}
-  - [{{{{{{{{ output.name }}}}}}}}]({{{{{{{{ output.link }}}}}}}}){{{{: target="_blank"}}}}
+  - [{{{{ output.name }}}}]({{{{ output.link }}}}){{{{: target="_blank"}}}}
   {{{{% endfor %}}}}
 {{{{% endif %}}}}
 
@@ -242,7 +242,7 @@ Completed           | {{{{ page.completed }}}}
 ## Outputs
 
   {{{{% for output in page.outputs %}}}}
-  - [{{{{{{{{ output.type }}}}}}}}]({{{{{{{{ output.link }}}}}}}}){{{{: target="_blank"}}}}
+  - [{{{{ output.type }}}}]({{{{ output.link }}}}){{{{: target="_blank"}}}}
   {{{{% endfor %}}}}
 {{{{% endif %}}}}
 
@@ -250,7 +250,7 @@ Completed           | {{{{ page.completed }}}}
 ## Related projects 
 
 - {{{{% for item in page.related %}}}}
-  - <a href="{{{{{{{{ item }}}}}}}}">{{{{{{{{ item }}}}}}}}</a>
+  - <a href="{{{{ item }}}}">{{{{ item }}}}</a>
 {{{{% endfor %}}}}
 {{{{% endif %}}}}
 """
