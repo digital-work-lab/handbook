@@ -16,7 +16,7 @@ See [library]({{ site.baseurl }}/docs/10-lab/18_resources/18.01.library.html)
 ## Journals and Conferences
 
 {: .resource } 
-> A selection of journal and conference papers is available [on Nextcloud](https://nc-2272638881871040784.nextcloud-ionos.com/index.php/apps/files/files/373460?dir=/20-research/22_literature).
+> A selection of journal and conference papers is available [on Nextcloud](https://nc-2272638881871040784.nextcloud-ionos.com/index.php/apps/files/files/373460?dir=/20-research/22_literature){: target="_blank"}.
 
 Overview of journals:
 
