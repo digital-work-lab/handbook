@@ -29,7 +29,7 @@ Overview of journals:
 | decision-support-systems | 195 |
 | european-conference-on-information-systems | 2025 |
 | european-journal-of-information-systems | 34_4 |
-| hawaii-international-conference-on-system-sciences | 2020 |
+| hawaii-international-conference-on-system-sciences | 2024 |
 | information-and-management | 62_6 |
 | information-systems-frontiers | 27_3 |
 | information-systems-journal | 35_4 |
