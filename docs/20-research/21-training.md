@@ -24,3 +24,4 @@ Resources (to sort):
 - [Instats courses](https://instats.org/){: target="_blank"}
 - [IDIS: International Doctoral Network in Information Systems](https://idis.digital/){: target="_blank"}
 - [VHB Prodoc](https://www.vhbonline.org/veranstaltungen/prodok){: target="_blank"}
+- IS Research Podcast Episodes: [Cognitive conflict, courage, humility, and respect: Ingredients for a productive academic discourse](https://www.youtube.com/watch?v=7Eq2JL4qTvQ){: target="_blank"}
