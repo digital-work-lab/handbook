@@ -15,6 +15,8 @@ See [library]({{ site.baseurl }}/docs/10-lab/18_resources/18.01.library.html)
 
 ## Journals and Conferences
 
+We collect PDFs from key IS journals and conferences. This is essential for full-text searching (see [tools]({{ site.baseurl }}/docs/20-research/20_processes/20.03.systems.html#2003-systems-for-research)) and retrieval (e.g., using CoLRev).
+
 {: .resource } 
 > A selection of journal and conference papers is available [on Nextcloud](https://nc-2272638881871040784.nextcloud-ionos.com/index.php/apps/files/files/373460?dir=/20-research/22_literature){: target="_blank"}.
 
