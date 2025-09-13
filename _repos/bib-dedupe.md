@@ -10,7 +10,7 @@ area: research
 topics: ['paper', 'research']
 html_url: https://github.com/digital-work-lab/bib-dedupe
 archived: False
-updated_recently: False
+updated_recently: True
 associated_projects: []
 labot_workflow_status: failure
 project_type: ['paper']
