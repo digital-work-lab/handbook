@@ -26,7 +26,7 @@ Overview of journals:
 
 | Journal | Latest Volume/Issue |
 |---------|---------------------|
-| americas-conference-on-information-systems | 2020 |
+| americas-conference-on-information-systems | 2025 |
 | communications-of-the-association-for-information-systems | 57 |
 | decision-support-systems | 195 |
 | european-conference-on-information-systems | 2025 |
