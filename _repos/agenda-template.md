@@ -1,6 +1,6 @@
 ---
 layout: default
-title: agenda_template
+title: agenda-template
 title_long: "None"
 parent: 25 Projects
 grand_parent: Research
@@ -8,7 +8,7 @@ visibility: Public
 collaborators: []
 area: other
 topics: ['agenda']
-html_url: https://github.com/digital-work-lab/agenda_template
+html_url: https://github.com/digital-work-lab/agenda-template
 archived: False
 updated_recently: True
 associated_projects: []
@@ -25,7 +25,7 @@ Title               | {{ page.title_long }}
 Visibility          | {{ page.visibility }}
 Access              | {{ page.collaborators topics | join: ", "}}
 Topics              | {{ page.topics | join: ", " }}
-URL                 | [https://github.com/digital-work-lab/agenda_template](https://github.com/digital-work-lab/agenda_template){: target="_blank"}
+URL                 | [https://github.com/digital-work-lab/agenda-template](https://github.com/digital-work-lab/agenda-template){: target="_blank"}
 Status              | {{ page.status }}
 Improvement         | {{ page.improvement_status }}
 Started             | {{ page.started }}
