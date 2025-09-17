@@ -8,7 +8,21 @@ nav_order: 1
 
 # OCR
 
-## OCR for PDFs
+## Single PDF
+
+Replace the `filename.pdf`:
+
+```
+in="filename.pdf"
+tmp="${in%.pdf}.ocr.pdf"
+
+docker run --rm -u $(id -u):$(id -g) \
+  -v "$(pwd)":/mnt jbarlow83/ocrmypdf \
+  --language eng+deu \
+  "/mnt/$in" "/mnt/$tmp" && mv "$tmp" "$in"
+```
+
+## PDF Batches
 
 To OCR all PDFs in a folder using Docker and [`ocrmypdf`](https://github.com/ocrmypdf/OCRmyPDF){: target="_blank"}:
 
