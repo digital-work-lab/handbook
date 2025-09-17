@@ -14,12 +14,12 @@ Replace the `filename.pdf`:
 
 ```
 in="filename.pdf"
-tmp="${in%.pdf}.ocr.pdf"
+tmp="${in%.pdf}_ocr.pdf"
 
 docker run --rm -u $(id -u):$(id -g) \
   -v "$(pwd)":/mnt jbarlow83/ocrmypdf \
   --language eng+deu \
-  "/mnt/$in" "/mnt/$tmp" && mv "$tmp" "$in"
+  "/mnt/$in" "/mnt/$tmp"
 ```
 
 ## PDF Batches
