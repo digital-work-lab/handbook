@@ -8,6 +8,8 @@ nav_order: 1
 
 # OCR
 
+Optical Character Recognition (OCR) using Docker and [`ocrmypdf`](https://github.com/ocrmypdf/OCRmyPDF){: target="_blank"}.
+
 ## Single PDF
 
 Replace the `filename.pdf`:
@@ -24,7 +26,7 @@ docker run --rm -u $(id -u):$(id -g) \
 
 ## PDF Batches
 
-To OCR all PDFs in a folder using Docker and [`ocrmypdf`](https://github.com/ocrmypdf/OCRmyPDF){: target="_blank"}:
+To OCR all PDFs in a folder:
 
 1. Place your input files in a `pdfs/` directory.
 2. Run the following shell script to OCR each file using English and German (`eng+deu`) language support:
