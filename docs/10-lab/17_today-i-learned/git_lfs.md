@@ -25,7 +25,7 @@ git commit -m "Add PDF (LFS)"
 git push
 ````
 
-## Migration using git-filter-repo (PDFs already committed without lfs)
+## Migration with git-filter-repo (PDFs committed without lfs)
 
 ```
 # install git-filter-repo
