@@ -12,55 +12,27 @@ resources:
     # TODO : update access and last updated automatically (script)
     access: ['julianprester', 'geritwagner']
     last_updated: 2025-09-15
+  - name: Dropbox shared folder
+    link: https://www.dropbox.com/home/GenAI%20and%20LRs
 history:
    - date: 2024-01-22
      event: started
-
-#   - date: 2024-01-22
-#     event: draft
-#     artifact: 2024-01-22-genailr-paper-jp.pdf
-#     notes: Initial draft (PDF)
-
-#   - date: 2024-04-09
-#     event: manuscript
-#     artifact: 2024-04-09-paper.docx
-#     notes: Manuscript edit (DOCX)
-
-#   - date: 2024-04-25
-#     event: reviewer-commentary
-#     artifact: 2024-04-25-Commentary_GenAI_Anonymous.docx
-#     round: R0
-#     notes: Anonymous commentary
-
-#   - date: 2024-04-25
-#     event: title-page
-#     artifact: 2024-04-25-Title page.docx
-#     round: R0
-
-#   - date: 2024-10-25
-#     event: decision
-#     artifact: 2024-10-25-JIT-Decision-revise.pdf
-#     decision: revise
-#     venue: JIT
-#     round: R1
-#     notes: Editorial decision letter
-
-#   - date: 2024-12-03
-#     event: reviewer-commentary
-#     artifact: 2024-12-03-Commentary_R1_anonymous.docx
-#     round: R1
-#     notes: Anonymous commentary (R1)
-
-#   - date: 2024-12-03
-#     event: revision-table
-#     artifact: 2024-12-03-Revision table.docx
-#     round: R1
-#     notes: Point-by-point response table
-
-#   - date: 2024-12-03
-#     event: title-page
-#     artifact: 2024-12-03-Title page_R1.docx
-#     round: R1
+   - date: 2024-04-25
+     event: submission
+     artifact: 2024-04-25-Commentary_GenAI_Anonymous.docx
+   - date: 2024-10-25
+     event: decision
+     artifact: 2024-10-25-JIT-Decision-revise.pdf
+     decision: revise
+   - date: 2024-12-03
+     event: revision
+     artifact: 2024-12-03-Commentary_R1_anonymous.docx
+   - date: 2025-07-21
+     event: revision
+     artifact: 2025-07-21-revision_sheet_JIN-24-0488.R1
+   - date: 2025-08-14
+     event: submission
+     artifact: 2025-08-14-JIN-24-0488.R2_Proof_hi.pdf
 
 # optional fields you might already use elsewhere:
 # improvement_status:
@@ -87,6 +59,7 @@ Status              | {{ page.status }}
       <th>Name</th>
       <th>Access</th>
       <th>Last updated</th>
+      <th>Request</th>
     </tr>
   </thead>
   <tbody>
@@ -97,14 +70,6 @@ Status              | {{ page.status }}
           <a href="{{ res.link }}" target="_blank" rel="noopener">
             {{ res.name | default: res.link }}
           </a>
-          {% if res.link contains "https://github.com" %}
-            <div style="margin-top: .25rem;">
-              <a href="https://github.com/digital-work-lab/handbook/issues/new?assignees=geritwagner&labels=access+request&template=request-repo-access.md&title=%5BAccess+Request%5D+Request+for+access+to+repository"
-                 target="_blank" rel="noopener">
-                <img src="https://img.shields.io/badge/Request-Access-blue?style=for-the-badge" alt="Request Access">
-              </a>
-            </div>
-          {% endif %}
         {% else %}
           {{ res.name | default: "—" }}
         {% endif %}
@@ -126,6 +91,16 @@ Status              | {{ page.status }}
           —
         {% endif %}
       </td>
+      <td>
+        {% if res.link and res.link contains "https://github.com" %}
+          <a href="https://github.com/digital-work-lab/handbook/issues/new?assignees=geritwagner&labels=access+request&template=request-repo-access.md&title=%5BAccess+Request%5D+Request+for+access+to+repository"
+             target="_blank" rel="noopener">
+            <img src="https://img.shields.io/badge/Request-Access-blue" alt="Request Access">
+          </a>
+        {% else %}
+          —
+        {% endif %}
+      </td>
     </tr>
     {% endfor %}
   </tbody>
@@ -133,7 +108,6 @@ Status              | {{ page.status }}
 {% else %}
 <p>—</p>
 {% endif %}
-
 
 ## Outputs
 
