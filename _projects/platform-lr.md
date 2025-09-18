@@ -4,7 +4,7 @@ title: platform-lr
 title_long: ''
 parent: 25 Projects
 grand_parent: Research
-status: archived
+status: completed
 associated_projects: []
 resources:
   - name: GitHub repository

@@ -1,38 +1,48 @@
 ---
 layout: default
-title: genailr
-title_long: ''
 parent: 25 Projects
 grand_parent: Research
-status: planned
+title: genailr
+collaborators: ['julianprester']
 associated_projects: []
+status: under-review
 resources:
   - name: GitHub repository
     link: https://github.com/digital-work-lab/genailr
-    access:
-      - julianprester
-    last_updated: '2025-09-18'
-collaborators:
-  - 'julianprester'
+    # TODO : update access and last updated automatically (script)
+    access: ['julianprester', 'geritwagner']
+    last_updated: 2025-09-15
+  - name: Dropbox shared folder
+    link: https://www.dropbox.com/home/GenAI%20and%20LRs
 history:
-  - date: 2024-01-22
-    event: started
-  - date: 2024-04-25
-    event: submission
-    artifact: 2024-04-25-Commentary_GenAI_Anonymous.docx
-  - date: 2024-10-25
-    event: decision
-    artifact: 2024-10-25-JIT-Decision-revise.pdf
-    decision: revise
-  - date: 2024-12-03
-    event: revision
-    artifact: 2024-12-03-Commentary_R1_anonymous.docx
-  - date: 2025-07-21
-    event: revision
-    artifact: 2025-07-21-revision_sheet_JIN-24-0488.R1
-  - date: 2025-08-14
-    event: submission
-    artifact: 2025-08-14-JIN-24-0488.R2_Proof_hi.pdf
+   - date: 2024-01-22
+     event: started
+   - date: 2024-04-25
+     event: submission
+     artifact: 2024-04-25-Commentary_GenAI_Anonymous.docx
+   - date: 2024-10-25
+     event: decision
+     artifact: 2024-10-25-JIT-Decision-revise.pdf
+     decision: revise
+   - date: 2024-12-03
+     event: revision
+     artifact: 2024-12-03-Commentary_R1_anonymous.docx
+   - date: 2025-07-21
+     event: revision
+     artifact: 2025-07-21-revision_sheet_JIN-24-0488.R1
+   - date: 2025-08-14
+     event: submission
+     artifact: 2025-08-14-JIN-24-0488.R2_Proof_hi.pdf
+
+# event: publication
+# status: to-announce/processed
+
+# optional fields you might already use elsewhere:
+# improvement_status:
+# started:
+# completed:
+# outputs:
+# related:
 ---
 
 # {{ page.title }}

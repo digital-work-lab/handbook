@@ -4,7 +4,7 @@ title: search-query-paper
 title_long: ''
 parent: 25 Projects
 grand_parent: Research
-status: planned
+status: under-review
 associated_projects: []
 resources:
   - name: GitHub repository

@@ -4,7 +4,7 @@ title: alg-org
 title_long: ''
 parent: 25 Projects
 grand_parent: Research
-status: planned
+status: writing
 associated_projects: []
 resources:
   - name: GitHub repository
