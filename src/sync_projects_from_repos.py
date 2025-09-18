@@ -307,7 +307,6 @@ def sync_project(metadata: MutableMapping, repo_path: Path) -> tuple[str, str]:
     new_metadata["title_long"] = ""
     new_metadata["parent"] = "25 Projects"
     new_metadata["grand_parent"] = "Research"
-    new_metadata["status"] = derive_status(metadata)
     new_metadata["associated_projects"] = []
     new_metadata["resources"] = build_resources(metadata)
 
@@ -318,6 +317,7 @@ def sync_project(metadata: MutableMapping, repo_path: Path) -> tuple[str, str]:
         body_content = ensure_resources_section(body_content)
         action = "updated"
     else:
+        new_metadata["status"] = derive_status(metadata)
         merged_metadata = merge_metadata({}, new_metadata)
         body_content = PAGE_TEMPLATE.strip()
         action = "created"
