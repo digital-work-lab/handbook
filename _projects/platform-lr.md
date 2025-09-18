@@ -1,38 +1,16 @@
 ---
 layout: default
-title: genailr
+title: platform-lr
 title_long: ''
 parent: 25 Projects
 grand_parent: Research
-status: planned
+status: archived
 associated_projects: []
 resources:
   - name: GitHub repository
-    link: https://github.com/digital-work-lab/genailr
-    access:
-      - julianprester
+    link: https://github.com/digital-work-lab/platform-lr
+    access: []
     last_updated: '2025-09-18'
-collaborators:
-  - 'julianprester'
-history:
-  - date: 2024-01-22
-    event: started
-  - date: 2024-04-25
-    event: submission
-    artifact: 2024-04-25-Commentary_GenAI_Anonymous.docx
-  - date: 2024-10-25
-    event: decision
-    artifact: 2024-10-25-JIT-Decision-revise.pdf
-    decision: revise
-  - date: 2024-12-03
-    event: revision
-    artifact: 2024-12-03-Commentary_R1_anonymous.docx
-  - date: 2025-07-21
-    event: revision
-    artifact: 2025-07-21-revision_sheet_JIN-24-0488.R1
-  - date: 2025-08-14
-    event: submission
-    artifact: 2025-08-14-JIN-24-0488.R2_Proof_hi.pdf
 ---
 
 # {{ page.title }}
@@ -40,11 +18,12 @@ history:
 Field               | Value
 ------------------- | ----------------------------------
 Acronym             | {{ page.title }}
-Team                | {{ page.collaborators | join: ", " }}
+Title               | {{ page.title_long }}
 Status              | {{ page.status }}
+Started             | {{ page.started }}
+Completed           | {{ page.completed }}
 
 ## Resources
-
 {% if page.resources %}
 <table class="resources">
   <thead>
@@ -101,15 +80,3 @@ Status              | {{ page.status }}
 {% else %}
 <p>—</p>
 {% endif %}
-
-## Outputs
-
-{% for output in page.outputs %}
-- [{{ output.type }}]({{ output.link }}){: target="_blank"}
-{% endfor %}
-
-## Related projects 
-
-{% for item in page.related %}
-- <a href="{{ item }}">{{ item }}</a>
-{% endfor %}

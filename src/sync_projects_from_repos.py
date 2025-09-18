@@ -192,7 +192,8 @@ def load_repo_posts() -> Iterable[tuple[Path, frontmatter.Post]]:
 
 
 def repo_matches(metadata: MutableMapping) -> bool:
-    tags = metadata.get("tags", []) or []
+    tags = metadata.get("topics", []) or []
+    print(tags)
     tags_lower = {str(tag).lower() for tag in tags}
     return {"research", "paper"}.issubset(tags_lower)
 
