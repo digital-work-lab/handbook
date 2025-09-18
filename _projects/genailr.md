@@ -80,11 +80,51 @@ Status              | {{ page.status }}
 
 [![Request Access](https://img.shields.io/badge/Request-Access-blue?style=for-the-badge)](https://github.com/digital-work-lab/handbook/issues/new?assignees=geritwagner&labels=access+request&template=request-repo-access.md&title=%5BAccess+Request%5D+Request+for+access+to+repository)
 
+
 ## Resources
 
-{% for output in page.resources %}
-- [{{ output.name }}]({{ output.link }}){: target="_blank"}
-{% endfor %}
+{% if page.resources %}
+<table class="resources">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Access</th>
+      <th>Last updated</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for res in page.resources %}
+    <tr>
+      <td>
+        {% if res.link %}
+          <a href="{{ res.link }}" target="_blank" rel="noopener">
+            {{ res.name | default: res.link }}
+          </a>
+        {% else %}
+          {{ res.name | default: "—" }}
+        {% endif %}
+      </td>
+      <td>
+        {% if res.access %}
+          {{ res.access | join: ", " }}
+        {% else %}
+          —
+        {% endif %}
+      </td>
+      <td>
+        {% if res.last_updated %}
+          {{ res.last_updated | date: "%Y-%m-%d" }}
+        {% else %}
+          —
+        {% endif %}
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% else %}
+<p>—</p>
+{% endif %}
 
 ## Outputs
 
