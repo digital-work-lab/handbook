@@ -1,20 +1,21 @@
 ---
 layout: default
-title: genailr
-title_long: "ERROR"
 parent: 25 Projects
 grand_parent: Research
-visibility: Private
+title: genailr
+title_long: ""
 collaborators: ['julianprester']
-area: research
-topics: ['paper', 'research']
-html_url: https://github.com/digital-work-lab/genailr
-archived: False
-updated_recently: True
 associated_projects: []
-labot_workflow_status: failure
 status: under-review
-project_type: ['paper']
+resources:
+  - name: GitHub repository
+    link: https://github.com/digital-work-lab/genailr
+# optional fields you might already use elsewhere:
+# improvement_status:
+# started:
+# completed:
+# outputs:
+# related:
 ---
 
 # {{ page.title }}
@@ -23,10 +24,7 @@ Field               | Value
 ------------------- | ----------------------------------
 Acronym             | {{ page.title }}
 Title               | {{ page.title_long }}
-Visibility          | {{ page.visibility }}
-Access              | {{ page.collaborators topics | join: ", "}}
-Topics              | {{ page.topics | join: ", " }}
-URL                 | [https://github.com/digital-work-lab/genailr](https://github.com/digital-work-lab/genailr){: target="_blank"}
+Access              | {{ page.collaborators | join: ", " }}
 Status              | {{ page.status }}
 Improvement         | {{ page.improvement_status }}
 Started             | {{ page.started }}
@@ -39,11 +37,13 @@ Completed           | {{ page.completed }}
 {% for output in page.resources %}
 - [{{ output.name }}]({{ output.link }}){: target="_blank"}
 {% endfor %}
+
 ## Outputs
 
 {% for output in page.outputs %}
 - [{{ output.type }}]({{ output.link }}){: target="_blank"}
 {% endfor %}
+
 ## Related projects 
 
 {% for item in page.related %}
