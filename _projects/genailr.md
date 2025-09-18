@@ -34,6 +34,9 @@ history:
      event: submission
      artifact: 2025-08-14-JIN-24-0488.R2_Proof_hi.pdf
 
+# event: publication
+# status: to-announce/processed
+
 # optional fields you might already use elsewhere:
 # improvement_status:
 # started:
