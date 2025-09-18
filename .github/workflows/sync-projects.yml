@@ -1,0 +1,44 @@
+name: Sync projects from repos
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install python-frontmatter ruamel.yaml
+
+      - name: Run sync script
+        run: |
+          python src/sync_projects_from_repos.py
+
+      - name: Commit changes
+        run: |
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git config user.email "digital-work-labot@users.noreply.github.com"
+            git config user.name "digital-work-labot"
+            git add _projects
+            git commit -m "sync projects from repos (research/paper)"
+            git push
+          else
+            echo "No changes to commit"
+          fi
