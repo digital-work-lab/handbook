@@ -27,7 +27,6 @@ nav_order: 6
       <td style="color: gray;">{{ project.status }}</td>
     </tr>
     {% endif %}
-    {% endif %}
     {% endfor %}
 
     {% for project in site.projects %}
@@ -43,7 +42,6 @@ nav_order: 6
       <td style="color: blue;">{{ project.status }}</td>
     </tr>
     {% endif %}
-    {% endif %}
     {% endfor %}
 
     {% for project in site.projects %}
@@ -52,7 +50,6 @@ nav_order: 6
       <td><a href="{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a></td>
       <td style="color: green;">{{ project.status }}</td>
     </tr>
-    {% endif %}
     {% endif %}
     {% endfor %}
   </tbody>
