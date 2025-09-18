@@ -12,6 +12,10 @@ nav_order: 6
 {: .highlight }
 > See [Project portfolio](25-projects-gantt).
 
+Project pages in this section are auto-synced from repository entries tagged
+with both `research` and `paper` via
+[`src/sync_projects_from_repos.py`](https://github.com/digital-work-lab/handbook/blob/main/src/sync_projects_from_repos.py).
+
 <table>
   <thead>
     <tr>
