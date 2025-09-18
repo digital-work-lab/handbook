@@ -78,9 +78,6 @@ Acronym             | {{ page.title }}
 Team                | {{ page.collaborators | join: ", " }}
 Status              | {{ page.status }}
 
-[![Request Access](https://img.shields.io/badge/Request-Access-blue?style=for-the-badge)](https://github.com/digital-work-lab/handbook/issues/new?assignees=geritwagner&labels=access+request&template=request-repo-access.md&title=%5BAccess+Request%5D+Request+for+access+to+repository)
-
-
 ## Resources
 
 {% if page.resources %}
@@ -100,13 +97,24 @@ Status              | {{ page.status }}
           <a href="{{ res.link }}" target="_blank" rel="noopener">
             {{ res.name | default: res.link }}
           </a>
+          {% if res.link contains "https://github.com" %}
+            <div style="margin-top: .25rem;">
+              <a href="https://github.com/digital-work-lab/handbook/issues/new?assignees=geritwagner&labels=access+request&template=request-repo-access.md&title=%5BAccess+Request%5D+Request+for+access+to+repository"
+                 target="_blank" rel="noopener">
+                <img src="https://img.shields.io/badge/Request-Access-blue?style=for-the-badge" alt="Request Access">
+              </a>
+            </div>
+          {% endif %}
         {% else %}
           {{ res.name | default: "—" }}
         {% endif %}
       </td>
       <td>
-        {% if res.access %}
-          {{ res.access | join: ", " }}
+        {% if res.access and res.access.size > 0 %}
+          {% for u in res.access %}
+            {% if forloop.first == false %}, {% endif %}
+            <a href="https://github.com/{{ u }}" target="_blank" rel="noopener">@{{ u }}</a>
+          {% endfor %}
         {% else %}
           —
         {% endif %}
@@ -125,6 +133,7 @@ Status              | {{ page.status }}
 {% else %}
 <p>—</p>
 {% endif %}
+
 
 ## Outputs
 
