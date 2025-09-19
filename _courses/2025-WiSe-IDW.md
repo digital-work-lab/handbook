@@ -5,7 +5,7 @@ title_long: The Literature Review Seminar
 parent: 32 Courses
 grand_parent: Teaching
 semester: 2025-WiSe
-status: ⟳
+status: ▶
 student_evaluations: ""
 improvement_issue: ""
 improvement_status: N/A
