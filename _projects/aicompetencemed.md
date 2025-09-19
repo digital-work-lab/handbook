@@ -10,7 +10,7 @@ resources:
   - name: GitHub repository
     link: https://github.com/digital-work-lab/aicompetencemed
     access: []
-    last_updated: '2025-09-18'
+    last_updated: '2025-09-19'
 ---
 
 # {{ page.title }}
