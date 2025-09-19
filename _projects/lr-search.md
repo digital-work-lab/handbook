@@ -6,15 +6,15 @@ parent: 25 Projects
 grand_parent: Research
 status: writing
 associated_projects: []
-collaborators:
-  - julianprester
-  - gp
 resources:
   - name: GitHub repository
     link: https://github.com/digital-work-lab/lr-search
     access:
       - julianprester
     last_updated: '2025-09-19'
+collaborators:
+  - julianprester
+  - gp
 ---
 
 # {{ page.title }}

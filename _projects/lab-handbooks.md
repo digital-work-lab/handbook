@@ -6,14 +6,14 @@ parent: 25 Projects
 grand_parent: Research
 status: writing
 associated_projects: []
-collaborators:
-  - LaureenTh
 resources:
   - name: GitHub repository
     link: https://github.com/digital-work-lab/lab-handbooks
     access:
       - LaureenTh
     last_updated: '2025-09-19'
+collaborators:
+  - LaureenTh
 ---
 
 # {{ page.title }}

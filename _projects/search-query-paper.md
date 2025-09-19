@@ -6,13 +6,6 @@ parent: 25 Projects
 grand_parent: Research
 status: under-review
 associated_projects: []
-collaborators:
-  - annaglr
-  - LaureenTh
-  - katharinaernst
-  - ThomasFleischmann
-  - Peteer98
-  - k-schnickmann
 resources:
   - name: GitHub repository
     link: https://github.com/digital-work-lab/search-query-paper
@@ -24,6 +17,13 @@ resources:
       - Peteer98
       - k-schnickmann
     last_updated: '2025-09-19'
+collaborators:
+  - annaglr
+  - LaureenTh
+  - katharinaernst
+  - ThomasFleischmann
+  - Peteer98
+  - k-schnickmann
 ---
 
 # {{ page.title }}

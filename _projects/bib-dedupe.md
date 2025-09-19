@@ -6,13 +6,13 @@ parent: 25 Projects
 grand_parent: Research
 status: writing
 associated_projects: []
-collaborators:
-  - mr
 resources:
   - name: GitHub repository
     link: https://github.com/digital-work-lab/bib-dedupe
     access: []
     last_updated: '2025-09-19'
+collaborators:
+  - mr
 ---
 
 # {{ page.title }}

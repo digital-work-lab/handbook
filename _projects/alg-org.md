@@ -6,9 +6,6 @@ parent: 25 Projects
 grand_parent: Research
 status: writing
 associated_projects: []
-collaborators:
-  - julianprester
-  - jm
 resources:
   - name: GitHub repository
     link: https://github.com/digital-work-lab/alg-org
@@ -16,6 +13,9 @@ resources:
       - julianprester
       - marx-uom
     last_updated: '2025-09-19'
+collaborators:
+  - julianprester
+  - jm
 ---
 
 # {{ page.title }}
