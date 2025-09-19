@@ -23,8 +23,8 @@ Field               | Value
 Acronym             | {{ page.title }}
 Title               | {{ page.title_long }}
 Status              | {{ page.status }}
-Started             | {{ page.started }}
-Completed           | {{ page.completed }}
+
+
 
 ## Resources
 {% if page.resources %}

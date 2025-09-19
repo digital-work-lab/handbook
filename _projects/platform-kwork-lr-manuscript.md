@@ -4,7 +4,7 @@ title: platform-kwork-lr-manuscript
 title_long: ''
 parent: 25 Projects
 grand_parent: Research
-status: completed
+status: published
 associated_projects: []
 resources:
   - name: GitHub repository
@@ -21,8 +21,8 @@ Field               | Value
 Acronym             | {{ page.title }}
 Title               | {{ page.title_long }}
 Status              | {{ page.status }}
-Started             | {{ page.started }}
-Completed           | {{ page.completed }}
+
+
 
 ## Resources
 {% if page.resources %}
