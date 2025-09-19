@@ -7,14 +7,10 @@ nav_order: 6
 
 # 25 Projects
 
-[![Update Repositories](https://github.com/digital-work-lab/handbook/actions/workflows/update_repositories.yaml/badge.svg)](https://github.com/digital-work-lab/handbook/actions/workflows/update_repositories.yaml){: target="_blank"} [![Create Repository](https://img.shields.io/badge/Create-New%20Repository-blue)](https://github.com/organizations/digital-work-lab/repositories/new){: target="_blank"}
-
-{: .highlight }
-> See [Project portfolio](25-projects-gantt).
+[![Update Project Overview](https://github.com/digital-work-lab/handbook/actions/workflows/sync-projects.yml/badge.svg)](https://github.com/digital-work-lab/handbook/actions/workflows/sync-projects.yml){: target="_blank"} [![Create Project](https://img.shields.io/badge/Create-New%20Project-blue)]([https://github.com/organizations/digital-work-lab/repositories/new](https://github.com/digital-work-lab/handbook/tree/main/_projects)){: target="_blank"}
 
 Project pages in this section are auto-synced from repository entries tagged
-with both `research` and `paper` via
-[`src/sync_projects_from_repos.py`](https://github.com/digital-work-lab/handbook/blob/main/src/sync_projects_from_repos.py){: target="_blank"}.
+with both `research` and `paper` via [`src/sync_projects_from_repos.py`](https://github.com/digital-work-lab/handbook/blob/main/src/sync_projects_from_repos.py){: target="_blank"}.
 
 <table>
   <thead>
@@ -58,3 +54,6 @@ with both `research` and `paper` via
     {% endfor %}
   </tbody>
 </table>
+
+{: .highlight }
+> See [Project portfolio](25-projects-gantt).
