@@ -79,7 +79,7 @@ Start: April (summer term), October (winter term)
 
 Grading
 
-- [ ] Create reminder for the deadline.
+- [ ] Create a reminder for the deadline.
 - [ ] Use the [grading scripts](https://github.com/digital-work-lab/handbook/tree/main/src/grading){: target="_blank"} to assign grades and prepare FlexNow import
 
 Entering Grades into FlexNow
