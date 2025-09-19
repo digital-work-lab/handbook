@@ -74,7 +74,7 @@ Before grading (day of the exam)
 
 Grading
 
-- [ ] Create reminder for the deadline: approx. 15. September (summer term), ??? (winter term). Grade early because colleagues may be on vacation before the deadline (not available to review failed exams).
+- [ ] Create a reminder for the deadline: approx. 15. September (summer term), ??? (winter term). Grade early because colleagues may be on vacation before the deadline (not available to review failed exams).
 - [ ] Add bonus points if any and **if exam is passed**. Otherwise, note the bonus points and add a note "kann nicht angerechnet werden".
 - [ ] Do not dispose of empty exams
 - [ ] Use the [grading scripts](https://github.com/digital-work-lab/handbook/tree/main/src/grading){: target="_blank"} to assign grades and prepare FlexNow import
@@ -93,7 +93,6 @@ Sending exams to the examination office
 Documentation
 
 - [ ] Professor: Analyse the evaluations, store the files, and document the improvements (see [evaluations]({{ site.baseurl }}/docs/30-teaching/30_processes/30.21.evaluations.html)).
-- [ ] Professor: [Report]({{ site.baseurl }}/docs/30-teaching/30_processes/30.20.reports.html) teaching efforts at the end of the semester.
 
 Deadline: End of August (summer term), March (winter term)
 
