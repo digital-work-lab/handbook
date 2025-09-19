@@ -9,10 +9,15 @@ associated_projects: []
 collaborators:
   - julianprester
 resources:
-  - name: GitHub repository
+  - name: GitHub repository (review)
     link: https://github.com/digital-work-lab/platform-lr
     access: []
     last_updated: '2025-09-19'
+  - name: GitHub repository
+    link: https://github.com/digital-work-lab/platform-lr-manuscript
+    access:
+      - julianprester
+    last_updated: '2025-09-18'
 ---
 
 # {{ page.title }}
