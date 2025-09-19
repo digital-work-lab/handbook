@@ -1,7 +1,7 @@
 ---
 layout: default
 title: theory-elaboration-manuscript
-title_long: ""
+title_long: "Theory elaboration: Opportunities, tactics, and guidelines"
 parent: 25 Projects
 grand_parent: Research
 visibility: Private
@@ -10,14 +10,14 @@ area: research
 topics: ['paper', 'research']
 html_url: https://github.com/digital-work-lab/theory-elaboration-manuscript
 archived: False
-updated_recently: False
+updated_recently: True
 associated_projects: []
 labot_workflow_status: not-found
 project_type: ['paper']
 started: 2018-01-15
 research_area: knowledge_synthesis
 resources: []
-status: under-review
+status: published
 improvement_status: pending
 repository_url: https://github.com/digital-work-lab/theory-elaboration-manuscript
 ---
