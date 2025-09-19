@@ -14,7 +14,7 @@ nav_order: 6
 
 Project pages in this section are auto-synced from repository entries tagged
 with both `research` and `paper` via
-[`src/sync_projects_from_repos.py`](https://github.com/digital-work-lab/handbook/blob/main/src/sync_projects_from_repos.py).
+[`src/sync_projects_from_repos.py`](https://github.com/digital-work-lab/handbook/blob/main/src/sync_projects_from_repos.py){: target="_blank"}.
 
 <table>
   <thead>
