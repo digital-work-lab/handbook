@@ -6,6 +6,11 @@ parent: 25 Projects
 grand_parent: Research
 status: writing
 associated_projects: []
+collaborators:
+  - gp
+  - lr
+  - mr
+  - do
 resources:
   - name: GitHub repository
     link: https://github.com/digital-work-lab/aicompetencemed
@@ -18,10 +23,8 @@ resources:
 Field               | Value
 ------------------- | ----------------------------------
 Acronym             | {{ page.title }}
-Title               | {{ page.title_long }}
+Team                | {{ page.collaborators | join: ", " }}
 Status              | {{ page.status }}
-
-
 
 ## Resources
 {% if page.resources %}

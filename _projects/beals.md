@@ -6,6 +6,9 @@ parent: 25 Projects
 grand_parent: Research
 status: writing
 associated_projects: []
+collaborators:
+  - annaglr
+  - k-schnickmann
 resources:
   - name: GitHub repository
     link: https://github.com/digital-work-lab/beals
@@ -20,10 +23,8 @@ resources:
 Field               | Value
 ------------------- | ----------------------------------
 Acronym             | {{ page.title }}
-Title               | {{ page.title_long }}
+Team                | {{ page.collaborators | join: ", " }}
 Status              | {{ page.status }}
-
-
 
 ## Resources
 {% if page.resources %}

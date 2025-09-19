@@ -13,7 +13,10 @@ resources:
       - julianprester
     last_updated: '2025-09-19'
 collaborators:
-  - 'julianprester'
+  - julianprester
+  - gp
+  - rl
+  - rm
 history:
   - date: 2024-01-22
     event: started

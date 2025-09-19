@@ -6,6 +6,10 @@ parent: 25 Projects
 grand_parent: Research
 status: published
 associated_projects: []
+collaborators:
+  - julianprester
+  - gs
+  - nh
 resources:
   - name: GitHub repository
     link: https://github.com/digital-work-lab/lrs-impact-uniformity
@@ -19,10 +23,8 @@ resources:
 Field               | Value
 ------------------- | ----------------------------------
 Acronym             | {{ page.title }}
-Title               | {{ page.title_long }}
+Team                | {{ page.collaborators | join: ", " }}
 Status              | {{ page.status }}
-
-
 
 ## Resources
 {% if page.resources %}

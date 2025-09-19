@@ -6,6 +6,10 @@ parent: 25 Projects
 grand_parent: Research
 status: under-review
 associated_projects: []
+collaborators:
+  - julianprester
+  - gp
+  - rl
 resources:
   - name: GitHub repository
     link: https://github.com/digital-work-lab/lrdm
@@ -19,10 +23,8 @@ resources:
 Field               | Value
 ------------------- | ----------------------------------
 Acronym             | {{ page.title }}
-Title               | {{ page.title_long }}
+Team                | {{ page.collaborators | join: ", " }}
 Status              | {{ page.status }}
-
-
 
 ## Resources
 {% if page.resources %}
