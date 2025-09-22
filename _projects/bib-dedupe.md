@@ -14,8 +14,12 @@ resources:
 collaborators:
   - mr
 history:
-  - date: 2025-03-04
+  - date: 2023-11-11
     event: started
+output:
+ - name: ""
+   type: "Journal article"
+   link: https://joss.theoj.org/papers/10.21105/joss.06318
 ---
 
 # {{ page.title }}

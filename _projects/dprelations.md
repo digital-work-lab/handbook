@@ -6,10 +6,15 @@ parent: 25 Projects
 grand_parent: Research
 status: writing
 associated_projects: []
-resources:  []
+resources:
+  - name: Dropbox
+    link: https://www.dropbox.com/home/JSIS%20Research%20Agenda%20Digital%20Platforms
 collaborators:
   - vh
   - mw
+history:
+  - date: 2023-09-01
+    event: started
 ---
 
 # {{ page.title }}

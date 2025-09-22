@@ -15,8 +15,17 @@ resources:
 collaborators:
   - LaureenTh
 history:
-  - date: 2024-03-13
+  - date: 2023-04-04
     event: started
+  - date: 2024-08-28
+    event: completed
+output:
+  - name: "Rethinking How We Teach Git: Recommendations and Practical Strategies for the Information Systems Curriculum"
+    type: "Journal Article"
+    link: "https://jise.org/archives.html"
+  - name: "Rethinking How We Teach Git"
+    type: "Practitioner summary"
+    link: "https://digital-work-lab.github.io/rethink-git-teaching/"
 ---
 
 # {{ page.title }}

@@ -12,8 +12,13 @@ resources:
     access:
       - julianprester
     last_updated: '2025-09-19'
+  - name: GitHub repository (colrev)
+    link: https://github.com/digital-work-lab/dec-proc-ex-colrev
 collaborators:
   - julianprester
+history:
+  - date: 2022-02-09
+    event: started
 ---
 
 # {{ page.title }}

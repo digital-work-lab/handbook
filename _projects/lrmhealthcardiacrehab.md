@@ -6,13 +6,18 @@ parent: 25 Projects
 grand_parent: Research
 status: writing
 associated_projects: []
-resources: []
+resources:
+  - name: manuscript
+    link: file:///home/gerit/ownCloud/data/health/LRMHealthCardiacRehab
 collaborators:
   - mr
   - sk
   - ll
   - gp
   - oc
+history:
+  - date: 2023-02-26
+    event: started
 ---
 
 # {{ page.title }}

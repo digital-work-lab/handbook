@@ -15,6 +15,15 @@ collaborators:
   - julianprester
   - gp
   - rl
+history:
+  - date: 2020-11-26
+    event: started
+  - date: 2021-09-02
+    event: completed
+output:
+ - name: "Artificial intelligence and the conduct of literature reviews"
+   type: "Journal Article"
+   link: "https://journals.sagepub.com/doi/abs/10.1177/02683962211048201"
 ---
 
 # {{ page.title }}
