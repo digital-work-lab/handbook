@@ -11,7 +11,7 @@ resources:
     link: https://github.com/digital-work-lab/git-intro
     access:
       - LaureenTh
-    last_updated: '2025-09-19'
+    last_updated: '2025-09-22'
 collaborators:
   - LaureenTh
 history:
@@ -20,7 +20,8 @@ history:
   - date: 2024-08-28
     event: completed
 output:
-  - name: "Rethinking How We Teach Git: Recommendations and Practical Strategies for the Information Systems Curriculum"
+  - name: "Rethinking How We Teach Git: Recommendations and Practical Strategies for
+      the Information Systems Curriculum"
     type: "Journal Article"
     link: "https://jise.org/archives.html"
   - name: "Rethinking How We Teach Git"

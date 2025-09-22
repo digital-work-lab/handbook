@@ -10,16 +10,16 @@ resources:
   - name: GitHub repository
     link: https://github.com/digital-work-lab/bib-dedupe
     access: []
-    last_updated: '2025-09-19'
+    last_updated: '2025-09-22'
 collaborators:
   - mr
 history:
   - date: 2023-11-11
     event: started
 output:
- - name: ""
-   type: "Journal article"
-   link: https://joss.theoj.org/papers/10.21105/joss.06318
+  - name: ""
+    type: "Journal article"
+    link: https://joss.theoj.org/papers/10.21105/joss.06318
 ---
 
 # {{ page.title }}

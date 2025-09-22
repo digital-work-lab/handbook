@@ -11,7 +11,7 @@ resources:
     link: https://github.com/digital-work-lab/lrs-impact-uniformity
     access:
       - julianprester
-    last_updated: '2025-09-19'
+    last_updated: '2025-09-22'
 collaborators:
   - julianprester
   - gs
