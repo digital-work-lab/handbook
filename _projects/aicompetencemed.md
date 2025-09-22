@@ -11,11 +11,16 @@ resources:
     link: https://github.com/digital-work-lab/aicompetencemed
     access: []
     last_updated: '2025-09-19'
+  - name: Dropbox
+    link: https://www.dropbox.com/home/Questionnaire%20destin%C3%A9%20aux%20%C3%A9tudiants%20de%20m%C3%A9decine
 collaborators:
   - gp
   - lr
   - mr
   - do
+history:
+  - date: 2022-05-06
+    event: started
 ---
 
 # {{ page.title }}
