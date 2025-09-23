@@ -1,7 +1,7 @@
 ---
 layout: default
 title: lab-handbooks
-title_long: ""
+title_long: "ERROR"
 parent: 25 Projects
 grand_parent: Research
 visibility: Private

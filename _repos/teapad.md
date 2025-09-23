@@ -1,7 +1,7 @@
 ---
 layout: default
 title: teapad
-title_long: ""
+title_long: "ERROR"
 parent: 25 Projects
 grand_parent: Research
 visibility: Private
@@ -14,14 +14,6 @@ updated_recently: True
 associated_projects: []
 labot_workflow_status: success
 project_type: ['paper']
-started: 2024-09-10
-research_area: work_practices
-resources: []
-status: under-review
-improvement_status: pending
-repository_url: https://github.com/digital-work-lab/teapad
----
-
 ---
 
 # {{ page.title }}
