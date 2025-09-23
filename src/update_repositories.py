@@ -125,7 +125,6 @@ def generate_default_yaml_header(repo_data):
     return f"""---
 layout: default
 title: {repo_data['name']}
-title_long: "{repo_data['title_long']}"
 parent: 25 Projects
 grand_parent: Research
 visibility: {repo_data['visibility']}
