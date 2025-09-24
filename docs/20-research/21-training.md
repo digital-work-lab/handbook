@@ -13,6 +13,8 @@ Categories:
 - writing
 - The [Bamberg Center for Empirical Studies (BACES)](https://www.uni-bamberg.de/baces/){: target="_blank"} offers free consultation related to data management and statistical analyses
 
+See [podcast episode on phd education](https://www.janrecker.com/this-is-research-podcast/nicks-rules-for-a-good-phd-education-24-september-2025/){: target="_blank"}
+
 Resources (to sort):
 
 - [The Turing Way](https://book.the-turing-way.org/){: target="_blank"}
