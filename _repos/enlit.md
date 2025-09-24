@@ -1,7 +1,6 @@
 ---
 layout: default
 title: enlit
-title_long: "ENLIT is a tool that supports scholars in exploring new literature"
 parent: 25 Projects
 grand_parent: Research
 visibility: Public

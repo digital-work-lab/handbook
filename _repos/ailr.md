@@ -1,7 +1,6 @@
 ---
 layout: default
 title: ailr
-title_long: "Artificial Intelligence and the Conduct of Literature Reviews"
 parent: 25 Projects
 grand_parent: Research
 visibility: Private

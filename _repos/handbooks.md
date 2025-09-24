@@ -1,7 +1,6 @@
 ---
 layout: default
 title: handbooks
-title_long: "Overview of employee handbooks"
 parent: 25 Projects
 grand_parent: Research
 visibility: Public

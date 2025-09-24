@@ -1,7 +1,6 @@
 ---
 layout: default
 title: r-prisma-diagram
-title_long: "PRISMA diagram in R"
 parent: 25 Projects
 grand_parent: Research
 visibility: Public

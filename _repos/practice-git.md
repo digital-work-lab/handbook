@@ -1,7 +1,6 @@
 ---
 layout: default
 title: practice-git
-title_long: "Notebooks to practice Git in GitHub Codespaces"
 parent: 25 Projects
 grand_parent: Research
 visibility: Public

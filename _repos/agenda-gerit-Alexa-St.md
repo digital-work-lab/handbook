@@ -1,7 +1,6 @@
 ---
 layout: default
 title: agenda-gerit-Alexa-St
-title_long: "✅ Agenda repository for Alexa-St"
 parent: 25 Projects
 grand_parent: Research
 visibility: Private

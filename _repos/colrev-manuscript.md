@@ -1,7 +1,6 @@
 ---
 layout: default
 title: colrev-manuscript
-title_long: "ERROR"
 parent: 25 Projects
 grand_parent: Research
 visibility: Private

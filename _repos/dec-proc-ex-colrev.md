@@ -1,7 +1,6 @@
 ---
 layout: default
 title: dec-proc-ex-colrev
-title_long: "None"
 parent: 25 Projects
 grand_parent: Research
 visibility: Private

@@ -1,7 +1,6 @@
 ---
 layout: default
 title: theses-confidential
-title_long: "🔒 Confidential thesis documentation"
 parent: 25 Projects
 grand_parent: Research
 visibility: Private

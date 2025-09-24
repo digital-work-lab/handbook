@@ -1,7 +1,6 @@
 ---
 layout: default
 title: paper-template
-title_long: ""
 parent: 25 Projects
 grand_parent: Research
 visibility: Public

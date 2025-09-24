@@ -1,7 +1,6 @@
 ---
 layout: default
 title: thesis-template
-title_long: "Template for Bachelor's and Master's theses"
 parent: 25 Projects
 grand_parent: Research
 visibility: Public

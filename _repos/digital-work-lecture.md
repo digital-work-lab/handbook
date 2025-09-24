@@ -1,7 +1,6 @@
 ---
 layout: default
 title: digital-work-lecture
-title_long: "Lecture Introduction to Digital Work"
 parent: 25 Projects
 grand_parent: Research
 visibility: Public

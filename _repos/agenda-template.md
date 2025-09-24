@@ -1,7 +1,6 @@
 ---
 layout: default
 title: agenda-template
-title_long: "None"
 parent: 25 Projects
 grand_parent: Research
 visibility: Public

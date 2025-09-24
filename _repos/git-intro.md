@@ -1,7 +1,6 @@
 ---
 layout: default
 title: git-intro
-title_long: "Rethinking How We Teach Git: Pedagogical Recommendations and Practical Strategies for the Information Systems Curriculum"
 parent: 25 Projects
 grand_parent: Research
 visibility: Private

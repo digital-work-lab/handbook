@@ -1,7 +1,6 @@
 ---
 layout: default
 title: latex-icis-template
-title_long: "LaTeX document class for ICIS"
 parent: 25 Projects
 grand_parent: Research
 visibility: Public

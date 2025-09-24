@@ -1,7 +1,6 @@
 ---
 layout: default
 title: slides-template
-title_long: "Template for slides (Marp, Markdown)"
 parent: 25 Projects
 grand_parent: Research
 visibility: Public

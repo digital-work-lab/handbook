@@ -1,7 +1,6 @@
 ---
 layout: default
 title: agenda-gerit-k-schnickmann
-title_long: "✅ Agenda repository for k-schnickmann"
 parent: 25 Projects
 grand_parent: Research
 visibility: Private

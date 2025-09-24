@@ -1,7 +1,6 @@
 ---
 layout: default
 title: literature-review-seminar
-title_long: "The Literature Review Seminar covers different goals of reviews, the steps of the process, qualities, and tools."
 parent: 25 Projects
 grand_parent: Research
 visibility: Public

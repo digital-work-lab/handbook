@@ -1,7 +1,6 @@
 ---
 layout: default
 title: literature-reviews-in-information-systems
-title_long: "Collection of literature reviews in information systems"
 parent: 25 Projects
 grand_parent: Research
 visibility: Private

@@ -1,7 +1,6 @@
 ---
 layout: default
 title: theses
-title_long: "Resources for Bachelor's and Master's theses at the Digital Work Lab (Otto-Friedrich Universität Bamberg)"
 parent: 25 Projects
 grand_parent: Research
 visibility: Public

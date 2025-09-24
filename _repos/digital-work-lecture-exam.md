@@ -1,7 +1,6 @@
 ---
 layout: default
 title: digital-work-lecture-exam
-title_long: "🔒 Confidential exams: digital-work-lecture"
 parent: 25 Projects
 grand_parent: Research
 visibility: Private

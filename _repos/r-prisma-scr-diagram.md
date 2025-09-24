@@ -1,7 +1,6 @@
 ---
 layout: default
 title: r-prisma-scr-diagram
-title_long: "PRISMA-ScR (scoping reviews) diagram in R/ggplot2"
 parent: 25 Projects
 grand_parent: Research
 visibility: Public
