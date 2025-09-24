@@ -27,6 +27,15 @@ Resources (to sort):
 - [IDIS: International Doctoral Network in Information Systems](https://idis.digital/){: target="_blank"}
 - [VHB Prodoc](https://www.vhbonline.org/veranstaltungen/prodok){: target="_blank"}
 
+Books on philosophy of science:
+
+- Thomas S. Kuhn – The Structure of Scientific Revolutions (paradigms & paradigm shifts)
+- Karl Popper – The Logic of Scientific Discovery (falsification)
+- Karl Popper – Conjectures and Refutations (essays, very readable)
+- Paul Feyerabend – Against Method (“anything goes” critique)
+- Alan Chalmers – What Is This Thing Called Science? (widely used intro)
+- Herbert Simon - Sciences of the Artificial (for design science)
+
 IS Research Podcast Episodes:
 - [Cognitive conflict, courage, humility, and respect: Ingredients for a productive academic discourse](https://www.youtube.com/watch?v=7Eq2JL4qTvQ){: target="_blank"}
 - [Every contribution can be interesting but not all of them are](https://www.youtube.com/watch?v=N3NFJlI84Z0){: target="_blank"}
