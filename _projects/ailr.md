@@ -10,7 +10,7 @@ resources:
   - name: GitHub repository
     link: https://github.com/digital-work-lab/ailr
     access: []
-    last_updated: '2025-09-24'
+    last_updated: '2025-09-25'
 collaborators:
   - julianprester
   - gp
