@@ -14,6 +14,9 @@ resources:
 collaborators:
   - Alexa-St
   - k-schnickmann
+history:
+  - date: 2025-01-01
+    event: started
 ---
 
 # {{ page.title }}
