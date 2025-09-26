@@ -4,15 +4,17 @@ title: dpkw
 title_long: "Exploring the boundaries and processes of digital platforms for knowledge work: A review of information systems research"
 parent: 25 Projects
 grand_parent: Research
+collaborators: []
+associated_projects: []
 resources:
- - name: manuscript
-   link: https://github.com/digital-work-lab/platform-kwork-lr-manuscript
- - name: review
-   link: https://github.com/digital-work-lab/platform-kwork-lr
+  - name: manuscript
+    link: https://github.com/digital-work-lab/platform-kwork-lr-manuscript
+  - name: review
+    link: https://github.com/digital-work-lab/platform-kwork-lr
 output:
- - name: ""
-   type: "Journal Article"
-   link: https://www.sciencedirect.com/science/article/abs/pii/S096386872100041X
+  - name: ""
+    type: "Journal Article"
+    link: https://www.sciencedirect.com/science/article/abs/pii/S096386872100041X
 status: published
 history:
   - date: 2019-04-02

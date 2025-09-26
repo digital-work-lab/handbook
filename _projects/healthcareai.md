@@ -4,6 +4,8 @@ parent: 25 Projects
 grand_parent: Research
 title: healthcareai
 title_long: "An Overview of AI Maturity in Health Care across 10 OECD Countries"
+collaborators: []
+associated_projects: []
 resources:
   - name: manuscript
     link: file:///home/gerit/ownCloud/data/health/HealthCareAI
