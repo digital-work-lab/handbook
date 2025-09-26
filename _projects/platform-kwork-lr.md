@@ -19,6 +19,7 @@ resources:
     last_updated: '2025-09-18'
 collaborators:
   - julianprester
+history: []
 ---
 
 # {{ page.title }}

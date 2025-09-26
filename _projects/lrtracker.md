@@ -4,13 +4,15 @@ title: lrtracker
 title_long: "Meta-analysis of Fitbit effectiveness"
 parent: 25 Projects
 grand_parent: Research
+collaborators: []
+associated_projects: []
 resources:
   - name: manuscript
     link: "file:///home/gerit/ownCloud/data/archive/2022-LRTracker Paper"
 output:
- - name: "Fitbit-Based Interventions for Healthy Lifestyle Outcomes: Systematic Review and Meta-Analysis"
-   type: "Journal article"
-   link: https://www.jmir.org/2020/10/e23954/
+  - name: "Fitbit-Based Interventions for Healthy Lifestyle Outcomes: Systematic Review and Meta-Analysis"
+    type: "Journal article"
+    link: https://www.jmir.org/2020/10/e23954/
 status: published
 history:
   - date: 2018-07-12
