@@ -268,7 +268,8 @@ def build_resources(metadata: MutableMapping) -> List[CommentedMap]:
     resource["name"] = "GitHub repository"  # only used when adding a NEW entry
     resource["link"] = html_url
     resource["access"] = access_list
-    resource["last_updated"] = last_updated.isoformat()
+    # store as a real date so YAML emits it without quotes
+    resource["last_updated"] = last_updated
     return [resource]
 
 
@@ -305,9 +306,16 @@ def merge_resources(existing: Any, updates: Any) -> List[CommentedMap]:
             # Update access if provided
             if "access" in upd and isinstance(upd["access"], list):
                 tgt["access"] = [str(x) for x in upd["access"]]
-            # Update last_updated if provided
+            # Update last_updated if provided; accept date or ISO string
             if "last_updated" in upd and upd["last_updated"]:
-                tgt["last_updated"] = upd["last_updated"]
+                lv = upd["last_updated"]
+                if isinstance(lv, str):
+                    try:
+                        lv = _dt.date.fromisoformat(lv)
+                    except ValueError:
+                        # if parsing fails, keep the original value
+                        pass
+                tgt["last_updated"] = lv
             # Keep existing name if present; only set if missing
             if not tgt.get("name") and upd.get("name"):
                 tgt["name"] = upd["name"]
