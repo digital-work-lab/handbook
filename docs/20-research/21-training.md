@@ -38,7 +38,7 @@ Books on philosophy of science:
 
 Research and modes of reasoning
 
-Levallet, N., Denford, J. S., & Chan, Y. E. (2020). Following the MAP (methods, approaches, perspectives) in information systems research. Information Systems Research, 32(1), 130-146. ([link](https://pubsonline.informs.org/doi/10.1287/isre.2020.0964)).
+Levallet, N., Denford, J. S., & Chan, Y. E. (2020). Following the MAP (methods, approaches, perspectives) in information systems research. Information Systems Research, 32(1), 130-146. ([link](https://pubsonline.informs.org/doi/10.1287/isre.2020.0964){: target="_blank"}).
 
 IS Research Podcast Episodes:
 - [Cognitive conflict, courage, humility, and respect: Ingredients for a productive academic discourse](https://www.youtube.com/watch?v=7Eq2JL4qTvQ){: target="_blank"}
