@@ -1,4 +1,4 @@
-filename: regex(r'^.*\\.md$')
+filename: regex(r'^.*\.md$')
 layout: str(equals='default')
 title: str()
 title_long: str()
