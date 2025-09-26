@@ -10,12 +10,12 @@ resources:
   - name: GitHub repository (review)
     link: https://github.com/digital-work-lab/platform-lr
     access: []
-    last_updated: '2025-09-26'
+    last_updated: 2025-09-26
   - name: GitHub repository
     link: https://github.com/digital-work-lab/platform-lr-manuscript
     access:
       - julianprester
-    last_updated: '2025-09-18'
+    last_updated: 2025-09-18
 collaborators:
   - julianprester
 history:

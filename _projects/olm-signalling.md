@@ -10,7 +10,7 @@ resources:
   - name: GitHub repository
     link: https://github.com/julianprester/dpkw-signalling
     access: []
-    last_updated: '2025-09-19'
+    last_updated: 2025-09-19
 collaborators:
   - julianprester
 history:

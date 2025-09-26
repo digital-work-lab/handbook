@@ -12,7 +12,7 @@ resources:
     access:
       - julianprester
       - marx-uom
-    last_updated: '2025-09-26'
+    last_updated: 2025-09-26
 collaborators:
   - julianprester
   - jm

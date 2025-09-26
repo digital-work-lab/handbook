@@ -11,12 +11,12 @@ resources:
     link: https://github.com/digital-work-lab/platform-kwork-lr
     access:
       - julianprester
-    last_updated: '2025-09-26'
+    last_updated: 2025-09-26
   - name: GitHub repository
     link: https://github.com/digital-work-lab/platform-kwork-lr-manuscript
     access:
       - julianprester
-    last_updated: '2025-09-18'
+    last_updated: 2025-09-18
 collaborators:
   - julianprester
 history: []

@@ -13,7 +13,7 @@ resources:
     link: https://github.com/digital-work-lab/colrev-manuscript
     access:
       - julianprester
-    last_updated: '2025-09-19'
+    last_updated: 2025-09-19
 history:
   - date: 2021-04-15
     event: started

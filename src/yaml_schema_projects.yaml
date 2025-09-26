@@ -1,4 +1,4 @@
-filename: regex(r'^.*\\.md$')
+filename: regex(r'^.*\.md$')
 layout: str(equals='default')
 title: str()
 title_long: str()
@@ -15,13 +15,13 @@ resource:
   name: str()
   link: str()
   access: list(str(), required=False)
-  last_updated: regex(r'^\d{4}-\d{2}-\d{2}$', required=False)
+  last_updated: day(required=False)
 output_item:
   name: str()
   link: str()
   type: str()
 history_event:
-  date: regex(r'^\d{4}-\d{2}-\d{2}$')
+  date: day()
   event: str()
   artifact: str(required=False)
   decision: str(required=False)
