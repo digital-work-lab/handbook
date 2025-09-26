@@ -4,13 +4,15 @@ title: lrreadingstrategy
 title_long: "Heuristics for exploratory reading in literature reviews"
 parent: 25 Projects
 grand_parent: Research
+collaborators: []
+associated_projects: []
 resources:
   - name: manuscript
     link: "file:///home/gerit/ownCloud/data/literature_reviews/LRReadingStrategy Paper"
 output:
- - name: enlit
-   type: "library"
-   link: https://github.com/digital-work-lab/enlit
+  - name: enlit
+    type: "library"
+    link: https://github.com/digital-work-lab/enlit
 status: published
 history:
   - date: 2017-04-22
