@@ -40,6 +40,12 @@ Research and modes of reasoning
 
 Levallet, N., Denford, J. S., & Chan, Y. E. (2020). Following the MAP (methods, approaches, perspectives) in information systems research. Information Systems Research, 32(1), 130-146. ([link](https://pubsonline.informs.org/doi/10.1287/isre.2020.0964)).
 
+Validity
+
+Boudreau, Gefen & Straub (2001), “Validation in Information Systems Research: A State-of-the-Art Assessment,” MIS Quarterly.
+Shadish, Cook & Campbell (2002), Experimental and Quasi-Experimental Designs for Generalized Causal Inference.
+Straub, Boudreau & Gefen (2004), “Validation Guidelines for IS Positivist Research,” CAIS.
+
 IS Research Podcast Episodes:
 - [Cognitive conflict, courage, humility, and respect: Ingredients for a productive academic discourse](https://www.youtube.com/watch?v=7Eq2JL4qTvQ){: target="_blank"}
 - [Every contribution can be interesting but not all of them are](https://www.youtube.com/watch?v=N3NFJlI84Z0){: target="_blank"}
