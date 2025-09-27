@@ -7,7 +7,7 @@ nav_order: 6
 
 # 25 Projects
 
-[![Update Project Overview](https://github.com/digital-work-lab/handbook/actions/workflows/sync-projects.yml/badge.svg)](https://github.com/digital-work-lab/handbook/actions/workflows/sync-projects.yml){: target="_blank"} [![Create Project](https://img.shields.io/badge/Create-New%20Project-blue)]([https://github.com/organizations/digital-work-lab/repositories/new](https://github.com/digital-work-lab/handbook/tree/main/_projects)){: target="_blank"}
+[![Update Project Overview](https://github.com/digital-work-lab/handbook/actions/workflows/sync-projects.yml/badge.svg)](https://github.com/digital-work-lab/handbook/actions/workflows/sync-projects.yml){: target="_blank"} [![Create Project](https://img.shields.io/badge/Create-New%20Project-blue)]([https://github.com/organizations/digital-work-lab/repositories/new](https://github.com/digital-work-lab/handbook/tree/main/_projects){: target="_blank"}){: target="_blank"}
 
 Project pages in this section are auto-synced from repository entries tagged
 with both `research` and `paper` via [`src/sync_projects_from_repos.py`](https://github.com/digital-work-lab/handbook/blob/main/src/sync_projects_from_repos.py){: target="_blank"}.
