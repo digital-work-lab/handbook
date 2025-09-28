@@ -1,32 +1,20 @@
 ---
 layout: default
-title: ailr
+title: algorg-youtube-analysis
 title_long: ''
 parent: 25 Projects
 grand_parent: Research
-status: published
+status: planned
 associated_projects: []
 resources:
   - name: GitHub repository
-    link: https://github.com/digital-work-lab/ailr
-    access: []
+    link: https://github.com/digital-work-lab/algorg-youtube-analysis
+    access:
+      - julianprester
     last_updated: 2025-09-28
-collaborators:
-  - julianprester
-  - gp
-  - rl
-history:
-  - date: 2020-11-26
-    event: started
-  - date: 2021-09-02
-    event: completed
-output:
-  - name: "Artificial intelligence and the conduct of literature reviews"
-    type: "Journal Article"
-    link: "https://journals.sagepub.com/doi/abs/10.1177/02683962211048201"
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
 Field               | Value
 ------------------- | ----------------------------------
