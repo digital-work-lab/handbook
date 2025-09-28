@@ -126,6 +126,9 @@ Example repository: [work_hub](https://github.com/digital-work-lab/work_hub){: t
   </iframe>
 </div>
 
+## References
+
+- [Obsidian for academic workflows](https://publish.obsidian.md/hub/04+-+Guides%2C+Workflows%2C+%26+Courses/for+Academic+Writing){: target="_blank"}
 
 {: .resource } 
 > - [GitHub](https://github.com/orgs/digital-work-lab/repositories?q=topic%3Aresearch){: target="_blank"}
