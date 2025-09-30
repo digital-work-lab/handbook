@@ -9,8 +9,9 @@ associated_projects: []
 resources:
   - name: GitHub repository
     link: https://github.com/digital-work-lab/bib-dedupe
-    access: []
-    last_updated: 2025-09-29
+    access:
+      - k-schnickmann
+    last_updated: 2025-09-30
 collaborators:
   - mr
 history:
