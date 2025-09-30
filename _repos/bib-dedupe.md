@@ -4,7 +4,7 @@ title: bib-dedupe
 parent: 25 Projects
 grand_parent: Research
 visibility: Private
-collaborators: []
+collaborators: ['k-schnickmann']
 area: research
 topics: ['paper', 'research']
 html_url: https://github.com/digital-work-lab/bib-dedupe
