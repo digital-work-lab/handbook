@@ -11,7 +11,7 @@ resources:
     link: https://github.com/digital-work-lab/bib-dedupe
     access:
       - k-schnickmann
-    last_updated: 2025-09-30
+    last_updated: 2025-10-02
 collaborators:
   - mr
 history:
