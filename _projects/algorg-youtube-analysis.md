@@ -6,6 +6,9 @@ parent: 25 Projects
 grand_parent: Research
 status: planned
 associated_projects: []
+collaborators:
+  - julianprester
+  - jm
 resources:
   - name: GitHub repository
     link: https://github.com/digital-work-lab/algorg-youtube-analysis
