@@ -11,7 +11,7 @@ resources:
     link: https://github.com/digital-work-lab/algorg-youtube-analysis
     access:
       - julianprester
-    last_updated: 2025-10-02
+    last_updated: 2025-10-06
 collaborators:
   - julianprester
   - jm

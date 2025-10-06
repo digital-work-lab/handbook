@@ -13,7 +13,7 @@ resources:
       - dengdenglele
       - LaureenTh
       - Stella1234-design
-    last_updated: 2025-10-02
+    last_updated: 2025-10-06
 collaborators:
   - dengdenglele
   - LaureenTh
