@@ -4,7 +4,7 @@ title: git-bot-experiment
 parent: 25 Projects
 grand_parent: Research
 visibility: Private
-collaborators: ['k-schnickmann']
+collaborators: ['k-schnickmann', 'MergeMediatorBot']
 area: research
 topics: ['paper', 'research']
 html_url: https://github.com/digital-work-lab/git-bot-experiment
