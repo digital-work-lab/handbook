@@ -4,7 +4,7 @@ title: data-work
 title_long: ''
 parent: 25 Projects
 grand_parent: Research
-status: writing
+status: planned
 associated_projects: []
 resources:
   - name: GitHub repository

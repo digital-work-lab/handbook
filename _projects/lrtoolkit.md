@@ -4,12 +4,12 @@ title: lrtoolkit
 title_long: ""
 parent: 25 Projects
 grand_parent: Research
+status: planned
 collaborators: []
 associated_projects: []
 resources:
   - name: library
     link: https://github.com/digital-work-lab/lr-toolkit
-status: writing
 history:
   - date: 2020-11-26
     event: started

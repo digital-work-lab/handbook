@@ -12,7 +12,12 @@ resources:
     access:
       - julianprester
       - marx-uom
-    last_updated: 2025-10-06
+    last_updated: 2025-10-02
+  - name: GitHub repository/analysis
+    link: https://github.com/digital-work-lab/algorg-youtube-analysis
+    access:
+      - julianprester
+    last_updated: 2025-10-02
 collaborators:
   - julianprester
   - jm
