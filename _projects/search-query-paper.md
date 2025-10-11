@@ -16,7 +16,7 @@ resources:
       - ThomasFleischmann
       - Peteer98
       - k-schnickmann
-    last_updated: 2025-10-06
+    last_updated: 2025-10-11
 collaborators:
   - annaglr
   - LaureenTh
