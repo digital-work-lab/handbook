@@ -26,6 +26,7 @@ Resources (to sort):
 - [Instats courses](https://instats.org/){: target="_blank"}
 - [IDIS: International Doctoral Network in Information Systems](https://idis.digital/){: target="_blank"}
 - [VHB Prodoc](https://www.vhbonline.org/veranstaltungen/prodok){: target="_blank"}
+- [Good Enough Practices in Scientific Computing](https://carpentries-lab.github.io/good-enough-practices/){: target="_blank"}
 
 Books on philosophy of science:
 
