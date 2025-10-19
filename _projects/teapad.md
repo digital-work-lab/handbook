@@ -14,6 +14,8 @@ resources:
       - LaureenTh
       - Stella1234-design
     last_updated: 2025-10-19
+  - name: JOSE review
+    link: https://github.com/openjournals/jose-reviews/issues/292
 collaborators:
   - dengdenglele
   - LaureenTh

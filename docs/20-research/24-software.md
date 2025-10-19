@@ -57,8 +57,6 @@ The following features stand out:
 
 **search-query** is a Python package for parsing, validating, simplifying, and serializing search queries for academic databases. It currently supports PubMed, EBSCOHost, and Web of Science, using a standardized JSON schema (Haddaway et al., 2022).
 
-**Highlights:**
-
 - Programmatic use, CLI interface, and optional integration via pre-commit hooks
 - Zero dependencies: easily embeddable across environments
 - Extensible parser/validator architecture
