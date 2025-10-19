@@ -18,3 +18,4 @@ We aim to provide complete data sets and analysis workflows for our studies.
 
 - [IEEEDataPortal](https://ieee-dataport.org/datasets){: target="_blank"}
 - [BERD](https://www.berd-nfdi.de/){: target="_blank"}
+- [Overview of repositories and data journals](https://rdm.mpdl.mpg.de/after-research/repositories/){: target="_blank"}
