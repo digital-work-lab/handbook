@@ -1,30 +1,20 @@
 ---
 layout: default
-title: aicompetencemed
+title: lr-dedupe-benchmark
 title_long: ''
 parent: 25 Projects
 grand_parent: Research
-status: writing
+status: planned
 associated_projects: []
 resources:
   - name: GitHub repository
-    link: https://github.com/digital-work-lab/aicompetencemed
-    access: []
+    link: https://github.com/digital-work-lab/lr-dedupe-benchmark
+    access:
+      - k-schnickmann
     last_updated: 2025-10-21
-  - name: Dropbox
-    link: 
-      https://www.dropbox.com/home/Questionnaire%20destin%C3%A9%20aux%20%C3%A9tudiants%20de%20m%C3%A9decine
-collaborators:
-  - gp
-  - lr
-  - mr
-  - do
-history:
-  - date: 2022-05-06
-    event: started
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
 Field               | Value
 ------------------- | ----------------------------------
