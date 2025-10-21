@@ -4,7 +4,7 @@ title: literature-reviews
 parent: 25 Projects
 grand_parent: Research
 visibility: Private
-collaborators: []
+collaborators: ['k-schnickmann']
 area: research
 topics: ['research']
 html_url: https://github.com/digital-work-lab/literature-reviews

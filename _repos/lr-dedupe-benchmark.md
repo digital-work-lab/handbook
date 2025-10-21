@@ -1,13 +1,13 @@
 ---
 layout: default
-title: bib-dedupe
+title: lr-dedupe-benchmark
 parent: 25 Projects
 grand_parent: Research
 visibility: Private
 collaborators: ['k-schnickmann']
 area: research
 topics: ['paper', 'research']
-html_url: https://github.com/digital-work-lab/bib-dedupe
+html_url: https://github.com/digital-work-lab/lr-dedupe-benchmark
 archived: False
 updated_recently: True
 associated_projects: []
@@ -24,7 +24,7 @@ Title               | {{ page.title_long }}
 Visibility          | {{ page.visibility }}
 Access              | {{ page.collaborators topics | join: ", "}}
 Topics              | {{ page.topics | join: ", " }}
-URL                 | [https://github.com/digital-work-lab/bib-dedupe](https://github.com/digital-work-lab/bib-dedupe){: target="_blank"}
+URL                 | [https://github.com/digital-work-lab/lr-dedupe-benchmark](https://github.com/digital-work-lab/lr-dedupe-benchmark){: target="_blank"}
 Status              | {{ page.status }}
 Improvement         | {{ page.improvement_status }}
 Started             | {{ page.started }}
