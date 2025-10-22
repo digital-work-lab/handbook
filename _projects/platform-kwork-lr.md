@@ -11,7 +11,7 @@ resources:
     link: https://github.com/digital-work-lab/platform-kwork-lr
     access:
       - julianprester
-    last_updated: 2025-10-21
+    last_updated: 2025-10-22
   - name: GitHub repository
     link: https://github.com/digital-work-lab/platform-kwork-lr-manuscript
     access:
