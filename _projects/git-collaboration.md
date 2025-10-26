@@ -11,7 +11,7 @@ resources:
     link: https://github.com/digital-work-lab/git-collaboration
     access:
       - LaureenTh
-    last_updated: 2025-10-22
+    last_updated: 2025-10-26
 collaborators:
   - LaureenTh
 history: []
