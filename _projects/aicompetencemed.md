@@ -4,7 +4,7 @@ title: aicompetencemed
 title_long: ''
 parent: 25 Projects
 grand_parent: Research
-status: writing
+status: published
 associated_projects: []
 resources:
   - name: GitHub repository

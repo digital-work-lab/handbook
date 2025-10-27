@@ -4,11 +4,11 @@ title: bib-dedupe
 title_long: ''
 parent: 25 Projects
 grand_parent: Research
-status: writing
+status: published
 associated_projects: []
 resources:
   - name: GitHub repository
-    link: https://github.com/digital-work-lab/bib-dedupe
+    link: https://github.com/CoLRev-Environment/bib-dedupe
     access:
       - k-schnickmann
     last_updated: 2025-10-19
