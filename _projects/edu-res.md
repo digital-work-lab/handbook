@@ -11,7 +11,7 @@ resources:
     link: https://github.com/digital-work-lab/edu-res
     access:
       - LaureenTh
-    last_updated: 2025-10-26
+    last_updated: 2025-10-27
 collaborators:
   - laureenTh
 history:

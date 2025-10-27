@@ -11,7 +11,7 @@ resources:
     link: https://github.com/digital-work-lab/dec-proc-ex
     access:
       - julianprester
-    last_updated: 2025-10-26
+    last_updated: 2025-10-27
   - name: GitHub repository (colrev)
     link: https://github.com/digital-work-lab/dec-proc-ex-colrev
 collaborators:
