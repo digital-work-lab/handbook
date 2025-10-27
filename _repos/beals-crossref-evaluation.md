@@ -5,8 +5,8 @@ parent: 25 Projects
 grand_parent: Research
 visibility: Private
 collaborators: ['k-schnickmann']
-area: other
-topics: []
+area: research
+topics: ['research']
 html_url: https://github.com/digital-work-lab/beals-crossref-evaluation
 archived: False
 updated_recently: True
