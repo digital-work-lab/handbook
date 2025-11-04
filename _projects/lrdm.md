@@ -11,7 +11,7 @@ resources:
     link: https://github.com/digital-work-lab/lrdm
     access:
       - julianprester
-    last_updated: 2025-11-01
+    last_updated: 2025-11-04
 collaborators:
   - julianprester
   - gp
