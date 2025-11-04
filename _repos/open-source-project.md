@@ -4,7 +4,7 @@ title: open-source-project
 parent: 25 Projects
 grand_parent: Research
 visibility: Public
-collaborators: ['LaureenTh', 'k-schnickmann', 'Stella1234-design', 'Alexa-St']
+collaborators: ['EmediongFrancis', 'LaureenTh', 'k-schnickmann', 'Stella1234-design', 'Alexa-St']
 area: teaching
 topics: ['teaching', 'teaching-materials']
 html_url: https://github.com/digital-work-lab/open-source-project
