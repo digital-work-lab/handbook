@@ -13,7 +13,7 @@ resources:
       - dengdenglele
       - LaureenTh
       - Stella1234-design
-    last_updated: 2025-11-04
+    last_updated: 2025-11-07
   - name: JOSE review
     link: https://github.com/openjournals/jose-reviews/issues/292
 collaborators:
