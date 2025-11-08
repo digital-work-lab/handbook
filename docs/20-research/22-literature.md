@@ -26,19 +26,19 @@ Overview of journals:
 
 | Curation | Latest in records.bib | Latest in data/pdfs | Status |
 |----------|------------------------|---------------------|--------|
-| communications-of-the-association-for-information-systems | 57 | 57 | PDFs up-to-date |
-| decision-support-systems | 187 | 195 | PDFs up-to-date |
-| european-journal-of-information-systems | 33_2 | 34_4 | PDFs up-to-date |
-| information-and-management | 61_7 | 62_6 | PDFs up-to-date |
-| information-systems-frontiers | 26_1 | 27_3 | PDFs up-to-date |
-| information-systems-journal | 34_1 | 35_4 | PDFs up-to-date |
-| information-systems-research | 34_3 | 36_2 | PDFs up-to-date |
-| journal-of-information-systems-education | 36_3 | 31_3 | new vol/iss in records → download PDFs |
-| journal-of-information-technology | 38_2 | 40_2 | PDFs up-to-date |
-| journal-of-management-information-systems | 40_4 | 42_2 | PDFs up-to-date |
-| journal-of-the-association-for-information-systems | 26_5 | 26_4 | new vol/iss in records → download PDFs |
-| mis-quarterly | 48_4 | 49_2 | PDFs up-to-date |
-| the-journal-of-strategic-information-systems | 33_1 | 34_3 | PDFs up-to-date |
+| communications-of-the-association-for-information-systems | 57 | 57 | ✅ Up-do-date |
+| decision-support-systems | 187 | 195 | ✅ Up-do-date |
+| european-journal-of-information-systems | 33_2 | 34_4 | ✅ Up-do-date |
+| information-and-management | 61_7 | 62_6 | ✅ Up-do-date |
+| information-systems-frontiers | 26_1 | 27_3 | ✅ Up-do-date |
+| information-systems-journal | 34_1 | 35_4 | ✅ Up-do-date |
+| information-systems-research | 34_3 | 36_2 | ✅ Up-do-date |
+| journal-of-information-systems-education | 36_3 | 31_3 | 📝 TODO |
+| journal-of-information-technology | 38_2 | 40_2 | ✅ Up-do-date |
+| journal-of-management-information-systems | 40_4 | 42_2 | ✅ Up-do-date |
+| journal-of-the-association-for-information-systems | 26_5 | 26_4 | 📝 TODO |
+| mis-quarterly | 48_4 | 49_2 | ✅ Up-do-date |
+| the-journal-of-strategic-information-systems | 33_1 | 34_3 | ✅ Up-do-date |
 
 
 <!-- END -->
