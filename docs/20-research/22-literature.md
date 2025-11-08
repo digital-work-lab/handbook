@@ -24,21 +24,26 @@ Overview of journals:
 
 <!-- labot local-cronjob -->
 
-| Curation | Latest in records.bib | Latest in data/pdfs | Status |
-|----------|------------------------|---------------------|--------|
-| communications-of-the-association-for-information-systems | 57 | 57 | ✅ Up-do-date |
-| decision-support-systems | 187 | 195 | ✅ Up-do-date |
-| european-journal-of-information-systems | 33_2 | 34_4 | ✅ Up-do-date |
-| information-and-management | 61_7 | 62_6 | ✅ Up-do-date |
-| information-systems-frontiers | 26_1 | 27_3 | ✅ Up-do-date |
-| information-systems-journal | 34_1 | 35_4 | ✅ Up-do-date |
-| information-systems-research | 34_3 | 36_2 | ✅ Up-do-date |
-| journal-of-information-systems-education | 36_3 | 31_3 | 📝 TODO |
-| journal-of-information-technology | 38_2 | 40_2 | ✅ Up-do-date |
-| journal-of-management-information-systems | 40_4 | 42_2 | ✅ Up-do-date |
-| journal-of-the-association-for-information-systems | 26_5 | 26_4 | 📝 TODO |
-| mis-quarterly | 48_4 | 49_2 | ✅ Up-do-date |
-| the-journal-of-strategic-information-systems | 33_1 | 34_3 | ✅ Up-do-date |
+| Curation | Type | Latest in records.bib | Latest in data/pdfs | Status |
+|----------|------|------------------------|---------------------|--------|
+| americas-conference-on-information-systems | conference | 2024 | 2025 | ✅ Up-to-date |
+| communications-of-the-association-for-information-systems | journal | 57 | 57 | ✅ Up-to-date |
+| decision-support-systems | journal | 187 | 195 | ✅ Up-to-date |
+| european-conference-on-information-systems | conference | 2025 | 2025 | ✅ Up-to-date |
+| european-journal-of-information-systems | journal | 33_2 | 34_4 | ✅ Up-to-date |
+| hawaii-international-conference-on-system-sciences | conference | 2023 | 2024 | ✅ Up-to-date |
+| information-and-management | journal | 61_7 | 62_6 | ✅ Up-to-date |
+| information-systems-frontiers | journal | 26_1 | 27_3 | ✅ Up-to-date |
+| information-systems-journal | journal | 34_1 | 35_4 | ✅ Up-to-date |
+| information-systems-research | journal | 34_3 | 36_2 | ✅ Up-to-date |
+| international-conference-on-information-systems | conference | 2024 | 2024 | ✅ Up-to-date |
+| journal-of-information-systems-education | journal | 36_3 | 31_3 | 📝 TODO |
+| journal-of-information-technology | journal | 38_2 | 40_2 | ✅ Up-to-date |
+| journal-of-management-information-systems | journal | 40_4 | 42_2 | ✅ Up-to-date |
+| journal-of-the-association-for-information-systems | journal | 26_5 | 26_4 | 📝 TODO |
+| mis-quarterly | journal | 48_4 | 49_2 | ✅ Up-to-date |
+| pacific-asia-conference-on-information-systems | conference | 2025 | 2025 | ✅ Up-to-date |
+| the-journal-of-strategic-information-systems | journal | 33_1 | 34_3 | ✅ Up-to-date |
 
 
 <!-- END -->
