@@ -24,26 +24,21 @@ Overview of journals:
 
 <!-- labot local-cronjob -->
 
-| Journal | Latest Volume/Issue |
-|---------|---------------------|
-| americas-conference-on-information-systems | 2025 |
-| communications-of-the-association-for-information-systems | 57 |
-| decision-support-systems | 195 |
-| european-conference-on-information-systems | 2025 |
-| european-journal-of-information-systems | 34_4 |
-| hawaii-international-conference-on-system-sciences | 2024 |
-| information-and-management | 62_6 |
-| information-systems-frontiers | 27_3 |
-| information-systems-journal | 35_4 |
-| information-systems-research | 36_2 |
-| international-conference-on-information-systems | 2024 |
-| journal-of-information-systems-education | 31_3 |
-| journal-of-information-technology | 40_2 |
-| journal-of-management-information-systems | 42_2 |
-| journal-of-the-association-for-information-systems | 26_4 |
-| mis-quarterly | 49_2 |
-| pacific-asia-conference-on-information-systems | 2025 |
-| the-journal-of-strategic-information-systems | 34_3 |
+| Curation | Latest in records.bib | Latest in data/pdfs | Status |
+|----------|------------------------|---------------------|--------|
+| communications-of-the-association-for-information-systems | 57 | 57 | PDFs up-to-date |
+| decision-support-systems | 187 | 195 | PDFs up-to-date |
+| european-journal-of-information-systems | 33_2 | 34_4 | PDFs up-to-date |
+| information-and-management | 61_7 | 62_6 | PDFs up-to-date |
+| information-systems-frontiers | 26_1 | 27_3 | PDFs up-to-date |
+| information-systems-journal | 34_1 | 35_4 | PDFs up-to-date |
+| information-systems-research | 34_3 | 36_2 | PDFs up-to-date |
+| journal-of-information-systems-education | 36_3 | 31_3 | new vol/iss in records → download PDFs |
+| journal-of-information-technology | 38_2 | 40_2 | PDFs up-to-date |
+| journal-of-management-information-systems | 40_4 | 42_2 | PDFs up-to-date |
+| journal-of-the-association-for-information-systems | 26_5 | 26_4 | new vol/iss in records → download PDFs |
+| mis-quarterly | 48_4 | 49_2 | PDFs up-to-date |
+| the-journal-of-strategic-information-systems | 33_1 | 34_3 | PDFs up-to-date |
 
 
 <!-- END -->
