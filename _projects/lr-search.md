@@ -11,7 +11,7 @@ resources:
     link: https://github.com/digital-work-lab/lr-search
     access:
       - julianprester
-    last_updated: 2025-11-07
+    last_updated: 2025-11-08
 collaborators:
   - julianprester
   - gp
