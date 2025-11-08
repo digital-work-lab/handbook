@@ -37,6 +37,7 @@ Overview of journals:
 | information-systems-journal | 35_4 |
 | information-systems-research | 36_2 |
 | international-conference-on-information-systems | 2024 |
+| journal-of-information-systems-education | 31_3 |
 | journal-of-information-technology | 40_2 |
 | journal-of-management-information-systems | 42_2 |
 | journal-of-the-association-for-information-systems | 26_4 |
