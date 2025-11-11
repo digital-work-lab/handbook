@@ -19,3 +19,10 @@ docker run --rm -v "$PWD":/data pandoc_dockerfile input.docx -f docx -t markdown
 ```
 pptx2md "slides.pptx" --output "slides_with_notes.qmd" --enable-slides --qmd --image-dir "images"
 ```
+
+
+## Markdown-to-Word / Markdown-to-docx
+
+```
+docker run --rm -u "$(id -u):$(id -g)"  -v "$PWD":/data pandoc_dockerfile big-data-analytics-overview.md -f markdown -t docx -o output.docx
+```
