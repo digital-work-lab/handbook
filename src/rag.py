@@ -10,6 +10,9 @@ DOCS_DIR = ROOT / "docs"
 RAG_ROOT = ROOT / "rag"
 MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
 
+# GitHub raw base for the original markdown files
+RAW_BASE_URL = "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/"
+
 CHUNK_SIZE = 500
 CHUNK_OVERLAP = 100
 
@@ -36,15 +39,17 @@ def main():
     model = SentenceTransformer(MODEL_NAME)
     RAG_ROOT.mkdir(parents=True, exist_ok=True)
 
-    # we'll collect all sections here to write rag/index.json at the end
     all_sections = []
 
     for entry in sorted(DOCS_DIR.iterdir()):
-        # CASE 1: top-level single markdown file -> create its own section dir
+        # ----- CASE 1: top-level single .md -----
         if entry.is_file() and entry.suffix == ".md":
             section = entry.name.replace(".md", "")  # e.g. "00.goals"
             section_dir = RAG_ROOT / section
             section_dir.mkdir(parents=True, exist_ok=True)
+
+            rel_path = entry.relative_to(DOCS_DIR)  # e.g. 00.goals.md
+            raw_url = RAW_BASE_URL + str(rel_path)
 
             text = md_to_text(entry.read_text(encoding="utf-8"))
             chunks = chunk_text(text)
@@ -52,34 +57,36 @@ def main():
             for i, ch in enumerate(chunks):
                 emb = model.encode(ch).tolist()
                 records.append({
-                    "source": str(entry.relative_to(DOCS_DIR)),
+                    "source": str(rel_path),
                     "chunk_id": i,
                     "text": ch,
                     "embedding": emb
                 })
 
-            # per-file rag
+            # per-file rag json
             section_file_name = f"{section}.json"
             (section_dir / section_file_name).write_text(
                 json.dumps({
                     "model": MODEL_NAME,
                     "section": section,
-                    "file": entry.name,
+                    "file": str(rel_path),
+                    "raw_url": raw_url,
                     "records": records
                 }, indent=2),
                 encoding="utf-8",
             )
 
-            # per-section index (only one file here)
+            # per-section index (only one file)
             (section_dir / "index.json").write_text(
                 json.dumps({
                     "model": MODEL_NAME,
                     "section": section,
                     "files": [
                         {
-                            "file": entry.name,
+                            "file": str(rel_path),
                             "slug": section,
                             "json": section_file_name,
+                            "raw_url": raw_url,
                             "num_records": len(records)
                         }
                     ]
@@ -95,7 +102,7 @@ def main():
             print(f"wrote {section_dir / 'index.json'} and {section_dir / section_file_name}")
             continue
 
-        # CASE 2: directory like 20-research, 30-teaching, ...
+        # ----- CASE 2: directories like 20-research, 30-teaching, ... -----
         if entry.is_dir():
             section = entry.name
             section_dir = RAG_ROOT / section
@@ -112,6 +119,8 @@ def main():
                 slug = str(rel_inside).replace("/", "_").replace(".md", "")
                 out_file = section_dir / f"{slug}.json"
 
+                raw_url = RAW_BASE_URL + str(rel_inside)
+
                 text = md_to_text(md_path.read_text(encoding="utf-8"))
                 chunks = chunk_text(text)
                 records = []
@@ -124,11 +133,13 @@ def main():
                         "embedding": emb
                     })
 
+                # write per-file json with raw_url included
                 out_file.write_text(
                     json.dumps({
                         "model": MODEL_NAME,
                         "section": section,
                         "file": str(rel_inside),
+                        "raw_url": raw_url,
                         "records": records
                     }, indent=2),
                     encoding="utf-8",
@@ -138,6 +149,7 @@ def main():
                     "file": str(rel_inside),
                     "slug": slug,
                     "json": f"{slug}.json",
+                    "raw_url": raw_url,
                     "num_records": len(records)
                 })
 
@@ -155,7 +167,7 @@ def main():
                 "index": f"{section}/index.json"
             })
 
-    # finally: write overarching index
+    # overarching index
     (RAG_ROOT / "index.json").write_text(
         json.dumps({
             "model": MODEL_NAME,
