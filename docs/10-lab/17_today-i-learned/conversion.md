@@ -8,7 +8,7 @@ nav_order: 1
 
 # File conversion
 
-## PDF-to-Markdown
+## Word-to-Markdown
 
 ```
 docker run --rm -v "$PWD":/data pandoc_dockerfile input.docx -f docx -t markdown --wrap=none -o output.md
