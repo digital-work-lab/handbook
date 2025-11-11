@@ -2,6 +2,8 @@
   "model": "sentence-transformers/all-MiniLM-L6-v2",
   "section": "50-service",
   "file": "50-service/50_processes/index.md",
+  "md_url": "https://digital-work-lab.github.io/handbook/docs/50-service/50_processes/index.md",
+  "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/50-service/50_processes/index.md",
   "records": [
     {
       "source": "50-service/50_processes/index.md",

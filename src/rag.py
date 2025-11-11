@@ -10,8 +10,12 @@ DOCS_DIR = ROOT / "docs"
 RAG_ROOT = ROOT / "rag"
 MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
 
-# GitHub raw base for the original markdown files
+# Old raw base (we can keep it as secondary/fallback)
 RAW_BASE_URL = "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/"
+
+# NEW: serve markdown from the same origin as the RAG JSON
+# this assumes you publish the `docs/` folder to GitHub Pages under /handbook/docs/
+PAGES_MD_BASE_URL = "https://digital-work-lab.github.io/handbook/docs/"
 
 CHUNK_SIZE = 500
 CHUNK_OVERLAP = 100
@@ -50,6 +54,7 @@ def main():
 
             rel_path = entry.relative_to(DOCS_DIR)  # e.g. 00.goals.md
             raw_url = RAW_BASE_URL + str(rel_path)
+            md_url = PAGES_MD_BASE_URL + str(rel_path)
 
             text = md_to_text(entry.read_text(encoding="utf-8"))
             chunks = chunk_text(text)
@@ -70,6 +75,9 @@ def main():
                     "model": MODEL_NAME,
                     "section": section,
                     "file": str(rel_path),
+                    # primary for clients:
+                    "md_url": md_url,
+                    # optional fallback:
                     "raw_url": raw_url,
                     "records": records
                 }, indent=2),
@@ -86,6 +94,7 @@ def main():
                             "file": str(rel_path),
                             "slug": section,
                             "json": section_file_name,
+                            "md_url": md_url,
                             "raw_url": raw_url,
                             "num_records": len(records)
                         }
@@ -120,6 +129,7 @@ def main():
                 out_file = section_dir / f"{slug}.json"
 
                 raw_url = RAW_BASE_URL + str(rel_inside)
+                md_url = PAGES_MD_BASE_URL + str(rel_inside)
 
                 text = md_to_text(md_path.read_text(encoding="utf-8"))
                 chunks = chunk_text(text)
@@ -133,12 +143,13 @@ def main():
                         "embedding": emb
                     })
 
-                # write per-file json with raw_url included
+                # write per-file json with md_url included
                 out_file.write_text(
                     json.dumps({
                         "model": MODEL_NAME,
                         "section": section,
                         "file": str(rel_inside),
+                        "md_url": md_url,
                         "raw_url": raw_url,
                         "records": records
                     }, indent=2),
@@ -149,6 +160,7 @@ def main():
                     "file": str(rel_inside),
                     "slug": slug,
                     "json": f"{slug}.json",
+                    "md_url": md_url,
                     "raw_url": raw_url,
                     "num_records": len(records)
                 })

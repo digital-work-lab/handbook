@@ -1,11 +1,31 @@
+---
+layout: default
+title: "Custom GPT: Handbook assistant"
+parent: 17 Today-I-Learned
+grand_parent: Lab Management
+nav_order: 1
+---
 
-Getting the index works.
+# Custom GPT: Handbook assistant
 
-TODO : 
+- Getting the index works.
+- Getting subpages works.
+- Get content of subpages works.
 
-- get subpages
-- get content of subpages
+## Instruction
 
+```
+This GPT acts as the Digital Work Lab Handbook Assistant, designed to accurately retrieve and interpret content from the Digital Work Lab handbook. It uses the handbook’s RAG index to determine which documents exist and only retrieves data from valid entries listed there. 
+
+When users ask about handbook topics such as procedures, team, research, or teaching, the assistant looks up the RAG index to find the most relevant JSON or Markdown files and fetches the corresponding content through the appropriate `raw_url` or `get_section_rag` calls. It must not send requests to arbitrary paths or inferred URLs; it only queries those explicitly listed in the RAG index. If a requested document is missing, leads to a 404 error, or is not present in the index, the assistant informs the user clearly and suggests checking or updating the handbook structure.
+
+Responses must always reflect actual content retrieved from the valid source file. When a section contains multiple related documents (for example, several process files under `10-lab/10_processes/`), the assistant selects and summarizes the relevant files based on their titles and topics, and it can suggest related entries for context. If there are ambiguities, it asks clarifying questions to determine which indexed document(s) to reference.
+
+The assistant’s tone remains respectful, mentoring, and collaborative. It supports users in interpreting procedures, understanding lab practices, and improving the handbook by suggesting edits or additions when inconsistencies or missing information arise. It always prioritizes accuracy, transparency, and contextual insight when guiding users through the Digital Work Lab handbook.
+```
+
+
+## Action
 
 ```json
 
@@ -13,8 +33,8 @@ TODO :
   "openapi": "3.1.0",
   "info": {
     "title": "Digital-Work Lab Handbook RAG",
-    "version": "1.3.2",
-    "description": "Static RAG index published via GitHub Pages. Primary entry point is /rag/index.json. JSON chunk files are served from /rag/{path}. If a JSON chunk file is missing, the client can fetch the original Markdown from the handbook root."
+    "version": "1.3.4",
+    "description": "Static RAG index published via GitHub Pages. Primary entry point is /rag/index.json. JSON chunk files are served from /rag/{path}. If a JSON chunk file is missing, the client must fetch the original Markdown from https://digital-work-lab.github.io/handbook/docs/{path}."
   },
   "servers": [
     {
@@ -45,15 +65,15 @@ TODO :
                         "properties": {
                           "path": {
                             "type": "string",
-                            "description": "Logical handbook path, e.g. 10-lab/index.md"
+                            "description": "Logical handbook path relative to docs/, e.g. 20-research/20_processes/20.11.survey.md"
                           },
                           "json_url": {
                             "type": "string",
-                            "description": "URL to prebuilt JSON under /rag/, e.g. /rag/10-lab/index.json"
+                            "description": "URL to prebuilt JSON under /rag/, e.g. https://digital-work-lab.github.io/handbook/rag/20-research/20_processes/20.11.survey.json"
                           },
                           "md_url": {
                             "type": "string",
-                            "description": "Fallback: URL to original Markdown, e.g. /10-lab/index.md"
+                            "description": "Fallback: Markdown on GitHub Pages under /docs/, e.g. https://digital-work-lab.github.io/handbook/docs/20-research/20_processes/20.11.survey.md"
                           }
                         }
                       }
@@ -76,7 +96,7 @@ TODO :
             "name": "path",
             "in": "path",
             "required": true,
-            "description": "Path to the RAG JSON file relative to /rag/, e.g. 10-lab/index.json",
+            "description": "Path to the RAG JSON file relative to /rag/, e.g. 20-research/20_processes/20.11.survey.json",
             "schema": { "type": "string" }
           }
         ],
@@ -91,7 +111,7 @@ TODO :
                   "properties": {
                     "source": {
                       "type": "string",
-                      "description": "Original handbook source path, e.g. 10-lab/index.md"
+                      "description": "Original handbook source path, e.g. 20-research/20_processes/20.11.survey.md"
                     },
                     "generated_at": {
                       "type": "string",
@@ -107,25 +127,18 @@ TODO :
                       "items": {
                         "type": "object",
                         "properties": {
-                          "id": {
-                            "type": "string",
-                            "description": "Chunk identifier"
-                          },
+                          "id": { "type": "string" },
                           "text": {
                             "type": "string",
                             "description": "Chunk text content"
                           },
                           "metadata": {
                             "type": "object",
-                            "description": "Additional metadata for this chunk",
                             "additionalProperties": true
                           },
                           "embedding": {
                             "type": "array",
-                            "description": "Optional precomputed embedding vector",
-                            "items": {
-                              "type": "number"
-                            }
+                            "items": { "type": "number" }
                           }
                         },
                         "required": ["text"]
@@ -133,7 +146,6 @@ TODO :
                     },
                     "metadata": {
                       "type": "object",
-                      "description": "File-level metadata",
                       "additionalProperties": true
                     }
                   },
@@ -148,38 +160,40 @@ TODO :
         }
       }
     },
-    "/{path}": {
+    "/docs/{path}": {
       "get": {
         "operationId": "getHandbookFile",
-        "summary": "Fetch a raw handbook file (Markdown) as published on GitHub Pages root",
+        "summary": "Fetch a raw handbook file (Markdown) from GitHub Pages under /docs/",
         "parameters": [
           {
             "name": "path",
             "in": "path",
             "required": true,
-            "description": "Path to the published Markdown file relative to the handbook root, e.g. 10-lab/index.md",
+            "description": "Path to the Markdown file relative to docs/, e.g. 20-research/20_processes/20.11.survey.md",
             "schema": { "type": "string" }
           }
         ],
         "responses": {
           "200": {
-            "description": "Raw Markdown file content",
+            "description": "Raw Markdown file content from GitHub Pages under /docs/",
             "content": {
               "text/markdown": {
                 "schema": {
-                  "type": "string"
+                  "type": "string",
+                  "description": "Content retrieved from https://digital-work-lab.github.io/handbook/docs/{path}"
                 }
               }
             }
           },
           "404": {
-            "description": "File not found on GitHub Pages"
+            "description": "File not found under /docs/ on GitHub Pages"
           }
         }
       }
     }
   }
 }
+
 
 
 ```
