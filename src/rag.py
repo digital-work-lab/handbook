@@ -1,25 +1,4 @@
 #!/usr/bin/env python3
-"""
-Build per-section RAG indexes from docs/.
-- docs/
-  - 00.goals.md
-  - 01.team.md
-  - 02.calendar.md
-  - 03.responsibilities.md
-  - 10-lab/
-  - 20-research/
-  - 30-teaching/
-  - 40-funding/
-  - 50-service/
-  - calendar/
-Result:
-  rag/00.goals.json
-  rag/01.team.json
-  ...
-  rag/10-lab.json
-  ...
-"""
-
 import json
 import pathlib
 import re
@@ -27,7 +6,7 @@ from typing import List
 from sentence_transformers import SentenceTransformer
 
 ROOT = pathlib.Path.cwd()
-DOCS_DIR = ROOT / "docs"          # <- adjust if yours is different
+DOCS_DIR = ROOT / "docs"
 RAG_DIR = ROOT / "rag"
 MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
 
@@ -36,81 +15,99 @@ CHUNK_OVERLAP = 100
 
 
 def md_to_text(md: str) -> str:
-    """Very basic Markdown → text cleaner."""
-    md = re.sub(r"```.*?```", "", md, flags=re.DOTALL)   # remove code blocks
-    md = re.sub(r"!\[.*?\]\(.*?\)", "", md)              # remove images
-    md = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", md)     # link text only
+    md = re.sub(r"```.*?```", "", md, flags=re.DOTALL)
+    md = re.sub(r"!\[.*?\]\(.*?\)", "", md)
+    md = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", md)
     md = re.sub(r"#", "", md)
     return md.strip()
 
 
-def chunk_text(text: str, size: int = CHUNK_SIZE, overlap: int = CHUNK_OVERLAP) -> List[str]:
+def chunk_text(text: str, size=CHUNK_SIZE, overlap=CHUNK_OVERLAP) -> List[str]:
     chunks = []
     start = 0
     while start < len(text):
         end = start + size
-        chunk = text[start:end]
-        chunks.append(chunk)
+        chunks.append(text[start:end])
         start = end - overlap
     return chunks
 
 
-def collect_section_entries(section_path: pathlib.Path) -> List[pathlib.Path]:
-    """Return all markdown files belonging to this section."""
-    if section_path.is_file() and section_path.suffix == ".md":
-        return [section_path]
-    elif section_path.is_dir():
-        return list(section_path.rglob("*.md"))
-    else:
-        return []
-
-
 def main():
-    # load model once
     model = SentenceTransformer(MODEL_NAME)
     RAG_DIR.mkdir(parents=True, exist_ok=True)
 
-    # iterate over top-level entries in docs/
+    # iterate over top-level entries in docs
     for entry in sorted(DOCS_DIR.iterdir()):
-        print(f"Indexing {entry}")
-        # give every top-level file/dir its own section index
-        section_name = entry.name  # e.g. "00.goals.md" or "10-lab"
-        # normalize for JSON filename
-        section_json_name = section_name.replace(".md", "") + ".json"
-        out_file = RAG_DIR / section_json_name
-
-        md_files = collect_section_entries(entry)
-        if not md_files:
-            # skip if no md files (rare)
-            continue
-
-        records = []
-        for md_path in md_files:
-            raw = md_path.read_text(encoding="utf-8")
-            text = md_to_text(raw)
+        # files like 00.goals.md
+        if entry.is_file() and entry.suffix == ".md":
+            rel = entry.name.replace(".md", "")
+            out_file = RAG_DIR / f"{rel}.json"
+            text = md_to_text(entry.read_text(encoding="utf-8"))
             chunks = chunk_text(text)
+            records = []
             for i, ch in enumerate(chunks):
                 emb = model.encode(ch).tolist()
                 records.append({
-                    "source": str(md_path.relative_to(DOCS_DIR)),
+                    "source": str(entry.relative_to(DOCS_DIR)),
                     "chunk_id": i,
                     "text": ch,
-                    "embedding": emb,
+                    "embedding": emb
                 })
+            out_file.write_text(json.dumps({
+                "model": MODEL_NAME,
+                "section": rel,
+                "records": records
+            }, indent=2), encoding="utf-8")
+            print(f"wrote {out_file}")
+            continue
 
-        # write per-section file
-        out_file.write_text(
-            json.dumps(
-                {
+        # directories like 10-lab, 30-teaching, ...
+        if entry.is_dir():
+            section = entry.name  # e.g. 30-teaching
+            section_index = {
+                "model": MODEL_NAME,
+                "section": section,
+                "files": []
+            }
+
+            # each .md inside becomes its own RAG file
+            for md_path in entry.rglob("*.md"):
+                rel_inside = md_path.relative_to(DOCS_DIR)
+                # create a safe slug from the relative path
+                slug = str(rel_inside).replace("/", "_").replace(".md", "")
+                out_file = RAG_DIR / f"{section}.{slug}.json"
+
+                text = md_to_text(md_path.read_text(encoding="utf-8"))
+                chunks = chunk_text(text)
+                records = []
+                for i, ch in enumerate(chunks):
+                    emb = model.encode(ch).tolist()
+                    records.append({
+                        "source": str(rel_inside),
+                        "chunk_id": i,
+                        "text": ch,
+                        "embedding": emb
+                    })
+
+                out_file.write_text(json.dumps({
                     "model": MODEL_NAME,
-                    "section": section_name,
-                    "records": records,
-                },
-                indent=2,
-            ),
-            encoding="utf-8",
-        )
-        print(f"wrote {out_file} with {len(records)} chunks")
+                    "section": section,
+                    "file": str(rel_inside),
+                    "records": records
+                }, indent=2), encoding="utf-8")
+
+                section_index["files"].append({
+                    "file": str(rel_inside),
+                    "slug": slug,
+                    "json": f"{section}.{slug}.json",
+                    "num_records": len(records)
+                })
+                print(f"wrote {out_file}")
+
+            # write the small index for the section
+            index_file = RAG_DIR / f"{section}.index.json"
+            index_file.write_text(json.dumps(section_index, indent=2), encoding="utf-8")
+            print(f"wrote {index_file}")
 
     print("done.")
 

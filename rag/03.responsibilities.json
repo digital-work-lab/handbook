@@ -1,6 +1,6 @@
 {
   "model": "sentence-transformers/all-MiniLM-L6-v2",
-  "section": "03.responsibilities.md",
+  "section": "03.responsibilities",
   "records": [
     {
       "source": "03.responsibilities.md",

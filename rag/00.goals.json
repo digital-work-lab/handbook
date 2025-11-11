@@ -1,6 +1,6 @@
 {
   "model": "sentence-transformers/all-MiniLM-L6-v2",
-  "section": "00.goals.md",
+  "section": "00.goals",
   "records": [
     {
       "source": "00.goals.md",

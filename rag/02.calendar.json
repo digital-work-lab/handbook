@@ -1,6 +1,6 @@
 {
   "model": "sentence-transformers/all-MiniLM-L6-v2",
-  "section": "02.calendar.md",
+  "section": "02.calendar",
   "records": [
     {
       "source": "02.calendar.md",
