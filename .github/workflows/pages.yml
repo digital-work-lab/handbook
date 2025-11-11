@@ -50,6 +50,16 @@ jobs:
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
+
+      - name: Copy docs and rag into _site
+        run: |
+          mkdir -p _site/docs
+          cp -r docs/* _site/docs/ || true
+          mkdir -p _site/rag
+          cp -r rag/* _site/rag/ || true
+          # ensure GitHub Pages serves directories as-is
+          touch _site/.nojekyll
+
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
