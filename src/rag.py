@@ -36,8 +36,11 @@ def main():
     model = SentenceTransformer(MODEL_NAME)
     RAG_ROOT.mkdir(parents=True, exist_ok=True)
 
+    # we'll collect all sections here to write rag/index.json at the end
+    all_sections = []
+
     for entry in sorted(DOCS_DIR.iterdir()):
-        # top-level single markdown files -> make a folder too, for consistency
+        # CASE 1: top-level single markdown file -> create its own section dir
         if entry.is_file() and entry.suffix == ".md":
             section = entry.name.replace(".md", "")  # e.g. "00.goals"
             section_dir = RAG_ROOT / section
@@ -55,7 +58,19 @@ def main():
                     "embedding": emb
                 })
 
-            # write single-file index as index.json
+            # per-file rag
+            section_file_name = f"{section}.json"
+            (section_dir / section_file_name).write_text(
+                json.dumps({
+                    "model": MODEL_NAME,
+                    "section": section,
+                    "file": entry.name,
+                    "records": records
+                }, indent=2),
+                encoding="utf-8",
+            )
+
+            # per-section index (only one file here)
             (section_dir / "index.json").write_text(
                 json.dumps({
                     "model": MODEL_NAME,
@@ -64,29 +79,23 @@ def main():
                         {
                             "file": entry.name,
                             "slug": section,
-                            "json": f"{section}.json",
-                            "num_records": len(records),
+                            "json": section_file_name,
+                            "num_records": len(records)
                         }
-                    ],
+                    ]
                 }, indent=2),
                 encoding="utf-8",
             )
 
-            # write the actual rag file
-            (section_dir / f"{section}.json").write_text(
-                json.dumps({
-                    "model": MODEL_NAME,
-                    "section": section,
-                    "file": entry.name,
-                    "records": records,
-                }, indent=2),
-                encoding="utf-8",
-            )
+            all_sections.append({
+                "section": section,
+                "index": f"{section}/index.json"
+            })
 
-            print(f"wrote {section_dir / 'index.json'} and {section_dir / f'{section}.json'}")
+            print(f"wrote {section_dir / 'index.json'} and {section_dir / section_file_name}")
             continue
 
-        # directories like 10-lab, 20-research, ...
+        # CASE 2: directory like 20-research, 30-teaching, ...
         if entry.is_dir():
             section = entry.name
             section_dir = RAG_ROOT / section
@@ -99,8 +108,7 @@ def main():
             }
 
             for md_path in entry.rglob("*.md"):
-                rel_inside = md_path.relative_to(DOCS_DIR)  # e.g. 20-research/some.md
-                # slug for filename, safe
+                rel_inside = md_path.relative_to(DOCS_DIR)   # e.g. 20-research/sub.md
                 slug = str(rel_inside).replace("/", "_").replace(".md", "")
                 out_file = section_dir / f"{slug}.json"
 
@@ -121,7 +129,7 @@ def main():
                         "model": MODEL_NAME,
                         "section": section,
                         "file": str(rel_inside),
-                        "records": records,
+                        "records": records
                     }, indent=2),
                     encoding="utf-8",
                 )
@@ -130,17 +138,32 @@ def main():
                     "file": str(rel_inside),
                     "slug": slug,
                     "json": f"{slug}.json",
-                    "num_records": len(records),
+                    "num_records": len(records)
                 })
+
                 print(f"wrote {out_file}")
 
-            # write section index in the section dir
+            # write section-level index
             (section_dir / "index.json").write_text(
                 json.dumps(section_index, indent=2),
                 encoding="utf-8",
             )
             print(f"wrote {section_dir / 'index.json'}")
 
+            all_sections.append({
+                "section": section,
+                "index": f"{section}/index.json"
+            })
+
+    # finally: write overarching index
+    (RAG_ROOT / "index.json").write_text(
+        json.dumps({
+            "model": MODEL_NAME,
+            "sections": all_sections
+        }, indent=2),
+        encoding="utf-8",
+    )
+    print(f"wrote {RAG_ROOT / 'index.json'}")
     print("done.")
 
 
