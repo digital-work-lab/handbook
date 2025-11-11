@@ -32,12 +32,12 @@ jobs:
       - name: Copy RAG files into docs
         run: |
           mkdir -p docs/rag
-          cp rag/*.json docs/rag/
+          cp -r rag/* docs/rag/
 
       - name: Commit index files
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add docs/rag/*.json
+          git add docs/rag/**
           git commit -m "Update RAG indexes" || echo "No changes"
           git push

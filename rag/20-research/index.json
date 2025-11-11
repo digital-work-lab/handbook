@@ -1,0 +1,216 @@
+{
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "section": "20-research",
+  "files": [
+    {
+      "file": "20-research/22-literature.md",
+      "slug": "20-research_22-literature",
+      "json": "20-research_22-literature.json",
+      "num_records": 10
+    },
+    {
+      "file": "20-research/25-projects.md",
+      "slug": "20-research_25-projects",
+      "json": "20-research_25-projects.json",
+      "num_records": 5
+    },
+    {
+      "file": "20-research/25-projects-gantt.md",
+      "slug": "20-research_25-projects-gantt",
+      "json": "20-research_25-projects-gantt.json",
+      "num_records": 1
+    },
+    {
+      "file": "20-research/23-data.md",
+      "slug": "20-research_23-data",
+      "json": "20-research_23-data.json",
+      "num_records": 2
+    },
+    {
+      "file": "20-research/24-software.md",
+      "slug": "20-research_24-software",
+      "json": "20-research_24-software.json",
+      "num_records": 15
+    },
+    {
+      "file": "20-research/index.md",
+      "slug": "20-research_index",
+      "json": "20-research_index.json",
+      "num_records": 2
+    },
+    {
+      "file": "20-research/29-publications.md",
+      "slug": "20-research_29-publications",
+      "json": "20-research_29-publications.json",
+      "num_records": 25
+    },
+    {
+      "file": "20-research/21-training.md",
+      "slug": "20-research_21-training",
+      "json": "20-research_21-training.json",
+      "num_records": 6
+    },
+    {
+      "file": "20-research/20_processes/20.21.analysis-templates.md",
+      "slug": "20-research_20_processes_20.21.analysis-templates",
+      "json": "20-research_20_processes_20.21.analysis-templates.json",
+      "num_records": 7
+    },
+    {
+      "file": "20-research/20_processes/20.23.research-support.md",
+      "slug": "20-research_20_processes_20.23.research-support",
+      "json": "20-research_20_processes_20.23.research-support.json",
+      "num_records": 2
+    },
+    {
+      "file": "20-research/20_processes/20.06.mailing-lists.md",
+      "slug": "20-research_20_processes_20.06.mailing-lists",
+      "json": "20-research_20_processes_20.06.mailing-lists.json",
+      "num_records": 3
+    },
+    {
+      "file": "20-research/20_processes/20.33.publication.md",
+      "slug": "20-research_20_processes_20.33.publication",
+      "json": "20-research_20_processes_20.33.publication.json",
+      "num_records": 8
+    },
+    {
+      "file": "20-research/20_processes/20.28.presentation.md",
+      "slug": "20-research_20_processes_20.28.presentation",
+      "json": "20-research_20_processes_20.28.presentation.json",
+      "num_records": 3
+    },
+    {
+      "file": "20-research/20_processes/20.05.outlets.md",
+      "slug": "20-research_20_processes_20.05.outlets",
+      "json": "20-research_20_processes_20.05.outlets.json",
+      "num_records": 39
+    },
+    {
+      "file": "20-research/20_processes/20.29.writing.md",
+      "slug": "20-research_20_processes_20.29.writing",
+      "json": "20-research_20_processes_20.29.writing.json",
+      "num_records": 45
+    },
+    {
+      "file": "20-research/20_processes/20.12.selection.md",
+      "slug": "20-research_20_processes_20.12.selection",
+      "json": "20-research_20_processes_20.12.selection.json",
+      "num_records": 2
+    },
+    {
+      "file": "20-research/20_processes/20.02.sop.md",
+      "slug": "20-research_20_processes_20.02.sop",
+      "json": "20-research_20_processes_20.02.sop.json",
+      "num_records": 3
+    },
+    {
+      "file": "20-research/20_processes/20.10.literature-review.md",
+      "slug": "20-research_20_processes_20.10.literature-review",
+      "json": "20-research_20_processes_20.10.literature-review.json",
+      "num_records": 4
+    },
+    {
+      "file": "20-research/20_processes/20.18.methods.md",
+      "slug": "20-research_20_processes_20.18.methods",
+      "json": "20-research_20_processes_20.18.methods.json",
+      "num_records": 3
+    },
+    {
+      "file": "20-research/20_processes/20.16.collaboration.md",
+      "slug": "20-research_20_processes_20.16.collaboration",
+      "json": "20-research_20_processes_20.16.collaboration.json",
+      "num_records": 12
+    },
+    {
+      "file": "20-research/20_processes/20.07.labs.md",
+      "slug": "20-research_20_processes_20.07.labs",
+      "json": "20-research_20_processes_20.07.labs.json",
+      "num_records": 1
+    },
+    {
+      "file": "20-research/20_processes/20.30.submission.md",
+      "slug": "20-research_20_processes_20.30.submission",
+      "json": "20-research_20_processes_20.30.submission.json",
+      "num_records": 44
+    },
+    {
+      "file": "20-research/20_processes/20.17.data.md",
+      "slug": "20-research_20_processes_20.17.data",
+      "json": "20-research_20_processes_20.17.data.json",
+      "num_records": 14
+    },
+    {
+      "file": "20-research/20_processes/20.04.ethics.md",
+      "slug": "20-research_20_processes_20.04.ethics",
+      "json": "20-research_20_processes_20.04.ethics.json",
+      "num_records": 1
+    },
+    {
+      "file": "20-research/20_processes/20.11.survey.md",
+      "slug": "20-research_20_processes_20.11.survey",
+      "json": "20-research_20_processes_20.11.survey.json",
+      "num_records": 1
+    },
+    {
+      "file": "20-research/20_processes/20.34.dissemination.md",
+      "slug": "20-research_20_processes_20.34.dissemination",
+      "json": "20-research_20_processes_20.34.dissemination.json",
+      "num_records": 9
+    },
+    {
+      "file": "20-research/20_processes/20.15.repo-setup.md",
+      "slug": "20-research_20_processes_20.15.repo-setup",
+      "json": "20-research_20_processes_20.15.repo-setup.json",
+      "num_records": 7
+    },
+    {
+      "file": "20-research/20_processes/20.35.improvement.md",
+      "slug": "20-research_20_processes_20.35.improvement",
+      "json": "20-research_20_processes_20.35.improvement.json",
+      "num_records": 2
+    },
+    {
+      "file": "20-research/20_processes/20.32.revision.md",
+      "slug": "20-research_20_processes_20.32.revision",
+      "json": "20-research_20_processes_20.32.revision.json",
+      "num_records": 39
+    },
+    {
+      "file": "20-research/20_processes/20.01.goals.md",
+      "slug": "20-research_20_processes_20.01.goals",
+      "json": "20-research_20_processes_20.01.goals.json",
+      "num_records": 25
+    },
+    {
+      "file": "20-research/20_processes/20.09.ideas.md",
+      "slug": "20-research_20_processes_20.09.ideas",
+      "json": "20-research_20_processes_20.09.ideas.json",
+      "num_records": 2
+    },
+    {
+      "file": "20-research/20_processes/20.03.systems.md",
+      "slug": "20-research_20_processes_20.03.systems",
+      "json": "20-research_20_processes_20.03.systems.json",
+      "num_records": 5
+    },
+    {
+      "file": "20-research/20_processes/index.md",
+      "slug": "20-research_20_processes_index",
+      "json": "20-research_20_processes_index.json",
+      "num_records": 1
+    },
+    {
+      "file": "20-research/20_processes/20.20.paper-templates.md",
+      "slug": "20-research_20_processes_20.20.paper-templates",
+      "json": "20-research_20_processes_20.20.paper-templates.json",
+      "num_records": 22
+    },
+    {
+      "file": "20-research/20_processes/20.22.python.md",
+      "slug": "20-research_20_processes_20.22.python",
+      "json": "20-research_20_processes_20.22.python.json",
+      "num_records": 3
+    }
+  ]
+}

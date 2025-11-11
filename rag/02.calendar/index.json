@@ -1,0 +1,12 @@
+{
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "section": "02.calendar",
+  "files": [
+    {
+      "file": "02.calendar.md",
+      "slug": "02.calendar",
+      "json": "02.calendar.json",
+      "num_records": 3
+    }
+  ]
+}

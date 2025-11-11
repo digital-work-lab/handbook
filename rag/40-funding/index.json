@@ -1,0 +1,36 @@
+{
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "section": "40-funding",
+  "files": [
+    {
+      "file": "40-funding/index.md",
+      "slug": "40-funding_index",
+      "json": "40-funding_index.json",
+      "num_records": 1
+    },
+    {
+      "file": "40-funding/40_processes/index.md",
+      "slug": "40-funding_40_processes_index",
+      "json": "40-funding_40_processes_index.json",
+      "num_records": 1
+    },
+    {
+      "file": "40-funding/40_processes/40.03.systems.md",
+      "slug": "40-funding_40_processes_40.03.systems",
+      "json": "40-funding_40_processes_40.03.systems.json",
+      "num_records": 2
+    },
+    {
+      "file": "40-funding/40_processes/40.10.application.md",
+      "slug": "40-funding_40_processes_40.10.application",
+      "json": "40-funding_40_processes_40.10.application.json",
+      "num_records": 2
+    },
+    {
+      "file": "40-funding/40_processes/40.30.project_phase.md",
+      "slug": "40-funding_40_processes_40.30.project_phase",
+      "json": "40-funding_40_processes_40.30.project_phase.json",
+      "num_records": 1
+    }
+  ]
+}

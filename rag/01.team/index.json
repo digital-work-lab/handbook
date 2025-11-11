@@ -1,0 +1,12 @@
+{
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "section": "01.team",
+  "files": [
+    {
+      "file": "01.team.md",
+      "slug": "01.team",
+      "json": "01.team.json",
+      "num_records": 5
+    }
+  ]
+}
