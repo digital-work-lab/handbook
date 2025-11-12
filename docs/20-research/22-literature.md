@@ -37,7 +37,7 @@ Overview of journals:
 | information-systems-journal | journal | 34_1 | 35_4 | ✅ Up-to-date |
 | information-systems-research | journal | 34_3 | 36_2 | ✅ Up-to-date |
 | international-conference-on-information-systems | conference | 2024 | 2024 | ✅ Up-to-date |
-| journal-of-information-systems-education | journal | 36_3 | 31_3 | 📝 TODO |
+| journal-of-information-systems-education | journal | 36_3 | 36_4 | ✅ Up-to-date |
 | journal-of-information-technology | journal | 38_2 | 40_2 | ✅ Up-to-date |
 | journal-of-management-information-systems | journal | 40_4 | 42_2 | ✅ Up-to-date |
 | journal-of-the-association-for-information-systems | journal | 26_5 | 26_4 | 📝 TODO |
