@@ -40,7 +40,7 @@ Overview of journals:
 | journal-of-information-systems-education | journal | 36_3 | 36_4 | ✅ Up-to-date |
 | journal-of-information-technology | journal | 38_2 | 40_2 | ✅ Up-to-date |
 | journal-of-management-information-systems | journal | 40_4 | 42_2 | ✅ Up-to-date |
-| journal-of-the-association-for-information-systems | journal | 26_5 | 26_4 | 📝 TODO |
+| journal-of-the-association-for-information-systems | journal | 26_5 | 26_5 | ✅ Up-to-date |
 | mis-quarterly | journal | 48_4 | 49_2 | ✅ Up-to-date |
 | pacific-asia-conference-on-information-systems | conference | 2025 | 2025 | ✅ Up-to-date |
 | the-journal-of-strategic-information-systems | journal | 33_1 | 34_3 | ✅ Up-to-date |
