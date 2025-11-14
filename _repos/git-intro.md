@@ -9,7 +9,7 @@ area: research
 topics: ['paper', 'research']
 html_url: https://github.com/digital-work-lab/git-intro
 archived: True
-updated_recently: True
+updated_recently: False
 associated_projects: []
 labot_workflow_status: success
 project_type: ['paper']
