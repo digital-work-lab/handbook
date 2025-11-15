@@ -11,7 +11,7 @@ resources:
     link: https://github.com/digital-work-lab/data-work
     access:
       - hopfkons
-    last_updated: 2025-11-12
+    last_updated: 2025-11-15
 collaborators:
   - kh
 history:
