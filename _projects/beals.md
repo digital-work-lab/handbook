@@ -4,7 +4,7 @@ title: beals
 title_long: ''
 parent: 25 Projects
 grand_parent: Research
-status: writing
+status: under_review
 associated_projects: []
 resources:
   - name: GitHub repository
@@ -19,6 +19,8 @@ collaborators:
 history:
   - date: 2025-03-28
     event: started
+  - date: 2025-11-17
+    event: submitted
 ---
 
 # {{ page.title }}

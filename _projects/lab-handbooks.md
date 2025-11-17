@@ -4,7 +4,7 @@ title: lab-handbooks
 title_long: ''
 parent: 25 Projects
 grand_parent: Research
-status: writing
+status: under_review
 associated_projects: []
 resources:
   - name: GitHub repository
@@ -17,6 +17,8 @@ collaborators:
 history:
   - date: 2025-01-20
     event: started
+  - date: 2025-11-17
+    event: submitted
 ---
 
 # {{ page.title }}
