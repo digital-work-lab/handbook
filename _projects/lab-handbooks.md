@@ -4,7 +4,7 @@ title: lab-handbooks
 title_long: ''
 parent: 25 Projects
 grand_parent: Research
-status: under_review
+status: under-review
 associated_projects: []
 resources:
   - name: GitHub repository
