@@ -4,7 +4,7 @@ title: teapad
 title_long: ''
 parent: 25 Projects
 grand_parent: Research
-status: under-review
+status: revising
 associated_projects: []
 resources:
   - name: GitHub repository
