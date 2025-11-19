@@ -1,18 +1,18 @@
 ---
 layout: default
-title: literature-reviews-in-information-systems
+title: literature-reviews-in-information-systems_colrev
 parent: 25 Projects
 grand_parent: Research
-visibility: Public
+visibility: Private
 collaborators: []
-area: other
-topics: []
-html_url: https://github.com/digital-work-lab/literature-reviews-in-information-systems
+area: research
+topics: ['research']
+html_url: https://github.com/digital-work-lab/literature-reviews-in-information-systems_colrev
 archived: False
-updated_recently: True
+updated_recently: False
 associated_projects: []
 labot_workflow_status: not-applicable
-project_type: []
+project_type: ['colrev']
 ---
 
 # {{ page.title }}
@@ -24,7 +24,7 @@ Title               | {{ page.title_long }}
 Visibility          | {{ page.visibility }}
 Access              | {{ page.collaborators topics | join: ", "}}
 Topics              | {{ page.topics | join: ", " }}
-URL                 | [https://github.com/digital-work-lab/literature-reviews-in-information-systems](https://github.com/digital-work-lab/literature-reviews-in-information-systems){: target="_blank"}
+URL                 | [https://github.com/digital-work-lab/literature-reviews-in-information-systems_colrev](https://github.com/digital-work-lab/literature-reviews-in-information-systems_colrev){: target="_blank"}
 Status              | {{ page.status }}
 Improvement         | {{ page.improvement_status }}
 Started             | {{ page.started }}
