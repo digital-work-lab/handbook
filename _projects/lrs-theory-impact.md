@@ -10,7 +10,7 @@ resources:
   - name: GitHub repository
     link: https://github.com/digital-work-lab/lrs-theory-impact
     access: []
-    last_updated: 2025-11-17
+    last_updated: 2025-11-20
 collaborators:
   - julianprester
 history: []
