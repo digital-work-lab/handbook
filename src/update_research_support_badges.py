@@ -52,7 +52,7 @@ def main():
 
         # Table row (Markdown)
         row = (
-            f"| [{repo.name}](https://github.com/{org_name}/{repo.name}) "
+            f"| [{repo.name}](https://github.com/{org_name}/{repo.name}/blob/main/data/records.bib) "
             f"| ![Manual prep status]({badge_url}) |"
         )
         entries.append(row)
@@ -69,7 +69,7 @@ def main():
 
     section = textwrap.dedent(f"""\
 <!-- AUTO-GENERATED: research-support-badges START -->
-### Preparation of references
+## Preparation of reference metadata
 
 This section is updated by a [GitHub Actions workflow](https://github.com/digital-work-lab/handbook/actions/workflows/update-research-support-badges.yml) and . Do not edit manually.
 
