@@ -32,7 +32,10 @@ def main():
             status_data = yaml.safe_load(yaml_bytes) or {}
             value = int(status_data["currently"]["md_needs_manual_preparation"])
         except Exception as e:
-            print(f"Skipping {repo.name}: could not parse md_needs_manual_preparation ({e})")
+            print(
+                f"Skipping {repo.name}: could not parse "
+                f"md_needs_manual_preparation ({e})"
+            )
             continue
 
         if value == 0:
@@ -42,24 +45,33 @@ def main():
             message = f"{value}_pending"
             color = "orange"
 
-        badge_url = f"https://img.shields.io/badge/manual_prep-{message}-{color}".replace(" ", "_")
-
-        line = (
-            f"- [`{repo.name}`](https://github.com/{org_name}/{repo.name}) "
-            f"![Manual prep status]({badge_url})"
+        badge_url = (
+            f"https://img.shields.io/badge/manual_prep-{message}-{color}"
+            .replace(" ", "_")
         )
-        entries.append(line)
+
+        # Table row (Markdown)
+        row = (
+            f"| [{repo.name}](https://github.com/{org_name}/{repo.name}) "
+            f"| ![Manual prep status]({badge_url}) |"
+        )
+        entries.append(row)
 
     if entries:
-        body = "\n".join(entries)
+        # Markdown table header + rows
+        body = "\n".join([
+            "| Repository | Manual prep status |",
+            "|------------|---------------------|",
+            *entries,
+        ])
     else:
         body = "_No repositories with `status.yaml` found in the organization._"
 
     section = textwrap.dedent(f"""\
 <!-- AUTO-GENERATED: research-support-badges START -->
-### Research support status (auto-generated)
+### Preparation of references
 
-This section is updated by a GitHub Actions workflow. Do not edit manually.
+This section is updated by a [GitHub Actions workflow](https://github.com/digital-work-lab/handbook/actions/workflows/update-research-support-badges.yml) and . Do not edit manually.
 
 {body}
 
