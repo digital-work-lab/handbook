@@ -6,15 +6,15 @@ parent: 25 Projects
 grand_parent: Research
 status: writing
 associated_projects: []
-collaborators:
-  - MJ
-  - MR
 resources:
   - name: GitHub repository
     link: https://github.com/digital-work-lab/lr-dedupe-benchmark
     access:
       - k-schnickmann
-    last_updated: 2025-11-17
+    last_updated: 2025-11-21
+collaborators:
+  - MJ
+  - MR
 history:
   - date: 2025-08-01
     event: started
