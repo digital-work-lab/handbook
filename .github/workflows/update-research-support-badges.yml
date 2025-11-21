@@ -1,0 +1,52 @@
+name: Update research support badges
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Run once per day at 03:00 UTC (adjust as needed)
+    - cron: "0 3 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-badges:
+    runs-on: ubuntu-latest
+
+    env:
+      ORG_NAME: digital-work-lab
+      DOCS_FILE: docs/20-research/20_processes/20.23.research-support.md
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install pyyaml
+
+      - name: Generate research support badge section
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python src/update_research_support_badges.py
+
+      - name: Commit and push changes
+        run: |
+          set -e
+          if git diff --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add "${DOCS_FILE}"
+          git commit -m "Update research support badges [skip ci]"
+          git push
