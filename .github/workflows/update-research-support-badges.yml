@@ -27,7 +27,7 @@ jobs:
 
       - name: Generate research support badge section
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.MY_PAT_TOKEN }}
         run: |
           python src/update_research_support_badges.py
 
