@@ -1,13 +1,13 @@
 ---
 layout: default
-title: teaching_hub
+title: teaching-hub
 parent: 25 Projects
 grand_parent: Research
 visibility: Private
 collaborators: []
 area: teaching
 topics: ['teaching', 'teaching-materials']
-html_url: https://github.com/digital-work-lab/teaching_hub
+html_url: https://github.com/digital-work-lab/teaching-hub
 archived: False
 updated_recently: True
 associated_projects: []
@@ -24,7 +24,7 @@ Title               | {{ page.title_long }}
 Visibility          | {{ page.visibility }}
 Access              | {{ page.collaborators topics | join: ", "}}
 Topics              | {{ page.topics | join: ", " }}
-URL                 | [https://github.com/digital-work-lab/teaching_hub](https://github.com/digital-work-lab/teaching_hub){: target="_blank"}
+URL                 | [https://github.com/digital-work-lab/teaching-hub](https://github.com/digital-work-lab/teaching-hub){: target="_blank"}
 Status              | {{ page.status }}
 Improvement         | {{ page.improvement_status }}
 Started             | {{ page.started }}

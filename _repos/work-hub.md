@@ -6,7 +6,7 @@ grand_parent: Research
 visibility: Private
 collaborators: ['LaureenTh', 'k-schnickmann', 'Stella1234-design', 'Alexa-St']
 area: research
-topics: ['research', 'teaching']
+topics: ['research']
 html_url: https://github.com/digital-work-lab/work-hub
 archived: False
 updated_recently: True
