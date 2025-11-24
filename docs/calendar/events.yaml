@@ -133,3 +133,7 @@
   end: "2025-12-03 20:00"
   color: "lightyellow"
   location: "An der Universität 5, Raum 01.05"
+- title: "Weihnachtsfeier"
+  start: "2025-12-18 17:15"
+  end: "2025-12-18 21:00"
+  color: "lightgreen"
