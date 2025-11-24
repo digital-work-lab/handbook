@@ -1,0 +1,62 @@
+name: Monthly research + handbook updates
+
+on:
+  # Run once a month (1st day at 02:00 UTC)
+  schedule:
+    - cron: "0 2 1 * *"
+
+  # Manual trigger
+  workflow_dispatch:
+
+jobs:
+  run-and-commit:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    # For PyGithub (Github(...)) and for git push (via PAT)
+    env:
+      GITHUB_TOKEN: ${{ secrets.MY_PAT_TOKEN }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+          fetch-depth: 0
+          # Use PAT so pushes work and can trigger other workflows if needed
+          token: ${{ secrets.MY_PAT_TOKEN }}
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas matplotlib PyGithub
+
+      - name: Set Git user name and email (labot style)
+        run: |
+          git config --global user.email "digital-work-labot@users.noreply.github.com"
+          git config --global user.name "digital-work-labot"
+          git config --global url.https://github.com/.insteadOf git://github.com/
+
+      - name: Run research_statistics.py
+        run: python src/research_statistics.py
+
+      - name: Run handbook_growth.py
+        run: python src/handbook_growth.py
+
+      - name: Commit and push changes (if any)
+        run: |
+          if [[ -n "$(git status --porcelain)" ]]; then
+            echo "Changes detected, committing..."
+            git add -A
+            git commit -m "chore: update research statistics and handbook growth [skip ci]"
+            git push
+          else
+            echo "No changes to commit."
+          fi
