@@ -47,9 +47,6 @@ jobs:
       - name: Run research_statistics.py
         run: python src/research_statistics.py
 
-      - name: Run handbook_growth.py
-        run: python src/handbook_growth.py
-
       - name: Commit and push changes (if any)
         run: |
           if [[ -n "$(git status --porcelain)" ]]; then
