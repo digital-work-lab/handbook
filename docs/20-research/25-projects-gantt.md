@@ -21,7 +21,7 @@ axisFormat %Y
     section knowledge_synthesis
 
     section others
-        ailr :ailr, 2020-11-26, 2025-11-23
+        ailr :ailr, 2020-11-26, 2025-11-24
 
 
     click ailr href "{{ site.baseurl }}/docs/10-lab/18-resources/ailr.html"
