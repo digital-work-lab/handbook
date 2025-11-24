@@ -27,7 +27,7 @@ jobs:
 
       - name: Build RAG indexes
         run: |
-          python scripts/build_rag_index.py
+          python src/rag.py
 
       - name: Copy RAG files into docs
         run: |
