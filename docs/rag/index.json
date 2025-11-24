@@ -1,0 +1,45 @@
+{
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "sections": [
+    {
+      "section": "00.goals",
+      "index": "00.goals/index.json"
+    },
+    {
+      "section": "01.team",
+      "index": "01.team/index.json"
+    },
+    {
+      "section": "02.calendar",
+      "index": "02.calendar/index.json"
+    },
+    {
+      "section": "03.responsibilities",
+      "index": "03.responsibilities/index.json"
+    },
+    {
+      "section": "10-lab",
+      "index": "10-lab/index.json"
+    },
+    {
+      "section": "20-research",
+      "index": "20-research/index.json"
+    },
+    {
+      "section": "30-teaching",
+      "index": "30-teaching/index.json"
+    },
+    {
+      "section": "40-funding",
+      "index": "40-funding/index.json"
+    },
+    {
+      "section": "50-service",
+      "index": "50-service/index.json"
+    },
+    {
+      "section": "calendar",
+      "index": "calendar/index.json"
+    }
+  ]
+}

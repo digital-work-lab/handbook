@@ -1,0 +1,486 @@
+{
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "section": "10-lab",
+  "files": [
+    {
+      "file": "10-lab/19_archive.md",
+      "slug": "10-lab_19_archive",
+      "json": "10-lab_19_archive.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/19_archive.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/19_archive.md",
+      "num_records": 1
+    },
+    {
+      "file": "10-lab/12_orga.md",
+      "slug": "10-lab_12_orga",
+      "json": "10-lab_12_orga.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/12_orga.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/12_orga.md",
+      "num_records": 1
+    },
+    {
+      "file": "10-lab/11_hr.md",
+      "slug": "10-lab_11_hr",
+      "json": "10-lab_11_hr.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/11_hr.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/11_hr.md",
+      "num_records": 1
+    },
+    {
+      "file": "10-lab/14_grades.md",
+      "slug": "10-lab_14_grades",
+      "json": "10-lab_14_grades.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/14_grades.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/14_grades.md",
+      "num_records": 1
+    },
+    {
+      "file": "10-lab/13_travel.md",
+      "slug": "10-lab_13_travel",
+      "json": "10-lab_13_travel.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/13_travel.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/13_travel.md",
+      "num_records": 1
+    },
+    {
+      "file": "10-lab/17_today-i-learned.md",
+      "slug": "10-lab_17_today-i-learned",
+      "json": "10-lab_17_today-i-learned.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/17_today-i-learned.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/17_today-i-learned.md",
+      "num_records": 1
+    },
+    {
+      "file": "10-lab/index.md",
+      "slug": "10-lab_index",
+      "json": "10-lab_index.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/index.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/index.md",
+      "num_records": 1
+    },
+    {
+      "file": "10-lab/18_resources/18.10.workstation.md",
+      "slug": "10-lab_18_resources_18.10.workstation",
+      "json": "10-lab_18_resources_18.10.workstation.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/18_resources/18.10.workstation.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/18_resources/18.10.workstation.md",
+      "num_records": 4
+    },
+    {
+      "file": "10-lab/18_resources/18.01.library.md",
+      "slug": "10-lab_18_resources_18.01.library",
+      "json": "10-lab_18_resources_18.01.library.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/18_resources/18.01.library.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/18_resources/18.01.library.md",
+      "num_records": 4
+    },
+    {
+      "file": "10-lab/18_resources/18.12.repositories.md",
+      "slug": "10-lab_18_resources_18.12.repositories",
+      "json": "10-lab_18_resources_18.12.repositories.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/18_resources/18.12.repositories.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/18_resources/18.12.repositories.md",
+      "num_records": 22
+    },
+    {
+      "file": "10-lab/18_resources/index.md",
+      "slug": "10-lab_18_resources_index",
+      "json": "10-lab_18_resources_index.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/18_resources/index.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/18_resources/index.md",
+      "num_records": 1
+    },
+    {
+      "file": "10-lab/17_today-i-learned/spreadsheet_to_obsidian.md",
+      "slug": "10-lab_17_today-i-learned_spreadsheet_to_obsidian",
+      "json": "10-lab_17_today-i-learned_spreadsheet_to_obsidian.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/17_today-i-learned/spreadsheet_to_obsidian.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/17_today-i-learned/spreadsheet_to_obsidian.md",
+      "num_records": 1
+    },
+    {
+      "file": "10-lab/17_today-i-learned/conversion.md",
+      "slug": "10-lab_17_today-i-learned_conversion",
+      "json": "10-lab_17_today-i-learned_conversion.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/17_today-i-learned/conversion.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/17_today-i-learned/conversion.md",
+      "num_records": 1
+    },
+    {
+      "file": "10-lab/17_today-i-learned/ocr.md",
+      "slug": "10-lab_17_today-i-learned_ocr",
+      "json": "10-lab_17_today-i-learned_ocr.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/17_today-i-learned/ocr.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/17_today-i-learned/ocr.md",
+      "num_records": 2
+    },
+    {
+      "file": "10-lab/17_today-i-learned/git_lfs.md",
+      "slug": "10-lab_17_today-i-learned_git_lfs",
+      "json": "10-lab_17_today-i-learned_git_lfs.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/17_today-i-learned/git_lfs.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/17_today-i-learned/git_lfs.md",
+      "num_records": 1
+    },
+    {
+      "file": "10-lab/17_today-i-learned/personal_website.md",
+      "slug": "10-lab_17_today-i-learned_personal_website",
+      "json": "10-lab_17_today-i-learned_personal_website.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/17_today-i-learned/personal_website.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/17_today-i-learned/personal_website.md",
+      "num_records": 1
+    },
+    {
+      "file": "10-lab/17_today-i-learned/uv.md",
+      "slug": "10-lab_17_today-i-learned_uv",
+      "json": "10-lab_17_today-i-learned_uv.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/17_today-i-learned/uv.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/17_today-i-learned/uv.md",
+      "num_records": 1
+    },
+    {
+      "file": "10-lab/17_today-i-learned/quartz.md",
+      "slug": "10-lab_17_today-i-learned_quartz",
+      "json": "10-lab_17_today-i-learned_quartz.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/17_today-i-learned/quartz.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/17_today-i-learned/quartz.md",
+      "num_records": 2
+    },
+    {
+      "file": "10-lab/17_today-i-learned/python-llm.md",
+      "slug": "10-lab_17_today-i-learned_python-llm",
+      "json": "10-lab_17_today-i-learned_python-llm.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/17_today-i-learned/python-llm.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/17_today-i-learned/python-llm.md",
+      "num_records": 1
+    },
+    {
+      "file": "10-lab/17_today-i-learned/power_point.md",
+      "slug": "10-lab_17_today-i-learned_power_point",
+      "json": "10-lab_17_today-i-learned_power_point.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/17_today-i-learned/power_point.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/17_today-i-learned/power_point.md",
+      "num_records": 2
+    },
+    {
+      "file": "10-lab/17_today-i-learned/pandoc_word_template.md",
+      "slug": "10-lab_17_today-i-learned_pandoc_word_template",
+      "json": "10-lab_17_today-i-learned_pandoc_word_template.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/17_today-i-learned/pandoc_word_template.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/17_today-i-learned/pandoc_word_template.md",
+      "num_records": 3
+    },
+    {
+      "file": "10-lab/17_today-i-learned/handbook-gpt.md",
+      "slug": "10-lab_17_today-i-learned_handbook-gpt",
+      "json": "10-lab_17_today-i-learned_handbook-gpt.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/17_today-i-learned/handbook-gpt.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/17_today-i-learned/handbook-gpt.md",
+      "num_records": 1
+    },
+    {
+      "file": "10-lab/17_today-i-learned/photos.md",
+      "slug": "10-lab_17_today-i-learned_photos",
+      "json": "10-lab_17_today-i-learned_photos.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/17_today-i-learned/photos.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/17_today-i-learned/photos.md",
+      "num_records": 1
+    },
+    {
+      "file": "10-lab/17_today-i-learned/regex.md",
+      "slug": "10-lab_17_today-i-learned_regex",
+      "json": "10-lab_17_today-i-learned_regex.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/17_today-i-learned/regex.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/17_today-i-learned/regex.md",
+      "num_records": 1
+    },
+    {
+      "file": "10-lab/17_today-i-learned/key_management.md",
+      "slug": "10-lab_17_today-i-learned_key_management",
+      "json": "10-lab_17_today-i-learned_key_management.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/17_today-i-learned/key_management.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/17_today-i-learned/key_management.md",
+      "num_records": 2
+    },
+    {
+      "file": "10-lab/17_today-i-learned/obs-recording.md",
+      "slug": "10-lab_17_today-i-learned_obs-recording",
+      "json": "10-lab_17_today-i-learned_obs-recording.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/17_today-i-learned/obs-recording.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/17_today-i-learned/obs-recording.md",
+      "num_records": 1
+    },
+    {
+      "file": "10-lab/10_processes/10.70.controlling.md",
+      "slug": "10-lab_10_processes_10.70.controlling",
+      "json": "10-lab_10_processes_10.70.controlling.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/10.70.controlling.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/10_processes/10.70.controlling.md",
+      "num_records": 2
+    },
+    {
+      "file": "10-lab/10_processes/10.51.mail.md",
+      "slug": "10-lab_10_processes_10.51.mail",
+      "json": "10-lab_10_processes_10.51.mail.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/10.51.mail.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/10_processes/10.51.mail.md",
+      "num_records": 6
+    },
+    {
+      "file": "10-lab/10_processes/10.07.markdown.md",
+      "slug": "10-lab_10_processes_10.07.markdown",
+      "json": "10-lab_10_processes_10.07.markdown.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/10.07.markdown.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/10_processes/10.07.markdown.md",
+      "num_records": 9
+    },
+    {
+      "file": "10-lab/10_processes/10.50.travel.md",
+      "slug": "10-lab_10_processes_10.50.travel",
+      "json": "10-lab_10_processes_10.50.travel.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/10.50.travel.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/10_processes/10.50.travel.md",
+      "num_records": 4
+    },
+    {
+      "file": "10-lab/10_processes/10.21.planning_review_sessions.md",
+      "slug": "10-lab_10_processes_10.21.planning_review_sessions",
+      "json": "10-lab_10_processes_10.21.planning_review_sessions.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/10.21.planning_review_sessions.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/10_processes/10.21.planning_review_sessions.md",
+      "num_records": 10
+    },
+    {
+      "file": "10-lab/10_processes/10.32.onboarding.md",
+      "slug": "10-lab_10_processes_10.32.onboarding",
+      "json": "10-lab_10_processes_10.32.onboarding.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/10.32.onboarding.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/10_processes/10.32.onboarding.md",
+      "num_records": 12
+    },
+    {
+      "file": "10-lab/10_processes/10.08.team_building.md",
+      "slug": "10-lab_10_processes_10.08.team_building",
+      "json": "10-lab_10_processes_10.08.team_building.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/10.08.team_building.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/10_processes/10.08.team_building.md",
+      "num_records": 2
+    },
+    {
+      "file": "10-lab/10_processes/10.60.department.md",
+      "slug": "10-lab_10_processes_10.60.department",
+      "json": "10-lab_10_processes_10.60.department.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/10.60.department.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/10_processes/10.60.department.md",
+      "num_records": 7
+    },
+    {
+      "file": "10-lab/10_processes/10.12.zuv.md",
+      "slug": "10-lab_10_processes_10.12.zuv",
+      "json": "10-lab_10_processes_10.12.zuv.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/10.12.zuv.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/10_processes/10.12.zuv.md",
+      "num_records": 2
+    },
+    {
+      "file": "10-lab/10_processes/10.73.emergencies.md",
+      "slug": "10-lab_10_processes_10.73.emergencies",
+      "json": "10-lab_10_processes_10.73.emergencies.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/10.73.emergencies.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/10_processes/10.73.emergencies.md",
+      "num_records": 3
+    },
+    {
+      "file": "10-lab/10_processes/10.31.contracts_phd.md",
+      "slug": "10-lab_10_processes_10.31.contracts_phd",
+      "json": "10-lab_10_processes_10.31.contracts_phd.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/10.31.contracts_phd.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/10_processes/10.31.contracts_phd.md",
+      "num_records": 1
+    },
+    {
+      "file": "10-lab/10_processes/10.30.hiring.md",
+      "slug": "10-lab_10_processes_10.30.hiring",
+      "json": "10-lab_10_processes_10.30.hiring.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/10.30.hiring.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/10_processes/10.30.hiring.md",
+      "num_records": 4
+    },
+    {
+      "file": "10-lab/10_processes/10.34.development.md",
+      "slug": "10-lab_10_processes_10.34.development",
+      "json": "10-lab_10_processes_10.34.development.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/10.34.development.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/10_processes/10.34.development.md",
+      "num_records": 6
+    },
+    {
+      "file": "10-lab/10_processes/10.33.vacation.md",
+      "slug": "10-lab_10_processes_10.33.vacation",
+      "json": "10-lab_10_processes_10.33.vacation.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/10.33.vacation.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/10_processes/10.33.vacation.md",
+      "num_records": 13
+    },
+    {
+      "file": "10-lab/10_processes/10.31.contracts_staff.md",
+      "slug": "10-lab_10_processes_10.31.contracts_staff",
+      "json": "10-lab_10_processes_10.31.contracts_staff.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/10.31.contracts_staff.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/10_processes/10.31.contracts_staff.md",
+      "num_records": 1
+    },
+    {
+      "file": "10-lab/10_processes/10.05.systems-overview.md",
+      "slug": "10-lab_10_processes_10.05.systems-overview",
+      "json": "10-lab_10_processes_10.05.systems-overview.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/10.05.systems-overview.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/10_processes/10.05.systems-overview.md",
+      "num_records": 13
+    },
+    {
+      "file": "10-lab/10_processes/10.11.website.md",
+      "slug": "10-lab_10_processes_10.11.website",
+      "json": "10-lab_10_processes_10.11.website.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/10.11.website.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/10_processes/10.11.website.md",
+      "num_records": 2
+    },
+    {
+      "file": "10-lab/10_processes/10.90.administration.md",
+      "slug": "10-lab_10_processes_10.90.administration",
+      "json": "10-lab_10_processes_10.90.administration.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/10.90.administration.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/10_processes/10.90.administration.md",
+      "num_records": 3
+    },
+    {
+      "file": "10-lab/10_processes/10.52.orders.md",
+      "slug": "10-lab_10_processes_10.52.orders",
+      "json": "10-lab_10_processes_10.52.orders.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/10.52.orders.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/10_processes/10.52.orders.md",
+      "num_records": 4
+    },
+    {
+      "file": "10-lab/10_processes/10.31.contracts.md",
+      "slug": "10-lab_10_processes_10.31.contracts",
+      "json": "10-lab_10_processes_10.31.contracts.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/10.31.contracts.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/10_processes/10.31.contracts.md",
+      "num_records": 2
+    },
+    {
+      "file": "10-lab/10_processes/10.72.security.md",
+      "slug": "10-lab_10_processes_10.72.security",
+      "json": "10-lab_10_processes_10.72.security.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/10.72.security.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/10_processes/10.72.security.md",
+      "num_records": 8
+    },
+    {
+      "file": "10-lab/10_processes/10.35.sick_leave.md",
+      "slug": "10-lab_10_processes_10.35.sick_leave",
+      "json": "10-lab_10_processes_10.35.sick_leave.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/10.35.sick_leave.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/10_processes/10.35.sick_leave.md",
+      "num_records": 2
+    },
+    {
+      "file": "10-lab/10_processes/10.09.team_assistance.md",
+      "slug": "10-lab_10_processes_10.09.team_assistance",
+      "json": "10-lab_10_processes_10.09.team_assistance.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/10.09.team_assistance.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/10_processes/10.09.team_assistance.md",
+      "num_records": 4
+    },
+    {
+      "file": "10-lab/10_processes/10.39.offboarding.md",
+      "slug": "10-lab_10_processes_10.39.offboarding",
+      "json": "10-lab_10_processes_10.39.offboarding.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/10.39.offboarding.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/10_processes/10.39.offboarding.md",
+      "num_records": 2
+    },
+    {
+      "file": "10-lab/10_processes/10.31.contracts_ext_lect.md",
+      "slug": "10-lab_10_processes_10.31.contracts_ext_lect",
+      "json": "10-lab_10_processes_10.31.contracts_ext_lect.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/10.31.contracts_ext_lect.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/10_processes/10.31.contracts_ext_lect.md",
+      "num_records": 2
+    },
+    {
+      "file": "10-lab/10_processes/10.20.agendas.md",
+      "slug": "10-lab_10_processes_10.20.agendas",
+      "json": "10-lab_10_processes_10.20.agendas.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/10.20.agendas.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/10_processes/10.20.agendas.md",
+      "num_records": 3
+    },
+    {
+      "file": "10-lab/10_processes/10.53.visitors.md",
+      "slug": "10-lab_10_processes_10.53.visitors",
+      "json": "10-lab_10_processes_10.53.visitors.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/10.53.visitors.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/10_processes/10.53.visitors.md",
+      "num_records": 1
+    },
+    {
+      "file": "10-lab/10_processes/10.04.sop.md",
+      "slug": "10-lab_10_processes_10.04.sop",
+      "json": "10-lab_10_processes_10.04.sop.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/10.04.sop.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/10_processes/10.04.sop.md",
+      "num_records": 29
+    },
+    {
+      "file": "10-lab/10_processes/10.31.contracts_sa.md",
+      "slug": "10-lab_10_processes_10.31.contracts_sa",
+      "json": "10-lab_10_processes_10.31.contracts_sa.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/10.31.contracts_sa.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/10_processes/10.31.contracts_sa.md",
+      "num_records": 6
+    },
+    {
+      "file": "10-lab/10_processes/10.06.resources.md",
+      "slug": "10-lab_10_processes_10.06.resources",
+      "json": "10-lab_10_processes_10.06.resources.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/10.06.resources.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/10_processes/10.06.resources.md",
+      "num_records": 4
+    },
+    {
+      "file": "10-lab/10_processes/10.10.handbook.md",
+      "slug": "10-lab_10_processes_10.10.handbook",
+      "json": "10-lab_10_processes_10.10.handbook.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/10.10.handbook.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/10_processes/10.10.handbook.md",
+      "num_records": 8
+    },
+    {
+      "file": "10-lab/10_processes/10.71.compliance.md",
+      "slug": "10-lab_10_processes_10.71.compliance",
+      "json": "10-lab_10_processes_10.71.compliance.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/10.71.compliance.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/10_processes/10.71.compliance.md",
+      "num_records": 14
+    },
+    {
+      "file": "10-lab/10_processes/index.md",
+      "slug": "10-lab_10_processes_index",
+      "json": "10-lab_10_processes_index.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/index.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/10_processes/index.md",
+      "num_records": 1
+    },
+    {
+      "file": "10-lab/10_processes/10.32.onboarding_first_meeting.md",
+      "slug": "10-lab_10_processes_10.32.onboarding_first_meeting",
+      "json": "10-lab_10_processes_10.32.onboarding_first_meeting.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/10.32.onboarding_first_meeting.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/10_processes/10.32.onboarding_first_meeting.md",
+      "num_records": 12
+    }
+  ]
+}
