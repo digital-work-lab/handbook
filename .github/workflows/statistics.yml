@@ -44,6 +44,9 @@ jobs:
           git config --global user.name "digital-work-labot"
           git config --global url.https://github.com/.insteadOf git://github.com/
 
+      - name: Ensure assets/reports directory exists
+        run: mkdir -p assets/reports
+
       - name: Run research_statistics.py
         run: python src/research_statistics.py
 
