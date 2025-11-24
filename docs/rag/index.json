@@ -40,6 +40,10 @@
     {
       "section": "calendar",
       "index": "calendar/index.json"
+    },
+    {
+      "section": "rag",
+      "index": "rag/index.json"
     }
   ]
 }
