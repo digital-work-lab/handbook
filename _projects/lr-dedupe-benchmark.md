@@ -11,7 +11,7 @@ resources:
     link: https://github.com/digital-work-lab/lr-dedupe-benchmark
     access:
       - k-schnickmann
-    last_updated: 2025-11-24
+    last_updated: 2025-11-26
 collaborators:
   - MJ
   - MR
