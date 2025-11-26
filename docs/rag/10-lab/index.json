@@ -331,6 +331,14 @@
       "num_records": 1
     },
     {
+      "file": "10-lab/10_processes/10.22.meetings.md",
+      "slug": "10-lab_10_processes_10.22.meetings",
+      "json": "10-lab_10_processes_10.22.meetings.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/10.22.meetings.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/10_processes/10.22.meetings.md",
+      "num_records": 1
+    },
+    {
       "file": "10-lab/10_processes/10.05.systems-overview.md",
       "slug": "10-lab_10_processes_10.05.systems-overview",
       "json": "10-lab_10_processes_10.05.systems-overview.json",
