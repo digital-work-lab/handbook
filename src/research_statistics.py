@@ -176,22 +176,15 @@ def aggregate_activity(rows, csv_path, group_label):
     df["date"] = pd.to_datetime(df["date"])
     df["year_month"] = df["date"].dt.to_period("M").dt.to_timestamp()
 
-    per_repo_month = (
-        df.groupby(["repo", "year_month"], as_index=False)
-        .agg(
-            lines_added=("lines_added", "sum"),
-            commits=("lines_added", "size"),
-        )
+    per_repo_month = df.groupby(["repo", "year_month"], as_index=False).agg(
+        lines_added=("lines_added", "sum"),
+        commits=("lines_added", "size"),
     )
 
     per_repo_month.to_csv(csv_path, index=False)
     print(f"Wrote {group_label} per-project activity to {csv_path}")
 
-    agg = (
-        per_repo_month
-        .groupby("year_month", as_index=False)["commits"]
-        .sum()
-    )
+    agg = per_repo_month.groupby("year_month", as_index=False)["commits"].sum()
     agg.rename(columns={"year_month": "date"}, inplace=True)
     return agg
 
@@ -263,12 +256,16 @@ def run(cmd):
 
 def get_commits(branch="main"):
     """Return list of commit dicts with hash, date, author (oldest -> newest)."""
-    log_output = run([
-        "git", "log", branch,
-        "--reverse",
-        "--pretty=format:%H%x09%ad%x09%ae",
-        "--date=short",
-    ])
+    log_output = run(
+        [
+            "git",
+            "log",
+            branch,
+            "--reverse",
+            "--pretty=format:%H%x09%ad%x09%ae",
+            "--date=short",
+        ]
+    )
     commits = []
     for line in log_output.splitlines():
         commit_hash, date_str, author = line.split("\t")
@@ -283,10 +280,10 @@ def list_markdown_files_at_commit(commit_hash):
     files = []
     for line in tree_output.splitlines():
         p = PurePosixPath(line)
-        if (
-            (str(p).startswith("docs/") or str(p) == "index.md")
-            and p.suffix in {".md", ".markdown"}
-        ):
+        if (str(p).startswith("docs/") or str(p) == "index.md") and p.suffix in {
+            ".md",
+            ".markdown",
+        }:
             files.append(str(p))
     return files
 
@@ -320,9 +317,7 @@ def collect_handbook_stats(branch="main"):
     for c in commits:
         d = c["date"]
         key = (d.year, d.month)
-        entry = monthly_activity.setdefault(
-            key, {"commits": 0, "authors": set()}
-        )
+        entry = monthly_activity.setdefault(key, {"commits": 0, "authors": set()})
         entry["commits"] += 1
         entry["authors"].add(c["author"])
 
@@ -360,7 +355,9 @@ def collect_handbook_stats(branch="main"):
 
         days_in_month = calendar.monthrange(year, month)[1]
         weeks_in_month = days_in_month / 7.0 if days_in_month else 1.0
-        avg_weekly_commits = commits_in_month / weeks_in_month if weeks_in_month else 0.0
+        avg_weekly_commits = (
+            commits_in_month / weeks_in_month if weeks_in_month else 0.0
+        )
 
         row = {
             "date": date,

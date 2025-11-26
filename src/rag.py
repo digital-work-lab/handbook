@@ -61,54 +61,61 @@ def main():
             records = []
             for i, ch in enumerate(chunks):
                 emb = model.encode(ch).tolist()
-                records.append({
-                    "source": str(rel_path),
-                    "chunk_id": i,
-                    "text": ch,
-                    "embedding": emb
-                })
+                records.append(
+                    {
+                        "source": str(rel_path),
+                        "chunk_id": i,
+                        "text": ch,
+                        "embedding": emb,
+                    }
+                )
 
             # per-file rag json
             section_file_name = f"{section}.json"
             (section_dir / section_file_name).write_text(
-                json.dumps({
-                    "model": MODEL_NAME,
-                    "section": section,
-                    "file": str(rel_path),
-                    # primary for clients:
-                    "md_url": md_url,
-                    # optional fallback:
-                    "raw_url": raw_url,
-                    "records": records
-                }, indent=2),
+                json.dumps(
+                    {
+                        "model": MODEL_NAME,
+                        "section": section,
+                        "file": str(rel_path),
+                        # primary for clients:
+                        "md_url": md_url,
+                        # optional fallback:
+                        "raw_url": raw_url,
+                        "records": records,
+                    },
+                    indent=2,
+                ),
                 encoding="utf-8",
             )
 
             # per-section index (only one file)
             (section_dir / "index.json").write_text(
-                json.dumps({
-                    "model": MODEL_NAME,
-                    "section": section,
-                    "files": [
-                        {
-                            "file": str(rel_path),
-                            "slug": section,
-                            "json": section_file_name,
-                            "md_url": md_url,
-                            "raw_url": raw_url,
-                            "num_records": len(records)
-                        }
-                    ]
-                }, indent=2),
+                json.dumps(
+                    {
+                        "model": MODEL_NAME,
+                        "section": section,
+                        "files": [
+                            {
+                                "file": str(rel_path),
+                                "slug": section,
+                                "json": section_file_name,
+                                "md_url": md_url,
+                                "raw_url": raw_url,
+                                "num_records": len(records),
+                            }
+                        ],
+                    },
+                    indent=2,
+                ),
                 encoding="utf-8",
             )
 
-            all_sections.append({
-                "section": section,
-                "index": f"{section}/index.json"
-            })
+            all_sections.append({"section": section, "index": f"{section}/index.json"})
 
-            print(f"wrote {section_dir / 'index.json'} and {section_dir / section_file_name}")
+            print(
+                f"wrote {section_dir / 'index.json'} and {section_dir / section_file_name}"
+            )
             continue
 
         # ----- CASE 2: directories like 20-research, 30-teaching, ... -----
@@ -117,14 +124,10 @@ def main():
             section_dir = RAG_ROOT / section
             section_dir.mkdir(parents=True, exist_ok=True)
 
-            section_index = {
-                "model": MODEL_NAME,
-                "section": section,
-                "files": []
-            }
+            section_index = {"model": MODEL_NAME, "section": section, "files": []}
 
             for md_path in entry.rglob("*.md"):
-                rel_inside = md_path.relative_to(DOCS_DIR)   # e.g. 20-research/sub.md
+                rel_inside = md_path.relative_to(DOCS_DIR)  # e.g. 20-research/sub.md
                 slug = str(rel_inside).replace("/", "_").replace(".md", "")
                 out_file = section_dir / f"{slug}.json"
 
@@ -136,34 +139,41 @@ def main():
                 records = []
                 for i, ch in enumerate(chunks):
                     emb = model.encode(ch).tolist()
-                    records.append({
-                        "source": str(rel_inside),
-                        "chunk_id": i,
-                        "text": ch,
-                        "embedding": emb
-                    })
+                    records.append(
+                        {
+                            "source": str(rel_inside),
+                            "chunk_id": i,
+                            "text": ch,
+                            "embedding": emb,
+                        }
+                    )
 
                 # write per-file json with md_url included
                 out_file.write_text(
-                    json.dumps({
-                        "model": MODEL_NAME,
-                        "section": section,
-                        "file": str(rel_inside),
-                        "md_url": md_url,
-                        "raw_url": raw_url,
-                        "records": records
-                    }, indent=2),
+                    json.dumps(
+                        {
+                            "model": MODEL_NAME,
+                            "section": section,
+                            "file": str(rel_inside),
+                            "md_url": md_url,
+                            "raw_url": raw_url,
+                            "records": records,
+                        },
+                        indent=2,
+                    ),
                     encoding="utf-8",
                 )
 
-                section_index["files"].append({
-                    "file": str(rel_inside),
-                    "slug": slug,
-                    "json": f"{slug}.json",
-                    "md_url": md_url,
-                    "raw_url": raw_url,
-                    "num_records": len(records)
-                })
+                section_index["files"].append(
+                    {
+                        "file": str(rel_inside),
+                        "slug": slug,
+                        "json": f"{slug}.json",
+                        "md_url": md_url,
+                        "raw_url": raw_url,
+                        "num_records": len(records),
+                    }
+                )
 
                 print(f"wrote {out_file}")
 
@@ -174,17 +184,11 @@ def main():
             )
             print(f"wrote {section_dir / 'index.json'}")
 
-            all_sections.append({
-                "section": section,
-                "index": f"{section}/index.json"
-            })
+            all_sections.append({"section": section, "index": f"{section}/index.json"})
 
     # overarching index
     (RAG_ROOT / "index.json").write_text(
-        json.dumps({
-            "model": MODEL_NAME,
-            "sections": all_sections
-        }, indent=2),
+        json.dumps({"model": MODEL_NAME, "sections": all_sections}, indent=2),
         encoding="utf-8",
     )
     print(f"wrote {RAG_ROOT / 'index.json'}")

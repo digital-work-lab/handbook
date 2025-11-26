@@ -244,7 +244,11 @@ def normalize_repo_url(url: str) -> str:
         if parts and parts[0]:
             netloc = parts[0].lower()
             path = "/" + (parts[1] if len(parts) > 1 else "")
-    normalized = f"https://{netloc}{path}".rstrip("/").lower() if netloc else url.lower().rstrip("/")
+    normalized = (
+        f"https://{netloc}{path}".rstrip("/").lower()
+        if netloc
+        else url.lower().rstrip("/")
+    )
     return normalized
 
 
@@ -340,7 +344,9 @@ def merge_resources(existing: Any, updates: Any) -> List[CommentedMap]:
     return merged
 
 
-def merge_metadata(existing: MutableMapping | None, updates: MutableMapping) -> CommentedMap:
+def merge_metadata(
+    existing: MutableMapping | None, updates: MutableMapping
+) -> CommentedMap:
     existing_cm = ensure_commented_map(existing)
     updates_cm = ensure_commented_map(updates)
 

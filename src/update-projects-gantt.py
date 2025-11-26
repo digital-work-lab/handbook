@@ -20,9 +20,7 @@ def parse_md_file(file_path):
     metadata["area"] = re.search(r"area:\s*(.*)", content).group(1)
     metadata["status"] = re.search(r"status:\s*(.*)", content).group(1)
     slug = os.path.splitext(os.path.basename(file_path))[0]
-    metadata["path"] = (
-        f"{{{{ site.baseurl }}}}/docs/10-lab/18-resources/{slug}.html"
-    )
+    metadata["path"] = f"{{{{ site.baseurl }}}}/docs/10-lab/18-resources/{slug}.html"
     return metadata
 
 
