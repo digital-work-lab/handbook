@@ -9,7 +9,7 @@ area: research
 topics: ['research']
 html_url: https://github.com/digital-work-lab/lr-tools
 archived: False
-updated_recently: False
+updated_recently: True
 associated_projects: []
 labot_workflow_status: not-applicable
 project_type: ['colrev']
