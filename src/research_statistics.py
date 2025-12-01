@@ -419,11 +419,12 @@ def write_and_plot_handbook(df):
     ax.set_ylabel("Activity / scaled content")
     ax.set_title("Digital-Work Lab Handbook – Monthly Activity & Growth")
 
-    # custom date ticks (Jan / Jun)
+    # custom date ticks (Jan / Jun) – but x-limits from data range
     ticks = make_jan_jun_ticks(df["date"])
+    if not df.empty:
+        ax.set_xlim(df["date"].min(), df["date"].max())
     if ticks:
         ax.set_xticks(ticks)
-        ax.set_xlim(ticks[0], ticks[-1])
         ax.xaxis.set_major_formatter(mdates.DateFormatter("%Y-%m"))
         plt.setp(ax.get_xticklabels(), rotation=45, ha="right")
 
@@ -526,9 +527,11 @@ def plot_combined(agg_research, agg_teaching, agg_lab, agg_handbook):
     )
 
     ticks = make_jan_jun_ticks(dates_for_ticks)
+    # x-limits from actual data range, not from the artificial Jan/Jun ticks
+    if not dates_for_ticks.empty:
+        ax.set_xlim(dates_for_ticks.min(), dates_for_ticks.max())
     if ticks:
         ax.set_xticks(ticks)
-        ax.set_xlim(ticks[0], ticks[-1])
         ax.xaxis.set_major_formatter(mdates.DateFormatter("%Y-%m"))
         plt.setp(ax.get_xticklabels(), rotation=45, ha="right")
 
