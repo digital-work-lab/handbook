@@ -12,7 +12,7 @@ resources:
     access:
       - annaglr
       - k-schnickmann
-    last_updated: 2025-11-29
+    last_updated: 2025-12-01
 collaborators:
   - annaglr
   - k-schnickmann

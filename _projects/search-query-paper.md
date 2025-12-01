@@ -16,7 +16,7 @@ resources:
       - ThomasFleischmann
       - Peteer98
       - k-schnickmann
-    last_updated: 2025-11-29
+    last_updated: 2025-12-01
   - name: JOSS review
     link: https://github.com/openjournals/joss-reviews/issues/8775
 collaborators:
