@@ -4,7 +4,7 @@ title: data-work
 title_long: ''
 parent: 25 Projects
 grand_parent: Research
-status: planned
+status: abandoned
 associated_projects: []
 resources:
   - name: GitHub repository
@@ -17,6 +17,8 @@ collaborators:
 history:
   - date: 2024-01-25
     event: started
+  - date: 2025-12-02
+    event: abandoned
 ---
 
 # {{ page.title }}
