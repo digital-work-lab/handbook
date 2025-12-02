@@ -10,7 +10,7 @@ resources:
   - name: GitHub repository (review)
     link: https://github.com/digital-work-lab/platform-lr
     access: []
-    last_updated: 2025-12-01
+    last_updated: 2025-12-02
   - name: GitHub repository
     link: https://github.com/digital-work-lab/platform-lr-manuscript
     access:
