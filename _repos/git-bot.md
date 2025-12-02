@@ -1,18 +1,26 @@
 ---
 layout: default
-title: paper-gate
+title: git-bot
 parent: 25 Projects
 grand_parent: Research
 visibility: Private
-collaborators: []
+collaborators: ['k-schnickmann', 'Alexa-St']
 area: other
-topics: ['lab-management']
-html_url: https://github.com/digital-work-lab/paper-gate
+topics: []
+html_url: https://github.com/digital-work-lab/git-bot
 archived: False
-updated_recently: False
+updated_recently: True
 associated_projects: []
-labot_workflow_status: not-applicable
-project_type: []
+labot_workflow_status: failure
+project_type: ['paper']
+started: 2025-XX-YY
+research_area: work_practices|distributed_organizing|knowledge_synthesis
+resources: []
+status: writing
+improvement_status: pending
+repository_url: https://github.com/digital-work-lab/git-bot
+---
+
 ---
 
 # {{ page.title }}
@@ -24,7 +32,7 @@ Title               | {{ page.title_long }}
 Visibility          | {{ page.visibility }}
 Access              | {{ page.collaborators topics | join: ", "}}
 Topics              | {{ page.topics | join: ", " }}
-URL                 | [https://github.com/digital-work-lab/paper-gate](https://github.com/digital-work-lab/paper-gate){: target="_blank"}
+URL                 | [https://github.com/digital-work-lab/git-bot](https://github.com/digital-work-lab/git-bot){: target="_blank"}
 Status              | {{ page.status }}
 Improvement         | {{ page.improvement_status }}
 Started             | {{ page.started }}
