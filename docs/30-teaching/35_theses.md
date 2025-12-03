@@ -3,6 +3,8 @@ layout: default
 title: 35 Theses
 parent: Teaching
 nav_order: 6
+transition_status: "toupdate"
+transition_comment: "Update theses"
 ---
 
 # 35 Theses
