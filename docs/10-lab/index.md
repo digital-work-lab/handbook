@@ -87,6 +87,7 @@ flowchart  LR
         Travel["<a href='10_processes/10.50.travel.html'>Travel</a>"]
         Visitors["<a href='10_processes/10.53.visitors.html'>Visitors</a>"]
         Publications["<a href='../20-research/20_processes/20.33.publication.html'>Publications</a>"]
+        Support["<a href='../20-research/20_processes/20.23.research-support.html'>Research Support</a>"]
     end
 
     style Research fill:white,stroke:#333,stroke-width:3px
