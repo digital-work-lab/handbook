@@ -11,7 +11,7 @@ resources:
     link: https://github.com/digital-work-lab/lab-handbooks
     access:
       - LaureenTh
-    last_updated: 2025-12-02
+    last_updated: 2025-12-03
 collaborators:
   - LaureenTh
 history:
