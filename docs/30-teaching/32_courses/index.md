@@ -7,6 +7,8 @@ nav_order: 3
 has_children: true
 redirect_from:
   - /docs/30-teaching/30_processes/30.02.courses.html
+transition_status: "toupdate"
+transition_comment: "Update the course overview"
 ---
 
 # 32 Courses
