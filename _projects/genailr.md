@@ -11,7 +11,7 @@ resources:
     link: https://github.com/digital-work-lab/genailr
     access:
       - julianprester
-    last_updated: 2025-12-04
+    last_updated: 2025-12-07
 collaborators:
   - julianprester
   - gp

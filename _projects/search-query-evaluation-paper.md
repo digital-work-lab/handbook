@@ -1,37 +1,20 @@
 ---
 layout: default
-title: search-query-paper
+title: search-query-evaluation-paper
 title_long: ''
 parent: 25 Projects
 grand_parent: Research
-status: under-review
+status: planned
 associated_projects: []
 resources:
   - name: GitHub repository
-    link: https://github.com/digital-work-lab/search-query-paper
+    link: https://github.com/digital-work-lab/search-query-evaluation-paper
     access:
-      - annaglr
-      - LaureenTh
-      - katharinaernst
-      - ThomasFleischmann
-      - Peteer98
       - k-schnickmann
     last_updated: 2025-12-07
-  - name: JOSS review
-    link: https://github.com/openjournals/joss-reviews/issues/8775
-collaborators:
-  - annaglr
-  - LaureenTh
-  - katharinaernst
-  - ThomasFleischmann
-  - Peteer98
-  - k-schnickmann
-history:
-  - date: 2023-10-04
-    event: started
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
 Field               | Value
 ------------------- | ----------------------------------
