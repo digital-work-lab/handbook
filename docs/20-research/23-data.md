@@ -16,7 +16,8 @@ We aim to provide complete data sets and analysis workflows for our studies.
 
 ## Curations
 
-- [literature-reviews-in-information-systems](https://github.com/digital-work-lab/literature-reviews-in-information-systems){: target="_blank"} curation.
+- [literature-reviews-in-information-systems](https://github.com/digital-work-lab/literature-reviews-in-information-systems){: target="_blank"}
+- [handbooks](https://github.com/digital-work-lab/handbooks){: target="_blank"}
 
 ## Resources
 
