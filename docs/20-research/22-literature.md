@@ -20,6 +20,9 @@ We collect PDFs from key IS journals and conferences. This is essential for full
 {: .resource } 
 > A selection of journal and conference papers is available [on Nextcloud](https://nc-2272638881871040784.nextcloud-ionos.com/index.php/apps/files/files/373460?dir=/20-research/22_literature){: target="_blank"}.
 
+{: .info } 
+> Note: only download conference proceedings/issues when they are complete.
+
 Overview of journals:
 
 <!-- labot local-cronjob -->
