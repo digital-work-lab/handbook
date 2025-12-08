@@ -8,6 +8,9 @@ permalink: /
 
 # The *Digital-Work Lab* Handbook
 
+{: .warning }
+This handbook is moving to the **ISE/FS domain**. Content here may be outdated while the transition is ongoing. For the latest updates, please refer to the new [ISE/FS handbook](https://fs-ise.github.io/handbook/){: target="_blank"}.
+
 Our handbook is a public and participatory initiative to facilitate our research activities, and consistently deliver high-quality service to students.
 It is an integral part of our [culture](docs/00.goals.html) of impact, rigor, openness, participation, and learning.
 
