@@ -13,7 +13,7 @@ updated_recently: True
 associated_projects: []
 labot_workflow_status: failure
 project_type: ['paper']
-started: 2025-XX-YY
+started: 2025-01-15
 research_area: work_practices|distributed_organizing|knowledge_synthesis
 resources: []
 status: writing
