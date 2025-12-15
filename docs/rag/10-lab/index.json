@@ -171,6 +171,14 @@
       "num_records": 3
     },
     {
+      "file": "10-lab/17_today-i-learned/audio_transcription.md",
+      "slug": "10-lab_17_today-i-learned_audio_transcription",
+      "json": "10-lab_17_today-i-learned_audio_transcription.json",
+      "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/17_today-i-learned/audio_transcription.md",
+      "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/17_today-i-learned/audio_transcription.md",
+      "num_records": 1
+    },
+    {
       "file": "10-lab/17_today-i-learned/handbook-gpt.md",
       "slug": "10-lab_17_today-i-learned_handbook-gpt",
       "json": "10-lab_17_today-i-learned_handbook-gpt.json",
@@ -424,7 +432,7 @@
       "json": "10-lab_10_processes_10.99.transition.json",
       "md_url": "https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/10.99.transition.md",
       "raw_url": "https://raw.githubusercontent.com/digital-work-lab/handbook/main/docs/10-lab/10_processes/10.99.transition.md",
-      "num_records": 4
+      "num_records": 1
     },
     {
       "file": "10-lab/10_processes/10.20.agendas.md",
