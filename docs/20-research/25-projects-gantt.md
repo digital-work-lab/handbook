@@ -21,8 +21,8 @@ axisFormat %Y
     section knowledge_synthesis
 
     section others
-        git-bot :git-bot, 2025-01-15, 2025-12-27
-        ailr :ailr, 2020-11-26, 2025-12-27
+        git-bot :git-bot, 2025-01-15, 2025-12-28
+        ailr :ailr, 2020-11-26, 2025-12-28
 
 
     click git-bot href "{{ site.baseurl }}/docs/10-lab/18-resources/git-bot.html"
