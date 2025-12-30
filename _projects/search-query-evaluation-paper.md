@@ -11,7 +11,7 @@ resources:
     link: https://github.com/digital-work-lab/search-query-evaluation-paper
     access:
       - k-schnickmann
-    last_updated: 2025-12-10
+    last_updated: 2025-12-30
 ---
 
 ## {{ page.title }}

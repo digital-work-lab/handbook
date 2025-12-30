@@ -1,28 +1,21 @@
 ---
 layout: default
-title: platform-kwork-lr
+title: git-bot
 title_long: ''
 parent: 25 Projects
 grand_parent: Research
-status: published
+status: planned
 associated_projects: []
 resources:
-  - name: GitHub repository (review)
-    link: https://github.com/digital-work-lab/platform-kwork-lr
-    access:
-      - julianprester
-    last_updated: 2025-12-30
   - name: GitHub repository
-    link: https://github.com/digital-work-lab/platform-kwork-lr-manuscript
+    link: https://github.com/digital-work-lab/git-bot
     access:
-      - julianprester
-    last_updated: 2025-09-18
-collaborators:
-  - julianprester
-history: []
+      - k-schnickmann
+      - Alexa-St
+    last_updated: 2025-12-30
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
 Field               | Value
 ------------------- | ----------------------------------
