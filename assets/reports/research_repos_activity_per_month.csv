@@ -45,6 +45,7 @@ genailr,2024-03-01,1043,12
 genailr,2024-04-01,1210,32
 genailr,2024-11-01,1,1
 genailr,2024-12-01,5,1
+git-bot,2025-12-01,564,11
 git-collaboration,2024-03-01,414,2
 git-collaboration,2024-04-01,341,9
 git-collaboration,2024-05-01,551,9
@@ -61,6 +62,7 @@ git-collaboration,2025-03-01,1433,37
 git-collaboration,2025-04-01,196,9
 git-collaboration,2025-07-01,113,11
 git-collaboration,2025-08-01,782,36
+git-collaboration,2025-12-01,40,2
 lab-handbooks,2025-01-01,76,7
 lab-handbooks,2025-02-01,76,4
 lab-handbooks,2025-03-01,7,2
@@ -71,9 +73,11 @@ lab-handbooks,2025-07-01,154,9
 lab-handbooks,2025-09-01,1,1
 lab-handbooks,2025-10-01,593,29
 lab-handbooks,2025-11-01,1462,44
+lab-handbooks,2025-12-01,40,1
 lr-dedupe-benchmark,2025-03-01,478,2
 lr-dedupe-benchmark,2025-09-01,440,4
 lr-dedupe-benchmark,2025-10-01,789,8
+lr-dedupe-benchmark,2025-12-01,95,3
 lr-search,2020-10-01,111,1
 lr-search,2020-11-01,56,1
 lr-search,2021-02-01,560,1
@@ -114,6 +118,7 @@ lrdm,2025-02-01,430,18
 lrdm,2025-05-01,369,8
 lrdm,2025-06-01,147,6
 lrdm,2025-11-01,51,2
+lrdm,2025-12-01,217,7
 paper-template,2020-11-01,73,2
 paper-template,2021-01-01,10,1
 paper-template,2021-03-01,12,2
@@ -121,6 +126,7 @@ paper-template,2021-09-01,2,1
 paper-template,2025-01-01,11,1
 paper-template,2025-05-01,6,1
 paper-template,2025-09-01,1,1
+search-query-evaluation-paper,2025-12-01,114,4
 teapad,2024-09-01,107,2
 teapad,2024-12-01,140,4
 teapad,2025-01-01,252,7
