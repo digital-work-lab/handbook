@@ -11,7 +11,7 @@ html_url: https://github.com/digital-work-lab/digital-work-lecture
 archived: False
 updated_recently: True
 associated_projects: []
-labot_workflow_status: success
+labot_workflow_status: failure
 project_type: []
 ---
 
