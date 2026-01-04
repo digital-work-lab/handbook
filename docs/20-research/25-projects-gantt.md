@@ -20,9 +20,5 @@ axisFormat %Y
 
     section knowledge_synthesis
 
-    section others
-        git-bot :git-bot, 2025-01-15, 2026-01-03
 
-
-    click git-bot href "{{ site.baseurl }}/docs/10-lab/18-resources/git-bot.html"
 ```
