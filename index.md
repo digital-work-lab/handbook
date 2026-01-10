@@ -31,6 +31,8 @@ To organize procedures, documents and files, the handbook consists of the follow
 | 40-49        | [Funding](docs/40-funding)           |
 | 50-59        | [Service](docs/50-service/)          |
 
+<!--
+
 ## Resources
 
 There are external repositories for the following teaching offers:
@@ -44,6 +46,7 @@ There are external repositories for the following teaching offers:
 
 (\*) Resources for Ph.D. students, theses, and research are in [section 20](https://digital-work-lab.github.io/handbook/docs/20-research/).
 
+-->
 <!--
 ## Recent changes
 
@@ -56,12 +59,12 @@ Offices: WE5/1.081.
 [Schedule a meeting](https://calendly.com/gerit-wagner/30min){: .btn .btn-green }
 
 <iframe width="600" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=10.862774848937988%2C49.89987300208533%2C10.876936912536623%2C49.90642391513594&amp;layer=mapnik&amp;marker=49.9031485698061%2C10.869855880737305" style="border: 1px solid black"></iframe>
--->
 
 For sharing data, communication and meetings, we use the following tools:
 
 | **Schedule meetings** | **Meet online** | **Collaborate** | **Share confidential data** |
 | [Calendly](https://calendly.com/gerit-wagner/30min){: .btn .btn-green target="_blank"} | [Zoom](zoom://open){: .btn .btn-green target="_blank"} | [Repositories](docs/10-lab/18_resources/18.12.repositories.html){: .btn .btn-green } | [Nextcloud](https://nc-2272638881871040784.nextcloud-ionos.com/index.php/apps/dashboard/){: .btn .btn-green target="_blank"} |
+-->
 
 ## Contributors
 
