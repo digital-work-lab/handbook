@@ -4,7 +4,7 @@ title: agenda-gerit-laureen
 parent: 25 Projects
 grand_parent: Research
 visibility: Private
-collaborators: ['LaureenTh']
+collaborators: []
 area: other
 topics: ['agenda']
 html_url: https://github.com/digital-work-lab/agenda-gerit-laureen

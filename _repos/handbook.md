@@ -4,7 +4,7 @@ title: handbook
 parent: 25 Projects
 grand_parent: Research
 visibility: Public
-collaborators: ['LaureenTh', 'k-schnickmann', 'Stella1234-design', 'Alexa-St']
+collaborators: []
 area: other
 topics: ['academic', 'handbook', 'lab-management']
 html_url: https://github.com/digital-work-lab/handbook

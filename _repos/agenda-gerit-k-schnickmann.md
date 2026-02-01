@@ -4,7 +4,7 @@ title: agenda-gerit-k-schnickmann
 parent: 25 Projects
 grand_parent: Research
 visibility: Private
-collaborators: ['k-schnickmann']
+collaborators: []
 area: other
 topics: ['agenda']
 html_url: https://github.com/digital-work-lab/agenda-gerit-k-schnickmann
